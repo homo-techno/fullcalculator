@@ -907,6 +907,207 @@ import { xpCalculator } from "./xp-calculator";
 import { yeastConversionCalculator } from "./yeast-conversion";
 import { yogaCalorieCalculator } from "./yoga-calorie";
 
+import { a1cCalculator } from "./a1c-calculator";
+import { ageInHoursCalculator } from "./age-in-hours";
+import { ageInMonthsCalculator } from "./age-in-months";
+import { ageInWeeksCalculator } from "./age-in-weeks";
+import { airbnbCalculator } from "./airbnb-calculator";
+import { allergySeasonCalculator } from "./allergy-season";
+import { altitudeSicknessCalculator } from "./altitude-sickness";
+import { anniversaryCalculator } from "./anniversary-calculator";
+import { avogadroCalculator } from "./avogadro-calculator";
+import { babyClothingSizeCalculator } from "./baby-clothing-size";
+import { babyFeedingScheduleCalculator } from "./baby-feeding-schedule";
+import { babyHeightPercentileCalculator } from "./baby-height-percentile";
+import { babyMilestoneCalculator } from "./baby-milestone";
+import { babyNamePopularityCalculator } from "./baby-name-popularity";
+import { babySleepScheduleCalculator } from "./baby-sleep-schedule";
+import { babyWeightPercentileCalculator } from "./baby-weight-percentile";
+import { bathroomTileCalculator } from "./bathroom-tile";
+import { bathtubSizeCalculator } from "./bathtub-size";
+import { bayesTheoremCalculator } from "./bayes-theorem";
+import { beehiveCalculator } from "./beehive-calculator";
+import { binomialDistributionCalculator } from "./binomial-distribution";
+import { biologicalAgeCalculator } from "./biological-age";
+import { birthdayCalculator } from "./birthday-calculator";
+import { bloodAlcoholTimeCalculator } from "./blood-alcohol-time";
+import { bloodTypeCompatibilityCalculator } from "./blood-type-compatibility";
+import { bloodVolumeCalculator } from "./blood-volume";
+import { bmiChildrenCalculator } from "./bmi-children";
+import { boilingPointCalculator } from "./boiling-point";
+import { booleanAlgebraCalculator } from "./boolean-algebra";
+import { breakTimeCalculator } from "./break-time";
+import { breastMilkIntakeCalculator } from "./breast-milk-intake";
+import { bufferSolutionCalculator } from "./buffer-solution";
+import { cabinetCalculator } from "./cabinet-calculator";
+import { campingGearCalculator } from "./camping-gear";
+import { carSeatSizeCalculator } from "./car-seat-size";
+import { carryOnSizeCalculator } from "./carry-on-size";
+import { childDosageCalculator } from "./child-dosage";
+import { childHeightPredictorCalculator } from "./child-height-predictor";
+import { childShoeSizeCalculator } from "./child-shoe-size";
+import { childcareCostCalculator } from "./childcare-cost";
+import { chimneyHeightCalculator } from "./chimney-height";
+import { cholesterolRatioCalculator } from "./cholesterol-ratio";
+import { closetOrganizerCalculator } from "./closet-organizer";
+import { collegeFundCalculator } from "./college-fund";
+import { columnCalculator } from "./column-calculator";
+import { combinationsCalculator } from "./combinations-calculator";
+import { companionPlantingCalculator } from "./companion-planting";
+import { completingSquareCalculator } from "./completing-square";
+import { compostRatioCalculator } from "./compost-ratio";
+import { contactLensCalculator } from "./contact-lens";
+import { contractionTimerCalculator } from "./contraction-timer";
+import { countdownDaysCalculator } from "./countdown-days";
+import { creatinineCalculator } from "./creatinine-calculator";
+import { cropRotationCalculator } from "./crop-rotation";
+import { cruiseCostCalculator } from "./cruise-cost";
+import { cubicEquationCalculator } from "./cubic-equation";
+import { currencyExchangeCalculator } from "./currency-exchange";
+import { dateAddSubtractCalculator } from "./date-add-subtract";
+import { decimalTimeCalculator } from "./decimal-time";
+import { derivativeCalculator } from "./derivative-calculator";
+import { diaperCostCalculator } from "./diaper-cost";
+import { dilutionRatioCalculator } from "./dilution-ratio";
+import { doorSizeCalculator } from "./door-size";
+import { dosageByWeightCalculator } from "./dosage-by-weight";
+import { downspoutCalculator } from "./downspout-calculator";
+import { dripIrrigationCalculator } from "./drip-irrigation";
+import { drivewayCalculator } from "./driveway-calculator";
+import { drivingTimeCalculator } from "./driving-time";
+import { eigenvalueCalculator } from "./eigenvalue-calculator";
+import { electrochemistryCalculator } from "./electrochemistry";
+import { empiricalFormulaCalculator } from "./empirical-formula";
+import { enthalpyCalculator } from "./enthalpy-calculator";
+import { entropyCalculator } from "./entropy-calculator";
+import { equilibriumConstantCalculator } from "./equilibrium-constant";
+import { exponentialGrowthCalculator } from "./exponential-growth";
+import { fallRiskCalculator } from "./fall-risk";
+import { fertilityWindowCalculator } from "./fertility-window";
+import { flightTimeCalculator } from "./flight-time";
+import { flowerBulbCalculator } from "./flower-bulb";
+import { fluidBalanceCalculator } from "./fluid-balance";
+import { footingCalculator } from "./footing-calculator";
+import { formulaMixingCalculator } from "./formula-mixing";
+import { foundationCalculator } from "./foundation-calculator";
+import { freezingPointCalculator } from "./freezing-point";
+import { frenchDrainCalculator } from "./french-drain";
+import { fruitTreeYieldCalculator } from "./fruit-tree-yield";
+import { fuelStopCalculator } from "./fuel-stop";
+import { garageDoorSizeCalculator } from "./garage-door-size";
+import { garageFloorEpoxyCalculator } from "./garage-floor-epoxy";
+import { gardenBedCostCalculator } from "./garden-bed-cost";
+import { gardenFenceCalculator } from "./garden-fence";
+import { gardenWaterCalculator } from "./garden-water";
+import { gasLawCombinedCalculator } from "./gas-law-combined";
+import { gestationalDiabetesCalculator } from "./gestational-diabetes";
+import { gibbsFreeEnergyCalculator } from "./gibbs-free-energy";
+import { greenhouseSizeCalculator } from "./greenhouse-size";
+import { growLightCalculator } from "./grow-light";
+import { growthSpurtCalculator } from "./growth-spurt";
+import { gutterGuardCalculator } from "./gutter-guard";
+import { gutterSizeCalculator } from "./gutter-size";
+import { harvestDateCalculator } from "./harvest-date";
+import { hcgLevelCalculator } from "./hcg-level";
+import { hearingLossCalculator } from "./hearing-loss";
+import { heartDiseaseRiskCalculator } from "./heart-disease-risk";
+import { hotelCostCalculator } from "./hotel-cost";
+import { hoursCalculator } from "./hours-calculator";
+import { hydroponicNutrientCalculator } from "./hydroponic-nutrient";
+import { hyperbolicCalculator } from "./hyperbolic-calculator";
+import { integralCalculator } from "./integral-calculator";
+import { internationalSizeCalculator } from "./international-size";
+import { inverseTrigCalculator } from "./inverse-trig";
+import { ivFlowRateCalculator } from "./iv-flow-rate";
+import { julianDateCalculator } from "./julian-date";
+import { kickCountCalculator } from "./kick-count";
+import { laplaceTransformCalculator } from "./laplace-transform";
+import { latitudeLongitudeCalculator } from "./latitude-longitude";
+import { lawOfCosinesCalculator } from "./law-of-cosines";
+import { lawOfSinesCalculator } from "./law-of-sines";
+import { lawnFertilizerCalculator } from "./lawn-fertilizer";
+import { layoverTimeCalculator } from "./layover-time";
+import { limitCalculator } from "./limit-calculator";
+import { limitingReagentCalculator } from "./limiting-reagent";
+import { logarithmSolverCalculator } from "./logarithm-solver";
+import { luggageWeightCalculator } from "./luggage-weight";
+import { mapDistanceCalculator } from "./map-distance";
+import { massSpectrometryCalculator } from "./mass-spectrometry";
+import { maternityLeaveCalculator } from "./maternity-leave";
+import { matrixInverseCalculator } from "./matrix-inverse";
+import { meetingTimeCalculator } from "./meeting-time";
+import { mentalHealthScoreCalculator } from "./mental-health-score";
+import { metabolicAgeCalculator } from "./metabolic-age";
+import { militaryTimeCalculator } from "./military-time";
+import { molalityCalculator } from "./molality-calculator";
+import { molarMassCalculator } from "./molar-mass";
+import { monthsBetweenDatesCalculator } from "./months-between-dates";
+import { nitrogenCalculator } from "./nitrogen-calculator";
+import { nutritionLabelCalculator } from "./nutrition-label";
+import { osmoticPressureCalculator } from "./osmotic-pressure";
+import { oxidationNumberCalculator } from "./oxidation-number";
+import { painScaleCalculator } from "./pain-scale";
+import { partialFractionsCalculator } from "./partial-fractions";
+import { passportExpiryCalculator } from "./passport-expiry";
+import { paternityLeaveCalculator } from "./paternity-leave";
+import { paverBaseCalculator } from "./paver-base";
+import { payPeriodCalculator } from "./pay-period";
+import { percentCompositionCalculator } from "./percent-composition";
+import { percentYieldCalculator } from "./percent-yield";
+import { phAdjustmentCalculator } from "./ph-adjustment";
+import { poissonDistributionCalculator } from "./poisson-distribution";
+import { pottingSoilCalculator } from "./potting-soil";
+import { powerPlugCalculator } from "./power-plug";
+import { quarterCalculator } from "./quarter-calculator";
+import { radioactiveDecayRateCalculator } from "./radioactive-decay-rate";
+import { raisedBedSoilCalculator } from "./raised-bed-soil";
+import { rampCalculator } from "./ramp-calculator";
+import { reactionRateCalculator } from "./reaction-rate";
+import { retainingWallBlockCalculator } from "./retaining-wall-block";
+import { retirementAgeCalculator } from "./retirement-age";
+import { roadTripPlannerCalculator } from "./road-trip-planner";
+import { roofPitchCalculator } from "./roof-pitch";
+import { seedStartingCalculator } from "./seed-starting";
+import { showerTileCalculator } from "./shower-tile";
+import { sidingCalculator } from "./siding-calculator";
+import { sleepCycleCalculator } from "./sleep-cycle";
+import { soffitCalculator } from "./soffit-calculator";
+import { soilAmendmentCalculator } from "./soil-amendment";
+import { solubilityProductCalculator } from "./solubility-product";
+import { strokeRiskCalculator } from "./stroke-risk";
+import { strollerAgeCalculator } from "./stroller-age";
+import { syntheticDivisionCalculator } from "./synthetic-division";
+import { systemOfEquationsCalculator } from "./system-of-equations";
+import { taylorSeriesCalculator } from "./taylor-series";
+import { timeSinceCalculator } from "./time-since";
+import { timeUntilCalculator } from "./time-until";
+import { timeZoneDifferenceCalculator } from "./time-zone-difference";
+import { timezoneMeetingCalculator } from "./timezone-meeting";
+import { tipAbroadCalculator } from "./tip-abroad";
+import { titrationCalculator } from "./titration-calculator";
+import { toddlerBmiCalculator } from "./toddler-bmi";
+import { travelChecklistCalculator } from "./travel-checklist";
+import { travelInsuranceCalculator } from "./travel-insurance";
+import { travelPackingCalculator } from "./travel-packing";
+import { travelVaccineCalculator } from "./travel-vaccine";
+import { treeSpacingCalculator } from "./tree-spacing";
+import { trigCalculator } from "./trig-calculator";
+import { trussCalculator } from "./truss-calculator";
+import { unitCircleCalculator } from "./unit-circle";
+import { unixTimestampCalculator } from "./unix-timestamp";
+import { vaporPressureCalculator } from "./vapor-pressure";
+import { vegetableYieldCalculator } from "./vegetable-yield";
+import { visaDurationCalculator } from "./visa-duration";
+import { visionPrescriptionCalculator } from "./vision-prescription";
+import { weedCoverageCalculator } from "./weed-coverage";
+import { weeksBetweenDatesCalculator } from "./weeks-between-dates";
+import { whatDayWasCalculator } from "./what-day-was";
+import { windowSizeCalculator } from "./window-size";
+import { workScheduleCalculator } from "./work-schedule";
+import { workdayCalculator } from "./workday-calculator";
+import { wormCompostingCalculator } from "./worm-composting";
+import { woundSizeCalculator } from "./wound-size";
+
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
   bmiCalculator,
@@ -1814,6 +2015,206 @@ export const calculators: CalculatorDefinition[] = [
   xpCalculator,
   yeastConversionCalculator,
   yogaCalorieCalculator,
+  a1cCalculator,
+  ageInHoursCalculator,
+  ageInMonthsCalculator,
+  ageInWeeksCalculator,
+  airbnbCalculator,
+  allergySeasonCalculator,
+  altitudeSicknessCalculator,
+  anniversaryCalculator,
+  avogadroCalculator,
+  babyClothingSizeCalculator,
+  babyFeedingScheduleCalculator,
+  babyHeightPercentileCalculator,
+  babyMilestoneCalculator,
+  babyNamePopularityCalculator,
+  babySleepScheduleCalculator,
+  babyWeightPercentileCalculator,
+  bathroomTileCalculator,
+  bathtubSizeCalculator,
+  bayesTheoremCalculator,
+  beehiveCalculator,
+  binomialDistributionCalculator,
+  biologicalAgeCalculator,
+  birthdayCalculator,
+  bloodAlcoholTimeCalculator,
+  bloodTypeCompatibilityCalculator,
+  bloodVolumeCalculator,
+  bmiChildrenCalculator,
+  boilingPointCalculator,
+  booleanAlgebraCalculator,
+  breakTimeCalculator,
+  breastMilkIntakeCalculator,
+  bufferSolutionCalculator,
+  cabinetCalculator,
+  campingGearCalculator,
+  carSeatSizeCalculator,
+  carryOnSizeCalculator,
+  childDosageCalculator,
+  childHeightPredictorCalculator,
+  childShoeSizeCalculator,
+  childcareCostCalculator,
+  chimneyHeightCalculator,
+  cholesterolRatioCalculator,
+  closetOrganizerCalculator,
+  collegeFundCalculator,
+  columnCalculator,
+  combinationsCalculator,
+  companionPlantingCalculator,
+  completingSquareCalculator,
+  compostRatioCalculator,
+  contactLensCalculator,
+  contractionTimerCalculator,
+  countdownDaysCalculator,
+  creatinineCalculator,
+  cropRotationCalculator,
+  cruiseCostCalculator,
+  cubicEquationCalculator,
+  currencyExchangeCalculator,
+  dateAddSubtractCalculator,
+  decimalTimeCalculator,
+  derivativeCalculator,
+  diaperCostCalculator,
+  dilutionRatioCalculator,
+  doorSizeCalculator,
+  dosageByWeightCalculator,
+  downspoutCalculator,
+  dripIrrigationCalculator,
+  drivewayCalculator,
+  drivingTimeCalculator,
+  eigenvalueCalculator,
+  electrochemistryCalculator,
+  empiricalFormulaCalculator,
+  enthalpyCalculator,
+  entropyCalculator,
+  equilibriumConstantCalculator,
+  exponentialGrowthCalculator,
+  fallRiskCalculator,
+  fertilityWindowCalculator,
+  flightTimeCalculator,
+  flowerBulbCalculator,
+  fluidBalanceCalculator,
+  footingCalculator,
+  formulaMixingCalculator,
+  foundationCalculator,
+  freezingPointCalculator,
+  frenchDrainCalculator,
+  fruitTreeYieldCalculator,
+  fuelStopCalculator,
+  garageDoorSizeCalculator,
+  garageFloorEpoxyCalculator,
+  gardenBedCostCalculator,
+  gardenFenceCalculator,
+  gardenWaterCalculator,
+  gasLawCombinedCalculator,
+  gestationalDiabetesCalculator,
+  gibbsFreeEnergyCalculator,
+  greenhouseSizeCalculator,
+  growLightCalculator,
+  growthSpurtCalculator,
+  gutterGuardCalculator,
+  gutterSizeCalculator,
+  harvestDateCalculator,
+  hcgLevelCalculator,
+  hearingLossCalculator,
+  heartDiseaseRiskCalculator,
+  hotelCostCalculator,
+  hoursCalculator,
+  hydroponicNutrientCalculator,
+  hyperbolicCalculator,
+  integralCalculator,
+  internationalSizeCalculator,
+  inverseTrigCalculator,
+  ivFlowRateCalculator,
+  julianDateCalculator,
+  kickCountCalculator,
+  laplaceTransformCalculator,
+  latitudeLongitudeCalculator,
+  lawOfCosinesCalculator,
+  lawOfSinesCalculator,
+  lawnFertilizerCalculator,
+  layoverTimeCalculator,
+  limitCalculator,
+  limitingReagentCalculator,
+  logarithmSolverCalculator,
+  luggageWeightCalculator,
+  mapDistanceCalculator,
+  massSpectrometryCalculator,
+  maternityLeaveCalculator,
+  matrixInverseCalculator,
+  meetingTimeCalculator,
+  mentalHealthScoreCalculator,
+  metabolicAgeCalculator,
+  militaryTimeCalculator,
+  molalityCalculator,
+  molarMassCalculator,
+  monthsBetweenDatesCalculator,
+  nitrogenCalculator,
+  nutritionLabelCalculator,
+  osmoticPressureCalculator,
+  oxidationNumberCalculator,
+  painScaleCalculator,
+  partialFractionsCalculator,
+  passportExpiryCalculator,
+  paternityLeaveCalculator,
+  paverBaseCalculator,
+  payPeriodCalculator,
+  percentCompositionCalculator,
+  percentYieldCalculator,
+  phAdjustmentCalculator,
+  poissonDistributionCalculator,
+  pottingSoilCalculator,
+  powerPlugCalculator,
+  quarterCalculator,
+  radioactiveDecayRateCalculator,
+  raisedBedSoilCalculator,
+  rampCalculator,
+  reactionRateCalculator,
+  retainingWallBlockCalculator,
+  retirementAgeCalculator,
+  roadTripPlannerCalculator,
+  roofPitchCalculator,
+  seedStartingCalculator,
+  showerTileCalculator,
+  sidingCalculator,
+  sleepCycleCalculator,
+  soffitCalculator,
+  soilAmendmentCalculator,
+  solubilityProductCalculator,
+  strokeRiskCalculator,
+  strollerAgeCalculator,
+  syntheticDivisionCalculator,
+  systemOfEquationsCalculator,
+  taylorSeriesCalculator,
+  timeSinceCalculator,
+  timeUntilCalculator,
+  timeZoneDifferenceCalculator,
+  timezoneMeetingCalculator,
+  tipAbroadCalculator,
+  titrationCalculator,
+  toddlerBmiCalculator,
+  travelChecklistCalculator,
+  travelInsuranceCalculator,
+  travelPackingCalculator,
+  travelVaccineCalculator,
+  treeSpacingCalculator,
+  trigCalculator,
+  trussCalculator,
+  unitCircleCalculator,
+  unixTimestampCalculator,
+  vaporPressureCalculator,
+  vegetableYieldCalculator,
+  visaDurationCalculator,
+  visionPrescriptionCalculator,
+  weedCoverageCalculator,
+  weeksBetweenDatesCalculator,
+  whatDayWasCalculator,
+  windowSizeCalculator,
+  workScheduleCalculator,
+  workdayCalculator,
+  wormCompostingCalculator,
+  woundSizeCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
