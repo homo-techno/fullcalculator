@@ -4,6 +4,13 @@ import { bmiCalculator } from "./bmi";
 import { ageCalculator } from "./age";
 import { tipCalculator } from "./tip";
 import { compoundInterestCalculator } from "./compound-interest";
+import { mortgageCalculator } from "./mortgage";
+import { loanCalculator } from "./loan";
+import { calorieCalculator } from "./calorie";
+import { gpaCalculator } from "./gpa";
+import { salaryCalculator } from "./salary";
+import { discountCalculator } from "./discount";
+import { unitConverter } from "./unit-converter";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -11,6 +18,13 @@ export const calculators: CalculatorDefinition[] = [
   ageCalculator,
   tipCalculator,
   compoundInterestCalculator,
+  mortgageCalculator,
+  loanCalculator,
+  calorieCalculator,
+  gpaCalculator,
+  salaryCalculator,
+  discountCalculator,
+  unitConverter,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
