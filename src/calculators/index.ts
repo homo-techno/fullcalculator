@@ -105,6 +105,56 @@ import { speedConverter } from "./speed-converter";
 import { angleConverter } from "./angle-converter";
 import { areaConverter } from "./area-converter";
 import { pressureConverter } from "./pressure";
+import { matrixCalculator } from "./matrix";
+import { circumferenceCalculator } from "./circle-circumference";
+import { triangleAreaCalculator } from "./triangle-area";
+import { mixedNumberCalculator } from "./mixed-number";
+import { surfaceAreaCalculator } from "./surface-area";
+import { cylinderVolumeCalculator } from "./cylinder-volume";
+import { coneVolumeCalculator } from "./cone-volume";
+import { hexDecimalConverter } from "./hex-decimal";
+import { romanNumeralCalculator } from "./roman-numeral";
+import { dogYearsCalculator } from "./dog-years";
+import { cagrCalculator } from "./cagr";
+import { leaseCalculator } from "./lease";
+import { propertyTaxCalculator } from "./property-tax";
+import { salesTaxCalculator } from "./sales-tax";
+import { markupCalculator } from "./markup";
+import { payRaiseCalculator } from "./pay-raise";
+import { workHoursCalculator } from "./work-hours";
+import { bmrCalculator } from "./bmr";
+import { windChillCalculator } from "./wind-chill";
+import { heatIndexCalculator } from "./heat-index";
+import { dewPointCalculator } from "./dew-point";
+import { leanBodyMassCalculator } from "./lean-body-mass";
+import { readingTimeCalculator } from "./reading-time";
+import { aspectRatioCalculator } from "./aspect-ratio";
+import { pixelDensityCalculator } from "./pixel-density";
+import { downloadTimeCalculator } from "./download-time";
+import { carbonFootprintCalculator } from "./carbon-footprint";
+import { percentageErrorCalculator } from "./percentage-error";
+import { significantFiguresCalculator } from "./significant-figures";
+import { tdeeCalculator } from "./tdee";
+import { halfLifeCalculator } from "./half-life";
+import { molarityCalculator } from "./molarity";
+import { frequencyCalculator } from "./frequency";
+import { resistanceCalculator } from "./resistance";
+import { btuCalculator } from "./btu";
+import { horsepowerCalculator } from "./horsepower";
+import { torqueCalculator } from "./torque";
+import { wordCounterCalculator } from "./word-counter";
+import { passwordStrengthCalculator } from "./password-generator";
+import { timestampConverter } from "./timestamp";
+import { amortizationCalculator } from "./amortization";
+import { conversionRateCalculator } from "./conversion-rate";
+import { costPerUnitCalculator } from "./cost-per-unit";
+import { electricityUsageCalculator } from "./electricity-usage";
+import { sphereCalculator } from "./sphere-calculator";
+import { weightConverter } from "./weight-converter";
+import { temperatureConverter } from "./temperature-converter";
+import { lengthConverter } from "./length-converter";
+import { timeConverter } from "./time-converter";
+import { volumeConverter } from "./volume-converter";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -213,6 +263,56 @@ export const calculators: CalculatorDefinition[] = [
   angleConverter,
   areaConverter,
   pressureConverter,
+  matrixCalculator,
+  circumferenceCalculator,
+  triangleAreaCalculator,
+  mixedNumberCalculator,
+  surfaceAreaCalculator,
+  cylinderVolumeCalculator,
+  coneVolumeCalculator,
+  hexDecimalConverter,
+  romanNumeralCalculator,
+  dogYearsCalculator,
+  cagrCalculator,
+  leaseCalculator,
+  propertyTaxCalculator,
+  salesTaxCalculator,
+  markupCalculator,
+  payRaiseCalculator,
+  workHoursCalculator,
+  bmrCalculator,
+  windChillCalculator,
+  heatIndexCalculator,
+  dewPointCalculator,
+  leanBodyMassCalculator,
+  readingTimeCalculator,
+  aspectRatioCalculator,
+  pixelDensityCalculator,
+  downloadTimeCalculator,
+  carbonFootprintCalculator,
+  percentageErrorCalculator,
+  significantFiguresCalculator,
+  tdeeCalculator,
+  halfLifeCalculator,
+  molarityCalculator,
+  frequencyCalculator,
+  resistanceCalculator,
+  btuCalculator,
+  horsepowerCalculator,
+  torqueCalculator,
+  wordCounterCalculator,
+  passwordStrengthCalculator,
+  timestampConverter,
+  amortizationCalculator,
+  conversionRateCalculator,
+  costPerUnitCalculator,
+  electricityUsageCalculator,
+  sphereCalculator,
+  weightConverter,
+  temperatureConverter,
+  lengthConverter,
+  timeConverter,
+  volumeConverter,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
