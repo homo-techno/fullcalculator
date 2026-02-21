@@ -51,6 +51,60 @@ import { waterIntakeCalculator } from "./water-intake";
 import { proteinCalculator } from "./protein";
 import { subnetCalculator } from "./subnet";
 import { pythagoreanCalculator } from "./pythagorean";
+import { averageCalculator } from "./average";
+import { lcmGcdCalculator } from "./lcm-gcd";
+import { factorialCalculator } from "./factorial";
+import { exponentCalculator } from "./exponent";
+import { squareRootCalculator } from "./square-root";
+import { slopeCalculator } from "./slope";
+import { decimalFractionCalculator } from "./decimal-fraction";
+import { roundingCalculator } from "./rounding";
+import { logarithmCalculator } from "./logarithm";
+import { percentageChangeCalculator } from "./percentage-change";
+import { permutationCalculator } from "./permutation";
+import { midpointCalculator } from "./midpoint";
+import { longDivisionCalculator } from "./long-division";
+import { numberSequenceCalculator } from "./number-sequence";
+import { areaOfCircleCalculator } from "./area-of-circle";
+import { percentageOfNumberCalculator } from "./percentage-of-number";
+import { netWorthCalculator } from "./net-worth";
+import { investmentCalculator } from "./investment";
+import { simpleInterestCalculator } from "./simple-interest";
+import { breakEvenCalculator } from "./break-even";
+import { annuityCalculator } from "./annuity";
+import { stockReturnCalculator } from "./stock-return";
+import { creditCardCalculator } from "./credit-card";
+import { costOfLivingCalculator } from "./cost-living";
+import { macroCalculator } from "./macro";
+import { bacCalculator } from "./bac";
+import { ovulationCalculator } from "./ovulation";
+import { oneRepMaxCalculator } from "./one-rep-max";
+import { waistHipCalculator } from "./waist-hip";
+import { stepsMilesCalculator } from "./steps-miles";
+import { bloodPressureCalculator } from "./blood-pressure";
+import { vo2maxCalculator } from "./vo2max";
+import { tileCalculator } from "./tile";
+import { gravelCalculator } from "./gravel";
+import { timeCardCalculator } from "./time-card";
+import { tipTaxCalculator } from "./tip-tax";
+import { gasMileageCalculator } from "./gas-mileage";
+import { timeDurationCalculator } from "./time-duration";
+import { poolVolumeCalculator } from "./pool-volume";
+import { ohmsLawCalculator } from "./ohms-law";
+import { forceCalculator } from "./force";
+import { densityCalculator } from "./density";
+import { energyCalculator } from "./energy";
+import { momentumCalculator } from "./momentum";
+import { accelerationCalculator } from "./acceleration";
+import { wavelengthCalculator } from "./wavelength";
+import { phCalculator } from "./ph";
+import { colorConverter } from "./color-converter";
+import { dataStorageConverter } from "./data-storage";
+import { shoeSizeConverter } from "./shoe-size";
+import { speedConverter } from "./speed-converter";
+import { angleConverter } from "./angle-converter";
+import { areaConverter } from "./area-converter";
+import { pressureConverter } from "./pressure";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -105,6 +159,60 @@ export const calculators: CalculatorDefinition[] = [
   proteinCalculator,
   subnetCalculator,
   pythagoreanCalculator,
+  averageCalculator,
+  lcmGcdCalculator,
+  factorialCalculator,
+  exponentCalculator,
+  squareRootCalculator,
+  slopeCalculator,
+  decimalFractionCalculator,
+  roundingCalculator,
+  logarithmCalculator,
+  percentageChangeCalculator,
+  permutationCalculator,
+  midpointCalculator,
+  longDivisionCalculator,
+  numberSequenceCalculator,
+  areaOfCircleCalculator,
+  percentageOfNumberCalculator,
+  netWorthCalculator,
+  investmentCalculator,
+  simpleInterestCalculator,
+  breakEvenCalculator,
+  annuityCalculator,
+  stockReturnCalculator,
+  creditCardCalculator,
+  costOfLivingCalculator,
+  macroCalculator,
+  bacCalculator,
+  ovulationCalculator,
+  oneRepMaxCalculator,
+  waistHipCalculator,
+  stepsMilesCalculator,
+  bloodPressureCalculator,
+  vo2maxCalculator,
+  tileCalculator,
+  gravelCalculator,
+  timeCardCalculator,
+  tipTaxCalculator,
+  gasMileageCalculator,
+  timeDurationCalculator,
+  poolVolumeCalculator,
+  ohmsLawCalculator,
+  forceCalculator,
+  densityCalculator,
+  energyCalculator,
+  momentumCalculator,
+  accelerationCalculator,
+  wavelengthCalculator,
+  phCalculator,
+  colorConverter,
+  dataStorageConverter,
+  shoeSizeConverter,
+  speedConverter,
+  angleConverter,
+  areaConverter,
+  pressureConverter,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
