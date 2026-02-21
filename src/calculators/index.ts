@@ -31,6 +31,26 @@ import { randomNumberGenerator } from "./random-number";
 import { probabilityCalculator } from "./probability";
 import { timeZoneConverter } from "./time-zone";
 import { paycheckCalculator } from "./paycheck";
+import { taxCalculator } from "./tax";
+import { retirementCalculator } from "./retirement";
+import { carLoanCalculator } from "./car-loan";
+import { downPaymentCalculator } from "./down-payment";
+import { debtPayoffCalculator } from "./debt-payoff";
+import { savingsGoalCalculator } from "./savings-goal";
+import { marginCalculator } from "./margin";
+import { gradeCalculator } from "./grade";
+import { scientificCalculator } from "./scientific";
+import { quadraticCalculator } from "./quadratic";
+import { ratioCalculator } from "./ratio";
+import { binaryHexConverter } from "./binary-hex";
+import { cookingConverter } from "./cooking";
+import { concreteCalculator } from "./concrete";
+import { paintCalculator } from "./paint";
+import { heartRateCalculator } from "./heart-rate";
+import { waterIntakeCalculator } from "./water-intake";
+import { proteinCalculator } from "./protein";
+import { subnetCalculator } from "./subnet";
+import { pythagoreanCalculator } from "./pythagorean";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -65,6 +85,26 @@ export const calculators: CalculatorDefinition[] = [
   probabilityCalculator,
   timeZoneConverter,
   paycheckCalculator,
+  taxCalculator,
+  retirementCalculator,
+  carLoanCalculator,
+  downPaymentCalculator,
+  debtPayoffCalculator,
+  savingsGoalCalculator,
+  marginCalculator,
+  gradeCalculator,
+  scientificCalculator,
+  quadraticCalculator,
+  ratioCalculator,
+  binaryHexConverter,
+  cookingConverter,
+  concreteCalculator,
+  paintCalculator,
+  heartRateCalculator,
+  waterIntakeCalculator,
+  proteinCalculator,
+  subnetCalculator,
+  pythagoreanCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
