@@ -155,6 +155,56 @@ import { temperatureConverter } from "./temperature-converter";
 import { lengthConverter } from "./length-converter";
 import { timeConverter } from "./time-converter";
 import { volumeConverter } from "./volume-converter";
+import { absoluteValueCalculator } from "./absolute-value";
+import { primeNumberCalculator } from "./prime-number";
+import { fibonacciCalculator } from "./fibonacci";
+import { complexNumberCalculator } from "./complex-number";
+import { vectorCalculator } from "./vector";
+import { proportionsCalculator } from "./proportions";
+import { trapezoidAreaCalculator } from "./trapezoid-area";
+import { parallelogramAreaCalculator } from "./parallelogram-area";
+import { numberBaseConverter } from "./number-base";
+import { linearEquationCalculator } from "./linear-equation";
+import { dividendCalculator } from "./dividend";
+import { debtToIncomeCalculator } from "./debt-to-income";
+import { emergencyFundCalculator } from "./emergency-fund";
+import { ruleOf72Calculator } from "./rule-of-72";
+import { rentalYieldCalculator } from "./rental-yield";
+import { hourlyToSalaryCalculator } from "./hourly-to-salary";
+import { bloodSugarCalculator } from "./blood-sugar";
+import { dueDateCalculator } from "./due-date";
+import { targetHeartRateCalculator } from "./target-heart-rate";
+import { idealGasCalculator } from "./ideal-gas";
+import { projectileCalculator } from "./projectile";
+import { springConstantCalculator } from "./spring-constant";
+import { specificHeatCalculator } from "./specific-heat";
+import { lensEquationCalculator } from "./lens-equation";
+import { electricalPowerCalculator } from "./electrical-power";
+import { frictionCalculator } from "./friction";
+import { fenceCalculator } from "./fence";
+import { wallpaperCalculator } from "./wallpaper";
+import { soilMulchCalculator } from "./soil-mulch";
+import { carpetCalculator } from "./carpet";
+import { deckCalculator } from "./deck";
+import { staircaseCalculator } from "./staircase";
+import { roadTripCalculator } from "./road-trip";
+import { eventCountdownCalculator } from "./event-countdown";
+import { fuelEfficiencyConverter } from "./fuel-efficiency";
+import { lawnCalculator } from "./lawn";
+import { energyConverter } from "./energy-converter";
+import { forceConverter } from "./force-converter";
+import { bondYieldCalculator } from "./bond-yield";
+import { interestRateCalculator } from "./interest-rate";
+import { coulombsLawCalculator } from "./coulombs-law";
+import { cookingTempCalculator } from "./cooking-temp";
+import { clothingSizeConverter } from "./clothing-size";
+import { movingCostCalculator } from "./moving-cost";
+import { ageInDaysCalculator } from "./age-in-days";
+import { flowRateCalculator } from "./flow-rate";
+import { wireGaugeCalculator } from "./wire-gauge";
+import { noiseLevelCalculator } from "./noise-level";
+import { armyBodyFatCalculator } from "./army-body-fat";
+import { signalToNoiseCalculator } from "./signal-to-noise";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -313,6 +363,56 @@ export const calculators: CalculatorDefinition[] = [
   lengthConverter,
   timeConverter,
   volumeConverter,
+  absoluteValueCalculator,
+  primeNumberCalculator,
+  fibonacciCalculator,
+  complexNumberCalculator,
+  vectorCalculator,
+  proportionsCalculator,
+  trapezoidAreaCalculator,
+  parallelogramAreaCalculator,
+  numberBaseConverter,
+  linearEquationCalculator,
+  dividendCalculator,
+  debtToIncomeCalculator,
+  emergencyFundCalculator,
+  ruleOf72Calculator,
+  rentalYieldCalculator,
+  hourlyToSalaryCalculator,
+  bloodSugarCalculator,
+  dueDateCalculator,
+  targetHeartRateCalculator,
+  idealGasCalculator,
+  projectileCalculator,
+  springConstantCalculator,
+  specificHeatCalculator,
+  lensEquationCalculator,
+  electricalPowerCalculator,
+  frictionCalculator,
+  fenceCalculator,
+  wallpaperCalculator,
+  soilMulchCalculator,
+  carpetCalculator,
+  deckCalculator,
+  staircaseCalculator,
+  roadTripCalculator,
+  eventCountdownCalculator,
+  fuelEfficiencyConverter,
+  lawnCalculator,
+  energyConverter,
+  forceConverter,
+  bondYieldCalculator,
+  interestRateCalculator,
+  coulombsLawCalculator,
+  cookingTempCalculator,
+  clothingSizeConverter,
+  movingCostCalculator,
+  ageInDaysCalculator,
+  flowRateCalculator,
+  wireGaugeCalculator,
+  noiseLevelCalculator,
+  armyBodyFatCalculator,
+  signalToNoiseCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
