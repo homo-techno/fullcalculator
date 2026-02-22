@@ -1107,6 +1107,201 @@ import { workScheduleCalculator } from "./work-schedule";
 import { workdayCalculator } from "./workday-calculator";
 import { wormCompostingCalculator } from "./worm-composting";
 import { woundSizeCalculator } from "./wound-size";
+import { absenteeismRateCalculator } from "./absenteeism-rate";
+import { acresToHectaresConverter } from "./acres-to-hectares";
+import { activationEnergyCalculator } from "./activation-energy";
+import { actualYieldCalculator } from "./actual-yield";
+import { ageOnPlanetsCalculator } from "./age-on-planets";
+import { aggregateCalculator } from "./aggregate-calculator";
+import { alleleFrequencyCalculator } from "./allele-frequency";
+import { annealingTemperatureCalculator } from "./annealing-temperature";
+import { applianceEnergyCalculator } from "./appliance-energy";
+import { babyGenderCalculator } from "./baby-gender";
+import { backfillCalculator } from "./backfill-calculator";
+import { balusterSpacingCalculator } from "./baluster-spacing";
+import { beamDeflectionCalculator } from "./beam-deflection";
+import { beerLambertBioCalculator } from "./beer-lambert-bio";
+import { betaCalculator } from "./beta-calculator";
+import { billableHoursCalculator } from "./billable-hours";
+import { binaryToDecimalConverter } from "./binary-to-decimal";
+import { birthControlCalculator } from "./birth-control";
+import { blackScholesCalculator } from "./black-scholes";
+import { boardFootCalculator } from "./board-foot-calculator";
+import { bondOrderCalculator } from "./bond-order";
+import { breastPumpTimeCalculator } from "./breast-pump-time";
+import { btuToWattsConverter } from "./btu-to-watts";
+import { burndownChartCalculator } from "./burndown-chart";
+import { calorimetryCalculator } from "./calorimetry";
+import { capacityPlanningCalculator } from "./capacity-planning";
+import { capmCalculator } from "./capm-calculator";
+import { carryingCapacityCalculator } from "./carrying-capacity";
+import { catFoodCalculator } from "./cat-food-calculator";
+import { cellDilutionCalculator } from "./cell-dilution";
+import { centsToDollarsConverter } from "./cents-to-dollars";
+import { chineseGenderCalculator } from "./chinese-gender";
+import { circleSkirtCalculator } from "./circle-skirt";
+import { commuteCarbonCalculator } from "./commute-carbon";
+import { compatibilityScoreCalculator } from "./compatibility-score";
+import { compostingRateCalculator } from "./composting-rate";
+import { compoundGrowthCalculator } from "./compound-growth";
+import { concentrationCalculator } from "./concentration-calculator";
+import { concreteMixDesignCalculator } from "./concrete-mix-design";
+import { crochetBlanketCalculator } from "./crochet-blanket";
+import { crossStitchCalculator } from "./cross-stitch";
+import { crownMoldingAngleCalculator } from "./crown-molding-angle";
+import { cubicFeetToGallonsConverter } from "./cubic-feet-to-gallons";
+import { debtToEquityCalculator } from "./debt-to-equity";
+import { decimalToBinaryConverter } from "./decimal-to-binary";
+import { degreesToRadiansConverter } from "./degrees-to-radians";
+import { dihybridCrossCalculator } from "./dihybrid-cross";
+import { dividendDiscountCalculator } from "./dividend-discount";
+import { dnaConcentrationCalculator } from "./dna-concentration";
+import { dnaMolecularWeightCalculator } from "./dna-molecular-weight";
+import { dogAgeChartCalculator } from "./dog-age-chart";
+import { dogChocolateToxicityCalculator } from "./dog-chocolate-toxicity";
+import { dogCrateSizeCalculator } from "./dog-crate-size";
+import { dogHarnessSizeCalculator } from "./dog-harness-size";
+import { dogHeatCycleCalculator } from "./dog-heat-cycle";
+import { dogHumanYearsCalculator } from "./dog-human-years";
+import { dogLifeExpectancyCalculator } from "./dog-life-expectancy";
+import { dogMedicineDosageCalculator } from "./dog-medicine-dosage";
+import { dogRawFoodCalculator } from "./dog-raw-food";
+import { dogWalkingCalorieCalculator } from "./dog-walking-calorie";
+import { dogWaterIntakeCalculator } from "./dog-water-intake";
+import { dollarCostAveragingCalculator } from "./dollar-cost-averaging";
+import { drakeEquationCalculator } from "./drake-equation";
+import { dropsToMlConverter } from "./drops-to-ml";
+import { eggFreezingCalculator } from "./egg-freezing";
+import { electricVsGasCalculator } from "./electric-vs-gas";
+import { electronConfigurationCalculator } from "./electron-configuration";
+import { emailTimeCalculator } from "./email-time";
+import { embroideryHoopCalculator } from "./embroidery-hoop";
+import { emiCalculator } from "./emi-calculator";
+import { endometriosisRiskCalculator } from "./endometriosis-risk";
+import { energyAuditCalculator } from "./energy-audit";
+import { enterpriseValueCalculator } from "./enterprise-value";
+import { enzymeActivityCalculator } from "./enzyme-activity";
+import { epfCalculator } from "./epf-calculator";
+import { epsCalculator } from "./eps-calculator";
+import { excavationVolumeCalculator } from "./excavation-volume";
+import { fdCalculator } from "./fd-calculator";
+import { flightCarbonCalculator } from "./flight-carbon";
+import { foodWasteCalculator } from "./food-waste";
+import { ftLbsToNmConverter } from "./ft-lbs-to-nm";
+import { gallonsToPoundsConverter } from "./gallons-to-pounds";
+import { generationTimeCalculator } from "./generation-time";
+import { goldPriceCalculator } from "./gold-price";
+import { gramsToCaloriesConverter } from "./grams-to-calories";
+import { gramsToMolesCalculator } from "./grams-to-moles";
+import { gratuityCalculator } from "./gratuity-calculator";
+import { greywaterReuseCalculator } from "./greywater-reuse";
+import { gstCalculator } from "./gst-calculator";
+import { halfSquareTriangleCalculator } from "./half-square-triangle";
+import { handrailHeightCalculator } from "./handrail-height";
+import { heatOfCombustionCalculator } from "./heat-of-combustion";
+import { hemocytometerCalculator } from "./hemocytometer";
+import { hexToRgbConverter } from "./hex-to-rgb";
+import { hexagonQuiltCalculator } from "./hexagon-quilt";
+import { hiringCostCalculator } from "./hiring-cost";
+import { householdCarbonCalculator } from "./household-carbon";
+import { hraCalculator } from "./hra-calculator";
+import { idealGasConstantCalculator } from "./ideal-gas-constant";
+import { implantationCalculator } from "./implantation-calculator";
+import { incomeTaxIndiaCalculator } from "./income-tax-india";
+import { insulationSavingsCalculator } from "./insulation-savings";
+import { ivfSuccessCalculator } from "./ivf-success";
+import { knittingPatternCalculator } from "./knitting-pattern";
+import { kwToHpConverter } from "./kw-to-hp";
+import { latticeEnergyCalculator } from "./lattice-energy";
+import { lbsToNewtonsConverter } from "./lbs-to-newtons";
+import { ledSavingsCalculator } from "./led-savings";
+import { loadBearingWallCalculator } from "./load-bearing-wall";
+import { marginCallCalculator } from "./margin-call";
+import { marketCapCalculator } from "./market-cap";
+import { mbpsToGbpsConverter } from "./mbps-to-gbps";
+import { mcgToMgConverter } from "./mcg-to-mg";
+import { meatFootprintCalculator } from "./meat-footprint";
+import { menopauseAgeCalculator } from "./menopause-age";
+import { metalRoofingCalculator } from "./metal-roofing";
+import { mgToMlConverter } from "./mg-to-ml";
+import { michaelisMentenCalculator } from "./michaelis-menten";
+import { molarRatioCalculator } from "./molar-ratio";
+import { moleFractionCalculator } from "./mole-fraction";
+import { molecularGeometryCalculator } from "./molecular-geometry";
+import { molesToGramsCalculator } from "./moles-to-grams";
+import { nameNumerologyCalculator } from "./name-numerology";
+import { nmToFtLbsConverter } from "./nm-to-ft-lbs";
+import { normalityCalculator } from "./normality-calculator";
+import { npsCalculator } from "./nps-calculator";
+import { octalToDecimalConverter } from "./octal-to-decimal";
+import { optionsProfitCalculator } from "./options-profit";
+import { paperSavingsCalculator } from "./paper-savings";
+import { partialPressureCalculator } from "./partial-pressure";
+import { pcosRiskCalculator } from "./pcos-risk";
+import { pcrPrimerCalculator } from "./pcr-primer";
+import { peRatioCalculator } from "./pe-ratio";
+import { periodCalculator } from "./period-calculator";
+import { photosynthesisRateCalculator } from "./photosynthesis-rate";
+import { pixelsToInchesConverter } from "./pixels-to-inches";
+import { pizzaSizeCalculator } from "./pizza-size";
+import { plasticFootprintCalculator } from "./plastic-footprint";
+import { pleatedSkirtCalculator } from "./pleated-skirt";
+import { pomodoroTimerCalculator } from "./pomodoro-timer";
+import { populationGrowthCalculator } from "./population-growth";
+import { portfolioReturnCalculator } from "./portfolio-return";
+import { postpartumRecoveryCalculator } from "./postpartum-recovery";
+import { ppfCalculator } from "./ppf-calculator";
+import { ppmCalculator } from "./ppm-calculator";
+import { pregnancyBmiCalculator } from "./pregnancy-bmi";
+import { pregnancyCalorieCalculator } from "./pregnancy-calorie";
+import { priceToBookCalculator } from "./price-to-book";
+import { projectTimelineCalculator } from "./project-timeline";
+import { proteinMolecularWeightCalculator } from "./protein-molecular-weight";
+import { punnettSquareCalculator } from "./punnett-square";
+import { puppyFeedingCalculator } from "./puppy-feeding";
+import { putCallParityCalculator } from "./put-call-parity";
+import { pxToEmConverter } from "./px-to-em";
+import { quiltBindingCalculator } from "./quilt-binding";
+import { radiansToDegreesConverter } from "./radians-to-degrees";
+import { rainwaterHarvestCalculator } from "./rainwater-harvest";
+import { randomNameCalculator } from "./random-name";
+import { rateConstantCalculator } from "./rate-constant";
+import { rdCalculator } from "./rd-calculator";
+import { recyclingSavingsCalculator } from "./recycling-savings";
+import { resourceAllocationCalculator } from "./resource-allocation";
+import { rgbToHexConverter } from "./rgb-to-hex";
+import { riskRewardCalculator } from "./risk-reward";
+import { serialDilutionCalculator } from "./serial-dilution";
+import { shannonDiversityCalculator } from "./shannon-diversity";
+import { sharpeRatioCalculator } from "./sharpe-ratio";
+import { shingleCalculator } from "./shingle-calculator";
+import { slopeGradeCalculator } from "./slope-grade";
+import { soilCompactionCalculator } from "./soil-compaction";
+import { solarRoiCalculator } from "./solar-roi";
+import { speciesRichnessCalculator } from "./species-richness";
+import { specificHeatCapacityCalculator } from "./specific-heat-capacity";
+import { sprintVelocityCalculator } from "./sprint-velocity";
+import { squareYardsToSquareFeetConverter } from "./square-yards-to-square-feet";
+import { stairStringerCalculator } from "./stair-stringer";
+import { stampDutyIndiaCalculator } from "./stamp-duty-india";
+import { stockSplitCalculator } from "./stock-split";
+import { storyPointsCalculator } from "./story-points";
+import { sukanyaSamriddhiCalculator } from "./sukanya-samriddhi";
+import { tdsCalculator } from "./tds-calculator";
+import { theoreticalYieldCalculator } from "./theoretical-yield";
+import { timeTrackingCalculator } from "./time-tracking";
+import { tipSplitCalculator } from "./tip-split";
+import { trainingRoiCalculator } from "./training-roi";
+import { treePlantingCalculator } from "./tree-planting";
+import { turnoverCostCalculator } from "./turnover-cost";
+import { twinProbabilityCalculator } from "./twin-probability";
+import { utilizationRateCalculator } from "./utilization-rate";
+import { vatCalculator } from "./vat-calculator";
+import { waccCalculator } from "./wacc-calculator";
+import { waterFootprintCalculator } from "./water-footprint";
+import { wattsToBtuConverter } from "./watts-to-btu";
+import { windTurbineOutputCalculator } from "./wind-turbine-output";
+import { yarnWeightCalculator } from "./yarn-weight";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -2215,6 +2410,201 @@ export const calculators: CalculatorDefinition[] = [
   workdayCalculator,
   wormCompostingCalculator,
   woundSizeCalculator,
+  absenteeismRateCalculator,
+  acresToHectaresConverter,
+  activationEnergyCalculator,
+  actualYieldCalculator,
+  ageOnPlanetsCalculator,
+  aggregateCalculator,
+  alleleFrequencyCalculator,
+  annealingTemperatureCalculator,
+  applianceEnergyCalculator,
+  babyGenderCalculator,
+  backfillCalculator,
+  balusterSpacingCalculator,
+  beamDeflectionCalculator,
+  beerLambertBioCalculator,
+  betaCalculator,
+  billableHoursCalculator,
+  binaryToDecimalConverter,
+  birthControlCalculator,
+  blackScholesCalculator,
+  boardFootCalculator,
+  bondOrderCalculator,
+  breastPumpTimeCalculator,
+  btuToWattsConverter,
+  burndownChartCalculator,
+  calorimetryCalculator,
+  capacityPlanningCalculator,
+  capmCalculator,
+  carryingCapacityCalculator,
+  catFoodCalculator,
+  cellDilutionCalculator,
+  centsToDollarsConverter,
+  chineseGenderCalculator,
+  circleSkirtCalculator,
+  commuteCarbonCalculator,
+  compatibilityScoreCalculator,
+  compostingRateCalculator,
+  compoundGrowthCalculator,
+  concentrationCalculator,
+  concreteMixDesignCalculator,
+  crochetBlanketCalculator,
+  crossStitchCalculator,
+  crownMoldingAngleCalculator,
+  cubicFeetToGallonsConverter,
+  debtToEquityCalculator,
+  decimalToBinaryConverter,
+  degreesToRadiansConverter,
+  dihybridCrossCalculator,
+  dividendDiscountCalculator,
+  dnaConcentrationCalculator,
+  dnaMolecularWeightCalculator,
+  dogAgeChartCalculator,
+  dogChocolateToxicityCalculator,
+  dogCrateSizeCalculator,
+  dogHarnessSizeCalculator,
+  dogHeatCycleCalculator,
+  dogHumanYearsCalculator,
+  dogLifeExpectancyCalculator,
+  dogMedicineDosageCalculator,
+  dogRawFoodCalculator,
+  dogWalkingCalorieCalculator,
+  dogWaterIntakeCalculator,
+  dollarCostAveragingCalculator,
+  drakeEquationCalculator,
+  dropsToMlConverter,
+  eggFreezingCalculator,
+  electricVsGasCalculator,
+  electronConfigurationCalculator,
+  emailTimeCalculator,
+  embroideryHoopCalculator,
+  emiCalculator,
+  endometriosisRiskCalculator,
+  energyAuditCalculator,
+  enterpriseValueCalculator,
+  enzymeActivityCalculator,
+  epfCalculator,
+  epsCalculator,
+  excavationVolumeCalculator,
+  fdCalculator,
+  flightCarbonCalculator,
+  foodWasteCalculator,
+  ftLbsToNmConverter,
+  gallonsToPoundsConverter,
+  generationTimeCalculator,
+  goldPriceCalculator,
+  gramsToCaloriesConverter,
+  gramsToMolesCalculator,
+  gratuityCalculator,
+  greywaterReuseCalculator,
+  gstCalculator,
+  halfSquareTriangleCalculator,
+  handrailHeightCalculator,
+  heatOfCombustionCalculator,
+  hemocytometerCalculator,
+  hexToRgbConverter,
+  hexagonQuiltCalculator,
+  hiringCostCalculator,
+  householdCarbonCalculator,
+  hraCalculator,
+  idealGasConstantCalculator,
+  implantationCalculator,
+  incomeTaxIndiaCalculator,
+  insulationSavingsCalculator,
+  ivfSuccessCalculator,
+  knittingPatternCalculator,
+  kwToHpConverter,
+  latticeEnergyCalculator,
+  lbsToNewtonsConverter,
+  ledSavingsCalculator,
+  loadBearingWallCalculator,
+  marginCallCalculator,
+  marketCapCalculator,
+  mbpsToGbpsConverter,
+  mcgToMgConverter,
+  meatFootprintCalculator,
+  menopauseAgeCalculator,
+  metalRoofingCalculator,
+  mgToMlConverter,
+  michaelisMentenCalculator,
+  molarRatioCalculator,
+  moleFractionCalculator,
+  molecularGeometryCalculator,
+  molesToGramsCalculator,
+  nameNumerologyCalculator,
+  nmToFtLbsConverter,
+  normalityCalculator,
+  npsCalculator,
+  octalToDecimalConverter,
+  optionsProfitCalculator,
+  paperSavingsCalculator,
+  partialPressureCalculator,
+  pcosRiskCalculator,
+  pcrPrimerCalculator,
+  peRatioCalculator,
+  periodCalculator,
+  photosynthesisRateCalculator,
+  pixelsToInchesConverter,
+  pizzaSizeCalculator,
+  plasticFootprintCalculator,
+  pleatedSkirtCalculator,
+  pomodoroTimerCalculator,
+  populationGrowthCalculator,
+  portfolioReturnCalculator,
+  postpartumRecoveryCalculator,
+  ppfCalculator,
+  ppmCalculator,
+  pregnancyBmiCalculator,
+  pregnancyCalorieCalculator,
+  priceToBookCalculator,
+  projectTimelineCalculator,
+  proteinMolecularWeightCalculator,
+  punnettSquareCalculator,
+  puppyFeedingCalculator,
+  putCallParityCalculator,
+  pxToEmConverter,
+  quiltBindingCalculator,
+  radiansToDegreesConverter,
+  rainwaterHarvestCalculator,
+  randomNameCalculator,
+  rateConstantCalculator,
+  rdCalculator,
+  recyclingSavingsCalculator,
+  resourceAllocationCalculator,
+  rgbToHexConverter,
+  riskRewardCalculator,
+  serialDilutionCalculator,
+  shannonDiversityCalculator,
+  sharpeRatioCalculator,
+  shingleCalculator,
+  slopeGradeCalculator,
+  soilCompactionCalculator,
+  solarRoiCalculator,
+  speciesRichnessCalculator,
+  specificHeatCapacityCalculator,
+  sprintVelocityCalculator,
+  squareYardsToSquareFeetConverter,
+  stairStringerCalculator,
+  stampDutyIndiaCalculator,
+  stockSplitCalculator,
+  storyPointsCalculator,
+  sukanyaSamriddhiCalculator,
+  tdsCalculator,
+  theoreticalYieldCalculator,
+  timeTrackingCalculator,
+  tipSplitCalculator,
+  trainingRoiCalculator,
+  treePlantingCalculator,
+  turnoverCostCalculator,
+  twinProbabilityCalculator,
+  utilizationRateCalculator,
+  vatCalculator,
+  waccCalculator,
+  waterFootprintCalculator,
+  wattsToBtuConverter,
+  windTurbineOutputCalculator,
+  yarnWeightCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
