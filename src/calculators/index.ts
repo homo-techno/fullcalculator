@@ -1302,6 +1302,232 @@ import { waterFootprintCalculator } from "./water-footprint";
 import { wattsToBtuConverter } from "./watts-to-btu";
 import { windTurbineOutputCalculator } from "./wind-turbine-output";
 import { yarnWeightCalculator } from "./yarn-weight";
+import { test } from "./_t2";
+import { abTestSignificanceCalculator } from "./ab-test-significance";
+import { abgInterpreterCalculator } from "./abg-interpreter";
+import { adFrequencyCalculator } from "./ad-frequency";
+import { airHandlerSizeCalculator } from "./air-handler-size";
+import { airflowCfmCalculator } from "./airflow-cfm";
+import { alabamaPaycheckCalculator } from "./alabama-paycheck";
+import { angularDiameterCalculator } from "./angular-diameter";
+import { anniversaryGiftCalculator } from "./anniversary-gift";
+import { apacheScoreCalculator } from "./apache-score";
+import { arizonaPaycheckCalculator } from "./arizona-paycheck";
+import { babyShowerBudgetCalculator } from "./baby-shower-budget";
+import { backflowPreventerCalculator } from "./backflow-preventer";
+import { bandsawBladeCalculator } from "./bandsaw-blade";
+import { bishopScoreCalculator } from "./bishop-score";
+import { bitcoinProfitCalculator } from "./bitcoin-profit";
+import { blogTrafficCalculator } from "./blog-traffic";
+import { boardFootageCalculator } from "./board-footage";
+import { boilerSizeCalculator } from "./boiler-size";
+import { bounceRateCalculator } from "./bounce-rate";
+import { boxPlotCalculator } from "./box-plot";
+import { bradenScaleCalculator } from "./braden-scale";
+import { brandAwarenessCalculator } from "./brand-awareness";
+import { bridesmaidCostCalculator } from "./bridesmaid-cost";
+import { bunCreatinineCalculator } from "./bun-creatinine";
+import { cabinetDoorSizeCalculator } from "./cabinet-door-size";
+import { californiaPaycheckCalculator } from "./california-paycheck";
+import { cateringQuantityCalculator } from "./catering-quantity";
+import { clampPressureCalculator } from "./clamp-pressure";
+import { coefficientVariationCalculator } from "./coefficient-variation";
+import { coloradoPaycheckCalculator } from "./colorado-paycheck";
+import { compoundTradingCalculator } from "./compound-trading";
+import { condensateDrainCalculator } from "./condensate-drain";
+import { contentRoiCalculator } from "./content-roi";
+import { coolingLoadCalculator } from "./cooling-load";
+import { correctedQtCalculator } from "./corrected-qt";
+import { cosmicDistanceCalculator } from "./cosmic-distance";
+import { cpcCalculator } from "./cpc-calculator";
+import { cpmCalculator } from "./cpm-calculator";
+import { creatinineClearanceCgCalculator } from "./creatinine-clearance-cg";
+import { cronbachAlphaCalculator } from "./cronbach-alpha";
+import { cryptoMiningProfitCalculator } from "./crypto-mining-profit";
+import { cryptoTaxCalculator } from "./crypto-tax";
+import { ctrCalculator } from "./ctr-calculator";
+import { customerAcquisitionCostCalculator } from "./customer-acquisition-cost";
+import { cuttingDiagramCalculator } from "./cutting-diagram";
+import { dadoJointCalculator } from "./dado-joint";
+import { defiYieldCalculator } from "./defi-yield";
+import { dehumidifierSizeCalculator } from "./dehumidifier-size";
+import { deltaVCalculator } from "./delta-v";
+import { domainAuthorityCalculator } from "./domain-authority";
+import { dovetailJointCalculator } from "./dovetail-joint";
+import { dowelSpacingCalculator } from "./dowel-spacing";
+import { drainPipeSlopeCalculator } from "./drain-pipe-slope";
+import { drawdownCalculator } from "./drawdown-calculator";
+import { drawerSlideCalculator } from "./drawer-slide";
+import { drillBitSizeCalculator } from "./drill-bit-size";
+import { ductSizeCalculator } from "./duct-size";
+import { effectSizeCalculator } from "./effect-size";
+import { egfrCalculator } from "./egfr-calculator";
+import { emailOpenRateCalculator } from "./email-open-rate";
+import { engagementRateCalculator } from "./engagement-rate";
+import { engagementRingBudgetCalculator } from "./engagement-ring-budget";
+import { eventParkingCalculator } from "./event-parking";
+import { eventRentalCalculator } from "./event-rental";
+import { eventSpaceCapacityCalculator } from "./event-space-capacity";
+import { expansionTankCalculator } from "./expansion-tank";
+import { expectedValueTradeCalculator } from "./expected-value-trade";
+import { fenaCalculator } from "./fena-calculator";
+import { fibonacciRetracementCalculator } from "./fibonacci-retracement";
+import { fishersExactCalculator } from "./fishers-exact";
+import { floridaPaycheckCalculator } from "./florida-paycheck";
+import { fluidMaintenanceCalculator } from "./fluid-maintenance";
+import { framinghamScoreCalculator } from "./framingham-score";
+import { futuresPnlCalculator } from "./futures-pnl";
+import { gasFeeCalculator } from "./gas-fee-calculator";
+import { gasPipeSizeCalculator } from "./gas-pipe-size";
+import { georgiaPaycheckCalculator } from "./georgia-paycheck";
+import { glycolMixtureCalculator } from "./glycol-mixture";
+import { graduationPartyCalculator } from "./graduation-party";
+import { groomsmenCostCalculator } from "./groomsmen-cost";
+import { habitableZoneCalculator } from "./habitable-zone";
+import { harrisBenedictCalculator } from "./harris-benedict";
+import { hashRateCalculator } from "./hash-rate";
+import { heatLossCalculator } from "./heat-loss";
+import { heatPumpCopCalculator } from "./heat-pump-cop";
+import { honeymoonBudgetCalculator } from "./honeymoon-budget";
+import { humidifierSizeCalculator } from "./humidifier-size";
+import { illinoisPaycheckCalculator } from "./illinois-paycheck";
+import { impermanentLossCalculator } from "./impermanent-loss";
+import { indianaPaycheckCalculator } from "./indiana-paycheck";
+import { influencerRateCalculator } from "./influencer-rate";
+import { interquartileRangeCalculator } from "./interquartile-range";
+import { kellyCriterionCalculator } from "./kelly-criterion";
+import { keplerThirdLawCalculator } from "./kepler-third-law";
+import { keywordDensityCalculator } from "./keyword-density";
+import { kruskalWallisCalculator } from "./kruskal-wallis";
+import { latheSpeedCalculator } from "./lathe-speed";
+import { leadScoringCalculator } from "./lead-scoring";
+import { leverageCalculator } from "./leverage-calculator";
+import { lightTravelCalculator } from "./light-travel";
+import { liquidityPoolCalculator } from "./liquidity-pool";
+import { lotSizeCalculator } from "./lot-size-calculator";
+import { louisianaPaycheckCalculator } from "./louisiana-paycheck";
+import { magnitudeDistanceCalculator } from "./magnitude-distance";
+import { mannWhitneyCalculator } from "./mann-whitney";
+import { marginOfErrorCalculator } from "./margin-of-error";
+import { marylandPaycheckCalculator } from "./maryland-paycheck";
+import { massachusettsPaycheckCalculator } from "./massachusetts-paycheck";
+import { meldScoreCalculator } from "./meld-score";
+import { meteorShowerCalculator } from "./meteor-shower";
+import { michiganPaycheckCalculator } from "./michigan-paycheck";
+import { minnesotaPaycheckCalculator } from "./minnesota-paycheck";
+import { missouriPaycheckCalculator } from "./missouri-paycheck";
+import { miterAngleCalculator } from "./miter-angle";
+import { mmseScoreCalculator } from "./mmse-score";
+import { morseFallScaleCalculator } from "./morse-fall-scale";
+import { movingAverageCalculator } from "./moving-average";
+import { newJerseyPaycheckCalculator } from "./new-jersey-paycheck";
+import { newYorkPaycheckCalculator } from "./new-york-paycheck";
+import { newsScoreCalculator } from "./news-score";
+import { northCarolinaPaycheckCalculator } from "./north-carolina-paycheck";
+import { nortonScaleCalculator } from "./norton-scale";
+import { numberNeededTreatCalculator } from "./number-needed-treat";
+import { nutritionalScreeningCalculator } from "./nutritional-screening";
+import { oddsRatioCalculator } from "./odds-ratio";
+import { ohioPaycheckCalculator } from "./ohio-paycheck";
+import { oneWayAnovaCalculator } from "./one-way-anova";
+import { opioidConversionCalculator } from "./opioid-conversion";
+import { pageLoadImpactCalculator } from "./page-load-impact";
+import { pairedTTestCalculator } from "./paired-t-test";
+import { parklandFormulaCalculator } from "./parkland-formula";
+import { parsecConverterCalculator } from "./parsec-converter";
+import { partyBalloonCalculator } from "./party-balloon";
+import { pediatricGcsCalculator } from "./pediatric-gcs";
+import { pennsylvaniaPaycheckCalculator } from "./pennsylvania-paycheck";
+import { percentileRankCalculator } from "./percentile-rank";
+import { pipCalculator } from "./pip-calculator";
+import { pipeSizingCalculator } from "./pipe-sizing";
+import { pivotPointCalculator } from "./pivot-point";
+import { planetSurfaceGravityCalculator } from "./planet-surface-gravity";
+import { podcastDownloadCalculator } from "./podcast-download";
+import { positionSizeCalculator } from "./position-size";
+import { powerAnalysisCalculator } from "./power-analysis";
+import { ppvNpvCalculator } from "./ppv-npv";
+import { pressureReliefValveCalculator } from "./pressure-relief-valve";
+import { profitFactorCalculator } from "./profit-factor";
+import { qsofaScoreCalculator } from "./qsofa-score";
+import { radiatorSizeCalculator } from "./radiator-size";
+import { receptionTimelineCalculator } from "./reception-timeline";
+import { redShiftCalculator } from "./red-shift";
+import { refrigerantChargeCalculator } from "./refrigerant-charge";
+import { rehearsalDinnerCalculator } from "./rehearsal-dinner";
+import { relativeRiskCalculator } from "./relative-risk";
+import { retentionRateCalculator } from "./retention-rate";
+import { revisedTraumaCalculator } from "./revised-trauma";
+import { roasCalculator } from "./roas-calculator";
+import { rocheLimitCalculator } from "./roche-limit";
+import { rocketThrustCalculator } from "./rocket-thrust";
+import { routerBitSpeedCalculator } from "./router-bit-speed";
+import { rsiCalculator } from "./rsi-calculator";
+import { salesFunnelCalculator } from "./sales-funnel";
+import { sandpaperGritCalculator } from "./sandpaper-grit";
+import { satellitePeriodCalculator } from "./satellite-period";
+import { satelliteVelocityCalculator } from "./satellite-velocity";
+import { schwarzschildRadiusCalculator } from "./schwarzschild-radius";
+import { sensitivitySpecificityCalculator } from "./sensitivity-specificity";
+import { seoRoiCalculator } from "./seo-roi";
+import { sewerPipeCapacityCalculator } from "./sewer-pipe-capacity";
+import { shelfSagCalculator } from "./shelf-sag";
+import { skewnessKurtosisCalculator } from "./skewness-kurtosis";
+import { socialMediaRoiCalculator } from "./social-media-roi";
+import { southCarolinaPaycheckCalculator } from "./south-carolina-paycheck";
+import { spaceTravelTimeCalculator } from "./space-travel-time";
+import { spearmanCorrelationCalculator } from "./spearman-correlation";
+import { stakingRewardsCalculator } from "./staking-rewards";
+import { starLuminosityCalculator } from "./star-luminosity";
+import { staticPressureCalculator } from "./static-pressure";
+import { stellarClassificationCalculator } from "./stellar-classification";
+import { stellarParallaxCalculator } from "./stellar-parallax";
+import { stemLeafPlotCalculator } from "./stem-leaf-plot";
+import { subscriberValueCalculator } from "./subscriber-value";
+import { survivalRateCalculator } from "./survival-rate";
+import { synodicPeriodCalculator } from "./synodic-period";
+import { tableLegTaperCalculator } from "./table-leg-taper";
+import { telescopeApertureCalculator } from "./telescope-aperture";
+import { telescopeFovCalculator } from "./telescope-fov";
+import { telescopeMagnificationCalculator } from "./telescope-magnification";
+import { tennesseePaycheckCalculator } from "./tennessee-paycheck";
+import { tenonSizeCalculator } from "./tenon-size";
+import { texasPaycheckCalculator } from "./texas-paycheck";
+import { thermalResistanceCalculator } from "./thermal-resistance";
+import { tidalForceCalculator } from "./tidal-force";
+import { timiScoreCalculator } from "./timi-score";
+import { tokenVestingCalculator } from "./token-vesting";
+import { twoSampleTTestCalculator } from "./two-sample-t-test";
+import { typeIIIErrorCalculator } from "./type-i-ii-error";
+import { veneerCoverageCalculator } from "./veneer-coverage";
+import { ventPipeSizeCalculator } from "./vent-pipe-size";
+import { viralCoefficientCalculator } from "./viral-coefficient";
+import { virginiaPaycheckCalculator } from "./virginia-paycheck";
+import { washingtonPaycheckCalculator } from "./washington-paycheck";
+import { waterHeaterSizeCalculator } from "./water-heater-size";
+import { waterSupplyDemandCalculator } from "./water-supply-demand";
+import { weddingCakeSizeCalculator } from "./wedding-cake-size";
+import { weddingDjTimelineCalculator } from "./wedding-dj-timeline";
+import { weddingDrinkCalculator } from "./wedding-drink";
+import { weddingFavorCalculator } from "./wedding-favor";
+import { weddingFlowerCalculator } from "./wedding-flower";
+import { weddingGuestListCalculator } from "./wedding-guest-list";
+import { weddingInvitationCalculator } from "./wedding-invitation";
+import { weddingPhotoTimelineCalculator } from "./wedding-photo-timeline";
+import { weddingRegistryCalculator } from "./wedding-registry";
+import { weddingSeatingCalculator } from "./wedding-seating";
+import { weddingToastLengthCalculator } from "./wedding-toast-length";
+import { wellsScoreCalculator } from "./wells-score";
+import { wilcoxonTestCalculator } from "./wilcoxon-test";
+import { winRateCalculator } from "./win-rate";
+import { wisconsinPaycheckCalculator } from "./wisconsin-paycheck";
+import { woodBendingCalculator } from "./wood-bending";
+import { woodDensityCalculator } from "./wood-density";
+import { woodExpansionCalculator } from "./wood-expansion";
+import { woodMoistureCalculator } from "./wood-moisture";
+import { woodScrewPilotCalculator } from "./wood-screw-pilot";
+import { woodShrinkageCalculator } from "./wood-shrinkage";
+import { woodStainCoverageCalculator } from "./wood-stain-coverage";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -2605,6 +2831,232 @@ export const calculators: CalculatorDefinition[] = [
   wattsToBtuConverter,
   windTurbineOutputCalculator,
   yarnWeightCalculator,
+  test,
+  abTestSignificanceCalculator,
+  abgInterpreterCalculator,
+  adFrequencyCalculator,
+  airHandlerSizeCalculator,
+  airflowCfmCalculator,
+  alabamaPaycheckCalculator,
+  angularDiameterCalculator,
+  anniversaryGiftCalculator,
+  apacheScoreCalculator,
+  arizonaPaycheckCalculator,
+  babyShowerBudgetCalculator,
+  backflowPreventerCalculator,
+  bandsawBladeCalculator,
+  bishopScoreCalculator,
+  bitcoinProfitCalculator,
+  blogTrafficCalculator,
+  boardFootageCalculator,
+  boilerSizeCalculator,
+  bounceRateCalculator,
+  boxPlotCalculator,
+  bradenScaleCalculator,
+  brandAwarenessCalculator,
+  bridesmaidCostCalculator,
+  bunCreatinineCalculator,
+  cabinetDoorSizeCalculator,
+  californiaPaycheckCalculator,
+  cateringQuantityCalculator,
+  clampPressureCalculator,
+  coefficientVariationCalculator,
+  coloradoPaycheckCalculator,
+  compoundTradingCalculator,
+  condensateDrainCalculator,
+  contentRoiCalculator,
+  coolingLoadCalculator,
+  correctedQtCalculator,
+  cosmicDistanceCalculator,
+  cpcCalculator,
+  cpmCalculator,
+  creatinineClearanceCgCalculator,
+  cronbachAlphaCalculator,
+  cryptoMiningProfitCalculator,
+  cryptoTaxCalculator,
+  ctrCalculator,
+  customerAcquisitionCostCalculator,
+  cuttingDiagramCalculator,
+  dadoJointCalculator,
+  defiYieldCalculator,
+  dehumidifierSizeCalculator,
+  deltaVCalculator,
+  domainAuthorityCalculator,
+  dovetailJointCalculator,
+  dowelSpacingCalculator,
+  drainPipeSlopeCalculator,
+  drawdownCalculator,
+  drawerSlideCalculator,
+  drillBitSizeCalculator,
+  ductSizeCalculator,
+  effectSizeCalculator,
+  egfrCalculator,
+  emailOpenRateCalculator,
+  engagementRateCalculator,
+  engagementRingBudgetCalculator,
+  eventParkingCalculator,
+  eventRentalCalculator,
+  eventSpaceCapacityCalculator,
+  expansionTankCalculator,
+  expectedValueTradeCalculator,
+  fenaCalculator,
+  fibonacciRetracementCalculator,
+  fishersExactCalculator,
+  floridaPaycheckCalculator,
+  fluidMaintenanceCalculator,
+  framinghamScoreCalculator,
+  futuresPnlCalculator,
+  gasFeeCalculator,
+  gasPipeSizeCalculator,
+  georgiaPaycheckCalculator,
+  glycolMixtureCalculator,
+  graduationPartyCalculator,
+  groomsmenCostCalculator,
+  habitableZoneCalculator,
+  harrisBenedictCalculator,
+  hashRateCalculator,
+  heatLossCalculator,
+  heatPumpCopCalculator,
+  honeymoonBudgetCalculator,
+  humidifierSizeCalculator,
+  illinoisPaycheckCalculator,
+  impermanentLossCalculator,
+  indianaPaycheckCalculator,
+  influencerRateCalculator,
+  interquartileRangeCalculator,
+  kellyCriterionCalculator,
+  keplerThirdLawCalculator,
+  keywordDensityCalculator,
+  kruskalWallisCalculator,
+  latheSpeedCalculator,
+  leadScoringCalculator,
+  leverageCalculator,
+  lightTravelCalculator,
+  liquidityPoolCalculator,
+  lotSizeCalculator,
+  louisianaPaycheckCalculator,
+  magnitudeDistanceCalculator,
+  mannWhitneyCalculator,
+  marginOfErrorCalculator,
+  marylandPaycheckCalculator,
+  massachusettsPaycheckCalculator,
+  meldScoreCalculator,
+  meteorShowerCalculator,
+  michiganPaycheckCalculator,
+  minnesotaPaycheckCalculator,
+  missouriPaycheckCalculator,
+  miterAngleCalculator,
+  mmseScoreCalculator,
+  morseFallScaleCalculator,
+  movingAverageCalculator,
+  newJerseyPaycheckCalculator,
+  newYorkPaycheckCalculator,
+  newsScoreCalculator,
+  northCarolinaPaycheckCalculator,
+  nortonScaleCalculator,
+  numberNeededTreatCalculator,
+  nutritionalScreeningCalculator,
+  oddsRatioCalculator,
+  ohioPaycheckCalculator,
+  oneWayAnovaCalculator,
+  opioidConversionCalculator,
+  pageLoadImpactCalculator,
+  pairedTTestCalculator,
+  parklandFormulaCalculator,
+  parsecConverterCalculator,
+  partyBalloonCalculator,
+  pediatricGcsCalculator,
+  pennsylvaniaPaycheckCalculator,
+  percentileRankCalculator,
+  pipCalculator,
+  pipeSizingCalculator,
+  pivotPointCalculator,
+  planetSurfaceGravityCalculator,
+  podcastDownloadCalculator,
+  positionSizeCalculator,
+  powerAnalysisCalculator,
+  ppvNpvCalculator,
+  pressureReliefValveCalculator,
+  profitFactorCalculator,
+  qsofaScoreCalculator,
+  radiatorSizeCalculator,
+  receptionTimelineCalculator,
+  redShiftCalculator,
+  refrigerantChargeCalculator,
+  rehearsalDinnerCalculator,
+  relativeRiskCalculator,
+  retentionRateCalculator,
+  revisedTraumaCalculator,
+  roasCalculator,
+  rocheLimitCalculator,
+  rocketThrustCalculator,
+  routerBitSpeedCalculator,
+  rsiCalculator,
+  salesFunnelCalculator,
+  sandpaperGritCalculator,
+  satellitePeriodCalculator,
+  satelliteVelocityCalculator,
+  schwarzschildRadiusCalculator,
+  sensitivitySpecificityCalculator,
+  seoRoiCalculator,
+  sewerPipeCapacityCalculator,
+  shelfSagCalculator,
+  skewnessKurtosisCalculator,
+  socialMediaRoiCalculator,
+  southCarolinaPaycheckCalculator,
+  spaceTravelTimeCalculator,
+  spearmanCorrelationCalculator,
+  stakingRewardsCalculator,
+  starLuminosityCalculator,
+  staticPressureCalculator,
+  stellarClassificationCalculator,
+  stellarParallaxCalculator,
+  stemLeafPlotCalculator,
+  subscriberValueCalculator,
+  survivalRateCalculator,
+  synodicPeriodCalculator,
+  tableLegTaperCalculator,
+  telescopeApertureCalculator,
+  telescopeFovCalculator,
+  telescopeMagnificationCalculator,
+  tennesseePaycheckCalculator,
+  tenonSizeCalculator,
+  texasPaycheckCalculator,
+  thermalResistanceCalculator,
+  tidalForceCalculator,
+  timiScoreCalculator,
+  tokenVestingCalculator,
+  twoSampleTTestCalculator,
+  typeIIIErrorCalculator,
+  veneerCoverageCalculator,
+  ventPipeSizeCalculator,
+  viralCoefficientCalculator,
+  virginiaPaycheckCalculator,
+  washingtonPaycheckCalculator,
+  waterHeaterSizeCalculator,
+  waterSupplyDemandCalculator,
+  weddingCakeSizeCalculator,
+  weddingDjTimelineCalculator,
+  weddingDrinkCalculator,
+  weddingFavorCalculator,
+  weddingFlowerCalculator,
+  weddingGuestListCalculator,
+  weddingInvitationCalculator,
+  weddingPhotoTimelineCalculator,
+  weddingRegistryCalculator,
+  weddingSeatingCalculator,
+  weddingToastLengthCalculator,
+  wellsScoreCalculator,
+  wilcoxonTestCalculator,
+  winRateCalculator,
+  wisconsinPaycheckCalculator,
+  woodBendingCalculator,
+  woodDensityCalculator,
+  woodExpansionCalculator,
+  woodMoistureCalculator,
+  woodScrewPilotCalculator,
+  woodShrinkageCalculator,
+  woodStainCoverageCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
