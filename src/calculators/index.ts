@@ -1528,6 +1528,93 @@ import { woodMoistureCalculator } from "./wood-moisture";
 import { woodScrewPilotCalculator } from "./wood-screw-pilot";
 import { woodShrinkageCalculator } from "./wood-shrinkage";
 import { woodStainCoverageCalculator } from "./wood-stain-coverage";
+import { arcLengthCalculator } from "./arc-length";
+import { armMortgageCalculator } from "./arm-mortgage";
+import { baseballEraCalculator } from "./baseball-era";
+import { baseballObpCalculator } from "./baseball-obp";
+import { baseballOpsCalculator } from "./baseball-ops";
+import { baseballSluggingCalculator } from "./baseball-slugging";
+import { basketballPaceCalculator } from "./basketball-pace";
+import { basketballPerCalculator } from "./basketball-per";
+import { basketballTrueShootingCalculator } from "./basketball-true-shooting";
+import { birthFlowerCalculator } from "./birth-flower";
+import { birthstoneCalculator } from "./birthstone-calculator";
+import { bodyRecompCalculator } from "./body-recomp";
+import { bridgeLoanCalculator } from "./bridge-loan";
+import { bulkingCalculator } from "./bulking-calculator";
+import { caffeineHalfLifeCalculator } from "./caffeine-half-life";
+import { cashOutRefinanceCalculator } from "./cash-out-refinance";
+import { catAgeHumanCalculator } from "./cat-age-human";
+import { celebrityAgeCalculator } from "./celebrity-age";
+import { chordLengthCalculator } from "./chord-length";
+import { circleEquationCalculator } from "./circle-equation";
+import { cmToFeetConverter } from "./cm-to-feet";
+import { cmToMmConverter } from "./cm-to-mm";
+import { constructionLoanCalculator } from "./construction-loan";
+import { cubeVolumeCalculator } from "./cube-volume";
+import { cupsToPintsConverter } from "./cups-to-pints";
+import { cupsToTablespoonsConverter } from "./cups-to-tablespoons";
+import { distanceFormulaCalculator } from "./distance-formula";
+import { dndCharacterCalculator } from "./dnd-character";
+import { dogAgeHumanCalculator } from "./dog-age-human";
+import { ellipseAreaCalculator } from "./ellipse-area";
+import { equationOfLineCalculator } from "./equation-of-line";
+import { feetToCmConverter } from "./feet-to-cm";
+import { footballFantasyPointsCalculator } from "./football-fantasy-points";
+import { footballPasserRatingCalculator } from "./football-passer-rating";
+import { frustumVolumeCalculator } from "./frustum-volume";
+import { gallonsToQuartsConverter } from "./gallons-to-quarts";
+import { gasTripSplitCalculator } from "./gas-trip-split";
+import { generationCalculator } from "./generation-calculator";
+import { gramsToKgConverter } from "./grams-to-kg";
+import { gramsToMgConverter } from "./grams-to-mg";
+import { hemisphereVolumeCalculator } from "./hemisphere-volume";
+import { heronFormulaCalculator } from "./heron-formula";
+import { hexagonAreaCalculator } from "./hexagon-area";
+import { hockeyCorsiCalculator } from "./hockey-corsi";
+import { hockeySavePctCalculator } from "./hockey-save-pct";
+import { hogwartsHouseCalculator } from "./hogwarts-house";
+import { homeEquityLoanCalculator } from "./home-equity-loan";
+import { howOldAmICalculator } from "./how-old-am-i";
+import { inchesToMetersConverter } from "./inches-to-meters";
+import { inscribedAngleCalculator } from "./inscribed-angle";
+import { interestOnlyMortgageCalculator } from "./interest-only-mortgage";
+import { jumboLoanCalculator } from "./jumbo-loan";
+import { kgToGramsConverter } from "./kg-to-grams";
+import { landLoanCalculator } from "./land-loan";
+import { litersToOuncesConverter } from "./liters-to-ounces";
+import { metersToInchesConverter } from "./meters-to-inches";
+import { metersToMilesConverter } from "./meters-to-miles";
+import { metersToYardsConverter } from "./meters-to-yards";
+import { mgToGramsConverter } from "./mg-to-grams";
+import { milesToMetersConverter } from "./miles-to-meters";
+import { minecraftCraftingCalculator } from "./minecraft-crafting";
+import { mlToOzConverter } from "./ml-to-oz";
+import { mmToCmConverter } from "./mm-to-cm";
+import { octagonAreaCalculator } from "./octagon-area";
+import { ouncesToLitersConverter } from "./ounces-to-liters";
+import { ozToMlConverter } from "./oz-to-ml";
+import { parabolaCalculator } from "./parabola-calculator";
+import { pentagonAreaCalculator } from "./pentagon-area";
+import { pintsToCupsConverter } from "./pints-to-cups";
+import { pyramidVolumeCalculator } from "./pyramid-volume";
+import { quartsToGallonsConverter } from "./quarts-to-gallons";
+import { rectangleAreaCalculator } from "./rectangle-area";
+import { rectangularPrismCalculator } from "./rectangular-prism";
+import { regularPolygonCalculator } from "./regular-polygon";
+import { rhombusAreaCalculator } from "./rhombus-area";
+import { secondMortgageCalculator } from "./second-mortgage";
+import { sectorAreaCalculator } from "./sector-area";
+import { soccerExpectedGoalsCalculator } from "./soccer-expected-goals";
+import { soccerPassCompletionCalculator } from "./soccer-pass-completion";
+import { spiritAnimalCalculator } from "./spirit-animal";
+import { tbspToTspConverter } from "./tbsp-to-tsp";
+import { tennisFirstServeCalculator } from "./tennis-first-serve";
+import { tomatoYieldCalculator } from "./tomato-yield";
+import { torusVolumeCalculator } from "./torus-volume";
+import { triangleInequalityCalculator } from "./triangle-inequality";
+import { usdaLoanCalculator } from "./usda-loan";
+import { yardsMetersConverter } from "./yards-meters-converter";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -3057,6 +3144,93 @@ export const calculators: CalculatorDefinition[] = [
   woodScrewPilotCalculator,
   woodShrinkageCalculator,
   woodStainCoverageCalculator,
+  arcLengthCalculator,
+  armMortgageCalculator,
+  baseballEraCalculator,
+  baseballObpCalculator,
+  baseballOpsCalculator,
+  baseballSluggingCalculator,
+  basketballPaceCalculator,
+  basketballPerCalculator,
+  basketballTrueShootingCalculator,
+  birthFlowerCalculator,
+  birthstoneCalculator,
+  bodyRecompCalculator,
+  bridgeLoanCalculator,
+  bulkingCalculator,
+  caffeineHalfLifeCalculator,
+  cashOutRefinanceCalculator,
+  catAgeHumanCalculator,
+  celebrityAgeCalculator,
+  chordLengthCalculator,
+  circleEquationCalculator,
+  cmToFeetConverter,
+  cmToMmConverter,
+  constructionLoanCalculator,
+  cubeVolumeCalculator,
+  cupsToPintsConverter,
+  cupsToTablespoonsConverter,
+  distanceFormulaCalculator,
+  dndCharacterCalculator,
+  dogAgeHumanCalculator,
+  ellipseAreaCalculator,
+  equationOfLineCalculator,
+  feetToCmConverter,
+  footballFantasyPointsCalculator,
+  footballPasserRatingCalculator,
+  frustumVolumeCalculator,
+  gallonsToQuartsConverter,
+  gasTripSplitCalculator,
+  generationCalculator,
+  gramsToKgConverter,
+  gramsToMgConverter,
+  hemisphereVolumeCalculator,
+  heronFormulaCalculator,
+  hexagonAreaCalculator,
+  hockeyCorsiCalculator,
+  hockeySavePctCalculator,
+  hogwartsHouseCalculator,
+  homeEquityLoanCalculator,
+  howOldAmICalculator,
+  inchesToMetersConverter,
+  inscribedAngleCalculator,
+  interestOnlyMortgageCalculator,
+  jumboLoanCalculator,
+  kgToGramsConverter,
+  landLoanCalculator,
+  litersToOuncesConverter,
+  metersToInchesConverter,
+  metersToMilesConverter,
+  metersToYardsConverter,
+  mgToGramsConverter,
+  milesToMetersConverter,
+  minecraftCraftingCalculator,
+  mlToOzConverter,
+  mmToCmConverter,
+  octagonAreaCalculator,
+  ouncesToLitersConverter,
+  ozToMlConverter,
+  parabolaCalculator,
+  pentagonAreaCalculator,
+  pintsToCupsConverter,
+  pyramidVolumeCalculator,
+  quartsToGallonsConverter,
+  rectangleAreaCalculator,
+  rectangularPrismCalculator,
+  regularPolygonCalculator,
+  rhombusAreaCalculator,
+  secondMortgageCalculator,
+  sectorAreaCalculator,
+  soccerExpectedGoalsCalculator,
+  soccerPassCompletionCalculator,
+  spiritAnimalCalculator,
+  tbspToTspConverter,
+  tennisFirstServeCalculator,
+  tomatoYieldCalculator,
+  torusVolumeCalculator,
+  triangleInequalityCalculator,
+  usdaLoanCalculator,
+  yardsMetersConverter,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
