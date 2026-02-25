@@ -1615,6 +1615,280 @@ import { torusVolumeCalculator } from "./torus-volume";
 import { triangleInequalityCalculator } from "./triangle-inequality";
 import { usdaLoanCalculator } from "./usda-loan";
 import { yardsMetersConverter } from "./yards-meters-converter";
+import { exchange1031Calculator } from "./1031-exchange";
+import { freelancerTaxCalculator } from "./1099-tax";
+import { fifteenVsThirtyMortgageCalculator } from "./15-vs-30-mortgage";
+import { fourOhOneKLoanCalculator } from "./401k-loan";
+import { plan529TaxBenefitCalculator } from "./529-tax-benefit";
+import { acresToSqMeters } from "./acres-to-sq-meters";
+import { airFryerConverterCalculator } from "./air-fryer-converter";
+import { airbnbIncomeCalculator } from "./airbnb-income";
+import { alabamaSalesTaxCalculator } from "./alabama-sales-tax";
+import { amtCalculator } from "./amt-calculator";
+import { anaerobicThresholdCalculator } from "./anaerobic-threshold";
+import { ankleCircumferenceCalculator } from "./ankle-circumference";
+import { apiRateLimitCalculator } from "./api-rate-limit";
+import { appraisalValueCalculator } from "./appraisal-value";
+import { aquariumFilterCalculator } from "./aquarium-filter";
+import { aquariumHeaterCalculator } from "./aquarium-heater";
+import { aquariumLightCalculator } from "./aquarium-light";
+import { arizonaSalesTaxCalculator } from "./arizona-sales-tax";
+import { atmToPascal } from "./atm-to-pascal";
+import { autoRefinanceCalculator } from "./auto-refinance";
+import { babyNameMatchCalculator } from "./baby-name-match";
+import { backdoorRothCalculator } from "./backdoor-roth";
+import { backupSizeCalculator } from "./backup-size";
+import { balanceTransferCalculator } from "./balance-transfer";
+import { base64SizeCalculator } from "./base64-size";
+import { bbqCookingTimeCalculator } from "./bbq-cooking-time";
+import { berryBushSpacingCalculator } from "./berry-bush-spacing";
+import { bingeWatchTimeCalculator } from "./binge-watch-time";
+import { birdCageCalculator } from "./bird-cage-calculator";
+import { boatLoanCalculator } from "./boat-loan";
+import { bodyFatNavyCalculator } from "./body-fat-navy";
+import { bodyFatSkinfoldCalculator } from "./body-fat-skinfold";
+import { bodySymmetryCalculator } from "./body-symmetry";
+import { bookReadingGoalCalculator } from "./book-reading-goal";
+import { breadHydrationCalculator } from "./bread-hydration";
+import { bucketListCalculator } from "./bucket-list";
+import { buildingCostPerSqftCalculator } from "./building-cost-per-sqft";
+import { bulbPlantingDepthCalculator } from "./bulb-planting-depth";
+import { butterToOilCalculator } from "./butter-to-oil";
+import { cakeServingCalculator } from "./cake-serving";
+import { californiaSalesTaxCalculator } from "./california-sales-tax";
+import { calorieBurnActivityCalculator } from "./calorie-burn-activity";
+import { caloriesToJoules } from "./calories-to-joules";
+import { candyMakingCalculator } from "./candy-making";
+import { carbonOffsetCostCalculator } from "./carbon-offset-cost";
+import { carbonTreeCalculator } from "./carbon-tree";
+import { catCarrierSizeCalculator } from "./cat-carrier-size";
+import { catIndoorSpaceCalculator } from "./cat-indoor-space";
+import { catLitterBoxCalculator } from "./cat-litter-box";
+import { catTreeSizeCalculator } from "./cat-tree-size";
+import { catWaterIntakeCalculator } from "./cat-water-intake";
+import { celsiusKelvinConverter } from "./celsius-kelvin-converter";
+import { charitableDeductionCalculator } from "./charitable-deduction";
+import { cheeseServingCalculator } from "./cheese-serving";
+import { chickenCookingTimeCalculator } from "./chicken-cooking-time";
+import { chickenFeedCalculator } from "./chicken-feed";
+import { cidrCalculator } from "./cidr-calculator";
+import { cloudCostCalculator } from "./cloud-cost";
+import { codeReviewTimeCalculator } from "./code-review-time";
+import { coffeeBrewingCalculator } from "./coffee-brewing";
+import { colorDepthCalculator } from "./color-depth";
+import { coloradoSalesTaxCalculator } from "./colorado-sales-tax";
+import { commuteCostCalculator } from "./commute-cost";
+import { compostBinSizeCalculator } from "./compost-bin-size";
+import { condoFeeCalculator } from "./condo-fee";
+import { consolidationLoanCalculator } from "./consolidation-loan";
+import { containerResourcesCalculator } from "./container-resources";
+import { cookieBatchCalculator } from "./cookie-batch";
+import { costPerSquareFootCalculator } from "./cost-per-square-foot";
+import { cpuBenchmarkCalculator } from "./cpu-benchmark";
+import { creatineLoadingCalculator } from "./creatine-loading";
+import { creditCardPayoffCalculator } from "./credit-card-payoff";
+import { cryptoGainsTaxCalculator } from "./crypto-gains-tax";
+import { cubicInchesToLiters } from "./cubic-inches-to-liters";
+import { cubicMetersToGallons } from "./cubic-meters-to-gallons";
+import { cuttingCalculator } from "./cutting-calculator";
+import { databaseSizeCalculator } from "./database-size";
+import { deepFryerOilCalculator } from "./deep-fryer-oil";
+import { dependentTaxCreditCalculator } from "./dependent-tax-credit";
+import { dogBootSizeCalculator } from "./dog-boot-size";
+import { dogCollarSizeCalculator } from "./dog-collar-size";
+import { dogKennelSizeCalculator } from "./dog-kennel-size";
+import { dogSweaterSizeCalculator } from "./dog-sweater-size";
+import { dogYardSizeCalculator } from "./dog-yard-size";
+import { dotsCalculator } from "./dots-calculator";
+import { dripIrrigationLayoutCalculator } from "./drip-irrigation-layout";
+import { educationTaxCreditCalculator } from "./education-tax-credit";
+import { eggBoilingCalculator } from "./egg-boiling";
+import { employerPayrollCostCalculator } from "./employer-payroll-cost";
+import { equipmentLoanCalculator } from "./equipment-loan";
+import { escrowCalculator } from "./escrow-calculator";
+import { fahrenheitToKelvin } from "./fahrenheit-to-kelvin";
+import { fatFreeMassIndexCalculator } from "./fat-free-mass-index";
+import { ferretCageCalculator } from "./ferret-cage";
+import { fishTankStockingCalculator } from "./fish-tank-stocking";
+import { floridaSalesTaxCalculator } from "./florida-sales-tax";
+import { flourConverterCalculator } from "./flour-converter";
+import { flowerBedCalculator } from "./flower-bed";
+import { frostDateCalculator } from "./frost-date";
+import { fruitServingCalculator } from "./fruit-serving";
+import { fsaSavingsCalculator } from "./fsa-savings";
+import { functionPointCalculator } from "./function-point";
+import { functionalThresholdCalculator } from "./functional-threshold";
+import { gallonsToCubicMeters } from "./gallons-to-cubic-meters";
+import { gardenPathCalculator } from "./garden-path";
+import { gardenRowSpacingCalculator } from "./garden-row-spacing";
+import { gardenSunlightCalculator } from "./garden-sunlight";
+import { georgiaSalesTaxCalculator } from "./georgia-sales-tax";
+import { glycemicLoadCalculator } from "./glycemic-load";
+import { gramsToTroyOz } from "./grams-to-troy-oz";
+import { greenhouseHeatingCalculator } from "./greenhouse-heating";
+import { groundCoverCalculator } from "./ground-cover";
+import { guineaPigCageCalculator } from "./guinea-pig-cage";
+import { hamsterWheelSizeCalculator } from "./hamster-wheel-size";
+import { hardMoneyLoanCalculator } from "./hard-money-loan";
+import { hectaresToSqFeet } from "./hectares-to-sq-feet";
+import { hedgeSpacingCalculator } from "./hedge-spacing";
+import { herbGardenCalculator } from "./herb-garden";
+import { hipCircumferenceCalculator } from "./hip-circumference";
+import { homeAppreciationRateCalculator } from "./home-appreciation-rate";
+import { homeEquityLineCalculator } from "./home-equity-line";
+import { homeInspectionCostCalculator } from "./home-inspection-cost";
+import { homeOfficeDeductionCalculator } from "./home-office-deduction";
+import { homeStagingCalculator } from "./home-staging";
+import { homeWarrantyCostCalculator } from "./home-warranty-cost";
+import { horseHayCalculator } from "./horse-hay";
+import { houseFlippingCalculator } from "./house-flipping-calc";
+import { howManyDaysUntilCalculator } from "./how-many-days-until";
+import { hsaTaxSavingsCalculator } from "./hsa-tax-savings";
+import { hydroponicPhCalculator } from "./hydroponic-ph";
+import { iceCreamMakerCalculator } from "./ice-cream-maker";
+import { illinoisSalesTaxCalculator } from "./illinois-sales-tax";
+import { imageFilesizeCalculator } from "./image-filesize";
+import { incomeDrivenRepaymentCalculator } from "./income-driven-repayment";
+import { indianaSalesTaxCalculator } from "./indiana-sales-tax";
+import { indoorPlantLightCalculator } from "./indoor-plant-light";
+import { inflationImpactCalculator } from "./inflation-impact";
+import { inheritedIraRmdCalculator } from "./inherited-ira-rmd";
+import { investmentPropertyCalculator } from "./investment-property";
+import { ipRangeCalculator } from "./ip-range";
+import { jamSugarCalculator } from "./jam-sugar";
+import { joulesToCalories } from "./joules-to-calories";
+import { jsonSizeCalculator } from "./json-size";
+import { kelvinToFahrenheit } from "./kelvin-to-fahrenheit";
+import { kgToNewton } from "./kg-to-newton";
+import { kmhToKnots } from "./kmh-to-knots";
+import { kmhToMs } from "./kmh-to-ms";
+import { knotsToKmh } from "./knots-to-kmh";
+import { lactateThresholdCalculator } from "./lactate-threshold";
+import { languageLearningCalculator } from "./language-learning";
+import { lawnAerationCalculator } from "./lawn-aeration";
+import { lawnOverseedingCalculator } from "./lawn-overseeding";
+import { litersToCubicInches } from "./liters-to-cubic-inches";
+import { louisianaSalesTaxCalculator } from "./louisiana-sales-tax";
+import { luckyNumberCalculator } from "./lucky-number";
+import { marginLoanCalculator } from "./margin-loan";
+import { marinadeCalculator } from "./marinade-calculator";
+import { marriageTaxPenaltyCalculator } from "./marriage-tax-penalty";
+import { marylandSalesTaxCalculator } from "./maryland-sales-tax";
+import { massachusettsSalesTaxCalculator } from "./massachusetts-sales-tax";
+import { medicalExpenseDeductionCalculator } from "./medical-expense-deduction";
+import { medicalLoanCalculator } from "./medical-loan";
+import { medicareSurtaxCalculator } from "./medicare-surtax";
+import { michiganSalesTaxCalculator } from "./michigan-sales-tax";
+import { minnesotaSalesTaxCalculator } from "./minnesota-sales-tax";
+import { missouriSalesTaxCalculator } from "./missouri-sales-tax";
+import { monitorPpiCalculator } from "./monitor-ppi";
+import { mortgageComparisonCalculator } from "./mortgage-comparison";
+import { movingCostEstimateCalculator } from "./moving-cost-estimate";
+import { mphToMs } from "./mph-to-ms";
+import { msToMph } from "./ms-to-mph";
+import { musclePotentialCalculator } from "./muscle-potential";
+import { musicPracticeCalculator } from "./music-practice";
+import { neckCircumferenceCalculator } from "./neck-circumference";
+import { networkLatencyCalculator } from "./network-latency";
+import { newJerseySalesTaxCalculator } from "./new-jersey-sales-tax";
+import { newYorkSalesTaxCalculator } from "./new-york-sales-tax";
+import { newtonToKg } from "./newton-to-kg";
+import { northCarolinaSalesTaxCalculator } from "./north-carolina-sales-tax";
+import { ohioSalesTaxCalculator } from "./ohio-sales-tax";
+import { overtimeTaxCalculator } from "./overtime-tax";
+import { parentPlusLoanCalculator } from "./parent-plus-loan";
+import { pascalToAtm } from "./pascal-to-atm";
+import { pastaWaterCalculator } from "./pasta-water";
+import { paydayLoanCostCalculator } from "./payday-loan-cost";
+import { payrollWithholdingCalculator } from "./payroll-withholding";
+import { pennsylvaniaSalesTaxCalculator } from "./pennsylvania-sales-tax";
+import { personalLoanCalculator } from "./personal-loan";
+import { petCalorieBurnCalculator } from "./pet-calorie-burn";
+import { petFirstAidCalculator } from "./pet-first-aid";
+import { petNameGeneratorCalculator } from "./pet-name-generator";
+import { piDigitsCalculator } from "./pi-digits";
+import { pieCrustCalculator } from "./pie-crust";
+import { pitiCalculator } from "./piti-calculator";
+import { pizzaPartyCalculator } from "./pizza-party";
+import { pondFishStockingCalculator } from "./pond-fish-stocking";
+import { potSizeCalculator } from "./pot-size";
+import { privateStudentLoanCalculator } from "./private-student-loan";
+import { propertyManagementFeeCalculator } from "./property-management-fee";
+import { propertyRoiCalculator } from "./property-roi";
+import { proratedRentCalculator } from "./prorated-rent";
+import { proteinIntakeCalculator } from "./protein-intake";
+import { publicServiceForgivenessCalculator } from "./public-service-forgiveness";
+import { quarterlyTaxCalculator } from "./quarterly-tax";
+import { rabbitEnclosureCalculator } from "./rabbit-enclosure";
+import { ramSpeedCalculator } from "./ram-speed";
+import { realEstateCommissionCalculator } from "./real-estate-commission";
+import { recoveryHeartRateCalculator } from "./recovery-heart-rate";
+import { relativeStrengthCalculator } from "./relative-strength";
+import { rentVsBuyDetailedCalculator } from "./rent-vs-buy-detailed";
+import { rentalCashFlowCalculator } from "./rental-cash-flow";
+import { rentalIncomeTaxCalculator } from "./rental-income-tax";
+import { repMaxCalculator } from "./rep-max-calculator";
+import { riceCookerCalculator } from "./rice-cooker";
+import { roadTripSnackCalculator } from "./road-trip-snack";
+import { roastBeefTimeCalculator } from "./roast-beef-time";
+import { rothConversionCalculator } from "./roth-conversion";
+import { runningAgeGradeCalculator } from "./running-age-grade";
+import { rvLoanCalculator } from "./rv-loan";
+import { sbaLoanCalculator } from "./sba-loan";
+import { screenTimeCalculator } from "./screen-time";
+import { securityDepositReturnCalculator } from "./security-deposit-return";
+import { seedGerminationCalculator } from "./seed-germination";
+import { serverBandwidthCalculator } from "./server-bandwidth";
+import { smoothieRatioCalculator } from "./smoothie-ratio";
+import { snowDayProbabilityCalculator } from "./snow-day-probability";
+import { socialSecurityTaxCalculator } from "./social-security-tax";
+import { soilVolumeCalculator } from "./soil-volume";
+import { solarSystemWeightCalculator } from "./solar-system-weight";
+import { southCarolinaSalesTaxCalculator } from "./south-carolina-sales-tax";
+import { sprintCapacityCalculator } from "./sprint-capacity";
+import { sqFeetToHectares } from "./sq-feet-to-hectares";
+import { sqMetersToAcres } from "./sq-meters-to-acres";
+import { squareFootGardenCalculator } from "./square-foot-garden";
+import { squareFootagePriceCalculator } from "./square-footage-price";
+import { ssdLifespanCalculator } from "./ssd-lifespan";
+import { standardVsItemizedCalculator } from "./standard-vs-itemized";
+import { stockOptionTaxCalculator } from "./stock-option-tax";
+import { storageRaidCalculator } from "./storage-raid";
+import { streamingCostCalculator } from "./streaming-cost";
+import { studentLoanRefinanceCalculator } from "./student-loan-refinance";
+import { subnetMaskCalculator } from "./subnet-mask";
+import { subscriptionTrackerCalculator } from "./subscription-tracker";
+import { sugarSubstituteCalculator } from "./sugar-substitute";
+import { tennesseeSalesTaxCalculator } from "./tennessee-sales-tax";
+import { texasSalesTaxCalculator } from "./texas-sales-tax";
+import { throughputCalculator } from "./throughput-calculator";
+import { timeCapsuleCalculator } from "./time-capsule";
+import { tipEtiquetteCalculator } from "./tip-etiquette";
+import { titleInsuranceCalculator } from "./title-insurance";
+import { titleLoanCalculator } from "./title-loan";
+import { transferTaxCalculator } from "./transfer-tax";
+import { treeMulchRingCalculator } from "./tree-mulch-ring";
+import { troyOzToGrams } from "./troy-oz-to-grams";
+import { turtleTankSizeCalculator } from "./turtle-tank-size";
+import { uptimeCalculator } from "./uptime-calculator";
+import { vacationRentalCalculator } from "./vacation-rental";
+import { vegetableGardenSizeCalculator } from "./vegetable-garden-size";
+import { videoStorageCalculator } from "./video-storage";
+import { virginiaSalesTaxCalculator } from "./virginia-sales-tax";
+import { vo2maxEstimateCalculator } from "./vo2max-estimate";
+import { volumeLoadCalculator } from "./volume-load";
+import { w4WithholdingCalculator } from "./w4-withholding";
+import { walkingDistanceCalculator } from "./walking-distance";
+import { washingtonSalesTaxCalculator } from "./washington-sales-tax";
+import { waterBottleRefillCalculator } from "./water-bottle-refill";
+import { waterIntakeFitnessCalculator } from "./water-intake-fitness";
+import { wateringScheduleCalculator } from "./watering-schedule";
+import { wattHoursToJoules } from "./watt-hours-to-joules";
+import { weedKillerMixCalculator } from "./weed-killer-mix";
+import { wilks2Calculator } from "./wilks-2-calculator";
+import { winePairingCalculator } from "./wine-pairing";
+import { wisconsinSalesTaxCalculator } from "./wisconsin-sales-tax";
+import { wristCircumferenceCalculator } from "./wrist-circumference";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -3231,6 +3505,280 @@ export const calculators: CalculatorDefinition[] = [
   triangleInequalityCalculator,
   usdaLoanCalculator,
   yardsMetersConverter,
+  exchange1031Calculator,
+  freelancerTaxCalculator,
+  fifteenVsThirtyMortgageCalculator,
+  fourOhOneKLoanCalculator,
+  plan529TaxBenefitCalculator,
+  acresToSqMeters,
+  airFryerConverterCalculator,
+  airbnbIncomeCalculator,
+  alabamaSalesTaxCalculator,
+  amtCalculator,
+  anaerobicThresholdCalculator,
+  ankleCircumferenceCalculator,
+  apiRateLimitCalculator,
+  appraisalValueCalculator,
+  aquariumFilterCalculator,
+  aquariumHeaterCalculator,
+  aquariumLightCalculator,
+  arizonaSalesTaxCalculator,
+  atmToPascal,
+  autoRefinanceCalculator,
+  babyNameMatchCalculator,
+  backdoorRothCalculator,
+  backupSizeCalculator,
+  balanceTransferCalculator,
+  base64SizeCalculator,
+  bbqCookingTimeCalculator,
+  berryBushSpacingCalculator,
+  bingeWatchTimeCalculator,
+  birdCageCalculator,
+  boatLoanCalculator,
+  bodyFatNavyCalculator,
+  bodyFatSkinfoldCalculator,
+  bodySymmetryCalculator,
+  bookReadingGoalCalculator,
+  breadHydrationCalculator,
+  bucketListCalculator,
+  buildingCostPerSqftCalculator,
+  bulbPlantingDepthCalculator,
+  butterToOilCalculator,
+  cakeServingCalculator,
+  californiaSalesTaxCalculator,
+  calorieBurnActivityCalculator,
+  caloriesToJoules,
+  candyMakingCalculator,
+  carbonOffsetCostCalculator,
+  carbonTreeCalculator,
+  catCarrierSizeCalculator,
+  catIndoorSpaceCalculator,
+  catLitterBoxCalculator,
+  catTreeSizeCalculator,
+  catWaterIntakeCalculator,
+  celsiusKelvinConverter,
+  charitableDeductionCalculator,
+  cheeseServingCalculator,
+  chickenCookingTimeCalculator,
+  chickenFeedCalculator,
+  cidrCalculator,
+  cloudCostCalculator,
+  codeReviewTimeCalculator,
+  coffeeBrewingCalculator,
+  colorDepthCalculator,
+  coloradoSalesTaxCalculator,
+  commuteCostCalculator,
+  compostBinSizeCalculator,
+  condoFeeCalculator,
+  consolidationLoanCalculator,
+  containerResourcesCalculator,
+  cookieBatchCalculator,
+  costPerSquareFootCalculator,
+  cpuBenchmarkCalculator,
+  creatineLoadingCalculator,
+  creditCardPayoffCalculator,
+  cryptoGainsTaxCalculator,
+  cubicInchesToLiters,
+  cubicMetersToGallons,
+  cuttingCalculator,
+  databaseSizeCalculator,
+  deepFryerOilCalculator,
+  dependentTaxCreditCalculator,
+  dogBootSizeCalculator,
+  dogCollarSizeCalculator,
+  dogKennelSizeCalculator,
+  dogSweaterSizeCalculator,
+  dogYardSizeCalculator,
+  dotsCalculator,
+  dripIrrigationLayoutCalculator,
+  educationTaxCreditCalculator,
+  eggBoilingCalculator,
+  employerPayrollCostCalculator,
+  equipmentLoanCalculator,
+  escrowCalculator,
+  fahrenheitToKelvin,
+  fatFreeMassIndexCalculator,
+  ferretCageCalculator,
+  fishTankStockingCalculator,
+  floridaSalesTaxCalculator,
+  flourConverterCalculator,
+  flowerBedCalculator,
+  frostDateCalculator,
+  fruitServingCalculator,
+  fsaSavingsCalculator,
+  functionPointCalculator,
+  functionalThresholdCalculator,
+  gallonsToCubicMeters,
+  gardenPathCalculator,
+  gardenRowSpacingCalculator,
+  gardenSunlightCalculator,
+  georgiaSalesTaxCalculator,
+  glycemicLoadCalculator,
+  gramsToTroyOz,
+  greenhouseHeatingCalculator,
+  groundCoverCalculator,
+  guineaPigCageCalculator,
+  hamsterWheelSizeCalculator,
+  hardMoneyLoanCalculator,
+  hectaresToSqFeet,
+  hedgeSpacingCalculator,
+  herbGardenCalculator,
+  hipCircumferenceCalculator,
+  homeAppreciationRateCalculator,
+  homeEquityLineCalculator,
+  homeInspectionCostCalculator,
+  homeOfficeDeductionCalculator,
+  homeStagingCalculator,
+  homeWarrantyCostCalculator,
+  horseHayCalculator,
+  houseFlippingCalculator,
+  howManyDaysUntilCalculator,
+  hsaTaxSavingsCalculator,
+  hydroponicPhCalculator,
+  iceCreamMakerCalculator,
+  illinoisSalesTaxCalculator,
+  imageFilesizeCalculator,
+  incomeDrivenRepaymentCalculator,
+  indianaSalesTaxCalculator,
+  indoorPlantLightCalculator,
+  inflationImpactCalculator,
+  inheritedIraRmdCalculator,
+  investmentPropertyCalculator,
+  ipRangeCalculator,
+  jamSugarCalculator,
+  joulesToCalories,
+  jsonSizeCalculator,
+  kelvinToFahrenheit,
+  kgToNewton,
+  kmhToKnots,
+  kmhToMs,
+  knotsToKmh,
+  lactateThresholdCalculator,
+  languageLearningCalculator,
+  lawnAerationCalculator,
+  lawnOverseedingCalculator,
+  litersToCubicInches,
+  louisianaSalesTaxCalculator,
+  luckyNumberCalculator,
+  marginLoanCalculator,
+  marinadeCalculator,
+  marriageTaxPenaltyCalculator,
+  marylandSalesTaxCalculator,
+  massachusettsSalesTaxCalculator,
+  medicalExpenseDeductionCalculator,
+  medicalLoanCalculator,
+  medicareSurtaxCalculator,
+  michiganSalesTaxCalculator,
+  minnesotaSalesTaxCalculator,
+  missouriSalesTaxCalculator,
+  monitorPpiCalculator,
+  mortgageComparisonCalculator,
+  movingCostEstimateCalculator,
+  mphToMs,
+  msToMph,
+  musclePotentialCalculator,
+  musicPracticeCalculator,
+  neckCircumferenceCalculator,
+  networkLatencyCalculator,
+  newJerseySalesTaxCalculator,
+  newYorkSalesTaxCalculator,
+  newtonToKg,
+  northCarolinaSalesTaxCalculator,
+  ohioSalesTaxCalculator,
+  overtimeTaxCalculator,
+  parentPlusLoanCalculator,
+  pascalToAtm,
+  pastaWaterCalculator,
+  paydayLoanCostCalculator,
+  payrollWithholdingCalculator,
+  pennsylvaniaSalesTaxCalculator,
+  personalLoanCalculator,
+  petCalorieBurnCalculator,
+  petFirstAidCalculator,
+  petNameGeneratorCalculator,
+  piDigitsCalculator,
+  pieCrustCalculator,
+  pitiCalculator,
+  pizzaPartyCalculator,
+  pondFishStockingCalculator,
+  potSizeCalculator,
+  privateStudentLoanCalculator,
+  propertyManagementFeeCalculator,
+  propertyRoiCalculator,
+  proratedRentCalculator,
+  proteinIntakeCalculator,
+  publicServiceForgivenessCalculator,
+  quarterlyTaxCalculator,
+  rabbitEnclosureCalculator,
+  ramSpeedCalculator,
+  realEstateCommissionCalculator,
+  recoveryHeartRateCalculator,
+  relativeStrengthCalculator,
+  rentVsBuyDetailedCalculator,
+  rentalCashFlowCalculator,
+  rentalIncomeTaxCalculator,
+  repMaxCalculator,
+  riceCookerCalculator,
+  roadTripSnackCalculator,
+  roastBeefTimeCalculator,
+  rothConversionCalculator,
+  runningAgeGradeCalculator,
+  rvLoanCalculator,
+  sbaLoanCalculator,
+  screenTimeCalculator,
+  securityDepositReturnCalculator,
+  seedGerminationCalculator,
+  serverBandwidthCalculator,
+  smoothieRatioCalculator,
+  snowDayProbabilityCalculator,
+  socialSecurityTaxCalculator,
+  soilVolumeCalculator,
+  solarSystemWeightCalculator,
+  southCarolinaSalesTaxCalculator,
+  sprintCapacityCalculator,
+  sqFeetToHectares,
+  sqMetersToAcres,
+  squareFootGardenCalculator,
+  squareFootagePriceCalculator,
+  ssdLifespanCalculator,
+  standardVsItemizedCalculator,
+  stockOptionTaxCalculator,
+  storageRaidCalculator,
+  streamingCostCalculator,
+  studentLoanRefinanceCalculator,
+  subnetMaskCalculator,
+  subscriptionTrackerCalculator,
+  sugarSubstituteCalculator,
+  tennesseeSalesTaxCalculator,
+  texasSalesTaxCalculator,
+  throughputCalculator,
+  timeCapsuleCalculator,
+  tipEtiquetteCalculator,
+  titleInsuranceCalculator,
+  titleLoanCalculator,
+  transferTaxCalculator,
+  treeMulchRingCalculator,
+  troyOzToGrams,
+  turtleTankSizeCalculator,
+  uptimeCalculator,
+  vacationRentalCalculator,
+  vegetableGardenSizeCalculator,
+  videoStorageCalculator,
+  virginiaSalesTaxCalculator,
+  vo2maxEstimateCalculator,
+  volumeLoadCalculator,
+  w4WithholdingCalculator,
+  walkingDistanceCalculator,
+  washingtonSalesTaxCalculator,
+  waterBottleRefillCalculator,
+  waterIntakeFitnessCalculator,
+  wateringScheduleCalculator,
+  wattHoursToJoules,
+  weedKillerMixCalculator,
+  wilks2Calculator,
+  winePairingCalculator,
+  wisconsinSalesTaxCalculator,
+  wristCircumferenceCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
