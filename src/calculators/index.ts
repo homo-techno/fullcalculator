@@ -2089,6 +2089,175 @@ import { travelPointsValue } from "./travel-points-value";
 import { travelTipGuide } from "./travel-tip-guide";
 import { travelVaccineCost } from "./travel-vaccine-cost";
 import { vacationDaysNeeded } from "./vacation-days-needed";
+import { zeroToSixtyCalculator } from "./0-60-calculator";
+import { threeDPrintingCostCalculator } from "./3d-printing-cost";
+import { wendler531Calculator } from "./531-calculator";
+import { fiveKPaceCalculator } from "./5k-pace";
+import { addTimeCalc } from "./add-time-calc";
+import { airbnbProfitCalculator } from "./airbnb-profit-calc";
+import { alcoholUnitsCalculator } from "./alcohol-units";
+import { anesthesiaRiskCalculator } from "./anesthesia-risk";
+import { apyCalculator } from "./apy-calculator";
+import { aquariumCo2Calculator } from "./aquarium-co2";
+import { archerySightTapeCalculator } from "./archery-sight-tape";
+import { arvCalculator } from "./arv-calculator";
+import { ascvdRiskCalculator } from "./ascvd-risk";
+import { babyAgeCalc } from "./baby-age-calc";
+import { babyPercentileCalculator } from "./baby-percentile";
+import { bailCalculator } from "./bail-calculator";
+import { bbqSmokingTimeCalculator } from "./bbq-smoking-time";
+import { beerBrewingCalculator } from "./beer-brewing-calc";
+import { benadrylDosageCalculator } from "./benadryl-dosage";
+import { benchPressCalcCalculator } from "./bench-press-calc";
+import { bloodTypeInheritanceCalculator } from "./blood-type-inheritance";
+import { boardBattenCalculator } from "./board-batten-calc";
+import { boardGamePlayerCalculator } from "./board-game-player";
+import { breastCancerRiskCalculator } from "./breast-cancer-risk";
+import { brineCalculator } from "./brine-calculator";
+import { bunCreatinineRatioCalculator } from "./bun-creatinine-ratio";
+import { cakePricingCalculator } from "./cake-pricing-calc";
+import { candleWaxCalcCalculator } from "./candle-wax-calc";
+import { carAffordabilityMonthlyCalculator } from "./car-affordability-monthly";
+import { carInsuranceEstimateCalculator } from "./car-insurance-estimate";
+import { carLeaseCalculator } from "./car-lease-calc";
+import { carbCalculator } from "./carb-calculator";
+import { cardiacOutputCalculator } from "./cardiac-output";
+import { cateringServingCalculator } from "./catering-serving-calc";
+import { cdCalculator } from "./cd-calculator";
+import { childHeightPercentileCalculator } from "./child-height-percentile";
+import { chocolateToxicityCalculator } from "./chocolate-toxicity";
+import { chronologicalAgeCalc } from "./chronological-age-calc";
+import { clothingSizeConvertCalculator } from "./clothing-size-convert";
+import { coldBrewRatioCalculator } from "./cold-brew-ratio";
+import { combinationCalc } from "./combination-calc";
+import { concreteColumnCalculator } from "./concrete-column";
+import { concreteSlabCalculator } from "./concrete-slab";
+import { concreteStairsCalculator } from "./concrete-stairs";
+import { consultingRateCalc } from "./consulting-rate-calc";
+import { continuousCompoundCalculator } from "./continuous-compound";
+import { cookingAltitudeAdjustCalculator } from "./cooking-altitude-adjust";
+import { countdownCalculator } from "./countdown-calculator";
+import { cupsToGramsCalculator } from "./cups-to-grams";
+import { cyclingCaloriesCalculator } from "./cycling-calories";
+import { deadliftCalcCalculator } from "./deadlift-calc";
+import { debtAvalancheCalculator } from "./debt-avalanche";
+import { decimalToFractionConverter } from "./decimal-to-fraction";
+import { discGolfRatingCalculator } from "./disc-golf-rating";
+import { dividendYieldCalc } from "./dividend-yield-calc";
+import { dndEncounterCalculator } from "./dnd-encounter";
+import { dogFoodCalculator } from "./dog-food-calculator";
+import { droneFlightTimeCalculator } from "./drone-flight-time";
+import { drugHalfLifeCalculator } from "./drug-half-life";
+import { effectiveInterestRateCalculator } from "./effective-interest-rate";
+import { embroideryThreadCalculator } from "./embroidery-thread";
+import { engineHpCalculator } from "./engine-hp-calc";
+import { epoxyResinCalcCalculator } from "./epoxy-resin-calc";
+import { epworthSleepinessCalculator } from "./epworth-sleepiness";
+import { factorCalculator } from "./factor-calculator";
+import { fatBurningZoneCalculator } from "./fat-burning-zone";
+import { fatIntakeCalcCalculator } from "./fat-intake-calc";
+import { fiberCalculator } from "./fiber-calculator";
+import { filamentUsageCalculator } from "./filament-usage";
+import { fractionToDecimalConverter } from "./fraction-to-decimal";
+import { freshToDryHerbCalculator } from "./fresh-to-dry-herb";
+import { fuelCostTripCalculator } from "./fuel-cost-trip";
+import { garlicConverterCalculator } from "./garlic-converter";
+import { gcfCalculator } from "./gcf-calculator";
+import { gramsToCupsCalculator } from "./grams-to-cups";
+import { gramsToTablespoonsCalculator } from "./grams-to-tablespoons";
+import { grossRentMultiplierCalculator } from "./gross-rent-multiplier";
+import { guitarStringTensionCalculator } from "./guitar-string-tension";
+import { halfMarathonPaceCalculator } from "./half-marathon-pace";
+import { hamCookingTimeCalculator } from "./ham-cooking-time";
+import { heartRateZoneCalculator } from "./heart-rate-zone";
+import { hexToDecimalConverter } from "./hex-to-decimal";
+import { hikingCaloriesCalculator } from "./hiking-calories";
+import { homaIrCalculator } from "./homa-ir-calc";
+import { iifymCalculator } from "./iifym-calculator";
+import { immigrationWaitTimeCalculator } from "./immigration-wait-time";
+import { jumpRopeCaloriesCalculator } from "./jump-rope-calories";
+import { ketoMacroCalculator } from "./keto-macro";
+import { knittingYarnCalcCalculator } from "./knitting-yarn-calc";
+import { ladderAngleCalculator } from "./ladder-angle-calc";
+import { lcmCalculator } from "./lcm-calculator";
+import { leatherWorkingCalculator } from "./leather-working";
+import { legalFeeCalc } from "./legal-fee-calc";
+import { lifeExpectancyCalculator } from "./life-expectancy-calc";
+import { logCalculator } from "./log-calculator";
+import { longDivisionCalc } from "./long-division-calc";
+import { lotteryTaxCalculator } from "./lottery-tax-calc";
+import { lumberWeightCalculator } from "./lumber-weight-calc";
+import { maintenanceCaloriesCalculator } from "./maintenance-calories";
+import { mapBloodPressureCalculator } from "./map-blood-pressure";
+import { marathonPaceCalculator } from "./marathon-pace";
+import { maxHeartRateCalculator } from "./max-heart-rate";
+import { melatoninDosageCalculator } from "./melatonin-dosage";
+import { metalWeightCalculator } from "./metal-weight-calc";
+import { mixedNumberCalc } from "./mixed-number-calc";
+import { mlToGramsCalculator } from "./ml-to-grams";
+import { modelScaleCalculator } from "./model-scale";
+import { moneyMarketCalc } from "./money-market-calc";
+import { moonPhaseCalc } from "./moon-phase-calc";
+import { octalConverter } from "./octal-converter";
+import { overtimePayCalc } from "./overtime-pay-calc";
+import { ozempicDosageCalculator } from "./ozempic-dosage";
+import { packYearCalculator } from "./pack-year-calc";
+import { paintMixingRatioCalculator } from "./paint-mixing-ratio";
+import { pancakeBatchCalculator } from "./pancake-batch";
+import { partyDrinkCalculator } from "./party-drink-calc";
+import { paverSandCalculator } from "./paver-sand-calc";
+import { pediatricDosageCalculator } from "./pediatric-dosage";
+import { permutationCalc } from "./permutation-calc";
+import { personalInjurySettlementCalculator } from "./personal-injury-settlement";
+import { pondCalculator } from "./pond-calc";
+import { potteryGlazeCalculator } from "./pottery-glaze";
+import { pregnancyWeightGainCalculator } from "./pregnancy-weight-gain";
+import { puppyWeightCalculator } from "./puppy-weight-calc";
+import { qtcCalculator } from "./qtc-calculator";
+import { quiltingFabricCalculator } from "./quilting-fabric";
+import { rcCarGearingCalculator } from "./rc-car-gearing";
+import { romanNumeralCalc } from "./roman-numeral-calc";
+import { rsuTaxCalc } from "./rsu-tax-calc";
+import { salaryComparisonCalculator } from "./salary-comparison";
+import { salesForecastCalculator } from "./sales-forecast";
+import { scientificNotationCalc } from "./scientific-notation-calc";
+import { selfRisingFlourCalculator } from "./self-rising-flour";
+import { sellerNetProceedsCalculator } from "./seller-net-proceeds";
+import { sentencingGuidelinesCalculator } from "./sentencing-guidelines";
+import { shiplapCalculator } from "./shiplap-calc";
+import { shoeSizeConverterCalculator } from "./shoe-size-converter";
+import { sideHustleTaxCalculator } from "./side-hustle-tax";
+import { sigFigsCalc } from "./sig-figs-calc";
+import { smokingRecoveryCalculator } from "./smoking-recovery";
+import { soapMakingCalcCalculator } from "./soap-making-calc";
+import { songRoyaltyCalcCalculator } from "./song-royalty-calc";
+import { sourdoughCalculator } from "./sourdough-calc";
+import { sousVideCalculator } from "./sous-vide-calc";
+import { speakerWattageCalculator } from "./speaker-wattage";
+import { spiralStaircaseCalculator } from "./spiral-staircase";
+import { squatCalcCalculator } from "./squat-calc";
+import { ssdiBenefitCalculator } from "./ssdi-benefit";
+import { stairCarpetCalculator } from "./stair-carpet-calc";
+import { startupCostCalc } from "./startup-cost-calc";
+import { statuteLimitationsCalculator } from "./statute-limitations";
+import { steakCookingTimeCalculator } from "./steak-cooking-time";
+import { steelWeightCalculator } from "./steel-weight-calc";
+import { stepsToMilesCalculator } from "./steps-to-miles";
+import { stockAverageCalc } from "./stock-average-calc";
+import { strideLengthCalcCalculator } from "./stride-length-calc";
+import { subtractTimeCalc } from "./subtract-time-calc";
+import { swimmingCalorieCalculator } from "./swimming-calorie";
+import { thanksgivingCalculator } from "./thanksgiving-calc";
+import { thinsetCalculator } from "./thinset-calc";
+import { timeToDecimalConverter } from "./time-to-decimal";
+import { tylenolDosageCalculator } from "./tylenol-dosage";
+import { uncookedToCookedCalculator } from "./uncooked-to-cooked";
+import { vinylRecordValueCalculator } from "./vinyl-record-value";
+import { wainscotingCalculator } from "./wainscoting-calc";
+import { weddingAlcoholCalculator } from "./wedding-alcohol-calc";
+import { weightGainCalcCalculator } from "./weight-gain-calc";
+import { woodturningBlankCalculator } from "./woodturning-blank";
+import { wrongfulTerminationCalculator } from "./wrongful-termination";
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
   bmiCalculator,
@@ -4177,6 +4346,175 @@ export const calculators: CalculatorDefinition[] = [
   travelTipGuide,
   travelVaccineCost,
   vacationDaysNeeded,
+  zeroToSixtyCalculator,
+  threeDPrintingCostCalculator,
+  wendler531Calculator,
+  fiveKPaceCalculator,
+  addTimeCalc,
+  airbnbProfitCalculator,
+  alcoholUnitsCalculator,
+  anesthesiaRiskCalculator,
+  apyCalculator,
+  aquariumCo2Calculator,
+  archerySightTapeCalculator,
+  arvCalculator,
+  ascvdRiskCalculator,
+  babyAgeCalc,
+  babyPercentileCalculator,
+  bailCalculator,
+  bbqSmokingTimeCalculator,
+  beerBrewingCalculator,
+  benadrylDosageCalculator,
+  benchPressCalcCalculator,
+  bloodTypeInheritanceCalculator,
+  boardBattenCalculator,
+  boardGamePlayerCalculator,
+  breastCancerRiskCalculator,
+  brineCalculator,
+  bunCreatinineRatioCalculator,
+  cakePricingCalculator,
+  candleWaxCalcCalculator,
+  carAffordabilityMonthlyCalculator,
+  carInsuranceEstimateCalculator,
+  carLeaseCalculator,
+  carbCalculator,
+  cardiacOutputCalculator,
+  cateringServingCalculator,
+  cdCalculator,
+  childHeightPercentileCalculator,
+  chocolateToxicityCalculator,
+  chronologicalAgeCalc,
+  clothingSizeConvertCalculator,
+  coldBrewRatioCalculator,
+  combinationCalc,
+  concreteColumnCalculator,
+  concreteSlabCalculator,
+  concreteStairsCalculator,
+  consultingRateCalc,
+  continuousCompoundCalculator,
+  cookingAltitudeAdjustCalculator,
+  countdownCalculator,
+  cupsToGramsCalculator,
+  cyclingCaloriesCalculator,
+  deadliftCalcCalculator,
+  debtAvalancheCalculator,
+  decimalToFractionConverter,
+  discGolfRatingCalculator,
+  dividendYieldCalc,
+  dndEncounterCalculator,
+  dogFoodCalculator,
+  droneFlightTimeCalculator,
+  drugHalfLifeCalculator,
+  effectiveInterestRateCalculator,
+  embroideryThreadCalculator,
+  engineHpCalculator,
+  epoxyResinCalcCalculator,
+  epworthSleepinessCalculator,
+  factorCalculator,
+  fatBurningZoneCalculator,
+  fatIntakeCalcCalculator,
+  fiberCalculator,
+  filamentUsageCalculator,
+  fractionToDecimalConverter,
+  freshToDryHerbCalculator,
+  fuelCostTripCalculator,
+  garlicConverterCalculator,
+  gcfCalculator,
+  gramsToCupsCalculator,
+  gramsToTablespoonsCalculator,
+  grossRentMultiplierCalculator,
+  guitarStringTensionCalculator,
+  halfMarathonPaceCalculator,
+  hamCookingTimeCalculator,
+  heartRateZoneCalculator,
+  hexToDecimalConverter,
+  hikingCaloriesCalculator,
+  homaIrCalculator,
+  iifymCalculator,
+  immigrationWaitTimeCalculator,
+  jumpRopeCaloriesCalculator,
+  ketoMacroCalculator,
+  knittingYarnCalcCalculator,
+  ladderAngleCalculator,
+  lcmCalculator,
+  leatherWorkingCalculator,
+  legalFeeCalc,
+  lifeExpectancyCalculator,
+  logCalculator,
+  longDivisionCalc,
+  lotteryTaxCalculator,
+  lumberWeightCalculator,
+  maintenanceCaloriesCalculator,
+  mapBloodPressureCalculator,
+  marathonPaceCalculator,
+  maxHeartRateCalculator,
+  melatoninDosageCalculator,
+  metalWeightCalculator,
+  mixedNumberCalc,
+  mlToGramsCalculator,
+  modelScaleCalculator,
+  moneyMarketCalc,
+  moonPhaseCalc,
+  octalConverter,
+  overtimePayCalc,
+  ozempicDosageCalculator,
+  packYearCalculator,
+  paintMixingRatioCalculator,
+  pancakeBatchCalculator,
+  partyDrinkCalculator,
+  paverSandCalculator,
+  pediatricDosageCalculator,
+  permutationCalc,
+  personalInjurySettlementCalculator,
+  pondCalculator,
+  potteryGlazeCalculator,
+  pregnancyWeightGainCalculator,
+  puppyWeightCalculator,
+  qtcCalculator,
+  quiltingFabricCalculator,
+  rcCarGearingCalculator,
+  romanNumeralCalc,
+  rsuTaxCalc,
+  salaryComparisonCalculator,
+  salesForecastCalculator,
+  scientificNotationCalc,
+  selfRisingFlourCalculator,
+  sellerNetProceedsCalculator,
+  sentencingGuidelinesCalculator,
+  shiplapCalculator,
+  shoeSizeConverterCalculator,
+  sideHustleTaxCalculator,
+  sigFigsCalc,
+  smokingRecoveryCalculator,
+  soapMakingCalcCalculator,
+  songRoyaltyCalcCalculator,
+  sourdoughCalculator,
+  sousVideCalculator,
+  speakerWattageCalculator,
+  spiralStaircaseCalculator,
+  squatCalcCalculator,
+  ssdiBenefitCalculator,
+  stairCarpetCalculator,
+  startupCostCalc,
+  statuteLimitationsCalculator,
+  steakCookingTimeCalculator,
+  steelWeightCalculator,
+  stepsToMilesCalculator,
+  stockAverageCalc,
+  strideLengthCalcCalculator,
+  subtractTimeCalc,
+  swimmingCalorieCalculator,
+  thanksgivingCalculator,
+  thinsetCalculator,
+  timeToDecimalConverter,
+  tylenolDosageCalculator,
+  uncookedToCookedCalculator,
+  vinylRecordValueCalculator,
+  wainscotingCalculator,
+  weddingAlcoholCalculator,
+  weightGainCalcCalculator,
+  woodturningBlankCalculator,
+  wrongfulTerminationCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
