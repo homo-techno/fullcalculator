@@ -1,0 +1,34 @@
+import type { CalculatorDefinition } from "./types";
+import { formatNumber } from "@/lib/utils";
+
+export const youngModulusCalculator: CalculatorDefinition = {
+  slug: "young-modulus",
+  title: "Young Modulus Calculator",
+  description: "Free young modulus calculator. Get accurate results instantly.",
+  category: "Science",
+  categorySlug: "science",
+  icon: "A",
+  keywords: ["young modulus calculator"],
+  variants: [{
+    id: "standard",
+    name: "Young Modulus",
+    description: "",
+    fields: [
+      { name: "stress", label: "Stress (Pa)", type: "number", min: 0 },
+      { name: "strain", label: "Strain", type: "number", min: 0.001 },
+    ],
+    calculate: (inputs) => {
+      const v = Object.values(inputs).filter(x => typeof x === 'number');
+      if (v.some(x => x === undefined || x === null)) return null;
+      if (v.length < 2) return null;
+      const r = (v[0] * v[1]) / (v.length > 2 ? v[2] : 1);
+      return { primary: { label: "E (Pa)", value: formatNumber(r) }, details: v.map((x,i) => ({ label: "Value "+(i+1), value: String(formatNumber(x)) })) };
+    },
+  }],
+  relatedSlugs: ["percentage-calculator"],
+  faq: [
+    { question: "How to calculate young modulus?", answer: "Enter your values and get instant results." },
+    { question: "Why use this calculator?", answer: "Free, accurate, and easy to use online tool." },
+  ],
+  formula: "E = σ / ε",
+};

@@ -3969,6 +3969,247 @@ import { woodworkingJointCalculator } from "./woodworking-joint";
 import { wyomingPaycheckCalculator } from "./wyoming-paycheck";
 import { youtubeRevenueCalculator } from "./youtube-revenue";
 
+
+import { curb65ScoreCalculator } from "./curb-65-score";
+import { nihssScoreCalculator } from "./nihss-score";
+import { mewsCalculator } from "./mews-calculator";
+import { rsbiCalculator } from "./rsbi-calculator";
+import { heartScoreCalculator } from "./heart-score";
+import { graceScoreCalculator } from "./grace-score";
+import { hasBledScoreCalculator } from "./has-bled-score";
+import { paduaScoreCalculator } from "./padua-score";
+import { percScoreCalculator } from "./perc-score";
+import { revisedGenevaCalculator } from "./revised-geneva";
+import { alvaradoScoreCalculator } from "./alvarado-score";
+import { epdsPostnatalCalculator } from "./epds-postnatal";
+import { bodeIndexCalculator } from "./bode-index";
+import { gfrCalculator } from "./gfr-calculator";
+import { anionGapCalcCalculator } from "./anion-gap-calc";
+import { dripRateCalcCalculator } from "./drip-rate-calc";
+import { endotrachealTubeCalcCalculator } from "./endotracheal-tube-calc";
+import { tidalVolumeCalcCalculator } from "./tidal-volume-calc";
+import { aaGradientCalcCalculator } from "./aa-gradient-calc";
+import { pfRatioCalculator } from "./pf-ratio";
+import { inrCalculator } from "./inr-calculator";
+import { hematocritCalcCalculator } from "./hematocrit-calc";
+import { fundalHeightCalcCalculator } from "./fundal-height-calc";
+import { hcgLevelsCalcCalculator } from "./hcg-levels-calc";
+import { nuchalTranslucencyCalculator } from "./nuchal-translucency";
+import { steroidConversionCalculator } from "./steroid-conversion";
+import { warfarinDoseCalcCalculator } from "./warfarin-dose-calc";
+import { insulinDoseCalcCalculator } from "./insulin-dose-calc";
+import { drugHalfLifeCalcCalculator } from "./drug-half-life-calc";
+import { cardiacIndexCalcCalculator } from "./cardiac-index-calc";
+import { strokeVolumeCalcCalculator } from "./stroke-volume-calc";
+import { cerebralPerfusionCalculator } from "./cerebral-perfusion";
+import { pvrCalculator } from "./pvr-calculator";
+import { sortinoRatioCalculator } from "./sortino-ratio";
+import { jensenAlphaCalculator } from "./jensen-alpha";
+import { treynorRatioCalculator } from "./treynor-ratio";
+import { bondConvexityCalculator } from "./bond-convexity";
+import { epsGrowthCalcCalculator } from "./eps-growth-calc";
+import { futuresContractCalculator } from "./futures-contract";
+import { optionsSpreadCalculator } from "./options-spread";
+import { yieldToCallCalculator } from "./yield-to-call";
+import { altmanZScoreCalculator } from "./altman-z-score";
+import { bondPriceCalcCalculator } from "./bond-price-calc";
+import { bondYtmCalcCalculator } from "./bond-ytm-calc";
+import { dupontAnalysisCalculator } from "./dupont-analysis";
+import { pegRatioCalcCalculator } from "./peg-ratio-calc";
+import { forwardRateCalcCalculator } from "./forward-rate-calc";
+import { hedgeRatioCalcCalculator } from "./hedge-ratio-calc";
+import { betaStockCalcCalculator } from "./beta-stock-calc";
+import { costOfEquityCalculator } from "./cost-of-equity";
+import { costOfCapitalCalculator } from "./cost-of-capital";
+import { enterpriseValueCalcCalculator } from "./enterprise-value-calc";
+import { mirrCalculator } from "./mirr-calculator";
+import { dcfCalculator } from "./dcf-calculator";
+import { fireCalculator } from "./fire-calculator";
+import { perpetuityCalcCalculator } from "./perpetuity-calc";
+import { moneyFactorCalcCalculator } from "./money-factor-calc";
+import { opportunityCostCalcCalculator } from "./opportunity-cost-calc";
+import { timeValueMoneyCalculator } from "./time-value-money";
+import { varValueAtRiskCalculator } from "./var-value-at-risk";
+import { grahamNumberCalculator } from "./graham-number";
+import { intrinsicValueCalcCalculator } from "./intrinsic-value-calc";
+import { burnRateCalcCalculator } from "./burn-rate-calc";
+import { ltvSaasCalcCalculator } from "./ltv-saas-calc";
+import { debtToEquityCalcCalculator } from "./debt-to-equity-calc";
+import { quickRatioCalcCalculator } from "./quick-ratio-calc";
+import { economicValueAddedCalculator } from "./economic-value-added";
+import { dividendGrowthModelCalculator } from "./dividend-growth-model";
+import { ebitdaMultipleCalculator } from "./ebitda-multiple";
+import { retentionRatioCalculator } from "./retention-ratio";
+import { operatingLeverageCalculator } from "./operating-leverage";
+import { financialLeverageCalculator } from "./financial-leverage";
+import { evToEbitdaCalculator } from "./ev-to-ebitda";
+import { priceToCashFlowCalculator } from "./price-to-cash-flow";
+import { residualIncomeCalculator } from "./residual-income";
+import { sustainableGrowthRateCalculator } from "./sustainable-growth-rate";
+import { netOperatingIncomeCalculator } from "./net-operating-income";
+import { capRateNoiCalculator } from "./cap-rate-noi";
+import { projectileMotionCalculator } from "./projectile-motion";
+import { freeFallCalcCalculator } from "./free-fall-calc";
+import { terminalVelocityCalcCalculator } from "./terminal-velocity-calc";
+import { rollingResistanceCalcCalculator } from "./rolling-resistance-calc";
+import { escapeVelocityCalcCalculator } from "./escape-velocity-calc";
+import { orbitalVelocityCalcCalculator } from "./orbital-velocity-calc";
+import { rocketEquationCalculator } from "./rocket-equation";
+import { deltaVCalcCalculator } from "./delta-v-calc";
+import { timeDilationCalculator } from "./time-dilation";
+import { lengthContractionCalculator } from "./length-contraction";
+import { eMc2CalcCalculator } from "./e-mc2-calc";
+import { lorentzForceCalculator } from "./lorentz-force";
+import { gaussLawCalcCalculator } from "./gauss-law-calc";
+import { faradayLawCalcCalculator } from "./faraday-law-calc";
+import { rlcCircuitCalculator } from "./rlc-circuit";
+import { n555TimerCalculator } from "./n555-timer";
+import { mosfetCalcCalculator } from "./mosfet-calc";
+import { transistorBiasingCalculator } from "./transistor-biasing";
+import { wireResistanceCalcCalculator } from "./wire-resistance-calc";
+import { darcyWeisbachCalculator } from "./darcy-weisbach";
+import { hydraulicPressCalculator } from "./hydraulic-press";
+import { archimedesPrincipleCalculator } from "./archimedes-principle";
+import { dragEquationCalculator } from "./drag-equation";
+import { liftCoefficientCalculator } from "./lift-coefficient";
+import { braggLawCalculator } from "./bragg-law";
+import { snellLawCalcCalculator } from "./snell-law-calc";
+import { lensMakerCalcCalculator } from "./lens-maker-calc";
+import { thinLensCalcCalculator } from "./thin-lens-calc";
+import { speedOfSoundCalcCalculator } from "./speed-of-sound-calc";
+import { helmholtzResonatorCalculator } from "./helmholtz-resonator";
+import { reverberationTimeCalcCalculator } from "./reverberation-time-calc";
+import { youngModulusCalculator } from "./young-modulus";
+import { poissonRatioCalculator } from "./poisson-ratio";
+import { shearStressCalcCalculator } from "./shear-stress-calc";
+import { vonMisesStressCalculator } from "./von-mises-stress";
+import { mohrCircleCalculator } from "./mohr-circle";
+import { stressConcentrationCalculator } from "./stress-concentration";
+import { fulcrumCalcCalculator } from "./fulcrum-calc";
+import { mechanicalAdvantageCalculator } from "./mechanical-advantage";
+import { beltLengthCalcCalculator } from "./belt-length-calc";
+import { torsionSpringCalcCalculator } from "./torsion-spring-calc";
+import { alabamaIncomeTaxCalculator } from "./alabama-income-tax";
+import { alaskaIncomeTaxCalculator } from "./alaska-income-tax";
+import { arizonaIncomeTaxCalculator } from "./arizona-income-tax";
+import { arkansasIncomeTaxCalculator } from "./arkansas-income-tax";
+import { californiaIncomeTaxCalculator } from "./california-income-tax";
+import { coloradoIncomeTaxCalculator } from "./colorado-income-tax";
+import { connecticutIncomeTaxCalculator } from "./connecticut-income-tax";
+import { delawareIncomeTaxCalculator } from "./delaware-income-tax";
+import { floridaIncomeTaxCalculator } from "./florida-income-tax";
+import { georgiaIncomeTaxCalculator } from "./georgia-income-tax";
+import { hawaiiIncomeTaxCalculator } from "./hawaii-income-tax";
+import { idahoIncomeTaxCalculator } from "./idaho-income-tax";
+import { illinoisIncomeTaxCalculator } from "./illinois-income-tax";
+import { indianaIncomeTaxCalculator } from "./indiana-income-tax";
+import { iowaIncomeTaxCalculator } from "./iowa-income-tax";
+import { kansasIncomeTaxCalculator } from "./kansas-income-tax";
+import { kentuckyIncomeTaxCalculator } from "./kentucky-income-tax";
+import { louisianaIncomeTaxCalculator } from "./louisiana-income-tax";
+import { maineIncomeTaxCalculator } from "./maine-income-tax";
+import { marylandIncomeTaxCalculator } from "./maryland-income-tax";
+import { massachusettsIncomeTaxCalculator } from "./massachusetts-income-tax";
+import { michiganIncomeTaxCalculator } from "./michigan-income-tax";
+import { minnesotaIncomeTaxCalculator } from "./minnesota-income-tax";
+import { mississippiIncomeTaxCalculator } from "./mississippi-income-tax";
+import { missouriIncomeTaxCalculator } from "./missouri-income-tax";
+import { montanaIncomeTaxCalculator } from "./montana-income-tax";
+import { nebraskaIncomeTaxCalculator } from "./nebraska-income-tax";
+import { nevadaIncomeTaxCalculator } from "./nevada-income-tax";
+import { newHampshireIncomeTaxCalculator } from "./new-hampshire-income-tax";
+import { newJerseyIncomeTaxCalculator } from "./new-jersey-income-tax";
+import { newMexicoIncomeTaxCalculator } from "./new-mexico-income-tax";
+import { newYorkIncomeTaxCalculator } from "./new-york-income-tax";
+import { northCarolinaIncomeTaxCalculator } from "./north-carolina-income-tax";
+import { northDakotaIncomeTaxCalculator } from "./north-dakota-income-tax";
+import { ohioIncomeTaxCalculator } from "./ohio-income-tax";
+import { oklahomaIncomeTaxCalculator } from "./oklahoma-income-tax";
+import { oregonIncomeTaxCalculator } from "./oregon-income-tax";
+import { pennsylvaniaIncomeTaxCalculator } from "./pennsylvania-income-tax";
+import { rhodeIslandIncomeTaxCalculator } from "./rhode-island-income-tax";
+import { southCarolinaIncomeTaxCalculator } from "./south-carolina-income-tax";
+import { southDakotaIncomeTaxCalculator } from "./south-dakota-income-tax";
+import { tennesseeIncomeTaxCalculator } from "./tennessee-income-tax";
+import { texasIncomeTaxCalculator } from "./texas-income-tax";
+import { utahIncomeTaxCalculator } from "./utah-income-tax";
+import { vermontIncomeTaxCalculator } from "./vermont-income-tax";
+import { virginiaIncomeTaxCalculator } from "./virginia-income-tax";
+import { washingtonIncomeTaxCalculator } from "./washington-income-tax";
+import { westVirginiaIncomeTaxCalculator } from "./west-virginia-income-tax";
+import { wisconsinIncomeTaxCalculator } from "./wisconsin-income-tax";
+import { wyomingIncomeTaxCalculator } from "./wyoming-income-tax";
+import { molarityCalcCalculator } from "./molarity-calc";
+import { dilutionEquationCalculator } from "./dilution-equation";
+import { idealGasLawCalculator } from "./ideal-gas-law";
+import { combinedGasLawCalculator } from "./combined-gas-law";
+import { avogadroLawCalculator } from "./avogadro-law";
+import { bufferCapacityCalculator } from "./buffer-capacity";
+import { electrochemistryCellCalculator } from "./electrochemistry-cell";
+import { enthalpyReactionCalculator } from "./enthalpy-reaction";
+import { massToMolesCalculator } from "./mass-to-moles";
+import { colligativeBoilingCalculator } from "./colligative-boiling";
+import { colligativeFreezingCalculator } from "./colligative-freezing";
+import { heatOfFusionCalculator } from "./heat-of-fusion";
+import { heatOfVaporizationCalculator } from "./heat-of-vaporization";
+import { henrysLawCalculator } from "./henrys-law";
+import { footingSizeCalcCalculator } from "./footing-size-calc";
+import { rebarSpacingCalculator } from "./rebar-spacing";
+import { iBeamCalcCalculator } from "./i-beam-calc";
+import { pipeSizeCalcCalculator } from "./pipe-size-calc";
+import { rampSlopeCalcCalculator } from "./ramp-slope-calc";
+import { staircaseDesignCalculator } from "./staircase-design";
+import { treadRiserCalcCalculator } from "./tread-riser-calc";
+import { concreteVolumeCalculator } from "./concrete-volume";
+import { trussLoadCalculator } from "./truss-load";
+import { mortarMixCalculator } from "./mortar-mix";
+import { plywoodSheetsCalculator } from "./plywood-sheets";
+import { shingleCalcCalculator } from "./shingle-calc";
+import { gutterSizeCalcCalculator } from "./gutter-size-calc";
+import { hvacLoadCalculator } from "./hvac-load";
+import { ductSizeCalcCalculator } from "./duct-size-calc";
+import { conduitFillCalcCalculator } from "./conduit-fill-calc";
+import { joistSpanCalcCalculator } from "./joist-span-calc";
+import { postSpacingCalcCalculator } from "./post-spacing-calc";
+import { sandGravelCalcCalculator } from "./sand-gravel-calc";
+import { wallpaperCalcCalculator } from "./wallpaper-calc";
+import { crownMoldingCalcCalculator } from "./crown-molding-calc";
+import { baseboardCalcCalculator } from "./baseboard-calc";
+import { drywallCalcCalculator } from "./drywall-calc";
+import { chiSquareTestCalculator } from "./chi-square-test";
+import { tTestCalcCalculator } from "./t-test-calc";
+import { fTestCalcCalculator } from "./f-test-calc";
+import { anovaTestCalculator } from "./anova-test";
+import { regressionLineCalculator } from "./regression-line";
+import { correlationCoeffCalculator } from "./correlation-coeff";
+import { covarianceCalcCalculator } from "./covariance-calc";
+import { quartileCalcCalculator } from "./quartile-calc";
+import { varianceCalcCalculator } from "./variance-calc";
+import { typeIErrorCalculator } from "./type-i-error";
+import { typeIiErrorCalculator } from "./type-ii-error";
+import { positivePredictiveCalculator } from "./positive-predictive";
+import { sampleSizeMeanCalculator } from "./sample-size-mean";
+import { sipCalculator } from "./sip-calculator";
+import { homeEquityCalcCalculator } from "./home-equity-calc";
+import { helocPaymentCalculator } from "./heloc-payment";
+import { fhaLoanCalcCalculator } from "./fha-loan-calc";
+import { vaLoanCalcCalculator } from "./va-loan-calc";
+import { incomePercentileCalculator } from "./income-percentile";
+import { weddingBudgetCalcCalculator } from "./wedding-budget-calc";
+import { hourlyToSalaryCalcCalculator } from "./hourly-to-salary-calc";
+import { salaryToHourlyCalcCalculator } from "./salary-to-hourly-calc";
+import { payrollTaxCalcCalculator } from "./payroll-tax-calc";
+import { estateTaxCalcCalculator } from "./estate-tax-calc";
+import { giftTaxCalcCalculator } from "./gift-tax-calc";
+import { capitalGainsTaxCalculator } from "./capital-gains-tax";
+import { annuityPaymentCalculator } from "./annuity-payment";
+import { annuityPvCalculator } from "./annuity-pv";
+import { annuityFvCalculator } from "./annuity-fv";
+import { earlyRetirementCalculator } from "./early-retirement";
+import { netWorthCalcCalculator } from "./net-worth-calc";
+import { inflationAdjustedCalculator } from "./inflation-adjusted";
+import { purchasingPowerCalculator } from "./purchasing-power";
+
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
   bmiCalculator,
@@ -7749,6 +7990,246 @@ smartHomeCostCalculator,
   woodworkingJointCalculator,
   wyomingPaycheckCalculator,
   youtubeRevenueCalculator,
+
+curb65ScoreCalculator,
+  nihssScoreCalculator,
+  mewsCalculator,
+  rsbiCalculator,
+  heartScoreCalculator,
+  graceScoreCalculator,
+  hasBledScoreCalculator,
+  paduaScoreCalculator,
+  percScoreCalculator,
+  revisedGenevaCalculator,
+  alvaradoScoreCalculator,
+  epdsPostnatalCalculator,
+  bodeIndexCalculator,
+  gfrCalculator,
+  anionGapCalcCalculator,
+  dripRateCalcCalculator,
+  endotrachealTubeCalcCalculator,
+  tidalVolumeCalcCalculator,
+  aaGradientCalcCalculator,
+  pfRatioCalculator,
+  inrCalculator,
+  hematocritCalcCalculator,
+  fundalHeightCalcCalculator,
+  hcgLevelsCalcCalculator,
+  nuchalTranslucencyCalculator,
+  steroidConversionCalculator,
+  warfarinDoseCalcCalculator,
+  insulinDoseCalcCalculator,
+  drugHalfLifeCalcCalculator,
+  cardiacIndexCalcCalculator,
+  strokeVolumeCalcCalculator,
+  cerebralPerfusionCalculator,
+  pvrCalculator,
+  sortinoRatioCalculator,
+  jensenAlphaCalculator,
+  treynorRatioCalculator,
+  bondConvexityCalculator,
+  epsGrowthCalcCalculator,
+  futuresContractCalculator,
+  optionsSpreadCalculator,
+  yieldToCallCalculator,
+  altmanZScoreCalculator,
+  bondPriceCalcCalculator,
+  bondYtmCalcCalculator,
+  dupontAnalysisCalculator,
+  pegRatioCalcCalculator,
+  forwardRateCalcCalculator,
+  hedgeRatioCalcCalculator,
+  betaStockCalcCalculator,
+  costOfEquityCalculator,
+  costOfCapitalCalculator,
+  enterpriseValueCalcCalculator,
+  mirrCalculator,
+  dcfCalculator,
+  fireCalculator,
+  perpetuityCalcCalculator,
+  moneyFactorCalcCalculator,
+  opportunityCostCalcCalculator,
+  timeValueMoneyCalculator,
+  varValueAtRiskCalculator,
+  grahamNumberCalculator,
+  intrinsicValueCalcCalculator,
+  burnRateCalcCalculator,
+  ltvSaasCalcCalculator,
+  debtToEquityCalcCalculator,
+  quickRatioCalcCalculator,
+  economicValueAddedCalculator,
+  dividendGrowthModelCalculator,
+  ebitdaMultipleCalculator,
+  retentionRatioCalculator,
+  operatingLeverageCalculator,
+  financialLeverageCalculator,
+  evToEbitdaCalculator,
+  priceToCashFlowCalculator,
+  residualIncomeCalculator,
+  sustainableGrowthRateCalculator,
+  netOperatingIncomeCalculator,
+  capRateNoiCalculator,
+  projectileMotionCalculator,
+  freeFallCalcCalculator,
+  terminalVelocityCalcCalculator,
+  rollingResistanceCalcCalculator,
+  escapeVelocityCalcCalculator,
+  orbitalVelocityCalcCalculator,
+  rocketEquationCalculator,
+  deltaVCalcCalculator,
+  timeDilationCalculator,
+  lengthContractionCalculator,
+  eMc2CalcCalculator,
+  lorentzForceCalculator,
+  gaussLawCalcCalculator,
+  faradayLawCalcCalculator,
+  rlcCircuitCalculator,
+  n555TimerCalculator,
+  mosfetCalcCalculator,
+  transistorBiasingCalculator,
+  wireResistanceCalcCalculator,
+  darcyWeisbachCalculator,
+  hydraulicPressCalculator,
+  archimedesPrincipleCalculator,
+  dragEquationCalculator,
+  liftCoefficientCalculator,
+  braggLawCalculator,
+  snellLawCalcCalculator,
+  lensMakerCalcCalculator,
+  thinLensCalcCalculator,
+  speedOfSoundCalcCalculator,
+  helmholtzResonatorCalculator,
+  reverberationTimeCalcCalculator,
+  youngModulusCalculator,
+  poissonRatioCalculator,
+  shearStressCalcCalculator,
+  vonMisesStressCalculator,
+  mohrCircleCalculator,
+  stressConcentrationCalculator,
+  fulcrumCalcCalculator,
+  mechanicalAdvantageCalculator,
+  beltLengthCalcCalculator,
+  torsionSpringCalcCalculator,
+  alabamaIncomeTaxCalculator,
+  alaskaIncomeTaxCalculator,
+  arizonaIncomeTaxCalculator,
+  arkansasIncomeTaxCalculator,
+  californiaIncomeTaxCalculator,
+  coloradoIncomeTaxCalculator,
+  connecticutIncomeTaxCalculator,
+  delawareIncomeTaxCalculator,
+  floridaIncomeTaxCalculator,
+  georgiaIncomeTaxCalculator,
+  hawaiiIncomeTaxCalculator,
+  idahoIncomeTaxCalculator,
+  illinoisIncomeTaxCalculator,
+  indianaIncomeTaxCalculator,
+  iowaIncomeTaxCalculator,
+  kansasIncomeTaxCalculator,
+  kentuckyIncomeTaxCalculator,
+  louisianaIncomeTaxCalculator,
+  maineIncomeTaxCalculator,
+  marylandIncomeTaxCalculator,
+  massachusettsIncomeTaxCalculator,
+  michiganIncomeTaxCalculator,
+  minnesotaIncomeTaxCalculator,
+  mississippiIncomeTaxCalculator,
+  missouriIncomeTaxCalculator,
+  montanaIncomeTaxCalculator,
+  nebraskaIncomeTaxCalculator,
+  nevadaIncomeTaxCalculator,
+  newHampshireIncomeTaxCalculator,
+  newJerseyIncomeTaxCalculator,
+  newMexicoIncomeTaxCalculator,
+  newYorkIncomeTaxCalculator,
+  northCarolinaIncomeTaxCalculator,
+  northDakotaIncomeTaxCalculator,
+  ohioIncomeTaxCalculator,
+  oklahomaIncomeTaxCalculator,
+  oregonIncomeTaxCalculator,
+  pennsylvaniaIncomeTaxCalculator,
+  rhodeIslandIncomeTaxCalculator,
+  southCarolinaIncomeTaxCalculator,
+  southDakotaIncomeTaxCalculator,
+  tennesseeIncomeTaxCalculator,
+  texasIncomeTaxCalculator,
+  utahIncomeTaxCalculator,
+  vermontIncomeTaxCalculator,
+  virginiaIncomeTaxCalculator,
+  washingtonIncomeTaxCalculator,
+  westVirginiaIncomeTaxCalculator,
+  wisconsinIncomeTaxCalculator,
+  wyomingIncomeTaxCalculator,
+  molarityCalcCalculator,
+  dilutionEquationCalculator,
+  idealGasLawCalculator,
+  combinedGasLawCalculator,
+  avogadroLawCalculator,
+  bufferCapacityCalculator,
+  electrochemistryCellCalculator,
+  enthalpyReactionCalculator,
+  massToMolesCalculator,
+  colligativeBoilingCalculator,
+  colligativeFreezingCalculator,
+  heatOfFusionCalculator,
+  heatOfVaporizationCalculator,
+  henrysLawCalculator,
+  footingSizeCalcCalculator,
+  rebarSpacingCalculator,
+  iBeamCalcCalculator,
+  pipeSizeCalcCalculator,
+  rampSlopeCalcCalculator,
+  staircaseDesignCalculator,
+  treadRiserCalcCalculator,
+  concreteVolumeCalculator,
+  trussLoadCalculator,
+  mortarMixCalculator,
+  plywoodSheetsCalculator,
+  shingleCalcCalculator,
+  gutterSizeCalcCalculator,
+  hvacLoadCalculator,
+  ductSizeCalcCalculator,
+  conduitFillCalcCalculator,
+  joistSpanCalcCalculator,
+  postSpacingCalcCalculator,
+  sandGravelCalcCalculator,
+  wallpaperCalcCalculator,
+  crownMoldingCalcCalculator,
+  baseboardCalcCalculator,
+  drywallCalcCalculator,
+  chiSquareTestCalculator,
+  tTestCalcCalculator,
+  fTestCalcCalculator,
+  anovaTestCalculator,
+  regressionLineCalculator,
+  correlationCoeffCalculator,
+  covarianceCalcCalculator,
+  quartileCalcCalculator,
+  varianceCalcCalculator,
+  typeIErrorCalculator,
+  typeIiErrorCalculator,
+  positivePredictiveCalculator,
+  sampleSizeMeanCalculator,
+  sipCalculator,
+  homeEquityCalcCalculator,
+  helocPaymentCalculator,
+  fhaLoanCalcCalculator,
+  vaLoanCalcCalculator,
+  incomePercentileCalculator,
+  weddingBudgetCalcCalculator,
+  hourlyToSalaryCalcCalculator,
+  salaryToHourlyCalcCalculator,
+  payrollTaxCalcCalculator,
+  estateTaxCalcCalculator,
+  giftTaxCalcCalculator,
+  capitalGainsTaxCalculator,
+  annuityPaymentCalculator,
+  annuityPvCalculator,
+  annuityFvCalculator,
+  earlyRetirementCalculator,
+  netWorthCalcCalculator,
+  inflationAdjustedCalculator,
+  purchasingPowerCalculator,
 
 ];
 
