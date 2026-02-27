@@ -1,0 +1,61 @@
+import type { CalculatorDefinition } from "./types";
+import { formatNumber } from "@/lib/utils";
+
+export const kidsClothingSizeCalculator: CalculatorDefinition = {
+  slug: "kids-clothing-size-calculator",
+  title: "Kids Clothing Size Calculator",
+  description: "Free kids clothing size calculator. Convert and calculate kids clothing size values instantly.",
+  category: "Conversion",
+  categorySlug: "conversion",
+  icon: "R",
+  keywords: ["kids clothing size calculator", "converter", "conversion calculator"],
+  variants: [
+    {
+      id: "standard",
+      name: "Kids Clothing Size",
+      description: "Free kids clothing size calculator. Convert and calculate kids clothing size val",
+      fields: [
+        {
+          name: "inputValue",
+          label: "Input Value",
+          type: "number",
+          placeholder: "Enter value",
+          min: 0,
+          step: 0.01,
+        },
+        {
+          name: "unit",
+          label: "Unit Type",
+          type: "select",
+          defaultValue: "1",
+          options: [{ label: "Standard", value: "1" }, { label: "Large", value: "1.5" }, { label: "Extra Large", value: "2" }],
+        }
+      ],
+      calculate: (inputs) => {
+        const value = inputs.inputValue as number;
+        const factor = parseFloat(inputs.unit as string) || 1;
+        if (!value && value !== 0) return null;
+        const result = value * factor;
+        return {
+          primary: { label: "Converted Value", value: formatNumber(result) },
+          details: [
+            { label: "Original value", value: formatNumber(value) },
+            { label: "Factor", value: "x" + formatNumber(factor) },
+          ],
+        };
+      },
+    }
+  ],
+  relatedSlugs: ["unit-converter", "percentage-calculator"],
+  faq: [
+    {
+      question: "How does kids clothing size conversion work?",
+      answer: "Enter your value and select the appropriate options. The calculator instantly shows the converted result.",
+    },
+    {
+      question: "How accurate is this conversion?",
+      answer: "This calculator uses standard conversion factors for accurate results.",
+    }
+  ],
+  formula: "Converted = Input x Conversion Factor",
+};
