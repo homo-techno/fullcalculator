@@ -4329,6 +4329,99 @@ import { allowanceByAgeCalculator } from "./allowance-by-age";
 import { chorePayCalculator } from "./chore-pay";
 import { giftRegistryCalculator } from "./gift-registry";
 
+
+import { glasgowComaCalcCalculator } from "./glasgow-coma-calc";
+import { painScaleAssessmentCalculator } from "./pain-scale-assessment";
+import { fallRiskMorseCalculator } from "./fall-risk-morse";
+import { news2ScoreCalculator } from "./news2-score";
+import { urineOutputCalcCalculator } from "./urine-output-calc";
+import { tubeFeedingRateCalculator } from "./tube-feeding-rate";
+import { bmiPediatricCalculator } from "./bmi-pediatric";
+import { gestationalDiabetesRiskCalculator } from "./gestational-diabetes-risk";
+import { pediatricDoseWeightCalculator } from "./pediatric-dose-weight";
+import { woundMeasurementCalculator } from "./wound-measurement";
+import { bloodTransfusionVolCalculator } from "./blood-transfusion-vol";
+import { dosageByBsaCalculator } from "./dosage-by-bsa";
+import { correctedQtcCalculator } from "./corrected-qtc";
+import { bloodAlcoholCalcCalculator } from "./blood-alcohol-calc";
+import { waterIntakeCalcCalculator } from "./water-intake-calc";
+import { sleepCycleCalcCalculator } from "./sleep-cycle-calc";
+import { columnBucklingCalculator } from "./column-buckling";
+import { weldStrengthCalculator } from "./weld-strength";
+import { boltTorqueCalcCalculator } from "./bolt-torque-calc";
+import { bearingLifeCalculator } from "./bearing-life";
+import { heatExchangerCalculator } from "./heat-exchanger";
+import { pumpPowerCalculator } from "./pump-power";
+import { pipeFlowVelocityCalculator } from "./pipe-flow-velocity";
+import { orificeFlowCalculator } from "./orifice-flow";
+import { fanLawCalculator } from "./fan-law";
+import { compressorPowerCalculator } from "./compressor-power";
+import { thermalConductivityCalculator } from "./thermal-conductivity";
+import { radiationHeatCalculator } from "./radiation-heat";
+import { convectionHeatCalculator } from "./convection-heat";
+import { nusseltNumberCalculator } from "./nusselt-number";
+import { prandtlNumberCalculator } from "./prandtl-number";
+import { grashofNumberCalculator } from "./grashof-number";
+import { rayleighNumberCalculator } from "./rayleigh-number";
+import { weberNumberCalculator } from "./weber-number";
+import { strouhalNumberCalculator } from "./strouhal-number";
+import { eulerNumberFlowCalculator } from "./euler-number-flow";
+import { cavitationNumberCalculator } from "./cavitation-number";
+import { stressStrainCurveCalculator } from "./stress-strain-curve";
+import { fatigueLifeCalculator } from "./fatigue-life";
+import { bandwidthCalcCalculator } from "./bandwidth-calc";
+import { dataTransferTimeCalculator } from "./data-transfer-time";
+import { screenPpiCalculator } from "./screen-ppi";
+import { colorHexToRgbCalculator } from "./color-hex-to-rgb";
+import { subnetHostsCalculator } from "./subnet-hosts";
+import { raidCapacityCalculator } from "./raid-capacity";
+import { cloudComputeCostCalculator } from "./cloud-compute-cost";
+import { dnsPropagationTimeCalculator } from "./dns-propagation-time";
+import { passwordEntropyCalculator } from "./password-entropy";
+import { hashRateProfitCalculator } from "./hash-rate-profit";
+import { nftRoyaltyCalculator } from "./nft-royalty";
+import { saasMrrCalculator } from "./saas-mrr";
+import { saasArrCalculator } from "./saas-arr";
+import { churnRateCalcCalculator } from "./churn-rate-calc";
+import { cohortRetentionCalculator } from "./cohort-retention";
+import { emailRoiCalculator } from "./email-roi";
+import { cpmCalcCalculator } from "./cpm-calc";
+import { ellipsePerimeterCalculator } from "./ellipse-perimeter";
+import { ellipsoidVolumeCalculator } from "./ellipsoid-volume";
+import { torusSurfaceAreaCalculator } from "./torus-surface-area";
+import { paraboloidVolumeCalculator } from "./paraboloid-volume";
+import { regularPolygonAreaCalculator } from "./regular-polygon-area";
+import { annulusAreaCalculator } from "./annulus-area";
+import { arcLengthCalcCalculator } from "./arc-length-calc";
+import { heronsFormulaCalculator } from "./herons-formula";
+import { fibonacciCalcCalculator } from "./fibonacci-calc";
+import { gradiansToDegreesCalculator } from "./gradians-to-degrees";
+import { sphericalCoordinatesCalculator } from "./spherical-coordinates";
+import { cylindricalCoordinatesCalculator } from "./cylindrical-coordinates";
+import { shippingCostCalcCalculator } from "./shipping-cost-calc";
+import { importTaxCalculator } from "./import-tax";
+import { currencyConversionCalculator } from "./currency-conversion";
+import { pricePerUnitCalcCalculator } from "./price-per-unit-calc";
+import { salesTaxCalcCalculator } from "./sales-tax-calc";
+import { vatCalcCalculator } from "./vat-calc";
+import { gstCalcCalculator } from "./gst-calc";
+import { propertyStampDutyCalculator } from "./property-stamp-duty";
+import { landTransferTaxCalculator } from "./land-transfer-tax";
+import { closingCostEstimateCalculator } from "./closing-cost-estimate";
+import { titleInsuranceCostCalculator } from "./title-insurance-cost";
+import { appraisalCostCalculator } from "./appraisal-cost";
+import { cellPhonePlanCostCalculator } from "./cell-phone-plan-cost";
+import { internetSpeedNeedsCalculator } from "./internet-speed-needs";
+import { electricBillEstimateCalculator } from "./electric-bill-estimate";
+import { gasBillEstimateCalculator } from "./gas-bill-estimate";
+import { waterBillEstimateCalculator } from "./water-bill-estimate";
+import { chimneySweepCostCalculator } from "./chimney-sweep-cost";
+import { pestControlCostCalculator } from "./pest-control-cost";
+import { hoaCostCalculator } from "./hoa-cost";
+import { notaryCostCalculator } from "./notary-cost";
+import { passportRenewalCostCalculator } from "./passport-renewal-cost";
+import { visaApplicationCostCalculator } from "./visa-application-cost";
+
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
   bmiCalculator,
@@ -8467,6 +8560,98 @@ vo2maxCalcCalculator,
   allowanceByAgeCalculator,
   chorePayCalculator,
   giftRegistryCalculator,
+
+glasgowComaCalcCalculator,
+  painScaleAssessmentCalculator,
+  fallRiskMorseCalculator,
+  news2ScoreCalculator,
+  urineOutputCalcCalculator,
+  tubeFeedingRateCalculator,
+  bmiPediatricCalculator,
+  gestationalDiabetesRiskCalculator,
+  pediatricDoseWeightCalculator,
+  woundMeasurementCalculator,
+  bloodTransfusionVolCalculator,
+  dosageByBsaCalculator,
+  correctedQtcCalculator,
+  bloodAlcoholCalcCalculator,
+  waterIntakeCalcCalculator,
+  sleepCycleCalcCalculator,
+  columnBucklingCalculator,
+  weldStrengthCalculator,
+  boltTorqueCalcCalculator,
+  bearingLifeCalculator,
+  heatExchangerCalculator,
+  pumpPowerCalculator,
+  pipeFlowVelocityCalculator,
+  orificeFlowCalculator,
+  fanLawCalculator,
+  compressorPowerCalculator,
+  thermalConductivityCalculator,
+  radiationHeatCalculator,
+  convectionHeatCalculator,
+  nusseltNumberCalculator,
+  prandtlNumberCalculator,
+  grashofNumberCalculator,
+  rayleighNumberCalculator,
+  weberNumberCalculator,
+  strouhalNumberCalculator,
+  eulerNumberFlowCalculator,
+  cavitationNumberCalculator,
+  stressStrainCurveCalculator,
+  fatigueLifeCalculator,
+  bandwidthCalcCalculator,
+  dataTransferTimeCalculator,
+  screenPpiCalculator,
+  colorHexToRgbCalculator,
+  subnetHostsCalculator,
+  raidCapacityCalculator,
+  cloudComputeCostCalculator,
+  dnsPropagationTimeCalculator,
+  passwordEntropyCalculator,
+  hashRateProfitCalculator,
+  nftRoyaltyCalculator,
+  saasMrrCalculator,
+  saasArrCalculator,
+  churnRateCalcCalculator,
+  cohortRetentionCalculator,
+  emailRoiCalculator,
+  cpmCalcCalculator,
+  ellipsePerimeterCalculator,
+  ellipsoidVolumeCalculator,
+  torusSurfaceAreaCalculator,
+  paraboloidVolumeCalculator,
+  regularPolygonAreaCalculator,
+  annulusAreaCalculator,
+  arcLengthCalcCalculator,
+  heronsFormulaCalculator,
+  fibonacciCalcCalculator,
+  gradiansToDegreesCalculator,
+  sphericalCoordinatesCalculator,
+  cylindricalCoordinatesCalculator,
+  shippingCostCalcCalculator,
+  importTaxCalculator,
+  currencyConversionCalculator,
+  pricePerUnitCalcCalculator,
+  salesTaxCalcCalculator,
+  vatCalcCalculator,
+  gstCalcCalculator,
+  propertyStampDutyCalculator,
+  landTransferTaxCalculator,
+  closingCostEstimateCalculator,
+  titleInsuranceCostCalculator,
+  appraisalCostCalculator,
+  cellPhonePlanCostCalculator,
+  internetSpeedNeedsCalculator,
+  electricBillEstimateCalculator,
+  gasBillEstimateCalculator,
+  waterBillEstimateCalculator,
+  chimneySweepCostCalculator,
+  pestControlCostCalculator,
+  hoaCostCalculator,
+  notaryCostCalculator,
+  passportRenewalCostCalculator,
+  visaApplicationCostCalculator,
 
 ];
 
