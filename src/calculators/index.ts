@@ -4210,6 +4210,125 @@ import { netWorthCalcCalculator } from "./net-worth-calc";
 import { inflationAdjustedCalculator } from "./inflation-adjusted";
 import { purchasingPowerCalculator } from "./purchasing-power";
 
+
+import { vo2maxCalcCalculator } from "./vo2max-calc";
+import { mhrCalcCalculator } from "./mhr-calc";
+import { n1rmEpleyCalculator } from "./1rm-epley";
+import { n1rmBrzyckiCalculator } from "./1rm-brzycki";
+import { rmPercentageCalculator } from "./rm-percentage";
+import { bodyweightRatioCalculator } from "./bodyweight-ratio";
+import { verticalJumpCalculator } from "./vertical-jump";
+import { sprintSpeedCalculator } from "./sprint-speed";
+import { agilityScoreCalculator } from "./agility-score";
+import { beepTestVo2Calculator } from "./beep-test-vo2";
+import { runningCaloriePaceCalculator } from "./running-calorie-pace";
+import { swimmingCssCalculator } from "./swimming-css";
+import { climbingGradeCalculator } from "./climbing-grade";
+import { carbonFootprintFlightCalculator } from "./carbon-footprint-flight";
+import { carbonFootprintCarCalculator } from "./carbon-footprint-car";
+import { carbonFootprintDietCalculator } from "./carbon-footprint-diet";
+import { treeCarbonCalculator } from "./tree-carbon";
+import { recyclingImpactCalculator } from "./recycling-impact";
+import { foodWasteImpactCalculator } from "./food-waste-impact";
+import { renewableEnergySavingsCalculator } from "./renewable-energy-savings";
+import { rainGardenSizeCalculator } from "./rain-garden-size";
+import { compostingMethaneCalculator } from "./composting-methane";
+import { paperWasteCalculator } from "./paper-waste";
+import { plasticUsageCalculator } from "./plastic-usage";
+import { rankineToFahrenheitCalculator } from "./rankine-to-fahrenheit";
+import { newtonToCelsiusTempCalculator } from "./newton-to-celsius-temp";
+import { barToAtmCalculator } from "./bar-to-atm";
+import { atmToBarCalculator } from "./atm-to-bar";
+import { torrToAtmCalculator } from "./torr-to-atm";
+import { mmhgToKpaCalculator } from "./mmhg-to-kpa";
+import { kpaToPsiCalculator } from "./kpa-to-psi";
+import { psiToKpaCalculator } from "./psi-to-kpa";
+import { newtonToLbfCalculator } from "./newton-to-lbf";
+import { lbfToNewtonCalculator } from "./lbf-to-newton";
+import { jouleToCalorieCalculator } from "./joule-to-calorie";
+import { calorieToJouleCalculator } from "./calorie-to-joule";
+import { btuToJouleCalculator } from "./btu-to-joule";
+import { jouleToKwhCalculator } from "./joule-to-kwh";
+import { wattToHorsepowerCalculator } from "./watt-to-horsepower";
+import { horsepowerToWattCalculator } from "./horsepower-to-watt";
+import { machToMphCalculator } from "./mach-to-mph";
+import { parsecToLyCalculator } from "./parsec-to-ly";
+import { astronomicalUnitToKmCalculator } from "./astronomical-unit-to-km";
+import { gramToTroyOunceCalculator } from "./gram-to-troy-ounce";
+import { mlToCupsCalculator } from "./ml-to-cups";
+import { squareMetersToSqftCalculator } from "./square-meters-to-sqft";
+import { sqftToSqmCalculator } from "./sqft-to-sqm";
+import { hectareToAcreCalculator } from "./hectare-to-acre";
+import { fathomToFeetCalculator } from "./fathom-to-feet";
+import { chainToFeetCalculator } from "./chain-to-feet";
+import { furlongToMetersCalculator } from "./furlong-to-meters";
+import { micronToMmCalculator } from "./micron-to-mm";
+import { angstromToNmCalculator } from "./angstrom-to-nm";
+import { rpmToRadSCalculator } from "./rpm-to-rad-s";
+import { radSToRpmCalculator } from "./rad-s-to-rpm";
+import { pascalToPsiCalculator } from "./pascal-to-psi";
+import { dyneToNewtonCalculator } from "./dyne-to-newton";
+import { ergToJouleCalculator } from "./erg-to-joule";
+import { slugToKgCalculator } from "./slug-to-kg";
+import { pennyweightToGramCalculator } from "./pennyweight-to-gram";
+import { butterOilConvertCalculator } from "./butter-oil-convert";
+import { flourTypeConvertCalculator } from "./flour-type-convert";
+import { pastaServingSizeCalculator } from "./pasta-serving-size";
+import { gravyAmountCalculator } from "./gravy-amount";
+import { cranberrySauceCalculator } from "./cranberry-sauce";
+import { turkeyThawTimeCalculator } from "./turkey-thaw-time";
+import { turkeyCookTimeCalculator } from "./turkey-cook-time";
+import { primeRibCookCalculator } from "./prime-rib-cook";
+import { hamCookTimeCalculator } from "./ham-cook-time";
+import { brisketCookCalculator } from "./brisket-cook";
+import { pulledPorkAmountCalculator } from "./pulled-pork-amount";
+import { pizzaDoughCalcCalculator } from "./pizza-dough-calc";
+import { teaSteepingCalculator } from "./tea-steeping";
+import { popcornYieldCalculator } from "./popcorn-yield";
+import { jerkyYieldCalculator } from "./jerky-yield";
+import { pickleBrineCalculator } from "./pickle-brine";
+import { marshmallowRecipeCalculator } from "./marshmallow-recipe";
+import { salsaRecipeCalculator } from "./salsa-recipe";
+import { hummusRecipeCalculator } from "./hummus-recipe";
+import { guacamoleCalcCalculator } from "./guacamole-calc";
+import { icingAmountCalculator } from "./icing-amount";
+import { fondantAmountCalculator } from "./fondant-amount";
+import { matrixInverse2x2Calculator } from "./matrix-inverse-2x2";
+import { eigenvalue2x2Calculator } from "./eigenvalue-2x2";
+import { unitVectorCalculator } from "./unit-vector";
+import { vectorAngleCalculator } from "./vector-angle";
+import { complexNumberAddCalculator } from "./complex-number-add";
+import { complexNumberMultiplyCalculator } from "./complex-number-multiply";
+import { complexModulusCalculator } from "./complex-modulus";
+import { maclaurinSeriesCalculator } from "./maclaurin-series";
+import { numericalDerivativeCalculator } from "./numerical-derivative";
+import { numericalIntegralCalculator } from "./numerical-integral";
+import { newtonsMethodCalculator } from "./newtons-method";
+import { bisectionMethodCalculator } from "./bisection-method";
+import { bellNumberCalculator } from "./bell-number";
+import { partitionNumberCalculator } from "./partition-number";
+import { bernoulliNumberCalculator } from "./bernoulli-number";
+import { downsizingChecklistCalculator } from "./downsizing-checklist";
+import { electricityPerApplianceCalculator } from "./electricity-per-appliance";
+import { airConditionerSizeCalculator } from "./air-conditioner-size";
+import { airPurifierRoomCalculator } from "./air-purifier-room";
+import { cleaningTimeCalculator } from "./cleaning-time";
+import { groceryBudgetPlanCalculator } from "./grocery-budget-plan";
+import { commuteCostCalcCalculator } from "./commute-cost-calc";
+import { carWashCostCalculator } from "./car-wash-cost";
+import { gymValueCalculator } from "./gym-value";
+import { birthdayPartyBudgetCalculator } from "./birthday-party-budget";
+import { weddingGuestCostCalculator } from "./wedding-guest-cost";
+import { backToSchoolBudgetCalculator } from "./back-to-school-budget";
+import { petMonthlyCostCalculator } from "./pet-monthly-cost";
+import { hobbyBudgetCalculator } from "./hobby-budget";
+import { vacationSavingsCalculator } from "./vacation-savings";
+import { emergencyFundCalcCalculator } from "./emergency-fund-calc";
+import { newBabyCostCalculator } from "./new-baby-cost";
+import { allowanceByAgeCalculator } from "./allowance-by-age";
+import { chorePayCalculator } from "./chore-pay";
+import { giftRegistryCalculator } from "./gift-registry";
+
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
   bmiCalculator,
@@ -8230,6 +8349,124 @@ curb65ScoreCalculator,
   netWorthCalcCalculator,
   inflationAdjustedCalculator,
   purchasingPowerCalculator,
+
+vo2maxCalcCalculator,
+  mhrCalcCalculator,
+  n1rmEpleyCalculator,
+  n1rmBrzyckiCalculator,
+  rmPercentageCalculator,
+  bodyweightRatioCalculator,
+  verticalJumpCalculator,
+  sprintSpeedCalculator,
+  agilityScoreCalculator,
+  beepTestVo2Calculator,
+  runningCaloriePaceCalculator,
+  swimmingCssCalculator,
+  climbingGradeCalculator,
+  carbonFootprintFlightCalculator,
+  carbonFootprintCarCalculator,
+  carbonFootprintDietCalculator,
+  treeCarbonCalculator,
+  recyclingImpactCalculator,
+  foodWasteImpactCalculator,
+  renewableEnergySavingsCalculator,
+  rainGardenSizeCalculator,
+  compostingMethaneCalculator,
+  paperWasteCalculator,
+  plasticUsageCalculator,
+  rankineToFahrenheitCalculator,
+  newtonToCelsiusTempCalculator,
+  barToAtmCalculator,
+  atmToBarCalculator,
+  torrToAtmCalculator,
+  mmhgToKpaCalculator,
+  kpaToPsiCalculator,
+  psiToKpaCalculator,
+  newtonToLbfCalculator,
+  lbfToNewtonCalculator,
+  jouleToCalorieCalculator,
+  calorieToJouleCalculator,
+  btuToJouleCalculator,
+  jouleToKwhCalculator,
+  wattToHorsepowerCalculator,
+  horsepowerToWattCalculator,
+  machToMphCalculator,
+  parsecToLyCalculator,
+  astronomicalUnitToKmCalculator,
+  gramToTroyOunceCalculator,
+  mlToCupsCalculator,
+  squareMetersToSqftCalculator,
+  sqftToSqmCalculator,
+  hectareToAcreCalculator,
+  fathomToFeetCalculator,
+  chainToFeetCalculator,
+  furlongToMetersCalculator,
+  micronToMmCalculator,
+  angstromToNmCalculator,
+  rpmToRadSCalculator,
+  radSToRpmCalculator,
+  pascalToPsiCalculator,
+  dyneToNewtonCalculator,
+  ergToJouleCalculator,
+  slugToKgCalculator,
+  pennyweightToGramCalculator,
+  butterOilConvertCalculator,
+  flourTypeConvertCalculator,
+  pastaServingSizeCalculator,
+  gravyAmountCalculator,
+  cranberrySauceCalculator,
+  turkeyThawTimeCalculator,
+  turkeyCookTimeCalculator,
+  primeRibCookCalculator,
+  hamCookTimeCalculator,
+  brisketCookCalculator,
+  pulledPorkAmountCalculator,
+  pizzaDoughCalcCalculator,
+  teaSteepingCalculator,
+  popcornYieldCalculator,
+  jerkyYieldCalculator,
+  pickleBrineCalculator,
+  marshmallowRecipeCalculator,
+  salsaRecipeCalculator,
+  hummusRecipeCalculator,
+  guacamoleCalcCalculator,
+  icingAmountCalculator,
+  fondantAmountCalculator,
+  matrixInverse2x2Calculator,
+  eigenvalue2x2Calculator,
+  unitVectorCalculator,
+  vectorAngleCalculator,
+  complexNumberAddCalculator,
+  complexNumberMultiplyCalculator,
+  complexModulusCalculator,
+  maclaurinSeriesCalculator,
+  numericalDerivativeCalculator,
+  numericalIntegralCalculator,
+  newtonsMethodCalculator,
+  bisectionMethodCalculator,
+  bellNumberCalculator,
+  partitionNumberCalculator,
+  bernoulliNumberCalculator,
+  downsizingChecklistCalculator,
+  electricityPerApplianceCalculator,
+  airConditionerSizeCalculator,
+  airPurifierRoomCalculator,
+  cleaningTimeCalculator,
+  groceryBudgetPlanCalculator,
+  commuteCostCalcCalculator,
+  carWashCostCalculator,
+  gymValueCalculator,
+  birthdayPartyBudgetCalculator,
+  weddingGuestCostCalculator,
+  backToSchoolBudgetCalculator,
+  petMonthlyCostCalculator,
+  hobbyBudgetCalculator,
+  vacationSavingsCalculator,
+  emergencyFundCalcCalculator,
+  newBabyCostCalculator,
+  allowanceByAgeCalculator,
+  chorePayCalculator,
+  giftRegistryCalculator,
 
 ];
 
