@@ -14,7 +14,7 @@ export function Header() {
           {CATEGORIES.map((cat) => (
             <Link
               key={cat.slug}
-              href={`/#${cat.slug}`}
+              href={`/${cat.slug}`}
               className="px-3 py-1.5 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-colors"
             >
               {cat.name}

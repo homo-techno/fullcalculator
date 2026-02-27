@@ -1,15 +1,19 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { calculators, getCalculatorBySlug } from "@/calculators";
+import { CATEGORIES } from "@/calculators/types";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CalculatorPageClient } from "@/components/calculator-page-client";
 
 interface PageProps {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ categorySlug: string; slug: string }>;
 }
 
 export async function generateStaticParams() {
-  return calculators.map((c) => ({ slug: c.slug }));
+  return calculators.map((c) => ({
+    categorySlug: c.categorySlug,
+    slug: c.slug,
+  }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -21,24 +25,30 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: calc.title,
     description: calc.description,
     keywords: calc.keywords,
+    alternates: {
+      canonical: `https://fullcalculator.com/${calc.categorySlug}/${calc.slug}`,
+    },
     openGraph: {
       title: `${calc.title} | FullCalculator`,
       description: calc.description,
       type: "website",
-      url: `https://fullcalculator.com/${calc.slug}`,
+      url: `https://fullcalculator.com/${calc.categorySlug}/${calc.slug}`,
     },
   };
 }
 
 export default async function CalculatorPage({ params }: PageProps) {
-  const { slug } = await params;
+  const { categorySlug, slug } = await params;
   const calc = getCalculatorBySlug(slug);
 
-  if (!calc) {
+  if (!calc || calc.categorySlug !== categorySlug) {
     notFound();
   }
 
-  // JSON-LD: FAQPage structured data
+  const cat = CATEGORIES.find((c) => c.slug === categorySlug);
+  const categoryName = cat?.name ?? calc.category;
+  const baseUrl = "https://fullcalculator.com";
+
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -52,13 +62,12 @@ export default async function CalculatorPage({ params }: PageProps) {
     })),
   };
 
-  // JSON-LD: WebApplication structured data
   const appJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: calc.title,
     description: calc.description,
-    url: `https://fullcalculator.com/${calc.slug}`,
+    url: `${baseUrl}/${calc.categorySlug}/${calc.slug}`,
     applicationCategory: "UtilityApplication",
     operatingSystem: "Any",
     offers: {
@@ -68,7 +77,6 @@ export default async function CalculatorPage({ params }: PageProps) {
     },
   };
 
-  // JSON-LD: BreadcrumbList
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -77,19 +85,19 @@ export default async function CalculatorPage({ params }: PageProps) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://fullcalculator.com",
+        item: baseUrl,
       },
       {
         "@type": "ListItem",
         position: 2,
-        name: calc.category,
-        item: `https://fullcalculator.com/#${calc.categorySlug}`,
+        name: `${categoryName} Calculators`,
+        item: `${baseUrl}/${calc.categorySlug}`,
       },
       {
         "@type": "ListItem",
         position: 3,
         name: calc.title,
-        item: `https://fullcalculator.com/${calc.slug}`,
+        item: `${baseUrl}/${calc.categorySlug}/${calc.slug}`,
       },
     ],
   };
@@ -111,7 +119,7 @@ export default async function CalculatorPage({ params }: PageProps) {
 
       <Breadcrumbs
         items={[
-          { label: calc.category, href: `/#${calc.categorySlug}` },
+          { label: `${categoryName} Calculators`, href: `/${calc.categorySlug}` },
           { label: calc.title },
         ]}
       />
@@ -120,7 +128,6 @@ export default async function CalculatorPage({ params }: PageProps) {
         {calc.title}
       </h1>
 
-      {/* Client component handles interactive calculators */}
       <CalculatorPageClient slug={calc.slug} />
     </>
   );

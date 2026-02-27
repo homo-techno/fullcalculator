@@ -4,7 +4,7 @@ import type { CalculatorDefinition } from "@/calculators/types";
 export function CalculatorCard({ calc }: { calc: CalculatorDefinition }) {
   return (
     <Link
-      href={`/${calc.slug}`}
+      href={`/${calc.categorySlug}/${calc.slug}`}
       className="group block p-5 bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all"
     >
       <div className="flex items-start gap-3">
