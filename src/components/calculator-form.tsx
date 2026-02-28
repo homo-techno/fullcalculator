@@ -1,8 +1,14 @@
 "use client";
 
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import type { CalculatorVariant, CalculatorResult } from "@/calculators/types";
-import { trackEvent } from "@/lib/analytics";
+import {
+  trackCalculatorStart,
+  trackCalculatorComplete,
+  trackCalculatorAbandon,
+  trackResultAction,
+  trackFeedback,
+} from "@/lib/analytics";
 
 interface CalculatorFormProps {
   variant: CalculatorVariant;
@@ -11,7 +17,12 @@ interface CalculatorFormProps {
 }
 
 export function CalculatorForm({ variant, calculatorSlug, compact }: CalculatorFormProps) {
-  const hasTrackedInteraction = useRef(false);
+  const slug = calculatorSlug || "unknown";
+  const hasTrackedStart = useRef(false);
+  const hasTrackedComplete = useRef(false);
+  const startTime = useRef<number>(0);
+  const [feedbackGiven, setFeedbackGiven] = useState(false);
+
   const [inputs, setInputs] = useState<Record<string, number | string>>(() => {
     const defaults: Record<string, number | string> = {};
     for (const field of variant.fields) {
@@ -24,6 +35,27 @@ export function CalculatorForm({ variant, calculatorSlug, compact }: CalculatorF
 
   const [result, setResult] = useState<CalculatorResult | null>(null);
 
+  // Track abandonment on page leave
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (
+        document.visibilityState === "hidden" &&
+        hasTrackedStart.current &&
+        !hasTrackedComplete.current
+      ) {
+        const filledCount = Object.values(inputs).filter(
+          (v) => v !== "" && v !== undefined
+        ).length;
+        trackCalculatorAbandon(slug, filledCount, variant.fields.length);
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, [inputs, slug, variant.fields.length]);
+
   const handleChange = useCallback(
     (name: string, value: string, type: string) => {
       const newInputs = { ...inputs };
@@ -35,33 +67,48 @@ export function CalculatorForm({ variant, calculatorSlug, compact }: CalculatorF
       }
       setInputs(newInputs);
 
-      // Real-time calculation (like OmniCalculator)
+      // Track first interaction
+      if (!hasTrackedStart.current) {
+        hasTrackedStart.current = true;
+        startTime.current = Date.now();
+        trackCalculatorStart(slug, variant.id);
+      }
+
+      // Real-time calculation
       const cleanedInputs: Record<string, number | string> = {};
       for (const [k, v] of Object.entries(newInputs)) {
         if (v !== "" && v !== undefined) {
           cleanedInputs[k] = v;
         }
       }
-      // Track first interaction with this variant
-      if (!hasTrackedInteraction.current) {
-        hasTrackedInteraction.current = true;
-        trackEvent("calculator_interaction", {
-          calculator: calculatorSlug || "unknown",
-          variant: variant.id,
-        });
-      }
 
       const res = variant.calculate(cleanedInputs);
-      if (res && !result) {
-        // First successful calculation
-        trackEvent("calculator_completed", {
-          calculator: calculatorSlug || "unknown",
-          variant: variant.id,
-        });
+
+      // Track first successful result
+      if (res && !hasTrackedComplete.current) {
+        hasTrackedComplete.current = true;
+        const elapsed = startTime.current ? Date.now() - startTime.current : 0;
+        trackCalculatorComplete(slug, variant.id, elapsed);
       }
+
       setResult(res);
     },
-    [inputs, variant]
+    [inputs, variant, slug]
+  );
+
+  const handleCopyResult = useCallback(() => {
+    if (!result) return;
+    const text = `${result.primary.label}: ${result.primary.value}${result.primary.suffix || ""}`;
+    navigator.clipboard.writeText(text);
+    trackResultAction(slug, "copy");
+  }, [result, slug]);
+
+  const handleFeedback = useCallback(
+    (helpful: boolean) => {
+      trackFeedback(slug, helpful);
+      setFeedbackGiven(true);
+    },
+    [slug]
   );
 
   return (
@@ -133,14 +180,23 @@ export function CalculatorForm({ variant, calculatorSlug, compact }: CalculatorF
 
       {result && (
         <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-100">
-          <div className="flex items-baseline gap-2">
-            <span className="text-sm text-blue-700">{result.primary.label}:</span>
-            <span className="text-2xl font-bold text-blue-900">
-              {result.primary.value}
-              {result.primary.suffix && (
-                <span className="text-lg ml-1">{result.primary.suffix}</span>
-              )}
-            </span>
+          <div className="flex items-baseline justify-between gap-2">
+            <div className="flex items-baseline gap-2">
+              <span className="text-sm text-blue-700">{result.primary.label}:</span>
+              <span className="text-2xl font-bold text-blue-900">
+                {result.primary.value}
+                {result.primary.suffix && (
+                  <span className="text-lg ml-1">{result.primary.suffix}</span>
+                )}
+              </span>
+            </div>
+            <button
+              onClick={handleCopyResult}
+              className="text-xs text-blue-600 hover:text-blue-800 transition-colors shrink-0"
+              title="Copy result"
+            >
+              Copy
+            </button>
           </div>
           {result.details && result.details.length > 0 && (
             <div className="mt-2 space-y-1">
@@ -154,6 +210,31 @@ export function CalculatorForm({ variant, calculatorSlug, compact }: CalculatorF
           )}
           {result.note && (
             <p className="mt-2 text-xs text-gray-500">{result.note}</p>
+          )}
+
+          {/* Feedback widget */}
+          {!compact && (
+            <div className="mt-3 pt-3 border-t border-blue-100">
+              {feedbackGiven ? (
+                <p className="text-xs text-blue-600">Thanks for your feedback!</p>
+              ) : (
+                <div className="flex items-center gap-3">
+                  <span className="text-xs text-gray-500">Was this helpful?</span>
+                  <button
+                    onClick={() => handleFeedback(true)}
+                    className="text-xs px-2 py-0.5 rounded border border-gray-200 text-gray-600 hover:bg-green-50 hover:border-green-300 hover:text-green-700 transition-colors"
+                  >
+                    Yes
+                  </button>
+                  <button
+                    onClick={() => handleFeedback(false)}
+                    className="text-xs px-2 py-0.5 rounded border border-gray-200 text-gray-600 hover:bg-red-50 hover:border-red-300 hover:text-red-700 transition-colors"
+                  >
+                    No
+                  </button>
+                </div>
+              )}
+            </div>
           )}
         </div>
       )}

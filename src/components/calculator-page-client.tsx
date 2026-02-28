@@ -1,11 +1,20 @@
 "use client";
 
+import { useEffect } from "react";
 import { getCalculatorBySlug, getRelatedCalculators } from "@/calculators";
 import { CalculatorForm } from "./calculator-form";
 import { RelatedCalculators } from "./related-calculators";
+import { trackCalculatorView } from "@/lib/analytics";
 
 export function CalculatorPageClient({ slug }: { slug: string }) {
   const calc = getCalculatorBySlug(slug);
+
+  useEffect(() => {
+    if (calc) {
+      trackCalculatorView(calc.slug, calc.categorySlug);
+    }
+  }, [calc]);
+
   if (!calc) return null;
 
   const related = getRelatedCalculators(calc);
