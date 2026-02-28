@@ -4554,6 +4554,39 @@ import { switzerlandIncomeTaxCalculator } from "./switzerland-income-tax-calcula
 import { switzerlandVatCalculator } from "./switzerland-vat-calculator";
 import { switzerlandSalaryCalculator } from "./switzerland-salary-calculator";
 import { euVatRatesCalculator } from "./eu-vat-rates-calculator";
+import { debtConsolidationCalculator } from "./debt-consolidation-calculator";
+import { carAccidentSettlementCalculator } from "./car-accident-settlement-calculator";
+import { medicalMalpracticeCalculator } from "./medical-malpractice-calculator";
+import { painSufferingCalculator } from "./pain-suffering-calculator";
+import { lostWagesCalculator } from "./lost-wages-calculator";
+import { dogBiteCompensationCalculator } from "./dog-bite-compensation-calculator";
+import { slipAndFallCalculator } from "./slip-and-fall-calculator";
+import { futureMedicalCostCalculator } from "./future-medical-cost-calculator";
+import { homeReplacementCostCalculator } from "./home-replacement-cost-calculator";
+import { disabilityIncomeGapCalculator } from "./disability-income-gap-calculator";
+import { businessLiabilityCalculator } from "./business-liability-calculator";
+import { absiCalculator } from "./absi-calculator";
+import { adjustedBodyWeightCalculator } from "./adjusted-body-weight-calculator";
+import { geriatricBmiCalculator } from "./geriatric-bmi-calculator";
+import { mmeCalculator } from "./mme-calculator";
+import { acftCalculator } from "./acft-calculator";
+import { relativeFatMassCalculator } from "./relative-fat-mass-calculator";
+import { bariatricWeightLossCalculator } from "./bariatric-weight-loss-calculator";
+import { cssBoxShadowGeneratorCalculator } from "./css-box-shadow-generator";
+import { jsonFormatterCalculator } from "./json-formatter";
+import { base64EncoderDecoderCalculator } from "./base64-encoder-decoder";
+import { regexTesterCalculator } from "./regex-tester";
+import { jwtDecoderCalculator } from "./jwt-decoder";
+import { cronExpressionGeneratorCalculator } from "./cron-expression-generator";
+import { hashGeneratorCalculator } from "./hash-generator";
+import { uuidGeneratorCalculator } from "./uuid-generator";
+import { timesheetDecimalConverterCalculator } from "./timesheet-decimal-converter";
+import { severancePayCalculator } from "./severance-pay-calculator";
+import { ecommerceProfitMarginCalculator } from "./ecommerce-profit-margin-calculator";
+import { utmBuilderCalculator } from "./utm-builder";
+import { emailMetricsCalculator } from "./email-metrics-calculator";
+import { cpmToCpcConverterCalculator } from "./cpm-to-cpc-converter";
+import { retailDiscountCalculator } from "./retail-discount-calculator";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -8919,6 +8952,39 @@ ukIncomeTaxCalculator,
   switzerlandVatCalculator,
   switzerlandSalaryCalculator,
   euVatRatesCalculator,
+debtConsolidationCalculator,
+  carAccidentSettlementCalculator,
+  medicalMalpracticeCalculator,
+  painSufferingCalculator,
+  lostWagesCalculator,
+  dogBiteCompensationCalculator,
+  slipAndFallCalculator,
+  futureMedicalCostCalculator,
+  homeReplacementCostCalculator,
+  disabilityIncomeGapCalculator,
+  businessLiabilityCalculator,
+  absiCalculator,
+  adjustedBodyWeightCalculator,
+  geriatricBmiCalculator,
+  mmeCalculator,
+  acftCalculator,
+  relativeFatMassCalculator,
+  bariatricWeightLossCalculator,
+  cssBoxShadowGeneratorCalculator,
+  jsonFormatterCalculator,
+  base64EncoderDecoderCalculator,
+  regexTesterCalculator,
+  jwtDecoderCalculator,
+  cronExpressionGeneratorCalculator,
+  hashGeneratorCalculator,
+  uuidGeneratorCalculator,
+  timesheetDecimalConverterCalculator,
+  severancePayCalculator,
+  ecommerceProfitMarginCalculator,
+  utmBuilderCalculator,
+  emailMetricsCalculator,
+  cpmToCpcConverterCalculator,
+  retailDiscountCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
