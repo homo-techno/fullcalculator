@@ -4791,6 +4791,106 @@ import { assistedLivingCostCalculator } from "./assisted-living-cost-calculator"
 import { memoryCareCostCalculator } from "./memory-care-cost-calculator";
 import { hospiceCostCalculator } from "./hospice-cost-calculator";
 import { veteranBenefitsCalculator } from "./veteran-benefits-calculator";
+import { mortgageRefinanceBreakEvenCalculator } from "./mortgage-refinance-break-even-calculator";
+import { biweeklyMortgagePaymentCalculator } from "./biweekly-mortgage-payment-calculator";
+import { mortgageExtraPaymentsCalculator } from "./mortgage-extra-payments-calculator";
+import { mortgagePayoffCalculator } from "./mortgage-payoff-calculator";
+import { mortgageQualificationDtiCalculator } from "./mortgage-qualification-dti-calculator";
+import { netOperatingIncomeCalculator } from "./net-operating-income-calculator";
+import { homeValueEstimatorCalculator } from "./home-value-estimator";
+import { cashOnCashReturnCalculator } from "./cash-on-cash-return-calculator";
+import { n503020Calculator } from "./50-30-20-calculator";
+import { monthlyBudgetCalculator } from "./monthly-budget-calculator";
+import { sr22InsuranceCostCalculator } from "./sr22-insurance-cost-calculator";
+import { medicarePartBPremiumCalculator } from "./medicare-part-b-premium-calculator";
+import { medicarePartDCoverageGapCalculator } from "./medicare-part-d-coverage-gap-calculator";
+import { medigapPlanComparisonCalculator } from "./medigap-plan-comparison-calculator";
+import { longTermCareInsuranceCostCalculator } from "./long-term-care-insurance-cost-calculator";
+import { autoInsuranceDeductibleComparisonCalculator } from "./auto-insurance-deductible-comparison-calculator";
+import { umbrellaInsuranceCoverageCalculator } from "./umbrella-insurance-coverage-calculator";
+import { homeownersInsuranceEstimateCalculator } from "./homeowners-insurance-estimate-calculator";
+import { healthInsurancePremiumTaxCreditCalculator } from "./health-insurance-premium-tax-credit-calculator";
+import { disabilityInsuranceBenefitCalculator } from "./disability-insurance-benefit-calculator";
+import { spousalSupportDurationCalculator } from "./spousal-support-duration-calculator";
+import { timeAndAHalfCalculator } from "./time-and-a-half-calculator";
+import { doubleTimePayCalculator } from "./double-time-pay-calculator";
+import { truckAccidentSettlementCalculator } from "./truck-accident-settlement-calculator";
+import { whiplashSettlementCalculator } from "./whiplash-settlement-calculator";
+import { painAndSufferingMultiplierCalculator } from "./pain-and-suffering-multiplier-calculator";
+import { attorneyContingencyFeeCalculator } from "./attorney-contingency-fee-calculator";
+import { structuredSettlementPayoutCalculator } from "./structured-settlement-payout-calculator";
+import { backPayCalculator } from "./back-pay-calculator";
+import { wageTheftRecoveryCalculator } from "./wage-theft-recovery-calculator";
+import { forexPositionSizeCalculator } from "./forex-position-size-calculator";
+import { forexPipValueCalculator } from "./forex-pip-value-calculator";
+import { forexMarginCalculator } from "./forex-margin-calculator";
+import { forexProfitLossCalculator } from "./forex-profit-loss-calculator";
+import { forexSwapCalculator } from "./forex-swap-calculator";
+import { cryptoLeverageLiquidationCalculator } from "./crypto-leverage-liquidation-calculator";
+import { ethereumGasFeeCalculator } from "./ethereum-gas-fee-calculator";
+import { ironCondorCalculator } from "./iron-condor-calculator";
+import { cryptoPortfolioRebalancingCalculator } from "./crypto-portfolio-rebalancing-calculator";
+import { cryptoYieldFarmingApyCalculator } from "./crypto-yield-farming-apy-calculator";
+import { capitalGainsTaxCalculator } from "./capital-gains-tax-calculator";
+import { estimatedTaxCalculator } from "./estimated-tax-calculator";
+import { marginalTaxRateCalculator } from "./marginal-tax-rate-calculator";
+import { effectiveTaxRateCalculator } from "./effective-tax-rate-calculator";
+import { itemizedDeductionCalculator } from "./itemized-deduction-calculator";
+import { charitableDonationCalculator } from "./charitable-donation-calculator";
+import { iraContributionCalculator } from "./ira-contribution-calculator";
+import { catchUpContributionCalculator } from "./catch-up-contribution-calculator";
+import { solo401kCalculator } from "./solo-401k-calculator";
+import { rothIraIncomeLimitCalculator } from "./roth-ira-income-limit-calculator";
+import { fertilityByAgeCalculator } from "./fertility-by-age-calculator";
+import { hcgDoublingTimeCalculator } from "./hcg-doubling-time-calculator";
+import { implantationDateCalculator } from "./implantation-date-calculator";
+import { reverseDueDateCalculator } from "./reverse-due-date-calculator";
+import { fetalWeightPercentileCalculator } from "./fetal-weight-percentile-calculator";
+import { birthWeightPercentileCalculator } from "./birth-weight-percentile-calculator";
+import { babyFormulaAmountCalculator } from "./baby-formula-amount-calculator";
+import { babyMilkIntakeCalculator } from "./baby-milk-intake-calculator";
+import { exclusivePumpingCalculator } from "./exclusive-pumping-calculator";
+import { vbacSuccessRateCalculator } from "./vbac-success-rate-calculator";
+import { bishopScoreCalculator } from "./bishop-score-calculator";
+import { chancesOfTwinsCalculator } from "./chances-of-twins-calculator";
+import { babyEyeColorCalculator } from "./baby-eye-color-calculator";
+import { childHeightPredictionCalculator } from "./child-height-prediction-calculator";
+import { pediatricBmiPercentileCalculator } from "./pediatric-bmi-percentile-calculator";
+import { sipStepUpCalculator } from "./sip-step-up-calculator";
+import { lumpSumInvestmentCalculator } from "./lump-sum-investment-calculator";
+import { mutualFundReturnsCalculatorIndiaCalculator } from "./mutual-fund-returns-calculator-india";
+import { goldInvestmentCalculatorIndiaCalculator } from "./gold-investment-calculator-india";
+import { elssTaxSavingCalculator } from "./elss-tax-saving-calculator";
+import { section80cDeductionCalculator } from "./section-80c-deduction-calculator";
+import { dearnessAllowanceCalculator } from "./dearness-allowance-calculator";
+import { irpfCalculatorBrazilCalculator } from "./irpf-calculator-brazil";
+import { fgtsCalculatorBrazilCalculator } from "./fgts-calculator-brazil";
+import { financiamentoImobiliarioCalculator } from "./financiamento-imobiliario-calculator";
+import { inssContributionCalculatorBrazilCalculator } from "./inss-contribution-calculator-brazil";
+import { cltVsPjCalculatorBrazilCalculator } from "./clt-vs-pj-calculator-brazil";
+import { decimoTerceiroCalculator } from "./decimo-terceiro-calculator";
+import { iptuCalculatorBrazilCalculator } from "./iptu-calculator-brazil";
+import { rescisaoCalculatorBrazilCalculator } from "./rescisao-calculator-brazil";
+import { simplesNacionalCalculator } from "./simples-nacional-calculator";
+import { feriasCalculatorBrazilCalculator } from "./ferias-calculator-brazil";
+import { w4Calculator } from "./w4-calculator";
+import { taxRefundCalculator } from "./tax-refund-calculator";
+import { standardDeductionCalculator } from "./standard-deduction-calculator";
+import { energyTaxCreditCalculator } from "./energy-tax-credit-calculator";
+import { adoptionTaxCreditCalculator } from "./adoption-tax-credit-calculator";
+import { millRateCalculator } from "./mill-rate-calculator";
+import { propertyTaxAppealCalculator } from "./property-tax-appeal-calculator";
+import { employerPayrollTaxCalculator } from "./employer-payroll-tax-calculator";
+import { applianceLifespanCalculator } from "./appliance-lifespan-calculator";
+import { homeMaintenanceBudgetCalculator } from "./home-maintenance-budget-calculator";
+import { repairVsReplaceCalculator } from "./repair-vs-replace-calculator";
+import { streamingComparisonCalculator } from "./streaming-comparison-calculator";
+import { mealKitComparisonCalculator } from "./meal-kit-comparison-calculator";
+import { hourlyRateCalculator } from "./hourly-rate-calculator";
+import { commissionRateCalculator } from "./commission-rate-calculator";
+import { realHourlyWageCalculator } from "./real-hourly-wage-calculator";
+import { costPerHireCalculator } from "./cost-per-hire-calculator";
+import { employeeTurnoverCostCalculator } from "./employee-turnover-cost-calculator";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -9393,6 +9493,106 @@ racePaceCalculator,
   memoryCareCostCalculator,
   hospiceCostCalculator,
   veteranBenefitsCalculator,
+  mortgageRefinanceBreakEvenCalculator,
+  biweeklyMortgagePaymentCalculator,
+  mortgageExtraPaymentsCalculator,
+  mortgagePayoffCalculator,
+  mortgageQualificationDtiCalculator,
+  netOperatingIncomeCalculator,
+  homeValueEstimatorCalculator,
+  cashOnCashReturnCalculator,
+  n503020Calculator,
+  monthlyBudgetCalculator,
+  sr22InsuranceCostCalculator,
+  medicarePartBPremiumCalculator,
+  medicarePartDCoverageGapCalculator,
+  medigapPlanComparisonCalculator,
+  longTermCareInsuranceCostCalculator,
+  autoInsuranceDeductibleComparisonCalculator,
+  umbrellaInsuranceCoverageCalculator,
+  homeownersInsuranceEstimateCalculator,
+  healthInsurancePremiumTaxCreditCalculator,
+  disabilityInsuranceBenefitCalculator,
+  spousalSupportDurationCalculator,
+  timeAndAHalfCalculator,
+  doubleTimePayCalculator,
+  truckAccidentSettlementCalculator,
+  whiplashSettlementCalculator,
+  painAndSufferingMultiplierCalculator,
+  attorneyContingencyFeeCalculator,
+  structuredSettlementPayoutCalculator,
+  backPayCalculator,
+  wageTheftRecoveryCalculator,
+  forexPositionSizeCalculator,
+  forexPipValueCalculator,
+  forexMarginCalculator,
+  forexProfitLossCalculator,
+  forexSwapCalculator,
+  cryptoLeverageLiquidationCalculator,
+  ethereumGasFeeCalculator,
+  ironCondorCalculator,
+  cryptoPortfolioRebalancingCalculator,
+  cryptoYieldFarmingApyCalculator,
+  capitalGainsTaxCalculator,
+  estimatedTaxCalculator,
+  marginalTaxRateCalculator,
+  effectiveTaxRateCalculator,
+  itemizedDeductionCalculator,
+  charitableDonationCalculator,
+  iraContributionCalculator,
+  catchUpContributionCalculator,
+  solo401kCalculator,
+  rothIraIncomeLimitCalculator,
+  fertilityByAgeCalculator,
+  hcgDoublingTimeCalculator,
+  implantationDateCalculator,
+  reverseDueDateCalculator,
+  fetalWeightPercentileCalculator,
+  birthWeightPercentileCalculator,
+  babyFormulaAmountCalculator,
+  babyMilkIntakeCalculator,
+  exclusivePumpingCalculator,
+  vbacSuccessRateCalculator,
+  bishopScoreCalculator,
+  chancesOfTwinsCalculator,
+  babyEyeColorCalculator,
+  childHeightPredictionCalculator,
+  pediatricBmiPercentileCalculator,
+  sipStepUpCalculator,
+  lumpSumInvestmentCalculator,
+  mutualFundReturnsCalculatorIndiaCalculator,
+  goldInvestmentCalculatorIndiaCalculator,
+  elssTaxSavingCalculator,
+  section80cDeductionCalculator,
+  dearnessAllowanceCalculator,
+  irpfCalculatorBrazilCalculator,
+  fgtsCalculatorBrazilCalculator,
+  financiamentoImobiliarioCalculator,
+  inssContributionCalculatorBrazilCalculator,
+  cltVsPjCalculatorBrazilCalculator,
+  decimoTerceiroCalculator,
+  iptuCalculatorBrazilCalculator,
+  rescisaoCalculatorBrazilCalculator,
+  simplesNacionalCalculator,
+  feriasCalculatorBrazilCalculator,
+  w4Calculator,
+  taxRefundCalculator,
+  standardDeductionCalculator,
+  energyTaxCreditCalculator,
+  adoptionTaxCreditCalculator,
+  millRateCalculator,
+  propertyTaxAppealCalculator,
+  employerPayrollTaxCalculator,
+  applianceLifespanCalculator,
+  homeMaintenanceBudgetCalculator,
+  repairVsReplaceCalculator,
+  streamingComparisonCalculator,
+  mealKitComparisonCalculator,
+  hourlyRateCalculator,
+  commissionRateCalculator,
+  realHourlyWageCalculator,
+  costPerHireCalculator,
+  employeeTurnoverCostCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
