@@ -4930,6 +4930,29 @@ import { retirementTaxCalculator } from "./retirement-tax-calculator";
 import { trustDistributionCalculator } from "./trust-distribution-calculator";
 import { heatTransferCalculator } from "./heat-transfer-calculator";
 import { hydraulicCylinderCalculator } from "./hydraulic-cylinder-calculator";
+import { petFoodCostCalculator } from "./pet-food-cost-calculator";
+import { aquariumVolumeCalculator } from "./aquarium-volume-calculator";
+import { petMedicationDosageCalculator } from "./pet-medication-dosage-calculator";
+import { speakerWireGaugeCalculator } from "./speaker-wire-gauge-calculator";
+import { musicRoyaltyCalculator } from "./music-royalty-calculator";
+import { printResolutionCalculator } from "./print-resolution-calculator";
+import { goldenRatioCropCalculator } from "./golden-ratio-crop-calculator";
+import { photoStorageCalculator } from "./photo-storage-calculator";
+import { yarnYardageCalculator } from "./yarn-yardage-calculator";
+import { fertilizerRateCalculator } from "./fertilizer-rate-calculator";
+import { anchorRodeCalculator } from "./anchor-rode-calculator";
+import { paperWeightConverterCalculator } from "./paper-weight-converter-calculator";
+import { bleedMarginCalculator } from "./bleed-margin-calculator";
+import { colorContrastRatioCalculator } from "./color-contrast-ratio-calculator";
+import { solarBatterySizingCalculator } from "./solar-battery-sizing-calculator";
+import { capacitorChargeCalculator } from "./capacitor-charge-calculator";
+import { profitMarginPerUnitCalculator } from "./profit-margin-per-unit-calculator";
+import { shippingCostEstimatorCalculator } from "./shipping-cost-estimator-calculator";
+import { businessLoanPaymentCalculator } from "./business-loan-payment-calculator";
+import { fenceMaterialCalculator } from "./fence-material-calculator";
+import { gutterDownspoutCalculator } from "./gutter-downspout-calculator";
+import { parklandFormulaCalculator } from "./parkland-formula-calculator";
+import { rebarSpacingCalculator } from "./rebar-spacing-calculator";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -9671,6 +9694,29 @@ collegeSavingsGapCalculator,
   trustDistributionCalculator,
   heatTransferCalculator,
   hydraulicCylinderCalculator,
+petFoodCostCalculator,
+  aquariumVolumeCalculator,
+  petMedicationDosageCalculator,
+  speakerWireGaugeCalculator,
+  musicRoyaltyCalculator,
+  printResolutionCalculator,
+  goldenRatioCropCalculator,
+  photoStorageCalculator,
+  yarnYardageCalculator,
+  fertilizerRateCalculator,
+  anchorRodeCalculator,
+  paperWeightConverterCalculator,
+  bleedMarginCalculator,
+  colorContrastRatioCalculator,
+  solarBatterySizingCalculator,
+  capacitorChargeCalculator,
+  profitMarginPerUnitCalculator,
+  shippingCostEstimatorCalculator,
+  businessLoanPaymentCalculator,
+  fenceMaterialCalculator,
+  gutterDownspoutCalculator,
+  parklandFormulaCalculator,
+  rebarSpacingCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
