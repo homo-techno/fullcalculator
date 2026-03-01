@@ -4722,6 +4722,75 @@ import { powerOutageCostCalculator } from "./power-outage-cost-calculator";
 import { noiseOrdinanceCalculator } from "./noise-ordinance-calculator";
 import { radonMitigationCalculator } from "./radon-mitigation-calculator";
 import { moldRemediationCalculator } from "./mold-remediation-calculator";
+import { racePaceCalculator } from "./race-pace-calculator";
+import { benchPressStrengthCalculator } from "./bench-press-strength-calculator";
+import { squatStrengthCalculator } from "./squat-strength-calculator";
+import { deadliftStrengthCalculator } from "./deadlift-strength-calculator";
+import { rowingSplitCalculator } from "./rowing-split-calculator";
+import { paddleBoardSizeCalculator } from "./paddle-board-size-calculator";
+import { rockClimbingRopeLengthCalculator } from "./rock-climbing-rope-length-calculator";
+import { lacrosseStickSizeCalculator } from "./lacrosse-stick-size-calculator";
+import { dartCheckoutCalculator } from "./dart-checkout-calculator";
+import { audioRoomTreatmentCalculator } from "./audio-room-treatment-calculator";
+import { vinylRecordSpeedCalculator } from "./vinyl-record-speed-calculator";
+import { paSystemSizeCalculator } from "./pa-system-size-calculator";
+import { pianoTuningCostCalculator } from "./piano-tuning-cost-calculator";
+import { musicLessonCostCalculator } from "./music-lesson-cost-calculator";
+import { bandBookingCalculator } from "./band-booking-calculator";
+import { recordingStudioCostCalculator } from "./recording-studio-cost-calculator";
+import { audioCableLengthCalculator } from "./audio-cable-length-calculator";
+import { snowLoadRoofCalculator } from "./snow-load-roof-calculator";
+import { iceDamPreventionCalculator } from "./ice-dam-prevention-calculator";
+import { winterHeatingCostCalculator } from "./winter-heating-cost-calculator";
+import { summerCoolingCostCalculator } from "./summer-cooling-cost-calculator";
+import { lawnWateringCostCalculator } from "./lawn-watering-cost-calculator";
+import { snowBlowerSizeCalculator } from "./snow-blower-size-calculator";
+import { hurricanePrepCostCalculator } from "./hurricane-prep-cost-calculator";
+import { wildfirePrepCalculator } from "./wildfire-prep-calculator";
+import { floodDamageCalculator } from "./flood-damage-calculator";
+import { showerWaterUsageCalculator } from "./shower-water-usage-calculator";
+import { laundryScheduleCalculator } from "./laundry-schedule-calculator";
+import { dishwasherVsHandWashCalculator } from "./dishwasher-vs-hand-wash-calculator";
+import { vacuumCleanerCostCalculator } from "./vacuum-cleaner-cost-calculator";
+import { mattressReplacementCalculator } from "./mattress-replacement-calculator";
+import { closetSpaceCalculator } from "./closet-space-calculator";
+import { householdChemicalCostCalculator } from "./household-chemical-cost-calculator";
+import { airFilterScheduleCalculator } from "./air-filter-schedule-calculator";
+import { lightbulbComparisonCalculator } from "./lightbulb-comparison-calculator";
+import { structuralBeamCalculator } from "./structural-beam-calculator";
+import { torqueConversionCalculator } from "./torque-conversion-calculator";
+import { pressureDropCalculator } from "./pressure-drop-calculator";
+import { prenupCostCalculator } from "./prenup-cost-calculator";
+import { trustFundCalculator } from "./trust-fund-calculator";
+import { powerOfAttorneyCostCalculator } from "./power-of-attorney-cost-calculator";
+import { sCorpTaxSavingsCalculator } from "./s-corp-tax-savings-calculator";
+import { franchiseCostCalculator } from "./franchise-cost-calculator";
+import { commercialInsuranceCalculator } from "./commercial-insurance-calculator";
+import { landClearingCostCalculator } from "./land-clearing-cost-calculator";
+import { wellDrillingCostCalculator } from "./well-drilling-cost-calculator";
+import { septicInstallationCostCalculator } from "./septic-installation-cost-calculator";
+import { propertyLineSurveyCalculator } from "./property-line-survey-calculator";
+import { earnestMoneyCalculator } from "./earnest-money-calculator";
+import { homeWarrantyCalculator } from "./home-warranty-calculator";
+import { hoaFeeImpactCalculator } from "./hoa-fee-impact-calculator";
+import { websiteCostCalculator } from "./website-cost-calculator";
+import { saasPricingCalculator } from "./saas-pricing-calculator";
+import { databaseSizeCalculator } from "./database-size-calculator";
+import { serverSizingCalculator } from "./server-sizing-calculator";
+import { dataTransferCostCalculator } from "./data-transfer-cost-calculator";
+import { bufferCalculator } from "./buffer-calculator";
+import { reactionYieldCalculator } from "./reaction-yield-calculator";
+import { gasLawCalculator } from "./gas-law-calculator";
+import { spectrophotometerCalculator } from "./spectrophotometer-calculator";
+import { wrongfulTerminationCalculator } from "./wrongful-termination-calculator";
+import { disabilityBenefitsCalculator } from "./disability-benefits-calculator";
+import { mesotheliomaSettlementCalculator } from "./mesothelioma-settlement-calculator";
+import { medicalDebtCalculator } from "./medical-debt-calculator";
+import { nursingHomeCostCalculator } from "./nursing-home-cost-calculator";
+import { assistedLivingCostCalculator } from "./assisted-living-cost-calculator";
+import { memoryCareCostCalculator } from "./memory-care-cost-calculator";
+import { hospiceCostCalculator } from "./hospice-cost-calculator";
+import { veteranBenefitsCalculator } from "./veteran-benefits-calculator";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -9255,6 +9324,75 @@ carDepreciationScheduleCalculator,
   noiseOrdinanceCalculator,
   radonMitigationCalculator,
   moldRemediationCalculator,
+racePaceCalculator,
+  benchPressStrengthCalculator,
+  squatStrengthCalculator,
+  deadliftStrengthCalculator,
+  rowingSplitCalculator,
+  paddleBoardSizeCalculator,
+  rockClimbingRopeLengthCalculator,
+  lacrosseStickSizeCalculator,
+  dartCheckoutCalculator,
+  audioRoomTreatmentCalculator,
+  vinylRecordSpeedCalculator,
+  paSystemSizeCalculator,
+  pianoTuningCostCalculator,
+  musicLessonCostCalculator,
+  bandBookingCalculator,
+  recordingStudioCostCalculator,
+  audioCableLengthCalculator,
+  snowLoadRoofCalculator,
+  iceDamPreventionCalculator,
+  winterHeatingCostCalculator,
+  summerCoolingCostCalculator,
+  lawnWateringCostCalculator,
+  snowBlowerSizeCalculator,
+  hurricanePrepCostCalculator,
+  wildfirePrepCalculator,
+  floodDamageCalculator,
+  showerWaterUsageCalculator,
+  laundryScheduleCalculator,
+  dishwasherVsHandWashCalculator,
+  vacuumCleanerCostCalculator,
+  mattressReplacementCalculator,
+  closetSpaceCalculator,
+  householdChemicalCostCalculator,
+  airFilterScheduleCalculator,
+  lightbulbComparisonCalculator,
+  structuralBeamCalculator,
+  torqueConversionCalculator,
+  pressureDropCalculator,
+  prenupCostCalculator,
+  trustFundCalculator,
+  powerOfAttorneyCostCalculator,
+  sCorpTaxSavingsCalculator,
+  franchiseCostCalculator,
+  commercialInsuranceCalculator,
+  landClearingCostCalculator,
+  wellDrillingCostCalculator,
+  septicInstallationCostCalculator,
+  propertyLineSurveyCalculator,
+  earnestMoneyCalculator,
+  homeWarrantyCalculator,
+  hoaFeeImpactCalculator,
+  websiteCostCalculator,
+  saasPricingCalculator,
+  databaseSizeCalculator,
+  serverSizingCalculator,
+  dataTransferCostCalculator,
+  bufferCalculator,
+  reactionYieldCalculator,
+  gasLawCalculator,
+  spectrophotometerCalculator,
+  wrongfulTerminationCalculator,
+  disabilityBenefitsCalculator,
+  mesotheliomaSettlementCalculator,
+  medicalDebtCalculator,
+  nursingHomeCostCalculator,
+  assistedLivingCostCalculator,
+  memoryCareCostCalculator,
+  hospiceCostCalculator,
+  veteranBenefitsCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
