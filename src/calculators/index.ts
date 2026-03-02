@@ -5027,6 +5027,59 @@ import { cncMachiningCostCalculator } from "./cnc-machining-cost-calculator";
 import { injectionMoldingCostCalculator } from "./injection-molding-cost-calculator";
 import { heatSinkCalculator } from "./heat-sink-calculator";
 import { stepperMotorTorqueCalculator } from "./stepper-motor-torque-calculator";
+import { weddingGuestCalculator } from "./wedding-guest-calculator";
+import { weddingFlowerCalculator } from "./wedding-flower-calculator";
+import { weddingCakeCalculator } from "./wedding-cake-calculator";
+import { weddingInvitationCalculator } from "./wedding-invitation-calculator";
+import { eventTentSizeCalculator } from "./event-tent-size-calculator";
+import { eventCateringCalculator } from "./event-catering-calculator";
+import { eventParkingCalculator } from "./event-parking-calculator";
+import { eventBarCalculator } from "./event-bar-calculator";
+import { partyBalloonCalculator } from "./party-balloon-calculator";
+import { retirementHomeCostCalculator } from "./retirement-home-cost-calculator";
+import { medicareSupplementCalculator } from "./medicare-supplement-calculator";
+import { grabBarPlacementCalculator } from "./grab-bar-placement-calculator";
+import { medicationScheduleCalculator } from "./medication-schedule-calculator";
+import { visionCorrectionCostCalculator } from "./vision-correction-cost-calculator";
+import { servoMotorCalculator } from "./servo-motor-calculator";
+import { relaySizingCalculator } from "./relay-sizing-calculator";
+import { transformerSizingCalculator } from "./transformer-sizing-calculator";
+import { dowelJointCalculator } from "./dowel-joint-calculator";
+import { woodScrewPilotHoleCalculator } from "./wood-screw-pilot-hole-calculator";
+import { weldFillerMetalCalculator } from "./weld-filler-metal-calculator";
+import { weldHeatInputCalculator } from "./weld-heat-input-calculator";
+import { metalWeightCalculator } from "./metal-weight-calculator";
+import { sheetMetalBendCalculator } from "./sheet-metal-bend-calculator";
+import { tapDrillSizeCalculator } from "./tap-drill-size-calculator";
+import { threadPitchCalculator } from "./thread-pitch-calculator";
+import { fabricShrinkageCalculator } from "./fabric-shrinkage-calculator";
+import { elasticLengthCalculator } from "./elastic-length-calculator";
+import { seedRateCalculator } from "./seed-rate-calculator";
+import { irrigationWaterCalculator } from "./irrigation-water-calculator";
+import { pastureStockingRateCalculator } from "./pasture-stocking-rate-calculator";
+import { grainBinCapacityCalculator } from "./grain-bin-capacity-calculator";
+import { tractorPtoCalculator } from "./tractor-pto-calculator";
+import { runwayLengthCalculator } from "./runway-length-calculator";
+import { nauticalMileConverterCalculator } from "./nautical-mile-converter-calculator";
+import { trueWindCalculator } from "./true-wind-calculator";
+import { tidalRangeCalculator } from "./tidal-range-calculator";
+import { chartDistanceCalculator } from "./chart-distance-calculator";
+import { fuelRangeCalculator } from "./fuel-range-calculator";
+import { barometricPressureAltitudeCalculator } from "./barometric-pressure-altitude-calculator";
+import { uvExposureCalculator } from "./uv-exposure-calculator";
+import { rainfallIntensityCalculator } from "./rainfall-intensity-calculator";
+import { lightYearDistanceCalculator } from "./light-year-distance-calculator";
+import { gamingPcWattageCalculator } from "./gaming-pc-wattage-calculator";
+import { gamingFpsCalculator } from "./gaming-fps-calculator";
+import { keyboardSwitchCalculator } from "./keyboard-switch-calculator";
+import { diceProbabilityCalculator } from "./dice-probability-calculator";
+import { miniatureScaleCalculator } from "./miniature-scale-calculator";
+import { origamiPaperSizeCalculator } from "./origami-paper-size-calculator";
+import { wineSulfiteCalculator } from "./wine-sulfite-calculator";
+import { kombuchaBrewingCalculator } from "./kombucha-brewing-calculator";
+import { essentialOilDilutionCalculator } from "./essential-oil-dilution-calculator";
+import { soapLyeCalculator } from "./soap-lye-calculator";
+import { leatherThicknessCalculator } from "./leather-thickness-calculator";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -9865,6 +9918,59 @@ asphaltPavingCalculator,
   injectionMoldingCostCalculator,
   heatSinkCalculator,
   stepperMotorTorqueCalculator,
+weddingGuestCalculator,
+  weddingFlowerCalculator,
+  weddingCakeCalculator,
+  weddingInvitationCalculator,
+  eventTentSizeCalculator,
+  eventCateringCalculator,
+  eventParkingCalculator,
+  eventBarCalculator,
+  partyBalloonCalculator,
+  retirementHomeCostCalculator,
+  medicareSupplementCalculator,
+  grabBarPlacementCalculator,
+  medicationScheduleCalculator,
+  visionCorrectionCostCalculator,
+  servoMotorCalculator,
+  relaySizingCalculator,
+  transformerSizingCalculator,
+  dowelJointCalculator,
+  woodScrewPilotHoleCalculator,
+  weldFillerMetalCalculator,
+  weldHeatInputCalculator,
+  metalWeightCalculator,
+  sheetMetalBendCalculator,
+  tapDrillSizeCalculator,
+  threadPitchCalculator,
+  fabricShrinkageCalculator,
+  elasticLengthCalculator,
+  seedRateCalculator,
+  irrigationWaterCalculator,
+  pastureStockingRateCalculator,
+  grainBinCapacityCalculator,
+  tractorPtoCalculator,
+  runwayLengthCalculator,
+  nauticalMileConverterCalculator,
+  trueWindCalculator,
+  tidalRangeCalculator,
+  chartDistanceCalculator,
+  fuelRangeCalculator,
+  barometricPressureAltitudeCalculator,
+  uvExposureCalculator,
+  rainfallIntensityCalculator,
+  lightYearDistanceCalculator,
+  gamingPcWattageCalculator,
+  gamingFpsCalculator,
+  keyboardSwitchCalculator,
+  diceProbabilityCalculator,
+  miniatureScaleCalculator,
+  origamiPaperSizeCalculator,
+  wineSulfiteCalculator,
+  kombuchaBrewingCalculator,
+  essentialOilDilutionCalculator,
+  soapLyeCalculator,
+  leatherThicknessCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
