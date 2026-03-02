@@ -5321,6 +5321,94 @@ import { rowingStrokeRateCalculator } from "./rowing-stroke-rate-calculator";
 import { triathlonTransitionTimeCalculator } from "./triathlon-transition-time-calculator";
 import { sportsDrinkHydrationCalculator } from "./sports-drink-hydration-calculator";
 import { athleticTapeUsageCalculator } from "./athletic-tape-usage-calculator";
+import { cameraSensorCropFactorCalculator } from "./camera-sensor-crop-factor-calculator";
+import { timeLapseIntervalCalculator } from "./time-lapse-interval-calculator";
+import { videoBitrateEstimatorCalculator } from "./video-bitrate-estimator";
+import { filmBudgetEstimatorCalculator } from "./film-budget-estimator";
+import { goldenRatioCompositionCalculator } from "./golden-ratio-composition-calculator";
+import { videoStorageEstimatorCalculator } from "./video-storage-estimator";
+import { greenScreenDistanceCalculator } from "./green-screen-distance-calculator";
+import { colorTemperatureConverterCalculator } from "./color-temperature-converter-calculator";
+import { photoPrintCostCalculator } from "./photo-print-cost-calculator";
+import { videoRenderTimeEstimatorCalculator } from "./video-render-time-estimator";
+import { photoBackupStorageCalculator } from "./photo-backup-storage-calculator";
+import { weddingVideographyCostCalculator } from "./wedding-videography-cost-calculator";
+import { filmCrewSizeEstimatorCalculator } from "./film-crew-size-estimator";
+import { motionBlurShutterSpeedCalculator } from "./motion-blur-shutter-speed-calculator";
+import { aspectRatioResizeCalculator } from "./aspect-ratio-resize-calculator";
+import { filmGrainIsoCalculator } from "./film-grain-iso-calculator";
+import { lightingSetupCostCalculator } from "./lighting-setup-cost-calculator";
+import { video360StitchingTimeCalculator } from "./video-360-stitching-time-calculator";
+import { lensCompressionDistanceCalculator } from "./lens-compression-distance-calculator";
+import { pixelDensityPpiCalculator } from "./pixel-density-ppi-calculator";
+import { ndFilterExposureCalculator } from "./nd-filter-exposure-calculator";
+import { flightFuelCostEstimatorCalculator } from "./flight-fuel-cost-estimator-calculator";
+import { jetLagRecoveryTimeCalculator } from "./jet-lag-recovery-time-calculator";
+import { travelDailyBudgetCalculator } from "./travel-daily-budget-calculator";
+import { cruiseCabinCostComparisonCalculator } from "./cruise-cabin-cost-comparison-calculator";
+import { passportRenewalTimelineCalculator } from "./passport-renewal-timeline-calculator";
+import { airlineMilesValueCalculator } from "./airline-miles-value-calculator";
+import { hotelPointsValueCalculator } from "./hotel-points-value-calculator";
+import { luggageWeightConverterCalculator } from "./luggage-weight-converter-calculator";
+import { visaProcessingTimeCalculator } from "./visa-processing-time-calculator";
+import { internationalCallingCostCalculator } from "./international-calling-cost-calculator";
+import { travelVaccinationCostCalculator } from "./travel-vaccination-cost-calculator";
+import { airportParkingCostCalculator } from "./airport-parking-cost-calculator";
+import { roadTripFuelPlannerCalculator } from "./road-trip-fuel-planner-calculator";
+import { flightCarbonOffsetCalculator } from "./flight-carbon-offset-calculator";
+import { timezoneOverlapCalculator } from "./timezone-overlap-calculator";
+import { sailingDistanceCalculator } from "./sailing-distance-calculator";
+import { flightLayoverOptimizerCalculator } from "./flight-layover-optimizer-calculator";
+import { travelTipByCountryCalculator } from "./travel-tip-by-country-calculator";
+import { backpackingGearWeightCalculator } from "./backpacking-gear-weight-calculator";
+import { skiResortValueComparisonCalculator } from "./ski-resort-value-comparison-calculator";
+import { rentalCarCostComparisonCalculator } from "./rental-car-cost-comparison-calculator";
+import { flightTimeEstimatorCalculator } from "./flight-time-estimator-calculator";
+import { cruisePackingListCalculator } from "./cruise-packing-list-calculator";
+import { uvProtectionFactorCalculator } from "./uv-protection-factor-calculator";
+import { rainfallCollectionCalculator } from "./rainfall-collection-calculator";
+import { solarPanelPaybackCalculator } from "./solar-panel-payback-calculator";
+import { carbonFootprintOffsetCalculator } from "./carbon-footprint-offset-calculator";
+import { rainwaterTankSizeCalculator } from "./rainwater-tank-size-calculator";
+import { airQualityHealthImpactCalculator } from "./air-quality-health-impact-calculator";
+import { deforestationImpactCalculator } from "./deforestation-impact-calculator";
+import { oceanAcidificationCalculator } from "./ocean-acidification-calculator";
+import { permafrostThawRateCalculator } from "./permafrost-thaw-rate-calculator";
+import { droughtSeverityIndexCalculator } from "./drought-severity-index-calculator";
+import { floodRiskAssessmentCalculator } from "./flood-risk-assessment-calculator";
+import { wildfireRiskCalculator } from "./wildfire-risk-calculator";
+import { tornadoSafetyDistanceCalculator } from "./tornado-safety-distance-calculator";
+import { hurricanePreparednessCostCalculator } from "./hurricane-preparedness-cost-calculator";
+import { lightningStrikeProbabilityCalculator } from "./lightning-strike-probability-calculator";
+import { iceDamRiskCalculator } from "./ice-dam-risk-calculator";
+import { growingDegreeDaysCalculator } from "./growing-degree-days-calculator";
+import { evapotranspirationRateCalculator } from "./evapotranspiration-rate-calculator";
+import { soilErosionRateCalculator } from "./soil-erosion-rate-calculator";
+import { compostVolumeCalculator } from "./compost-volume-calculator";
+import { windChillExtendedCalculator } from "./wind-chill-extended-calculator";
+import { heatIndexActivityCalculator } from "./heat-index-activity-calculator";
+import { quiltFabricCalculator } from "./quilt-fabric-calculator";
+import { candleMakingWaxCalculator } from "./candle-making-wax-calculator";
+import { soapMakingLyeCalculator } from "./soap-making-lye-calculator";
+import { resinArtVolumeCalculator } from "./resin-art-volume-calculator";
+import { leatherWorkingCostCalculator } from "./leather-working-cost-calculator";
+import { potteryKilnFiringCostCalculator } from "./pottery-kiln-firing-cost-calculator";
+import { crossStitchFabricCalculator } from "./cross-stitch-fabric-calculator";
+import { scrapbookPageLayoutCalculator } from "./scrapbook-page-layout-calculator";
+import { woodTurningBlankSizeCalculator } from "./wood-turning-blank-size-calculator";
+import { modelRailroadScaleCalculator } from "./model-railroad-scale-calculator";
+import { miniaturePaintingCostCalculator } from "./miniature-painting-cost-calculator";
+import { beadPatternCalculator } from "./bead-pattern-calculator";
+import { calligraphyInkUsageCalculator } from "./calligraphy-ink-usage-calculator";
+import { paperCraftingSheetsCalculator } from "./paper-crafting-sheets-calculator";
+import { stainedGlassAreaCalculator } from "./stained-glass-area-calculator";
+import { mosaicTileCalculator } from "./mosaic-tile-calculator";
+import { crochetHookSizeCalculator } from "./crochet-hook-size-calculator";
+import { sewingPatternSizingCalculator } from "./sewing-pattern-sizing-calculator";
+import { tieDyeFabricCalculator } from "./tie-dye-fabric-calculator";
+import { flowerArrangementCostCalculator } from "./flower-arrangement-cost-calculator";
+import { cardMakingSuppliesCalculator } from "./card-making-supplies-calculator";
+import { jewelryWireCalculator } from "./jewelry-wire-calculator";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -10453,6 +10541,94 @@ cattleWeightGainCalculator,
   triathlonTransitionTimeCalculator,
   sportsDrinkHydrationCalculator,
   athleticTapeUsageCalculator,
+cameraSensorCropFactorCalculator,
+  timeLapseIntervalCalculator,
+  videoBitrateEstimatorCalculator,
+  filmBudgetEstimatorCalculator,
+  goldenRatioCompositionCalculator,
+  videoStorageEstimatorCalculator,
+  greenScreenDistanceCalculator,
+  colorTemperatureConverterCalculator,
+  photoPrintCostCalculator,
+  videoRenderTimeEstimatorCalculator,
+  photoBackupStorageCalculator,
+  weddingVideographyCostCalculator,
+  filmCrewSizeEstimatorCalculator,
+  motionBlurShutterSpeedCalculator,
+  aspectRatioResizeCalculator,
+  filmGrainIsoCalculator,
+  lightingSetupCostCalculator,
+  video360StitchingTimeCalculator,
+  lensCompressionDistanceCalculator,
+  pixelDensityPpiCalculator,
+  ndFilterExposureCalculator,
+  flightFuelCostEstimatorCalculator,
+  jetLagRecoveryTimeCalculator,
+  travelDailyBudgetCalculator,
+  cruiseCabinCostComparisonCalculator,
+  passportRenewalTimelineCalculator,
+  airlineMilesValueCalculator,
+  hotelPointsValueCalculator,
+  luggageWeightConverterCalculator,
+  visaProcessingTimeCalculator,
+  internationalCallingCostCalculator,
+  travelVaccinationCostCalculator,
+  airportParkingCostCalculator,
+  roadTripFuelPlannerCalculator,
+  flightCarbonOffsetCalculator,
+  timezoneOverlapCalculator,
+  sailingDistanceCalculator,
+  flightLayoverOptimizerCalculator,
+  travelTipByCountryCalculator,
+  backpackingGearWeightCalculator,
+  skiResortValueComparisonCalculator,
+  rentalCarCostComparisonCalculator,
+  flightTimeEstimatorCalculator,
+  cruisePackingListCalculator,
+  uvProtectionFactorCalculator,
+  rainfallCollectionCalculator,
+  solarPanelPaybackCalculator,
+  carbonFootprintOffsetCalculator,
+  rainwaterTankSizeCalculator,
+  airQualityHealthImpactCalculator,
+  deforestationImpactCalculator,
+  oceanAcidificationCalculator,
+  permafrostThawRateCalculator,
+  droughtSeverityIndexCalculator,
+  floodRiskAssessmentCalculator,
+  wildfireRiskCalculator,
+  tornadoSafetyDistanceCalculator,
+  hurricanePreparednessCostCalculator,
+  lightningStrikeProbabilityCalculator,
+  iceDamRiskCalculator,
+  growingDegreeDaysCalculator,
+  evapotranspirationRateCalculator,
+  soilErosionRateCalculator,
+  compostVolumeCalculator,
+  windChillExtendedCalculator,
+  heatIndexActivityCalculator,
+  quiltFabricCalculator,
+  candleMakingWaxCalculator,
+  soapMakingLyeCalculator,
+  resinArtVolumeCalculator,
+  leatherWorkingCostCalculator,
+  potteryKilnFiringCostCalculator,
+  crossStitchFabricCalculator,
+  scrapbookPageLayoutCalculator,
+  woodTurningBlankSizeCalculator,
+  modelRailroadScaleCalculator,
+  miniaturePaintingCostCalculator,
+  beadPatternCalculator,
+  calligraphyInkUsageCalculator,
+  paperCraftingSheetsCalculator,
+  stainedGlassAreaCalculator,
+  mosaicTileCalculator,
+  crochetHookSizeCalculator,
+  sewingPatternSizingCalculator,
+  tieDyeFabricCalculator,
+  flowerArrangementCostCalculator,
+  cardMakingSuppliesCalculator,
+  jewelryWireCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
