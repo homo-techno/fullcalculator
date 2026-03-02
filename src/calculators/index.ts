@@ -4953,6 +4953,80 @@ import { fenceMaterialCalculator } from "./fence-material-calculator";
 import { gutterDownspoutCalculator } from "./gutter-downspout-calculator";
 import { parklandFormulaCalculator } from "./parkland-formula-calculator";
 import { rebarSpacingCalculator } from "./rebar-spacing-calculator";
+import { asphaltPavingCalculator } from "./asphalt-paving-calculator";
+import { poolPumpSizingCalculator } from "./pool-pump-sizing-calculator";
+import { paverCalculator } from "./paver-calculator";
+import { postHoleConcreteCalculator } from "./post-hole-concrete-calculator";
+import { rainBarrelSavingsCalculator } from "./rain-barrel-savings-calculator";
+import { wellPumpSizingCalculator } from "./well-pump-sizing-calculator";
+import { frenchDrainGravelCalculator } from "./french-drain-gravel-calculator";
+import { gutterRainCalculator } from "./gutter-rain-calculator";
+import { atticVentilationCalculator } from "./attic-ventilation-calculator";
+import { crawlSpaceEncapsulationCalculator } from "./crawl-space-encapsulation-calculator";
+import { windowUFactorCalculator } from "./window-u-factor-calculator";
+import { baseboardLengthCalculator } from "./baseboard-length-calculator";
+import { chairRailCalculator } from "./chair-rail-calculator";
+import { tileGroutCalculator } from "./tile-grout-calculator";
+import { backsplashTileCalculator } from "./backsplash-tile-calculator";
+import { firewoodBtuCalculator } from "./firewood-btu-calculator";
+import { pelletStoveCostCalculator } from "./pellet-stove-cost-calculator";
+import { ductInsulationCalculator } from "./duct-insulation-calculator";
+import { airFilterReplacementCalculator } from "./air-filter-replacement-calculator";
+import { waterHeaterCostCalculator } from "./water-heater-cost-calculator";
+import { tanklessWaterHeaterSavingsCalculator } from "./tankless-water-heater-savings-calculator";
+import { sumpPumpSizingCalculator } from "./sump-pump-sizing-calculator";
+import { dehumidifierSizingCalculator } from "./dehumidifier-sizing-calculator";
+import { humidifierSizingCalculator } from "./humidifier-sizing-calculator";
+import { airPurifierRoomSizeCalculator } from "./air-purifier-room-size-calculator";
+import { transferSwitchCalculator } from "./transfer-switch-calculator";
+import { electricalPanelLoadCalculator } from "./electrical-panel-load-calculator";
+import { circuitBreakerSizingCalculator } from "./circuit-breaker-sizing-calculator";
+import { pipeFlowRateCalculator } from "./pipe-flow-rate-calculator";
+import { pipePressureDropCalculator } from "./pipe-pressure-drop-calculator";
+import { pondLinerCalculator } from "./pond-liner-calculator";
+import { concreteDrivewayCostCalculator } from "./concrete-driveway-cost-calculator";
+import { pergolaShadeCalculator } from "./pergola-shade-calculator";
+import { trampolineWeightLimitCalculator } from "./trampoline-weight-limit-calculator";
+import { swingSetSpacingCalculator } from "./swing-set-spacing-calculator";
+import { sandboxSandCalculator } from "./sandbox-sand-calculator";
+import { basketballCourtSizeCalculator } from "./basketball-court-size-calculator";
+import { tennisCourtCostCalculator } from "./tennis-court-cost-calculator";
+import { battingCageSizeCalculator } from "./batting-cage-size-calculator";
+import { archeryRangeCalculator } from "./archery-range-calculator";
+import { dartBoardHeightCalculator } from "./dart-board-height-calculator";
+import { billiardRoomSizeCalculator } from "./billiard-room-size-calculator";
+import { homeGymSpaceCalculator } from "./home-gym-space-calculator";
+import { saunaHeaterCalculator } from "./sauna-heater-calculator";
+import { steamRoomGeneratorCalculator } from "./steam-room-generator-calculator";
+import { wineCellarCapacityCalculator } from "./wine-cellar-capacity-calculator";
+import { bookshelfCapacityCalculator } from "./bookshelf-capacity-calculator";
+import { kitchenIslandSizeCalculator } from "./kitchen-island-size-calculator";
+import { countertopSquareFootageCalculator } from "./countertop-square-footage-calculator";
+import { cabinetHardwareCalculator } from "./cabinet-hardware-calculator";
+import { lightingLumenCalculator } from "./lighting-lumen-calculator";
+import { recessedLightingCalculator } from "./recessed-lighting-calculator";
+import { landscapeLightingCalculator } from "./landscape-lighting-calculator";
+import { underCabinetLightingCalculator } from "./under-cabinet-lighting-calculator";
+import { ceilingHeightCalculator } from "./ceiling-height-calculator";
+import { staircaseCarpetCalculator } from "./staircase-carpet-calculator";
+import { windowTreatmentCalculator } from "./window-treatment-calculator";
+import { blindsSizeCalculator } from "./blinds-size-calculator";
+import { tvViewingDistanceCalculator } from "./tv-viewing-distance-calculator";
+import { projectorScreenSizeCalculator } from "./projector-screen-size-calculator";
+import { ethernetCableCalculator } from "./ethernet-cable-calculator";
+import { wifiAccessPointCalculator } from "./wifi-access-point-calculator";
+import { upsBatteryCalculator } from "./ups-battery-calculator";
+import { serverRackCalculator } from "./server-rack-calculator";
+import { dataTransferTimeCalculator } from "./data-transfer-time-calculator";
+import { ipSubnetCalculator } from "./ip-subnet-calculator";
+import { raidCapacityCalculator } from "./raid-capacity-calculator";
+import { backupStorageCalculator } from "./backup-storage-calculator";
+import { printTime3dCalculator } from "./print-time-3d-calculator";
+import { laserCuttingCostCalculator } from "./laser-cutting-cost-calculator";
+import { cncMachiningCostCalculator } from "./cnc-machining-cost-calculator";
+import { injectionMoldingCostCalculator } from "./injection-molding-cost-calculator";
+import { heatSinkCalculator } from "./heat-sink-calculator";
+import { stepperMotorTorqueCalculator } from "./stepper-motor-torque-calculator";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -9717,6 +9791,80 @@ petFoodCostCalculator,
   gutterDownspoutCalculator,
   parklandFormulaCalculator,
   rebarSpacingCalculator,
+asphaltPavingCalculator,
+  poolPumpSizingCalculator,
+  paverCalculator,
+  postHoleConcreteCalculator,
+  rainBarrelSavingsCalculator,
+  wellPumpSizingCalculator,
+  frenchDrainGravelCalculator,
+  gutterRainCalculator,
+  atticVentilationCalculator,
+  crawlSpaceEncapsulationCalculator,
+  windowUFactorCalculator,
+  baseboardLengthCalculator,
+  chairRailCalculator,
+  tileGroutCalculator,
+  backsplashTileCalculator,
+  firewoodBtuCalculator,
+  pelletStoveCostCalculator,
+  ductInsulationCalculator,
+  airFilterReplacementCalculator,
+  waterHeaterCostCalculator,
+  tanklessWaterHeaterSavingsCalculator,
+  sumpPumpSizingCalculator,
+  dehumidifierSizingCalculator,
+  humidifierSizingCalculator,
+  airPurifierRoomSizeCalculator,
+  transferSwitchCalculator,
+  electricalPanelLoadCalculator,
+  circuitBreakerSizingCalculator,
+  pipeFlowRateCalculator,
+  pipePressureDropCalculator,
+  pondLinerCalculator,
+  concreteDrivewayCostCalculator,
+  pergolaShadeCalculator,
+  trampolineWeightLimitCalculator,
+  swingSetSpacingCalculator,
+  sandboxSandCalculator,
+  basketballCourtSizeCalculator,
+  tennisCourtCostCalculator,
+  battingCageSizeCalculator,
+  archeryRangeCalculator,
+  dartBoardHeightCalculator,
+  billiardRoomSizeCalculator,
+  homeGymSpaceCalculator,
+  saunaHeaterCalculator,
+  steamRoomGeneratorCalculator,
+  wineCellarCapacityCalculator,
+  bookshelfCapacityCalculator,
+  kitchenIslandSizeCalculator,
+  countertopSquareFootageCalculator,
+  cabinetHardwareCalculator,
+  lightingLumenCalculator,
+  recessedLightingCalculator,
+  landscapeLightingCalculator,
+  underCabinetLightingCalculator,
+  ceilingHeightCalculator,
+  staircaseCarpetCalculator,
+  windowTreatmentCalculator,
+  blindsSizeCalculator,
+  tvViewingDistanceCalculator,
+  projectorScreenSizeCalculator,
+  ethernetCableCalculator,
+  wifiAccessPointCalculator,
+  upsBatteryCalculator,
+  serverRackCalculator,
+  dataTransferTimeCalculator,
+  ipSubnetCalculator,
+  raidCapacityCalculator,
+  backupStorageCalculator,
+  printTime3dCalculator,
+  laserCuttingCostCalculator,
+  cncMachiningCostCalculator,
+  injectionMoldingCostCalculator,
+  heatSinkCalculator,
+  stepperMotorTorqueCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
