@@ -5154,6 +5154,84 @@ import { snellsLawCalculator } from "./snells-law-calculator";
 import { thermalConductivityCalculator } from "./thermal-conductivity-calculator";
 import { viscosityCalculator } from "./viscosity-calculator";
 import { projectileRangeCalculator } from "./projectile-range-calculator";
+import { employeeOnboardingCostCalculator } from "./employee-onboarding-cost-calculator";
+import { absenteeismCostCalculator } from "./absenteeism-cost-calculator";
+import { overtimeCostCalculator } from "./overtime-cost-calculator";
+import { ptoAccrualCalculator } from "./pto-accrual-calculator";
+import { workersCompRateCalculator } from "./workers-comp-rate-calculator";
+import { employeeBenefitsCostCalculator } from "./employee-benefits-cost-calculator";
+import { officeSpacePerEmployeeCalculator } from "./office-space-per-employee-calculator";
+import { nonprofitOverheadRateCalculator } from "./nonprofit-overhead-rate-calculator";
+import { fundraisingRoiCalculator } from "./fundraising-roi-calculator";
+import { grantMatchCalculator } from "./grant-match-calculator";
+import { donorRetentionCalculator } from "./donor-retention-calculator";
+import { volunteerValueCalculator } from "./volunteer-value-calculator";
+import { programCostPerOutcomeCalculator } from "./program-cost-per-outcome-calculator";
+import { churchTitheCalculator } from "./church-tithe-calculator";
+import { churchSeatingCapacityCalculator } from "./church-seating-capacity-calculator";
+import { churchBudgetCalculator } from "./church-budget-calculator";
+import { missionTripCostCalculator } from "./mission-trip-cost-calculator";
+import { vacationBibleSchoolCalculator } from "./vacation-bible-school-calculator";
+import { potluckFoodCalculator } from "./potluck-food-calculator";
+import { conferenceRoomCalculator } from "./conference-room-calculator";
+import { cubicleLayoutCalculator } from "./cubicle-layout-calculator";
+import { standingDeskHeightCalculator } from "./standing-desk-height-calculator";
+import { dentalCrownCostCalculator } from "./dental-crown-cost-calculator";
+import { dentalBridgeCostCalculator } from "./dental-bridge-cost-calculator";
+import { dentalVeneerCostCalculator } from "./dental-veneer-cost-calculator";
+import { orthodonticPaymentCalculator } from "./orthodontic-payment-calculator";
+import { dentalCleaningFrequencyCalculator } from "./dental-cleaning-frequency-calculator";
+import { rootCanalCostCalculator } from "./root-canal-cost-calculator";
+import { teethWhiteningCostCalculator } from "./teeth-whitening-cost-calculator";
+import { vetVisitCostCalculator } from "./vet-visit-cost-calculator";
+import { petVaccinationScheduleCalculator } from "./pet-vaccination-schedule-calculator";
+import { petSpayNeuterCostCalculator } from "./pet-spay-neuter-cost-calculator";
+import { petDentalCostCalculator } from "./pet-dental-cost-calculator";
+import { petWeightCalculator } from "./pet-weight-calculator";
+import { pillDosageCalculator } from "./pill-dosage-calculator";
+import { liquidMedicationCalculator } from "./liquid-medication-calculator";
+import { medicationHalfLifeCalculator } from "./medication-half-life-calculator";
+import { eyeglassPrescriptionCalculator } from "./eyeglass-prescription-calculator";
+import { pupillaryDistanceCalculator } from "./pupillary-distance-calculator";
+import { readingGlassesStrengthCalculator } from "./reading-glasses-strength-calculator";
+import { eyeExamCostCalculator } from "./eye-exam-cost-calculator";
+import { blueLightExposureCalculator } from "./blue-light-exposure-calculator";
+import { babysittingRateCalculator } from "./babysitting-rate-calculator";
+import { auPairCostCalculator } from "./au-pair-cost-calculator";
+import { afterSchoolProgramCostCalculator } from "./after-school-program-cost-calculator";
+import { sportsLeagueCostCalculator } from "./sports-league-cost-calculator";
+import { homeschoolCurriculumCostCalculator } from "./homeschool-curriculum-cost-calculator";
+import { schoolSupplyListCalculator } from "./school-supply-list-calculator";
+import { fieldTripCostCalculator } from "./field-trip-cost-calculator";
+import { schoolBusRouteCalculator } from "./school-bus-route-calculator";
+import { classroomSizeCalculator } from "./classroom-size-calculator";
+import { schoolFundraiserCalculator } from "./school-fundraiser-calculator";
+import { yearbookCostCalculator } from "./yearbook-cost-calculator";
+import { graduationPartyCalculator } from "./graduation-party-calculator";
+import { collegeApplicationCostCalculator } from "./college-application-cost-calculator";
+import { dormRoomEssentialsCalculator } from "./dorm-room-essentials-calculator";
+import { mealPlanComparisonCalculator } from "./meal-plan-comparison-calculator";
+import { studyHoursCalculator } from "./study-hours-calculator";
+import { classRankPercentileCalculator } from "./class-rank-percentile-calculator";
+import { actToSatConverterCalculator } from "./act-to-sat-converter-calculator";
+import { hairColorCostCalculator } from "./hair-color-cost-calculator";
+import { haircutFrequencyCalculator } from "./haircut-frequency-calculator";
+import { hairExtensionCostCalculator } from "./hair-extension-cost-calculator";
+import { nailSalonCostCalculator } from "./nail-salon-cost-calculator";
+import { eyelashExtensionCostCalculator } from "./eyelash-extension-cost-calculator";
+import { facialTreatmentCostCalculator } from "./facial-treatment-cost-calculator";
+import { spaDayCostCalculator } from "./spa-day-cost-calculator";
+import { massageCostCalculator } from "./massage-cost-calculator";
+import { waxingCostCalculator } from "./waxing-cost-calculator";
+import { dermalFillerCostCalculator } from "./dermal-filler-cost-calculator";
+import { chemicalPeelCostCalculator } from "./chemical-peel-cost-calculator";
+import { laserHairRemovalCalculator } from "./laser-hair-removal-calculator";
+import { teethStraighteningCostCalculator } from "./teeth-straightening-cost-calculator";
+import { skincareRoutineCostCalculator } from "./skincare-routine-cost-calculator";
+import { perfumeCostPerWearCalculator } from "./perfume-cost-per-wear-calculator";
+import { makeupExpirationCalculator } from "./makeup-expiration-calculator";
+import { sunscreenUsageCalculator } from "./sunscreen-usage-calculator";
+import { skinTypeHydrationCalculator } from "./skin-type-hydration-calculator";
 
 export const calculators: CalculatorDefinition[] = [
   percentageCalculator,
@@ -10119,6 +10197,84 @@ movingTimelineCalculator,
   thermalConductivityCalculator,
   viscosityCalculator,
   projectileRangeCalculator,
+employeeOnboardingCostCalculator,
+  absenteeismCostCalculator,
+  overtimeCostCalculator,
+  ptoAccrualCalculator,
+  workersCompRateCalculator,
+  employeeBenefitsCostCalculator,
+  officeSpacePerEmployeeCalculator,
+  nonprofitOverheadRateCalculator,
+  fundraisingRoiCalculator,
+  grantMatchCalculator,
+  donorRetentionCalculator,
+  volunteerValueCalculator,
+  programCostPerOutcomeCalculator,
+  churchTitheCalculator,
+  churchSeatingCapacityCalculator,
+  churchBudgetCalculator,
+  missionTripCostCalculator,
+  vacationBibleSchoolCalculator,
+  potluckFoodCalculator,
+  conferenceRoomCalculator,
+  cubicleLayoutCalculator,
+  standingDeskHeightCalculator,
+  dentalCrownCostCalculator,
+  dentalBridgeCostCalculator,
+  dentalVeneerCostCalculator,
+  orthodonticPaymentCalculator,
+  dentalCleaningFrequencyCalculator,
+  rootCanalCostCalculator,
+  teethWhiteningCostCalculator,
+  vetVisitCostCalculator,
+  petVaccinationScheduleCalculator,
+  petSpayNeuterCostCalculator,
+  petDentalCostCalculator,
+  petWeightCalculator,
+  pillDosageCalculator,
+  liquidMedicationCalculator,
+  medicationHalfLifeCalculator,
+  eyeglassPrescriptionCalculator,
+  pupillaryDistanceCalculator,
+  readingGlassesStrengthCalculator,
+  eyeExamCostCalculator,
+  blueLightExposureCalculator,
+  babysittingRateCalculator,
+  auPairCostCalculator,
+  afterSchoolProgramCostCalculator,
+  sportsLeagueCostCalculator,
+  homeschoolCurriculumCostCalculator,
+  schoolSupplyListCalculator,
+  fieldTripCostCalculator,
+  schoolBusRouteCalculator,
+  classroomSizeCalculator,
+  schoolFundraiserCalculator,
+  yearbookCostCalculator,
+  graduationPartyCalculator,
+  collegeApplicationCostCalculator,
+  dormRoomEssentialsCalculator,
+  mealPlanComparisonCalculator,
+  studyHoursCalculator,
+  classRankPercentileCalculator,
+  actToSatConverterCalculator,
+  hairColorCostCalculator,
+  haircutFrequencyCalculator,
+  hairExtensionCostCalculator,
+  nailSalonCostCalculator,
+  eyelashExtensionCostCalculator,
+  facialTreatmentCostCalculator,
+  spaDayCostCalculator,
+  massageCostCalculator,
+  waxingCostCalculator,
+  dermalFillerCostCalculator,
+  chemicalPeelCostCalculator,
+  laserHairRemovalCalculator,
+  teethStraighteningCostCalculator,
+  skincareRoutineCostCalculator,
+  perfumeCostPerWearCalculator,
+  makeupExpirationCalculator,
+  sunscreenUsageCalculator,
+  skinTypeHydrationCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
