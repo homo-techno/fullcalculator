@@ -49,8 +49,5 @@ export const vrHeadsetFovCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Horizontal FOV = Base FOV + IPD Offset + Depth Offset + Lens Modifier
-IPD Offset = (63 - IPD) x 0.4
-Depth Offset = (12 - Face Depth) x 1.5
-Vertical FOV = Horizontal FOV x 0.82",
+  formula: "Horizontal FOV = Base FOV + IPD Offset + Depth Offset + Lens Modifier; IPD Offset = (63 - IPD) x 0.4; Depth Offset = (12 - Face Depth) x 1.5; Vertical FOV = Horizontal FOV x 0.82",
 };

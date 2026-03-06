@@ -44,8 +44,5 @@ export const chandrasekharLimitCalculator: CalculatorDefinition = {
     { question: "What happens above the Chandrasekhar limit?", answer: "A remnant above the Chandrasekhar limit but below about 2-3 solar masses becomes a neutron star, supported by neutron degeneracy pressure. Above that, it collapses into a black hole." },
     { question: "Why is the electron fraction important?", answer: "The electron fraction Ye determines the number of electrons per baryon. The Chandrasekhar limit scales as Ye squared, so composition affects the exact mass threshold." },
   ],
-  formula: "Chandrasekhar Limit = 1.44 x (Ye / 0.5)^2 solar masses
-White Dwarf: M < Chandrasekhar Limit
-Neutron Star: Chandrasekhar Limit < M < ~2.16 solar masses
-Black Hole: M > ~2.16 solar masses",
+  formula: "Chandrasekhar Limit = 1.44 x (Ye / 0.5)^2 solar masses; White Dwarf: M < Chandrasekhar Limit; Neutron Star: Chandrasekhar Limit < M < ~2.16 solar masses; Black Hole: M > ~2.16 solar masses",
 };

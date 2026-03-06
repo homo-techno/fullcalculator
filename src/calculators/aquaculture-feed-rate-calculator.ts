@@ -48,7 +48,5 @@ export const aquacultureFeedRateCalculator: CalculatorDefinition = {
     { question: "What is a good feed conversion ratio for fish?", answer: "Tilapia and catfish typically achieve FCR of 1.4 to 1.8. Salmon and trout can reach 1.0 to 1.3. Lower FCR means more efficient feed use and lower production costs." },
     { question: "How often should fish be fed?", answer: "Most farmed fish are fed 2 to 4 times daily. Young fry may need feeding 4 to 6 times per day. Feeding frequency decreases as fish grow larger." },
   ],
-  formula: "Daily Feed = Total Biomass x Feed Rate %
-Expected Gain = Total Feed / Feed Conversion Ratio
-Feed Cost Per Lb Gain = FCR x Feed Price Per Lb",
+  formula: "Daily Feed = Total Biomass x Feed Rate %; Expected Gain = Total Feed / Feed Conversion Ratio; Feed Cost Per Lb Gain = FCR x Feed Price Per Lb",
 };

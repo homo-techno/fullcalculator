@@ -49,7 +49,5 @@ export const tabletopRpgEncounterBuilderCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "XP per Enemy = CR-based XP Table Lookup
-Adjusted XP = XP per Enemy x Number of Enemies x Group Multiplier
-Difficulty = Compare Adjusted XP to Party Thresholds (Easy/Medium/Hard/Deadly)",
+  formula: "XP per Enemy = CR-based XP Table Lookup; Adjusted XP = XP per Enemy x Number of Enemies x Group Multiplier; Difficulty = Compare Adjusted XP to Party Thresholds (Easy/Medium/Hard/Deadly)",
 };

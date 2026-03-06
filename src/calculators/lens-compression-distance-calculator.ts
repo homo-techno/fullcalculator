@@ -48,7 +48,5 @@ export const lensCompressionDistanceCalculator: CalculatorDefinition = {
     { question: "What focal length is best for portraits?", answer: "85mm to 135mm (full frame equivalent) is ideal for portraits. These focal lengths provide flattering perspective and pleasant background compression." },
     { question: "Does crop factor affect compression?", answer: "Crop factor changes the effective field of view but not the actual perspective. A 50mm on APS-C frames like a 75mm on full frame, but the perspective compression is determined by the subject distance, not the focal length itself." },
   ],
-  formula: "Background Magnification = Focal Length / 50
-Compression Ratio = Background Distance / Subject Distance
-Field of View = 2 x atan(36 / (2 x Equivalent FL))",
+  formula: "Background Magnification = Focal Length / 50; Compression Ratio = Background Distance / Subject Distance; Field of View = 2 x atan(36 / (2 x Equivalent FL))",
 };

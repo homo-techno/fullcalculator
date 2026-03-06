@@ -44,8 +44,5 @@ export const pcrCycleNumberCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Final Copies = N0 x (1 + E)^n
-where N0 = initial copies, E = efficiency (decimal)
-n = number of cycles
-Fold Amplification = (1 + E)^n",
+  formula: "Final Copies = N0 x (1 + E)^n; where N0 = initial copies, E = efficiency (decimal); n = number of cycles; Fold Amplification = (1 + E)^n",
 };

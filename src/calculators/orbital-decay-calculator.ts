@@ -55,7 +55,5 @@ export const orbitalDecayCalculator: CalculatorDefinition = {
     { question: "How does altitude affect orbital lifetime?", answer: "Atmospheric density drops exponentially with altitude. A satellite at 200 km may last only days, while at 600 km it can last decades. Above about 1000 km, decay takes centuries." },
     { question: "What is the ballistic coefficient?", answer: "The ballistic coefficient is the ratio of satellite mass to the product of drag coefficient and cross-sectional area. Higher values mean the satellite is less affected by drag and decays more slowly." },
   ],
-  formula: "Ballistic Coefficient = m / (Cd x A)
-Atmospheric Density = rho0 x exp(-h / H)
-Drag Deceleration = 0.5 x rho x v^2 x Cd x A / m",
+  formula: "Ballistic Coefficient = m / (Cd x A); Atmospheric Density = rho0 x exp(-h / H); Drag Deceleration = 0.5 x rho x v^2 x Cd x A / m",
 };

@@ -50,8 +50,5 @@ export const permafrostThawRateCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Thaw Depth = Temperature Rise x 3.5 cm/year x Years
-Percent Thawed = (Thaw Depth / 300) x 100
-Carbon Released = Stored Carbon x % Thawed x 0.1
-CO2 Equivalent = (CH4 x 28) + CO2",
+  formula: "Thaw Depth = Temperature Rise x 3.5 cm/year x Years; Percent Thawed = (Thaw Depth / 300) x 100; Carbon Released = Stored Carbon x % Thawed x 0.1; CO2 Equivalent = (CH4 x 28) + CO2",
 };

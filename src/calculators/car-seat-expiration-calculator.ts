@@ -50,6 +50,5 @@ export const carSeatExpirationCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Expiration Year = Manufacture Year + Seat Lifespan
-Seat recommendation based on child age and weight milestones",
+  formula: "Expiration Year = Manufacture Year + Seat Lifespan; Seat recommendation based on child age and weight milestones",
 };

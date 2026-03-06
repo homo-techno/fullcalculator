@@ -52,8 +52,5 @@ export const n3dPrinterFilamentCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Filament Weight = (Shell Volume + Infill Volume) x Material Density
-Shell Volume = Model Volume x 15%
-Infill Volume = Model Volume x 85% x Infill %
-Cost = Weight x (Spool Cost / Spool Weight)",
+  formula: "Filament Weight = (Shell Volume + Infill Volume) x Material Density; Shell Volume = Model Volume x 15%; Infill Volume = Model Volume x 85% x Infill %; Cost = Weight x (Spool Cost / Spool Weight)",
 };

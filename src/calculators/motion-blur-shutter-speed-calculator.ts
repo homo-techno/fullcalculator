@@ -51,7 +51,5 @@ export const motionBlurShutterSpeedCalculator: CalculatorDefinition = {
     { question: "How do I create intentional motion blur?", answer: "Use a slower shutter speed relative to the subject motion. For waterfalls, try 1/4 to 2 seconds. For light trails, use 5-30 seconds." },
     { question: "What is panning?", answer: "Panning means moving the camera to follow a moving subject while using a slower shutter speed. This keeps the subject relatively sharp while blurring the background to convey speed." },
   ],
-  formula: "Angular Speed = (Speed / Distance) x (180 / PI)
-Freeze Shutter = Angular Speed x Focal Length / 50 x 50
-Target Shutter = Freeze Shutter x Intent Multiplier",
+  formula: "Angular Speed = (Speed / Distance) x (180 / PI); Freeze Shutter = Angular Speed x Focal Length / 50 x 50; Target Shutter = Freeze Shutter x Intent Multiplier",
 };

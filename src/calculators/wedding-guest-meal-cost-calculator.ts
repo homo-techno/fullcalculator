@@ -54,7 +54,5 @@ export const weddingGuestMealCostCalculator: CalculatorDefinition = {
     { question: "Which is cheaper, buffet or plated dinner?", answer: "Buffets are generally 15-30% less expensive than plated dinners because they require fewer servers. However, buffets may lead to more food waste." },
     { question: "How do you calculate food quantities for a wedding?", answer: "Plan for 6-8 appetizer pieces per guest during cocktail hour, one full entree per guest, and 1.5 dessert servings per person." },
   ],
-  formula: "Food Per Person = (Appetizer + Entree + Dessert) x ServiceStyleMultiplier
-Subtotal = (Food + Beverages) x Guests
-Total = Subtotal + ServiceCharge",
+  formula: "Food Per Person = (Appetizer + Entree + Dessert) x ServiceStyleMultiplier; Subtotal = (Food + Beverages) x Guests; Total = Subtotal + ServiceCharge",
 };

@@ -50,7 +50,5 @@ export const goldenRatioCompositionCalculator: CalculatorDefinition = {
     { question: "How is the phi grid different from rule of thirds?", answer: "The phi grid places lines at approximately 38% and 62% rather than at 33% and 66%. This subtle shift creates compositions that many find more naturally balanced." },
     { question: "Where should I place my subject?", answer: "Place your primary subject at one of the power points — the intersections of the phi grid lines. These points naturally attract the viewer's eye." },
   ],
-  formula: "Phi Grid Vertical Lines: W / 1.618 and W - W / 1.618
-Phi Grid Horizontal Lines: H / 1.618 and H - H / 1.618
-Power Points: intersections of phi grid lines",
+  formula: "Phi Grid Vertical Lines: W / 1.618 and W - W / 1.618; Phi Grid Horizontal Lines: H / 1.618 and H - H / 1.618; Power Points: intersections of phi grid lines",
 };

@@ -44,7 +44,5 @@ export const schwarzschildRadiusAdvancedCalculator: CalculatorDefinition = {
     { question: "What is Hawking radiation?", answer: "Hawking radiation is the theoretical thermal radiation emitted by black holes due to quantum effects near the event horizon. It causes black holes to slowly lose mass and eventually evaporate." },
     { question: "How long would a solar-mass black hole take to evaporate?", answer: "A black hole of one solar mass would take approximately 2 x 10^67 years to evaporate through Hawking radiation, vastly longer than the current age of the universe." },
   ],
-  formula: "Rs = 2GM / c^2
-Hawking Temperature = hbar x c^3 / (8 x pi x G x M x kB)
-Evaporation Time = 5120 x pi x G^2 x M^3 / (hbar x c^4)",
+  formula: "Rs = 2GM / c^2; Hawking Temperature = hbar x c^3 / (8 x pi x G x M x kB); Evaporation Time = 5120 x pi x G^2 x M^3 / (hbar x c^4)",
 };

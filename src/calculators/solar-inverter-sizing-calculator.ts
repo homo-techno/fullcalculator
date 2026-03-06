@@ -54,8 +54,5 @@ export const solarInverterSizingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Inverter kW = Array kW / DC-to-AC Ratio
-Temp Derate = 1 - (Temp - 95) x 0.005 (if above 95F)
-Derated Size = Inverter kW / Temp Derate Factor
-Annual Production = Array kW x 1400 hrs x System Efficiency",
+  formula: "Inverter kW = Array kW / DC-to-AC Ratio; Temp Derate = 1 - (Temp - 95) x 0.005 (if above 95F); Derated Size = Inverter kW / Temp Derate Factor; Annual Production = Array kW x 1400 hrs x System Efficiency",
 };

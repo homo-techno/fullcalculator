@@ -45,7 +45,5 @@ export const cameraSensorCropFactorCalculator: CalculatorDefinition = {
     { question: "Does crop factor affect aperture?", answer: "Crop factor does not change the actual light-gathering ability of a lens, but it does affect the equivalent depth of field. A 50mm f/1.8 on APS-C gives DOF similar to a 75mm f/2.7 on full frame." },
     { question: "Is a higher crop factor better or worse?", answer: "Neither. A higher crop factor gives more reach (useful for wildlife and sports) but a narrower field of view (disadvantage for landscapes and architecture)." },
   ],
-  formula: "Equivalent Focal Length = Actual Focal Length x Crop Factor
-Equivalent Aperture (DOF) = Actual Aperture x Crop Factor
-Field of View = 2 x atan(sensor_width / (2 x focal_length))",
+  formula: "Equivalent Focal Length = Actual Focal Length x Crop Factor; Equivalent Aperture (DOF) = Actual Aperture x Crop Factor; Field of View = 2 x atan(sensor_width / (2 x focal_length))",
 };

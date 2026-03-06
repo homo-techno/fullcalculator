@@ -50,6 +50,5 @@ export const speakerRoomSizeCalculator: CalculatorDefinition = {
     { question: "What is the ideal room size for a home theater?", answer: "A room of 200-400 square feet with 9-10 foot ceilings provides excellent home theater acoustics." },
     { question: "Do I need a subwoofer for a small room?", answer: "Even in small rooms, a subwoofer handles low frequencies that regular speakers cannot reproduce effectively." },
   ],
-  formula: "Speaker Distance = Room Length x 0.38
-Listener Position = Room Length x 0.62",
+  formula: "Speaker Distance = Room Length x 0.38; Listener Position = Room Length x 0.62",
 };

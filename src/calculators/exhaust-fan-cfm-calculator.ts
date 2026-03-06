@@ -56,8 +56,5 @@ export const exhaustFanCfmCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "CFM by Volume = (Length x Width x Height x Air Changes/hr) / 60
-CFM by Area = Square Footage x CFM Per Sq Ft
-Required CFM = Maximum of Volume, Area, and Code Minimum
-Air Changes: Bathroom=8, Kitchen=15, Laundry=6, Garage=10",
+  formula: "CFM by Volume = (Length x Width x Height x Air Changes/hr) / 60; CFM by Area = Square Footage x CFM Per Sq Ft; Required CFM = Maximum of Volume, Area, and Code Minimum; Air Changes: Bathroom=8, Kitchen=15, Laundry=6, Garage=10",
 };

@@ -49,7 +49,5 @@ export const boatTrailerWeightCalculator: CalculatorDefinition = {
     { question: "What should tongue weight be for a boat trailer?", answer: "Tongue weight should be 7 to 11 percent of the total trailer weight for proper stability. Too little tongue weight causes trailer sway, while too much can overload the rear axle of the tow vehicle." },
     { question: "Can I tow my boat with an SUV?", answer: "It depends on the SUV towing capacity. Most mid-size SUVs can tow 3,500 to 5,000 pounds, while full-size SUVs and trucks can handle 7,000 to 13,000 pounds or more. Always check your vehicle manual." },
   ],
-  formula: "Total Tow Weight = Boat Weight + Engine + Trailer + (Fuel Gallons x 6.3) + Gear
-Tongue Weight = Total Weight x 10%
-Remaining Capacity = Tow Vehicle Capacity - Total Weight",
+  formula: "Total Tow Weight = Boat Weight + Engine + Trailer + (Fuel Gallons x 6.3) + Gear; Tongue Weight = Total Weight x 10%; Remaining Capacity = Tow Vehicle Capacity - Total Weight",
 };

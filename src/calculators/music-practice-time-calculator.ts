@@ -61,6 +61,5 @@ export const musicPracticeTimeCalculator: CalculatorDefinition = {
     { question: "Is it better to practice every day or skip days?", answer: "Consistent daily practice, even shorter sessions, is more effective than long sporadic sessions for building muscle memory." },
     { question: "How should I structure my practice session?", answer: "Start with warm-ups and scales, then work on technique, followed by repertoire, and end with sight-reading or theory." },
   ],
-  formula: "Time allocation based on skill level and goal priorities
-Weekly Hours = Daily Minutes x Days / 60",
+  formula: "Time allocation based on skill level and goal priorities; Weekly Hours = Daily Minutes x Days / 60",
 };

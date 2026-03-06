@@ -46,7 +46,5 @@ export const westernBlotDilutionCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Antibody Volume (mL) = Total Volume / Dilution Factor
-Working Conc. (ug/mL) = Stock Conc. (mg/mL) x 1000 / Dilution
-Blocking Solution = Total Volume - Antibody Volume",
+  formula: "Antibody Volume (mL) = Total Volume / Dilution Factor; Working Conc. (ug/mL) = Stock Conc. (mg/mL) x 1000 / Dilution; Blocking Solution = Total Volume - Antibody Volume",
 };

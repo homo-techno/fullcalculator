@@ -46,7 +46,5 @@ export const pixelDensityPpiCalculator: CalculatorDefinition = {
     { question: "What PPI should I use for photo prints?", answer: "300 PPI is the standard for high-quality photo prints. 150 PPI is acceptable for large prints viewed from a distance. Billboards can use 10-30 PPI." },
     { question: "Does higher PPI always mean better?", answer: "Above a certain PPI, the human eye cannot distinguish individual pixels. For desktop monitors at typical viewing distance, 110-140 PPI is standard and 200+ is excellent." },
   ],
-  formula: "PPI = sqrt(Width^2 + Height^2) / Diagonal Size
-Optimal Viewing Distance = 3438 / PPI (in inches)
-Dot Pitch = 25.4 / PPI (in mm)",
+  formula: "PPI = sqrt(Width^2 + Height^2) / Diagonal Size; Optimal Viewing Distance = 3438 / PPI (in inches); Dot Pitch = 25.4 / PPI (in mm)",
 };

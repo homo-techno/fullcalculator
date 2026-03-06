@@ -53,7 +53,5 @@ export const scrapbookPageLayoutCalculator: CalculatorDefinition = {
     { question: "How many photos should I put on a scrapbook page?", answer: "A well-balanced 12 x 12 page typically has 2 to 5 photos. Too many photos can look cluttered. Leave space for journaling and embellishments." },
     { question: "What size should I print scrapbook photos?", answer: "Common print sizes for scrapbooking are 4 x 6, 3 x 4, and 2 x 3 inches. Mix sizes for visual interest." },
   ],
-  formula: "Photos Across = floor((Usable Width + Spacing) / (Photo Width + Spacing))
-Photos Down = floor((Usable Height + Spacing) / (Photo Height + Spacing))
-Total Photos = Photos Across x Photos Down",
+  formula: "Photos Across = floor((Usable Width + Spacing) / (Photo Width + Spacing)); Photos Down = floor((Usable Height + Spacing) / (Photo Height + Spacing)); Total Photos = Photos Across x Photos Down",
 };

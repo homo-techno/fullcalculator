@@ -49,9 +49,5 @@ export const cableTrayFillCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Tray Area = Tray Width x Tray Depth
-Cable Area = Pi x (Cable OD / 2)^2
-Total Cable Area = Cable Area x Number of Cables
-Fill Percentage = (Total Cable Area / Tray Area) x 100
-Max Cables = (Tray Area x 40%) / Cable Area",
+  formula: "Tray Area = Tray Width x Tray Depth; Cable Area = Pi x (Cable OD / 2)^2; Total Cable Area = Cable Area x Number of Cables; Fill Percentage = (Total Cable Area / Tray Area) x 100; Max Cables = (Tray Area x 40%) / Cable Area",
 };

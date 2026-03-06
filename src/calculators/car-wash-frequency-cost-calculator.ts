@@ -47,7 +47,5 @@ export const carWashFrequencyCostCalculator: CalculatorDefinition = {
     { question: "Is a car wash membership worth it?", answer: "If you wash your car two or more times per month, an unlimited wash membership often saves 30 to 50 percent compared to paying per wash." },
     { question: "Does frequent washing damage paint?", answer: "Touchless and hand washes are safest. Automatic brush washes can create micro scratches over time. Using a quality wax or sealant provides additional protection." },
   ],
-  formula: "Annual Pay-Per-Wash = Washes/Month x Price x (1 + Tip%) x 12
-Annual Membership = Monthly Membership x 12
-Savings = Annual Pay-Per-Wash - Annual Membership",
+  formula: "Annual Pay-Per-Wash = Washes/Month x Price x (1 + Tip%) x 12; Annual Membership = Monthly Membership x 12; Savings = Annual Pay-Per-Wash - Annual Membership",
 };

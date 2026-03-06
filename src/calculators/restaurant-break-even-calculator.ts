@@ -46,7 +46,5 @@ export const restaurantBreakEvenCalculator: CalculatorDefinition = {
     { question: "What are typical fixed costs for a restaurant?", answer: "Fixed costs include rent or mortgage, insurance, loan payments, management salaries, accounting and legal fees, equipment leases, and software subscriptions. These costs remain constant regardless of sales volume." },
     { question: "How long does it take a new restaurant to break even?", answer: "Most new restaurants take 6 to 18 months to reach their break-even point. Some may take up to 2 years. Factors include location, concept, initial investment size, and how quickly the restaurant builds a steady customer base." },
   ],
-  formula: "Contribution Per Cover = Average Check x (1 - Variable Cost %)
-Break-Even Covers = Monthly Fixed Costs / Contribution Per Cover
-Break-Even Revenue = Break-Even Covers x Average Check",
+  formula: "Contribution Per Cover = Average Check x (1 - Variable Cost %); Break-Even Covers = Monthly Fixed Costs / Contribution Per Cover; Break-Even Revenue = Break-Even Covers x Average Check",
 };

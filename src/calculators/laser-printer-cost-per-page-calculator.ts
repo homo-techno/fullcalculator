@@ -52,7 +52,5 @@ export const laserPrinterCostPerPageCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Cost Per Page = (Toner Cost / Yield) + (Drum Cost / Yield) + (Paper Cost / 500)
-Monthly Cost = Cost Per Page x Pages Per Month
-Annual Cost = Monthly Cost x 12",
+  formula: "Cost Per Page = (Toner Cost / Yield) + (Drum Cost / Yield) + (Paper Cost / 500); Monthly Cost = Cost Per Page x Pages Per Month; Annual Cost = Monthly Cost x 12",
 };

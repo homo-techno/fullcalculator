@@ -47,8 +47,5 @@ export const pokerPotOddsCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Pot Odds = Bet to Call / (Pot + Bet to Call) x 100
-Equity (Turn) = Outs / 46 x 100
-Equity (Flop) = 1 - ((47-Outs)/47 x (46-Outs)/46) x 100
-EV = Equity x Pot - (1-Equity) x Bet",
+  formula: "Pot Odds = Bet to Call / (Pot + Bet to Call) x 100; Equity (Turn) = Outs / 46 x 100; Equity (Flop) = 1 - ((47-Outs)/47 x (46-Outs)/46) x 100; EV = Equity x Pot - (1-Equity) x Bet",
 };

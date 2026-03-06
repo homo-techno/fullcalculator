@@ -51,8 +51,5 @@ export const dockBuildingCostCalculator: CalculatorDefinition = {
     { question: "Do I need a permit to build a dock?", answer: "Yes, almost all waterfront construction requires permits from local, state, and sometimes federal agencies (Army Corps of Engineers). Permit costs and timelines vary significantly by location." },
     { question: "Which dock type is best?", answer: "Fixed piling docks are durable and stable but do not adjust to water level changes. Floating docks move with the water and are better for areas with tidal or seasonal water level changes. Combination docks offer the benefits of both." },
   ],
-  formula: "Deck Area = Length x Width
-Decking Cost = Area x Material Cost Per Sq Ft
-Structure Cost = Decking Cost x Dock Type Multiplier
-Total = Structure + Permits + Add-Ons",
+  formula: "Deck Area = Length x Width; Decking Cost = Area x Material Cost Per Sq Ft; Structure Cost = Decking Cost x Dock Type Multiplier; Total = Structure + Permits + Add-Ons",
 };

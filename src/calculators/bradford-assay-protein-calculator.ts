@@ -47,7 +47,5 @@ export const bradfordAssayProteinCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Concentration (diluted) = (Absorbance - Intercept) / Slope
-Original Concentration = Diluted Conc. x Dilution Factor
-Total Protein = Concentration x Volume",
+  formula: "Concentration (diluted) = (Absorbance - Intercept) / Slope; Original Concentration = Diluted Conc. x Dilution Factor; Total Protein = Concentration x Volume",
 };

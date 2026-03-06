@@ -48,6 +48,5 @@ export const microphoneSensitivityCalculator: CalculatorDefinition = {
     { question: "Is higher or lower sensitivity better?", answer: "Neither is inherently better. Higher sensitivity mics need less gain but may clip on loud sources. Lower sensitivity mics handle louder sounds." },
     { question: "What sensitivity do I need for vocals?", answer: "For vocals, a large diaphragm condenser with around -30 to -40 dBV sensitivity is ideal for most recording situations." },
   ],
-  formula: "mV/Pa = 10^(dBV/20) x 1000
-Output = Sensitivity x SPL Pressure x Preamp Gain",
+  formula: "mV/Pa = 10^(dBV/20) x 1000; Output = Sensitivity x SPL Pressure x Preamp Gain",
 };

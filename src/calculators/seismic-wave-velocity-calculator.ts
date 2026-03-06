@@ -49,8 +49,5 @@ export const seismicWaveVelocityCalculator: CalculatorDefinition = {
     { question: "Why does wave velocity increase with depth?", answer: "As depth increases, so does pressure, which compresses the rock and increases its elastic moduli. This causes seismic waves to travel faster through deeper rock layers." },
     { question: "What affects seismic wave velocity?", answer: "Key factors include rock type, density, porosity, fluid saturation, confining pressure (depth), temperature, and fracturing. Saturated rocks transmit P-waves faster than dry rocks." },
   ],
-  formula: "Vp = BaseVp x DepthFactor x SaturationFactor
-Vs = BaseVs x DepthFactor
-Vp/Vs Ratio = Vp / Vs
-Poisson Ratio = (Ratio^2 - 2) / (2 x (Ratio^2 - 1))",
+  formula: "Vp = BaseVp x DepthFactor x SaturationFactor; Vs = BaseVs x DepthFactor; Vp/Vs Ratio = Vp / Vs; Poisson Ratio = (Ratio^2 - 2) / (2 x (Ratio^2 - 1))",
 };

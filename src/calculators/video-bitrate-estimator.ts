@@ -48,6 +48,5 @@ export const videoBitrateEstimatorCalculator: CalculatorDefinition = {
     { question: "Is H.265 better than H.264?", answer: "H.265 (HEVC) achieves roughly the same quality at 40-50% lower bitrate compared to H.264, but encoding is slower and not all devices support it." },
     { question: "What is ProRes used for?", answer: "ProRes is an editing codec used in professional post-production. It has high bitrates but is optimized for editing performance rather than delivery." },
   ],
-  formula: "Bitrate = Base Rate x (FPS / 30) x Codec Multiplier
-File Size (GB) = Bitrate (Mbps) x Duration (sec) / 8 / 1024",
+  formula: "Bitrate = Base Rate x (FPS / 30) x Codec Multiplier; File Size (GB) = Bitrate (Mbps) x Duration (sec) / 8 / 1024",
 };

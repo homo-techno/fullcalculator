@@ -50,7 +50,5 @@ export const vineyardYieldEstimatorCalculator: CalculatorDefinition = {
     { question: "What is a typical grape yield per acre?", answer: "Wine grape yields typically range from 2 to 10 tons per acre. Premium wine regions often target 3 to 5 tons per acre for higher quality. Table grape vineyards can produce 8 to 15 tons per acre." },
     { question: "How many bottles of wine per ton of grapes?", answer: "One ton of grapes produces approximately 60 to 70 cases or 720 to 840 bottles of wine, depending on grape variety and winemaking process." },
   ],
-  formula: "Lbs Per Vine = Clusters x Cluster Weight (oz) / 16
-Tons Per Acre = (Lbs Per Vine x Vines Per Acre) / 2000
-Revenue = Tons x Price Per Ton",
+  formula: "Lbs Per Vine = Clusters x Cluster Weight (oz) / 16; Tons Per Acre = (Lbs Per Vine x Vines Per Acre) / 2000; Revenue = Tons x Price Per Ton",
 };

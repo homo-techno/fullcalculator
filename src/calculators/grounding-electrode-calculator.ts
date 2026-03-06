@@ -51,8 +51,5 @@ export const groundingElectrodeCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "GEC Size = Per NEC Table 250.66 based on service size
-Single Rod Resistance = (Soil Resistivity x 0.8) / Rod Length
-Total Resistance = Single Rod R / Number of Rods
-Minimum Rod Spacing = 2 x Rod Length",
+  formula: "GEC Size = Per NEC Table 250.66 based on service size; Single Rod Resistance = (Soil Resistivity x 0.8) / Rod Length; Total Resistance = Single Rod R / Number of Rods; Minimum Rod Spacing = 2 x Rod Length",
 };

@@ -53,7 +53,5 @@ export const stainedGlassAreaCalculator: CalculatorDefinition = {
     { question: "What is the difference between copper foil and lead came?", answer: "Copper foil (Tiffany method) wraps each piece in adhesive-backed foil and solders joints. Lead came uses H-shaped lead strips between pieces. Foil allows finer detail; came is more traditional." },
     { question: "How much solder do I need?", answer: "For copper foil, estimate about 0.5 to 1 pound of solder per 4 square feet of panel. Lead came uses less solder since joints are only at intersections." },
   ],
-  formula: "Glass Needed = (Panel Width x Height / 144) x 1.33 waste factor
-Came Length = (Pieces x Avg Perimeter / 2) + Border
-Solder = Came Length x Usage Factor",
+  formula: "Glass Needed = (Panel Width x Height / 144) x 1.33 waste factor; Came Length = (Pieces x Avg Perimeter / 2) + Border; Solder = Came Length x Usage Factor",
 };

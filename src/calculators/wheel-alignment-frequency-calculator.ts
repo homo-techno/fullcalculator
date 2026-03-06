@@ -51,7 +51,5 @@ export const wheelAlignmentFrequencyCalculator: CalculatorDefinition = {
     { question: "What does misalignment cost me?", answer: "Misalignment can reduce tire life by 25 percent or more and decrease fuel economy by up to 10 percent. A $100 alignment can save hundreds in premature tire replacement." },
     { question: "What are signs of misalignment?", answer: "Uneven tire wear, the vehicle pulling to one side, a crooked steering wheel when driving straight, and vibration in the steering wheel are common signs." },
   ],
-  formula: "Alignment Interval = Base Interval (by road condition)
-Next Alignment = Last Alignment Mileage + Interval
-Tire Life Reduction = Overdue Miles / Interval x 20%",
+  formula: "Alignment Interval = Base Interval (by road condition); Next Alignment = Last Alignment Mileage + Interval; Tire Life Reduction = Overdue Miles / Interval x 20%",
 };

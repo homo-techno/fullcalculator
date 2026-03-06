@@ -49,7 +49,5 @@ export const crossStitchFabricCalculator: CalculatorDefinition = {
     { question: "How much margin should I leave around my design?", answer: "Leave at least 3 inches on each side for framing. If your piece will be mounted in a large frame, leave 4 to 6 inches." },
     { question: "How do I estimate thread for a cross stitch project?", answer: "A general rule is about 1 skein of 8-yard floss per 500 to 700 stitches, though this varies with coverage density and number of thread strands used." },
   ],
-  formula: "Design Size = Pattern Stitches / Fabric Count
-Fabric Size = Design Size + (Margin x 2) on each dimension
-Estimated Skeins = (Total Stitches x 0.012 yards per stitch) / 8 yards per skein",
+  formula: "Design Size = Pattern Stitches / Fabric Count; Fabric Size = Design Size + (Margin x 2) on each dimension; Estimated Skeins = (Total Stitches x 0.012 yards per stitch) / 8 yards per skein",
 };

@@ -50,7 +50,5 @@ export const gemstoneCaratToMmCalculator: CalculatorDefinition = {
     { question: "Does gemstone type affect size for the same carat weight?", answer: "Yes, because different gems have different densities (specific gravity). A 1 carat emerald (SG 2.72) is physically larger than a 1 carat ruby (SG 4.03) because emerald is less dense." },
     { question: "What is a carat?", answer: "A carat is a unit of weight equal to 200 milligrams (0.2 grams). It is the standard measure for gemstones. It should not be confused with karat, which measures gold purity." },
   ],
-  formula: "Mass (g) = Carats x 0.2
-Volume (mm3) = Mass / Specific Gravity x 1000
-Diameter = cube root of (Volume / (Depth Ratio x Width Ratio x pi/4))",
+  formula: "Mass (g) = Carats x 0.2; Volume (mm3) = Mass / Specific Gravity x 1000; Diameter = cube root of (Volume / (Depth Ratio x Width Ratio x pi/4))",
 };

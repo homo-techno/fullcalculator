@@ -48,7 +48,5 @@ export const kitchenEquipmentCostCalculator: CalculatorDefinition = {
     { question: "Should I buy new or used restaurant equipment?", answer: "Used equipment can save 40 to 60 percent off new prices. Reliable items to buy used include stainless steel tables, shelving, and ovens. Buy new for refrigeration, ventilation hoods, and anything with complex electronics." },
     { question: "What are the most essential pieces of commercial kitchen equipment?", answer: "Essential items include a commercial range or cooktop, oven, walk-in or reach-in refrigerator, freezer, prep tables, a ventilation hood, three-compartment sink, and a commercial dishwasher." },
   ],
-  formula: "Equipment Cost = Cuisine Base Cost x Size Multiplier x Quality Multiplier
-Installation = Equipment Cost x Installation %
-Total = Equipment Cost + Installation",
+  formula: "Equipment Cost = Cuisine Base Cost x Size Multiplier x Quality Multiplier; Installation = Equipment Cost x Installation %; Total = Equipment Cost + Installation",
 };

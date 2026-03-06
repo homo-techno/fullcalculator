@@ -51,7 +51,5 @@ export const fishingLureWeightCalculator: CalculatorDefinition = {
     { question: "How do I match lure weight to my rod?", answer: "Check the lure weight rating printed on your rod blank near the handle. The optimal casting performance is usually in the middle of the rated range. Lures at the extremes of the range sacrifice accuracy or distance." },
     { question: "How does wind affect lure selection?", answer: "In windy conditions, use slightly heavier lures and more aerodynamic shapes to maintain casting distance and accuracy. Wind can reduce casting distance by 10 to 30 percent depending on speed and direction." },
   ],
-  formula: "Optimal Lure Weight = (Min Rating + Max Rating) / 2
-Cast Distance = Lure Weight x 80 - Wind Penalty - Line Penalty
-Match % = 100 - |Lure Weight - Optimal| / Optimal x 100",
+  formula: "Optimal Lure Weight = (Min Rating + Max Rating) / 2; Cast Distance = Lure Weight x 80 - Wind Penalty - Line Penalty; Match % = 100 - |Lure Weight - Optimal| / Optimal x 100",
 };

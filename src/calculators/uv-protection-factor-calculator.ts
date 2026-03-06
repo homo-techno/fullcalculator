@@ -47,6 +47,5 @@ export const uvProtectionFactorCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Protected Time = Base Burn Time x SPF x (10 / UV Index)
-UV Blocked % = ((SPF - 1) / SPF) x 100",
+  formula: "Protected Time = Base Burn Time x SPF x (10 / UV Index); UV Blocked % = ((SPF - 1) / SPF) x 100",
 };

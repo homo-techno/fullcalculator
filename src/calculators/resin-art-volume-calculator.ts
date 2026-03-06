@@ -57,7 +57,5 @@ export const resinArtVolumeCalculator: CalculatorDefinition = {
     { question: "What is the difference between 1:1 and 2:1 resin?", answer: "A 1:1 ratio means equal parts resin and hardener. A 2:1 ratio means twice as much resin as hardener. The ratio is set by the manufacturer and must be followed exactly." },
     { question: "Can I pour thick layers of resin?", answer: "Most table-top resins should be poured in layers of one quarter inch or less. Deep pour resins can handle 1 to 2 inches at a time. Pouring too thick causes excessive heat and cracking." },
   ],
-  formula: "Volume (cu in) = Length x Width x Depth (rectangle) or Pi x r^2 x Depth (circle)
-Volume (fl oz) = Volume (cu in) x 0.554
-Total = Volume (fl oz) x 1.10 (10% extra)",
+  formula: "Volume (cu in) = Length x Width x Depth (rectangle) or Pi x r^2 x Depth (circle); Volume (fl oz) = Volume (cu in) x 0.554; Total = Volume (fl oz) x 1.10 (10% extra)",
 };

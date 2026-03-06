@@ -48,7 +48,5 @@ export const oceanAcidificationCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Ocean pH = 8.18 - 0.0576 x ln(CO2 / 280)
-Future CO2 = Current CO2 + (Annual Increase x Years)
-Acidity Change = (10^(-future pH) / 10^(-8.18) - 1) x 100%",
+  formula: "Ocean pH = 8.18 - 0.0576 x ln(CO2 / 280); Future CO2 = Current CO2 + (Annual Increase x Years); Acidity Change = (10^(-future pH) / 10^(-8.18) - 1) x 100%",
 };

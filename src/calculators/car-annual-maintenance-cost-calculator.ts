@@ -59,7 +59,5 @@ export const carAnnualMaintenanceCostCalculator: CalculatorDefinition = {
     { question: "Does DIY maintenance really save money?", answer: "DIY maintenance on basic tasks like oil changes, air filters, and wiper blades can save 30 to 50 percent on labor costs. However, complex repairs often require specialized tools and expertise." },
     { question: "Do older cars cost more to maintain?", answer: "Yes. Maintenance costs typically increase 8 to 15 percent per year after the warranty period ends, as more components wear out and require replacement or repair." },
   ],
-  formula: "Annual Cost = (Oil + Tires + Brakes + Service + Repairs) x Class Multiplier - DIY Savings
-Age Multiplier = 1 + max(Age - 3, 0) x 0.08
-DIY Savings = Subtotal x DIY% x 40% labor discount",
+  formula: "Annual Cost = (Oil + Tires + Brakes + Service + Repairs) x Class Multiplier - DIY Savings; Age Multiplier = 1 + max(Age - 3, 0) x 0.08; DIY Savings = Subtotal x DIY% x 40% labor discount",
 };

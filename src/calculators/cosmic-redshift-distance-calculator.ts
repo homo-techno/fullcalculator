@@ -44,7 +44,5 @@ export const cosmicRedshiftDistanceCalculator: CalculatorDefinition = {
     { question: "Can recession velocity exceed the speed of light?", answer: "Yes. Hubble law velocity can exceed the speed of light for very distant objects because it measures the rate of expansion of space itself, not the motion of objects through space. This does not violate relativity." },
     { question: "What is the highest redshift ever observed?", answer: "Galaxies have been observed at redshifts above z = 13, corresponding to when the universe was only a few hundred million years old. The cosmic microwave background has a redshift of about z = 1100." },
   ],
-  formula: "Comoving Distance (approx) = c/H0 x (z + z^2 / (2(1+z)))
-Recession Velocity = H0 x Comoving Distance
-Lookback Time = f(z) x Hubble Time",
+  formula: "Comoving Distance (approx) = c/H0 x (z + z^2 / (2(1+z))); Recession Velocity = H0 x Comoving Distance; Lookback Time = f(z) x Hubble Time",
 };

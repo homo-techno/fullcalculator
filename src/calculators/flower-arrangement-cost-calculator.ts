@@ -51,6 +51,5 @@ export const flowerArrangementCostCalculator: CalculatorDefinition = {
     { question: "Are wedding flowers more expensive?", answer: "Wedding flowers often cost more due to design time, delivery, setup, and the expectation of premium blooms. Valentine's Day and Mother's Day also drive prices up." },
     { question: "How can I save money on flowers?", answer: "Use in-season flowers, choose more greenery, use budget-friendly blooms as filler, and keep arrangements smaller. Buying wholesale for DIY arrangements can save 40 to 60 percent." },
   ],
-  formula: "Cost Per Arrangement = (Base Cost x Flower Tier Multiplier + Greenery Add-on) x Season Multiplier
-Total Cost = Cost Per Arrangement x Number of Arrangements",
+  formula: "Cost Per Arrangement = (Base Cost x Flower Tier Multiplier + Greenery Add-on) x Season Multiplier; Total Cost = Cost Per Arrangement x Number of Arrangements",
 };

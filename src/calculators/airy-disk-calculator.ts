@@ -43,7 +43,5 @@ export const airyDiskCalculator: CalculatorDefinition = {
     { question: "What is the Dawes limit?", answer: "The Dawes limit is an empirical formula for the angular resolution of a telescope: 116 divided by the aperture in millimeters, giving the result in arcseconds. It is slightly more optimistic than the Rayleigh criterion." },
     { question: "How does aperture affect resolution?", answer: "Larger apertures produce smaller Airy disks and better angular resolution. Doubling the aperture diameter halves the minimum resolvable angle, allowing you to see finer details." },
   ],
-  formula: "Angular Resolution = 1.22 x lambda / D (radians)
-Airy Disk Radius = 1.22 x lambda x f / D
-Dawes Limit = 116 / D(mm) arcseconds",
+  formula: "Angular Resolution = 1.22 x lambda / D (radians); Airy Disk Radius = 1.22 x lambda x f / D; Dawes Limit = 116 / D(mm) arcseconds",
 };

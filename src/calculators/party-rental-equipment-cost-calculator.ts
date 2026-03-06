@@ -58,7 +58,5 @@ export const partyRentalEquipmentCostCalculator: CalculatorDefinition = {
     { question: "When should you book party rentals?", answer: "Book event rentals 3-6 months in advance, especially for peak wedding season (May-October). Last-minute bookings may have limited inventory and higher prices." },
     { question: "What is included in a place setting rental?", answer: "A standard place setting includes a dinner plate, salad plate, fork, knife, spoon, and napkin. Charger plates and specialty utensils cost extra." },
   ],
-  formula: "Tables = ceil(Guests / SeatsPerTable) x TablePrice
-Chairs = Guests x ChairPrice
-Total = Tables + Chairs + Linens + PlaceSettings + Glassware + Delivery",
+  formula: "Tables = ceil(Guests / SeatsPerTable) x TablePrice; Chairs = Guests x ChairPrice; Total = Tables + Chairs + Linens + PlaceSettings + Glassware + Delivery",
 };

@@ -48,7 +48,5 @@ export const mouseSensitivityEdpiCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "eDPI = Mouse DPI x In-Game Sensitivity
-Converted Sensitivity = eDPI / DPI / Target Game Scale
-cm per 360 = (360 / (eDPI x 0.022)) x 2.54",
+  formula: "eDPI = Mouse DPI x In-Game Sensitivity; Converted Sensitivity = eDPI / DPI / Target Game Scale; cm per 360 = (360 / (eDPI x 0.022)) x 2.54",
 };

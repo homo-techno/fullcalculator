@@ -52,7 +52,5 @@ export const carFuelTankRangeCalculator: CalculatorDefinition = {
     { question: "How far can I drive on empty?", answer: "Most vehicles can travel 30 to 50 miles after the fuel light turns on, but this varies widely by vehicle. Running on empty can damage the fuel pump and should be avoided." },
     { question: "Does driving style affect range?", answer: "Aggressive acceleration, high speeds, and frequent braking can reduce fuel economy by 15 to 33 percent. Smooth, steady driving at moderate speeds maximizes your range." },
   ],
-  formula: "Combined MPG = 1 / (City% / City MPG + Highway% / Highway MPG)
-Total Range = Tank Size x Combined MPG
-Cost Per Mile = Fuel Price / Combined MPG",
+  formula: "Combined MPG = 1 / (City% / City MPG + Highway% / Highway MPG); Total Range = Tank Size x Combined MPG; Cost Per Mile = Fuel Price / Combined MPG",
 };

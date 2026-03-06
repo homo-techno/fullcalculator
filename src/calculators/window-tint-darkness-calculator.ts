@@ -51,7 +51,5 @@ export const windowTintDarknessCalculator: CalculatorDefinition = {
     { question: "What does VLT mean?", answer: "VLT stands for Visible Light Transmission, the percentage of visible light that passes through the film. Lower VLT means darker tint. A 5 percent VLT allows only 5 percent of light through." },
     { question: "Is ceramic tint worth the extra cost?", answer: "Ceramic tint provides the best heat rejection without interfering with electronics, and it does not fade over time like dyed films. It offers the best combination of visibility and heat reduction." },
   ],
-  formula: "Total Cost = (Number of Windows x Cost Per Window) + Windshield Strip
-VLT = Percentage of visible light passing through
-Heat Rejection varies by film type (15% dyed to 70% ceramic)",
+  formula: "Total Cost = (Number of Windows x Cost Per Window) + Windshield Strip; VLT = Percentage of visible light passing through; Heat Rejection varies by film type (15% dyed to 70% ceramic)",
 };

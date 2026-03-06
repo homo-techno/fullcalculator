@@ -58,7 +58,5 @@ export const happyHourProfitCalculator: CalculatorDefinition = {
     { question: "What is a good happy hour discount?", answer: "Most restaurants offer 20 to 40 percent off drinks and select appetizers during happy hour. Half-price drinks are common. The discount should be enough to drive traffic but not so deep that margins disappear." },
     { question: "How can I maximize happy hour profit?", answer: "Promote high-margin food items alongside drink specials, offer discounted appetizers to increase food attach rate, time happy hour to fill slow periods, limit the discount to well drinks and select beers, and create a fun atmosphere to encourage return visits." },
   ],
-  formula: "HH Drink Price = Regular Price x (1 - Discount %)
-HH Drink Profit/Hr = HH Drinks/Hr x (HH Price - Cost Per Drink)
-Net Gain = Total HH Profit - Equivalent Regular Period Profit",
+  formula: "HH Drink Price = Regular Price x (1 - Discount %); HH Drink Profit/Hr = HH Drinks/Hr x (HH Price - Cost Per Drink); Net Gain = Total HH Profit - Equivalent Regular Period Profit",
 };

@@ -48,7 +48,5 @@ export const wirelessRouterRangeCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Effective Range = Max Range x (1 - Wall Loss per Wall) ^ Number of Walls
-Coverage Area = Pi x Effective Range^2
-Max Range = Base Range (by band) x Router Bonus",
+  formula: "Effective Range = Max Range x (1 - Wall Loss per Wall) ^ Number of Walls; Coverage Area = Pi x Effective Range^2; Max Range = Base Range (by band) x Router Bonus",
 };

@@ -45,6 +45,5 @@ export const carDepreciationCurveCalculator: CalculatorDefinition = {
     { question: "What factors affect car depreciation?", answer: "Brand reputation, mileage, condition, color, market demand, fuel efficiency, and whether the model has been redesigned all affect depreciation rates." },
     { question: "Do electric vehicles depreciate differently?", answer: "EVs historically depreciated faster due to battery concerns and rapid technology changes, but newer models with longer range and better battery warranties are holding value better." },
   ],
-  formula: "Current Value = Purchase Price x (1 - Depreciation Rate) ^ Age
-Future Value = Purchase Price x (1 - Depreciation Rate) ^ (Age + Projection Years)",
+  formula: "Current Value = Purchase Price x (1 - Depreciation Rate) ^ Age; Future Value = Purchase Price x (1 - Depreciation Rate) ^ (Age + Projection Years)",
 };

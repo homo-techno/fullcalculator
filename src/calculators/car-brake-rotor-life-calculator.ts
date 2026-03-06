@@ -54,7 +54,5 @@ export const carBrakeRotorLifeCalculator: CalculatorDefinition = {
     { question: "Can brake rotors be resurfaced instead of replaced?", answer: "Rotors can be resurfaced if there is enough material above the minimum thickness specification. However, modern rotors are thinner and many cannot be resurfaced. Replacement is often more cost-effective." },
     { question: "How long do brake rotors last?", answer: "Brake rotors typically last 50,000 to 80,000 miles depending on driving habits, vehicle weight, and whether brake pads were replaced on time. Aggressive driving and frequent towing shorten rotor life." },
   ],
-  formula: "Wear Rate = Miles Driven / Thickness Worn (mm)
-Miles Remaining = Usable Thickness Left x Wear Rate
-Usable Remaining = Current Thickness - Minimum Spec",
+  formula: "Wear Rate = Miles Driven / Thickness Worn (mm); Miles Remaining = Usable Thickness Left x Wear Rate; Usable Remaining = Current Thickness - Minimum Spec",
 };

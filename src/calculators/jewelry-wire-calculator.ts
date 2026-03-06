@@ -52,6 +52,5 @@ export const jewelryWireCalculator: CalculatorDefinition = {
     { question: "What gauge wire is best for jewelry?", answer: "20 gauge is good for structural elements and ear wires. 22 to 24 gauge works for wire wrapping. 26 gauge is used for intricate weaving and coiling." },
     { question: "Is sterling silver wire worth the cost?", answer: "Sterling silver produces professional results and does not cause skin reactions. For practice and learning, use copper wire which behaves similarly at a fraction of the cost." },
   ],
-  formula: "Wire Needed = Finished Length x Project Multiplier x Complexity Multiplier
-Cost = Wire (feet) x Price Per Foot x Gauge Multiplier",
+  formula: "Wire Needed = Finished Length x Project Multiplier x Complexity Multiplier; Cost = Wire (feet) x Price Per Foot x Gauge Multiplier",
 };

@@ -49,6 +49,5 @@ export const restaurantProfitMarginCalculator: CalculatorDefinition = {
     { question: "How can I improve my restaurant profit margin?", answer: "Focus on controlling food waste, optimizing labor scheduling, negotiating supplier prices, engineering your menu to promote high-margin items, and reviewing portion sizes regularly." },
     { question: "What percentage of revenue should food cost be?", answer: "Most successful restaurants keep food cost between 28 and 35 percent of revenue. Fine dining may run higher at 35 to 40 percent, while fast food aims for 25 to 30 percent." },
   ],
-  formula: "Net Profit = Revenue - (Food Cost + Labor Cost + Rent/Utilities + Other Expenses)
-Profit Margin = (Net Profit / Revenue) x 100",
+  formula: "Net Profit = Revenue - (Food Cost + Labor Cost + Rent/Utilities + Other Expenses); Profit Margin = (Net Profit / Revenue) x 100",
 };

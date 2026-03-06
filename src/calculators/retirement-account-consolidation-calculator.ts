@@ -59,8 +59,5 @@ export const retirementAccountConsolidationCalculator: CalculatorDefinition = {
     { question: "What is the difference between a rollover and a transfer?", answer: "A direct transfer (trustee-to-trustee) moves funds between accounts without you touching the money, avoiding withholding and penalties. A rollover gives you the funds for up to 60 days, during which you must deposit them into the new account to avoid taxes and penalties." },
     { question: "Can I roll a 401k into an IRA?", answer: "Yes, you can roll a traditional 401k into a traditional IRA or a Roth 401k into a Roth IRA tax-free. Rolling a traditional 401k into a Roth IRA triggers a taxable Roth conversion on the full amount." },
   ],
-  formula: "Current Annual Fees = Sum of (Balance x Fee %) for each account
-Consolidated Fees = Total Balance x New Fee %
-Annual Savings = Current Fees - Consolidated Fees
-Projected Savings = Sum of Annual Savings x (1.06)^year",
+  formula: "Current Annual Fees = Sum of (Balance x Fee %) for each account; Consolidated Fees = Total Balance x New Fee %; Annual Savings = Current Fees - Consolidated Fees; Projected Savings = Sum of Annual Savings x (1.06)^year",
 };

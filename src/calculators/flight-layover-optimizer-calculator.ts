@@ -50,6 +50,5 @@ export const flightLayoverOptimizerCalculator: CalculatorDefinition = {
     { question: "What is a good layover length?", answer: "Domestic layovers of 1 to 2 hours are ideal. International layovers should be at least 2 to 3 hours for customs and terminal changes." },
     { question: "What happens if I miss a connection?", answer: "If booked on one ticket, the airline will rebook you on the next available flight. If on separate tickets, you bear the cost and risk of rebooking." },
   ],
-  formula: "Net Savings = (Direct Price - Layover Price) - (Extra Hours x Hourly Value)
-Break-Even Value = Price Savings / Extra Hours",
+  formula: "Net Savings = (Direct Price - Layover Price) - (Extra Hours x Hourly Value); Break-Even Value = Price Savings / Extra Hours",
 };

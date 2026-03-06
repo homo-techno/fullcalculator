@@ -50,6 +50,5 @@ export const cellCultureMediaPrepCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Base Media = Total Volume x (100 - Sum of Supplement %) / 100
-Supplement Volume = Total Volume x Supplement % / 100",
+  formula: "Base Media = Total Volume x (100 - Sum of Supplement %) / 100; Supplement Volume = Total Volume x Supplement % / 100",
 };

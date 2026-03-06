@@ -46,7 +46,5 @@ export const meltingTemperaturePrimerCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Basic Tm = 2(A+T) + 4(G+C)
-Salt-Adjusted Tm = 100.5 + 41(GC/N) - 820/N + 16.6 x log10([Na+])
-Annealing Temp ~ Tm - 5 C",
+  formula: "Basic Tm = 2(A+T) + 4(G+C); Salt-Adjusted Tm = 100.5 + 41(GC/N) - 820/N + 16.6 x log10([Na+]); Annealing Temp ~ Tm - 5 C",
 };

@@ -52,8 +52,5 @@ export const wirelessChargerEfficiencyCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Energy Per Charge (Wireless) = Battery Wh / Wireless Efficiency
-Energy Per Charge (Wired) = Battery Wh / 0.92
-Wasted Per Charge = Wireless Energy - Wired Energy
-Annual Extra Cost = Weekly Waste x 52 / 1000 x Rate",
+  formula: "Energy Per Charge (Wireless) = Battery Wh / Wireless Efficiency; Energy Per Charge (Wired) = Battery Wh / 0.92; Wasted Per Charge = Wireless Energy - Wired Energy; Annual Extra Cost = Weekly Waste x 52 / 1000 x Rate",
 };

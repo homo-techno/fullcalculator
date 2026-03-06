@@ -53,7 +53,5 @@ export const sparkPlugReplacementCalculator: CalculatorDefinition = {
     { question: "What happens if spark plugs are worn out?", answer: "Worn spark plugs cause misfires, poor fuel economy, rough idling, difficulty starting, and reduced engine performance. Ignoring them can damage the catalytic converter." },
     { question: "Can I replace spark plugs myself?", answer: "On many four-cylinder engines, spark plugs are accessible and DIY-friendly. V6 and V8 engines may have plugs that are harder to reach, especially on transverse-mounted engines." },
   ],
-  formula: "Next Replacement = Last Replacement Mileage + Interval (by plug type)
-Parts Cost = Number of Cylinders x Cost Per Plug
-Total Cost = Parts Cost + Labor Cost",
+  formula: "Next Replacement = Last Replacement Mileage + Interval (by plug type); Parts Cost = Number of Cylinders x Cost Per Plug; Total Cost = Parts Cost + Labor Cost",
 };

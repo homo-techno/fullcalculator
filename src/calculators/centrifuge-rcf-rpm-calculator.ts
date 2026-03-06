@@ -52,7 +52,5 @@ export const centrifugeRcfRpmCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "RCF = 1.118 x 10^-5 x r x RPM^2
-RPM = sqrt(RCF / (1.118 x 10^-5 x r))
-where r = rotor radius in mm",
+  formula: "RCF = 1.118 x 10^-5 x r x RPM^2; RPM = sqrt(RCF / (1.118 x 10^-5 x r)); where r = rotor radius in mm",
 };

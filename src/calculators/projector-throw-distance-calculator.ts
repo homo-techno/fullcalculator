@@ -50,7 +50,5 @@ export const projectorThrowDistanceCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Throw Distance = Screen Width x Throw Ratio
-Screen Diagonal = sqrt(Width^2 + Height^2)
-Max Screen Width = Available Distance x 12 / Throw Ratio",
+  formula: "Throw Distance = Screen Width x Throw Ratio; Screen Diagonal = sqrt(Width^2 + Height^2); Max Screen Width = Available Distance x 12 / Throw Ratio",
 };

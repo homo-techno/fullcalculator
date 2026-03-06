@@ -49,8 +49,5 @@ export const miniaturesArmyCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Model Cost = Army Points x Cost Per Point x Discount Multiplier
-Paint Supplies = $120 (new) or $25 (resupply)
-Tools = $60 (new hobbyist) or $0 (existing)
-Total = Models + Paint + Tools",
+  formula: "Model Cost = Army Points x Cost Per Point x Discount Multiplier; Paint Supplies = $120 (new) or $25 (resupply); Tools = $60 (new hobbyist) or $0 (existing); Total = Models + Paint + Tools",
 };

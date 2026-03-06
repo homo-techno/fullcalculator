@@ -52,8 +52,5 @@ export const socialSecurityEarningsTestCalculator: CalculatorDefinition = {
     { question: "Are withheld benefits lost forever?", answer: "No. Benefits withheld due to the earnings test are not lost permanently. When you reach full retirement age, Social Security recalculates your benefit upward to credit you for the months benefits were withheld, resulting in higher monthly payments going forward." },
     { question: "Does the earnings test apply after full retirement age?", answer: "No. Once you reach your full retirement age, the earnings test no longer applies. You can earn any amount without any reduction in your Social Security benefits." },
   ],
-  formula: "Excess Earnings = Annual Earnings - Earnings Limit
-Before FRA Year: Withheld = Excess / 2
-In FRA Year: Withheld = Excess / 3
-Benefits Received = Annual Benefit - Amount Withheld",
+  formula: "Excess Earnings = Annual Earnings - Earnings Limit; Before FRA Year: Withheld = Excess / 2; In FRA Year: Withheld = Excess / 3; Benefits Received = Annual Benefit - Amount Withheld",
 };

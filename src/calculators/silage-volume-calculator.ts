@@ -54,7 +54,5 @@ export const silageVolumeCalculator: CalculatorDefinition = {
     { question: "What is a good silage density?", answer: "Well-packed corn silage should achieve 14 to 16 pounds per cubic foot on a dry matter basis, or 40 to 50 pounds per cubic foot as fed. Higher density reduces spoilage." },
     { question: "How long does silage last in storage?", answer: "Properly stored and sealed silage can last 2 to 3 years. Once opened, a bunker face should be fed out at 6 to 12 inches per day to minimize spoilage." },
   ],
-  formula: "Bunker Volume = Length x Width x Depth
-Tower/Bag Volume = Pi x (Diameter/2)^2 x Length
-Tons = Volume x Density / 2000",
+  formula: "Bunker Volume = Length x Width x Depth; Tower/Bag Volume = Pi x (Diameter/2)^2 x Length; Tons = Volume x Density / 2000",
 };

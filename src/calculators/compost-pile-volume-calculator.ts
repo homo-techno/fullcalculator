@@ -49,7 +49,5 @@ export const compostPileVolumeCalculator: CalculatorDefinition = {
     { question: "What is the ideal carbon to nitrogen ratio for composting?", answer: "The ideal C:N ratio for active composting is 25:1 to 35:1. Too much carbon (browns) slows decomposition, while too much nitrogen (greens) causes odor and ammonia loss." },
     { question: "How much does a compost pile shrink?", answer: "A compost pile typically reduces to 40 to 60 percent of its original volume as materials decompose, compact, and lose moisture." },
   ],
-  formula: "Pile Volume = Total Material Weight / Density
-Finished Volume = Initial Volume x 0.4
-C:N Ratio = Weighted average of green and brown carbon ratios",
+  formula: "Pile Volume = Total Material Weight / Density; Finished Volume = Initial Volume x 0.4; C:N Ratio = Weighted average of green and brown carbon ratios",
 };

@@ -46,6 +46,5 @@ export const flightFuelCostEstimatorCalculator: CalculatorDefinition = {
     { question: "How much fuel does a private jet burn per hour?", answer: "Light jets burn about 100 to 200 gallons per hour, mid-size jets 200 to 300, and heavy jets 350 to 500+ gallons per hour." },
     { question: "What affects flight fuel costs the most?", answer: "Distance, aircraft size, headwinds, altitude, payload weight, and fuel prices at the departure airport all significantly impact fuel costs." },
   ],
-  formula: "Total Fuel Cost = (Distance / Cruise Speed) x Burn Rate x Fuel Price
-Cost Per Mile = Total Fuel Cost / Distance",
+  formula: "Total Fuel Cost = (Distance / Cruise Speed) x Burn Rate x Fuel Price; Cost Per Mile = Total Fuel Cost / Distance",
 };

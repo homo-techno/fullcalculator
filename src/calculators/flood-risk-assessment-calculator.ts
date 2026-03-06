@@ -54,6 +54,5 @@ export const floodRiskAssessmentCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Risk Score = (Elevation Score x 0.35 + Distance Score x 0.25 + Rain Score x 0.25) x Drainage Multiplier
-Elevation Score = max(0, 100 - Elevation x 5)",
+  formula: "Risk Score = (Elevation Score x 0.35 + Distance Score x 0.25 + Rain Score x 0.25) x Drainage Multiplier; Elevation Score = max(0, 100 - Elevation x 5)",
 };

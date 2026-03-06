@@ -50,7 +50,5 @@ export const carWaxApplicationCalculator: CalculatorDefinition = {
     { question: "Does waxing actually protect paint?", answer: "Yes, wax provides a sacrificial layer that shields paint from UV rays, bird droppings, tree sap, and minor scratches. Regular waxing preserves paint condition and resale value." },
     { question: "Is ceramic coating better than wax?", answer: "Ceramic coatings last longer and provide superior protection, but cost significantly more upfront. Traditional wax is easier to apply and more affordable for regular maintenance." },
   ],
-  formula: "Applications Per Year = 12 / Durability (months)
-Cost Per Application = Product Cost / Applications Per Bottle (adjusted for vehicle size)
-Annual Cost = Bottles Per Year x Product Cost",
+  formula: "Applications Per Year = 12 / Durability (months); Cost Per Application = Product Cost / Applications Per Bottle (adjusted for vehicle size); Annual Cost = Bottles Per Year x Product Cost",
 };

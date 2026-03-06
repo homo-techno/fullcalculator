@@ -57,7 +57,5 @@ export const soilPhAmendmentCalculator: CalculatorDefinition = {
     { question: "How long does it take for lime to change soil pH?", answer: "Agricultural lime typically takes 3 to 12 months to fully react with soil. Finer ground lime reacts faster. For quicker results, pelleted lime or liquid lime can begin working within weeks." },
     { question: "What pH do most crops prefer?", answer: "Most field crops and vegetables grow best in soil pH 6.0 to 7.0. Blueberries prefer acidic soil at pH 4.5 to 5.5, while alfalfa prefers slightly alkaline soil at pH 6.5 to 7.5." },
   ],
-  formula: "Lime Needed = pH Change x Buffer Factor x (Depth / 6)
-Sulfur Needed = pH Change x Sulfur Factor x (Depth / 6)
-Buffer Factor varies by soil texture (sandy < loam < clay)",
+  formula: "Lime Needed = pH Change x Buffer Factor x (Depth / 6); Sulfur Needed = pH Change x Sulfur Factor x (Depth / 6); Buffer Factor varies by soil texture (sandy < loam < clay)",
 };

@@ -57,7 +57,5 @@ export const buffetQuantityCalculator: CalculatorDefinition = {
     { question: "How do multiple entree options affect quantity?", answer: "With multiple entrees, divide total protein needed by the number of options. Guests tend to take smaller portions of each when there are more choices. Three entree options is the sweet spot for variety without waste." },
     { question: "How do I reduce buffet food waste?", answer: "Use smaller serving vessels and replenish frequently, offer fewer but well-chosen options, use action stations where food is prepared to order, and have take-away containers for guests at the end of the event." },
   ],
-  formula: "Total Protein (lbs) = (Oz Per Guest x Guest Count x 1.10 overage) / 16
-Per Entree Option = Total Protein / Number of Entrees
-Total Starch (lbs) = (Oz Per Guest x Guest Count x 1.10) / 16",
+  formula: "Total Protein (lbs) = (Oz Per Guest x Guest Count x 1.10 overage) / 16; Per Entree Option = Total Protein / Number of Entrees; Total Starch (lbs) = (Oz Per Guest x Guest Count x 1.10) / 16",
 };

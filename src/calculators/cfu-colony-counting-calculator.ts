@@ -45,7 +45,5 @@ export const cfuColonyCountingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "CFU/mL = (Average Colonies) / (Dilution Factor x Volume Plated)
-Dilution Factor = 10^(-n)
-where n = number of serial dilution steps",
+  formula: "CFU/mL = (Average Colonies) / (Dilution Factor x Volume Plated); Dilution Factor = 10^(-n); where n = number of serial dilution steps",
 };

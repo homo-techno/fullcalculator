@@ -49,7 +49,5 @@ export const carAcRechargeCostCalculator: CalculatorDefinition = {
     { question: "What is the difference between R-134a and R-1234yf?", answer: "R-1234yf is a newer, more environmentally friendly refrigerant used in most vehicles built after 2015. It costs significantly more than R-134a but has a much lower global warming potential." },
     { question: "Can I recharge my car AC myself?", answer: "DIY recharge kits work for R-134a systems and are simple to use. R-1234yf requires special equipment and is best handled by professionals. Overcharging can damage the compressor." },
   ],
-  formula: "Professional Cost = Refrigerant (capacity x price/oz) + Labor + Leak Test
-DIY Cost = Recharge Kit Price
-R-134a: ~$3/oz, R-1234yf: ~$8/oz, R-12: ~$15/oz",
+  formula: "Professional Cost = Refrigerant (capacity x price/oz) + Labor + Leak Test; DIY Cost = Recharge Kit Price; R-134a: ~$3/oz, R-1234yf: ~$8/oz, R-12: ~$15/oz",
 };

@@ -51,8 +51,5 @@ export const earthquakeMagnitudeConverterCalculator: CalculatorDefinition = {
     { question: "How much stronger is each whole number increase?", answer: "Each whole number increase in magnitude represents roughly 31.6 times more energy released. A magnitude 7 earthquake releases about 1,000 times more energy than a magnitude 5." },
     { question: "What magnitude can humans feel?", answer: "Most people can feel earthquakes starting around magnitude 3. Earthquakes below 2.5 are typically not felt but are recorded by instruments." },
   ],
-  formula: "Mw (from ML) = ML x 0.98 + 0.08
-Mw (from Ms) = (Ms + 1.07) / 1.03
-Mw (from mb) = (mb - 0.39) / 0.77
-Energy (Joules) = 10^(1.5 x Mw + 4.8)",
+  formula: "Mw (from ML) = ML x 0.98 + 0.08; Mw (from Ms) = (Ms + 1.07) / 1.03; Mw (from mb) = (mb - 0.39) / 0.77; Energy (Joules) = 10^(1.5 x Mw + 4.8)",
 };

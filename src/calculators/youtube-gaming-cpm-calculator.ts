@@ -49,7 +49,5 @@ export const youtubeGamingCpmCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Effective CPM = Base CPM x Length Multiplier
-Ad Revenue = (Monthly Views / 1000) x Effective CPM
-Total = Ad Revenue + Memberships + Sponsorships",
+  formula: "Effective CPM = Base CPM x Length Multiplier; Ad Revenue = (Monthly Views / 1000) x Effective CPM; Total = Ad Revenue + Memberships + Sponsorships",
 };

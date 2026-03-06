@@ -52,7 +52,5 @@ export const tireTreadLifeCalculator: CalculatorDefinition = {
     { question: "How do I measure tread depth?", answer: "Use a tread depth gauge or the penny test. Insert a penny head-first into the tread. If you can see all of Lincoln head, your tread is below 2/32 and tires need replacement." },
     { question: "Do front tires wear faster than rear tires?", answer: "On front-wheel-drive vehicles, front tires typically wear faster due to steering and drivetrain forces. Regular rotation every 5,000 to 7,500 miles helps equalize wear across all four tires." },
   ],
-  formula: "Wear Rate = Miles Driven / Tread Worn (32nds)
-Miles Remaining = Usable Tread Left x Wear Rate
-Usable Tread Left = Current Depth - Minimum (2/32)",
+  formula: "Wear Rate = Miles Driven / Tread Worn (32nds); Miles Remaining = Usable Tread Left x Wear Rate; Usable Tread Left = Current Depth - Minimum (2/32)",
 };

@@ -50,8 +50,5 @@ export const homeCareCostEstimatorCalculator: CalculatorDefinition = {
     { question: "Does Medicare cover home care?", answer: "Medicare covers limited home health services when medically necessary and ordered by a doctor, including skilled nursing and therapy. It does not cover personal care, homemaker services, or around-the-clock care." },
     { question: "What is the difference between home care and home health care?", answer: "Home care refers to non-medical assistance such as help with bathing, dressing, cooking, and housekeeping. Home health care involves medical services like wound care, medication management, and physical therapy, provided by licensed professionals." },
   ],
-  formula: "Adjusted Rate = Base Rate x Care Level Multiplier x Location Factor
-Weekly Cost = Hours Per Week x Adjusted Rate
-Monthly Cost = Weekly Cost x (Weeks Per Year / 12)
-Annual Cost = Weekly Cost x Weeks Per Year",
+  formula: "Adjusted Rate = Base Rate x Care Level Multiplier x Location Factor; Weekly Cost = Hours Per Week x Adjusted Rate; Monthly Cost = Weekly Cost x (Weeks Per Year / 12); Annual Cost = Weekly Cost x Weeks Per Year",
 };

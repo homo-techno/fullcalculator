@@ -52,6 +52,5 @@ export const passportRenewalTimelineCalculator: CalculatorDefinition = {
     { question: "How much does a passport cost?", answer: "An adult passport book costs $130 for renewal by mail, plus $35 execution fee for first-time applicants. Expediting adds $60." },
     { question: "Can I renew my passport if it expired over 5 years ago?", answer: "If your passport expired more than 5 years ago, you must apply in person as a first-time applicant with new photos and documentation." },
   ],
-  formula: "Total Cost = Application Fee + Execution Fee + Expedite Fee + Card Fee
-Processing Range varies by speed selected",
+  formula: "Total Cost = Application Fee + Execution Fee + Expedite Fee + Card Fee; Processing Range varies by speed selected",
 };

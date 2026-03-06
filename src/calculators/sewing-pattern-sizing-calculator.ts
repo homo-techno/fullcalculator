@@ -72,6 +72,5 @@ export const sewingPatternSizingCalculator: CalculatorDefinition = {
     { question: "What is ease in sewing?", answer: "Ease is extra room built into a pattern beyond your body measurements. Wearing ease allows movement. Design ease creates the style silhouette." },
     { question: "What if I am between pattern sizes?", answer: "Cut the larger size and adjust fit during construction. You can also grade between sizes, cutting one size at the bust and another at the hip." },
   ],
-  formula: "Pattern Size = Closest size match to primary measurement (bust for tops, hip for bottoms)
-Adjustments = Body Measurement - Pattern Size Chart Measurement",
+  formula: "Pattern Size = Closest size match to primary measurement (bust for tops, hip for bottoms); Adjustments = Body Measurement - Pattern Size Chart Measurement",
 };

@@ -50,6 +50,5 @@ export const ssdCostPerGbCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Cost Per GB = SSD Price / Capacity (GB)
-Cost Per TB = Cost Per GB x 1000",
+  formula: "Cost Per GB = SSD Price / Capacity (GB); Cost Per TB = Cost Per GB x 1000",
 };

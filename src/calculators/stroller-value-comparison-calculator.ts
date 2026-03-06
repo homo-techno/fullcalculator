@@ -50,6 +50,5 @@ export const strollerValueComparisonCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Net Cost = Price + Accessories - (Price x Resale%)
-Cost Per Use = Net Cost / (Uses/Week x 52 x Years)",
+  formula: "Net Cost = Price + Accessories - (Price x Resale%); Cost Per Use = Net Cost / (Uses/Week x 52 x Years)",
 };

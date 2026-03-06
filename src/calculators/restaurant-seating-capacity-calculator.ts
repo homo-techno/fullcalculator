@@ -47,7 +47,5 @@ export const restaurantSeatingCapacityCalculator: CalculatorDefinition = {
     { question: "What is table turn rate?", answer: "Table turn rate is the number of times a table is occupied by different parties during a single meal service. Fast casual restaurants average 3 to 4 turns, full service 1.5 to 2.5 turns, and fine dining 1 to 1.5 turns." },
     { question: "How does seating capacity affect revenue?", answer: "More seats allow more covers per service, but overcrowding reduces guest satisfaction. Optimal seating balances capacity with comfort. Increasing table turns through efficient service is often more profitable than adding seats." },
   ],
-  formula: "Max Seats = Dining Area (sq ft) / Sq Ft Per Seat
-Estimated Tables = Max Seats / Average Party Size
-Guests Per Service = Max Seats x Table Turns",
+  formula: "Max Seats = Dining Area (sq ft) / Sq Ft Per Seat; Estimated Tables = Max Seats / Average Party Size; Guests Per Service = Max Seats x Table Turns",
 };

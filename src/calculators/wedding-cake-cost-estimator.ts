@@ -51,7 +51,5 @@ export const weddingCakeCostEstimatorCalculator: CalculatorDefinition = {
     { question: "How many tiers do you need for a wedding cake?", answer: "A 3-tier cake serves 75-100 guests. For 150+ guests, consider a 4-5 tier cake or a smaller display cake with additional sheet cakes for serving." },
     { question: "Is fondant or buttercream more expensive?", answer: "Fondant is typically 30-50% more expensive than buttercream due to the labor-intensive application process. Buttercream is more popular for taste, fondant for smooth visual appeal." },
   ],
-  formula: "Base Per Serving = $4 + (Tiers x $0.75)
-Cake Cost = Servings x BasePerServing x IcingMultiplier
-Total = CakeCost + FillingUpgrade + Decorations + Delivery",
+  formula: "Base Per Serving = $4 + (Tiers x $0.75); Cake Cost = Servings x BasePerServing x IcingMultiplier; Total = CakeCost + FillingUpgrade + Decorations + Delivery",
 };

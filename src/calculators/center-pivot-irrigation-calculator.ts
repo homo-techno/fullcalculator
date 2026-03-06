@@ -50,7 +50,5 @@ export const centerPivotIrrigationCalculator: CalculatorDefinition = {
     { question: "How much area does a center pivot cover?", answer: "A standard quarter-mile (1,320 ft) center pivot covers about 132 acres in a circular pattern within a 160-acre quarter section. Corner systems can increase coverage to 148 to 152 acres." },
     { question: "How much water does a center pivot apply?", answer: "A typical center pivot applies 0.5 to 1.5 inches of water per revolution. Application depth depends on flow rate, speed, and system length. Most pivots complete one revolution in 12 to 96 hours." },
   ],
-  formula: "Coverage = Pi x Pivot Length^2 / 43,560
-Inches Per Rev = (GPM x Hours x 60) / (Area sq ft x 0.0623)
-Season Cost = Days x 24 x Energy Cost/Hr",
+  formula: "Coverage = Pi x Pivot Length^2 / 43,560; Inches Per Rev = (GPM x Hours x 60) / (Area sq ft x 0.0623); Season Cost = Days x 24 x Energy Cost/Hr",
 };

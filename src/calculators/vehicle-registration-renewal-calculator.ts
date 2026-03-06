@@ -54,8 +54,5 @@ export const vehicleRegistrationRenewalCalculator: CalculatorDefinition = {
     { question: "Do registration fees decrease as a car ages?", answer: "In value-based states, registration fees decrease as the vehicle depreciates. In flat-fee or weight-based states, the fee remains relatively constant regardless of age." },
     { question: "What happens if I miss my registration renewal?", answer: "Late renewal typically incurs penalty fees ranging from $10 to $100 or more. Driving with expired registration can result in traffic citations and fines in most states." },
   ],
-  formula: "Flat Fee: Fixed amount ($75-150)
-Value-Based: Vehicle Value x Tax Rate x Age Factor
-Weight-Based: Vehicle Weight x Rate Per Pound
-Total = Base Fee + Title Fee + Plate Fee + Emissions",
+  formula: "Flat Fee: Fixed amount ($75-150); Value-Based: Vehicle Value x Tax Rate x Age Factor; Weight-Based: Vehicle Weight x Rate Per Pound; Total = Base Fee + Title Fee + Plate Fee + Emissions",
 };

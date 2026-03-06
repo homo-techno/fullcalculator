@@ -49,7 +49,5 @@ export const quarterMileTimeCalculator: CalculatorDefinition = {
     { question: "How does altitude affect quarter mile time?", answer: "Naturally aspirated engines lose roughly 3 percent power per 1,000 feet of elevation. Turbocharged vehicles are less affected since the turbo compensates for thinner air." },
     { question: "What is a good quarter mile time?", answer: "A stock sports car typically runs 12 to 14 seconds, performance sedans 14 to 16 seconds, and economy cars 16 to 18 seconds. Under 10 seconds is professional drag racing territory." },
   ],
-  formula: "Quarter Mile ET = 5.825 x (Weight / HP) ^ (1/3)
-Trap Speed = 234.24 x (HP / Weight) ^ (1/3)
-1/8 Mile ET = Quarter Mile ET x 0.632",
+  formula: "Quarter Mile ET = 5.825 x (Weight / HP) ^ (1/3); Trap Speed = 234.24 x (HP / Weight) ^ (1/3); 1/8 Mile ET = Quarter Mile ET x 0.632",
 };

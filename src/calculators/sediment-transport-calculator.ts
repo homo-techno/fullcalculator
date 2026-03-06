@@ -55,7 +55,5 @@ export const sedimentTransportCalculator: CalculatorDefinition = {
     { question: "What is the Shields parameter?", answer: "The Shields parameter is a dimensionless number comparing the forces trying to move a sediment particle (shear stress) to the forces keeping it in place (gravity). Transport begins when it exceeds a critical value of about 0.047." },
     { question: "Why does sediment transport matter?", answer: "Sediment transport affects river channel shape, reservoir sedimentation, coastal erosion, water quality, and aquatic habitat. Understanding it is essential for dam design, flood control, and environmental management." },
   ],
-  formula: "Bed Shear Stress = rho_w x g x depth x slope
-Shields Parameter = Shear Stress / ((rho_s - rho_w) x g x D)
-Transport Rate (Engelund-Hansen) = 0.05 x rho_s x V^2 x d x S / ((SG-1) x g x D x sqrt((SG-1) x g x D))",
+  formula: "Bed Shear Stress = rho_w x g x depth x slope; Shields Parameter = Shear Stress / ((rho_s - rho_w) x g x D); Transport Rate (Engelund-Hansen) = 0.05 x rho_s x V^2 x d x S / ((SG-1) x g x D x sqrt((SG-1) x g x D))",
 };

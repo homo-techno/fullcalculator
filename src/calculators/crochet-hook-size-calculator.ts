@@ -49,6 +49,5 @@ export const crochetHookSizeCalculator: CalculatorDefinition = {
     { question: "Does hook material affect gauge?", answer: "Yes. Aluminum hooks tend to produce tighter stitches while bamboo and wood hooks give slightly looser gauge due to friction differences." },
     { question: "What is gauge in crochet?", answer: "Gauge is the number of stitches and rows per inch or per 4 inches. Matching gauge ensures your finished project is the correct size." },
   ],
-  formula: "Hook (mm) = Base Hook Size + Gauge Adjustment + Density Adjustment
-Gauge Adj = (Swatch Stitches - Target Stitches) x 0.25 mm",
+  formula: "Hook (mm) = Base Hook Size + Gauge Adjustment + Density Adjustment; Gauge Adj = (Swatch Stitches - Target Stitches) x 0.25 mm",
 };

@@ -52,7 +52,5 @@ export const retirementRelocationCostCalculator: CalculatorDefinition = {
     { question: "What costs should I consider when relocating in retirement?", answer: "Beyond the obvious moving costs, consider differences in property taxes, income taxes, sales taxes, healthcare costs, insurance rates, utility costs, and proximity to family. Also factor in potential changes to your social network and lifestyle." },
     { question: "How do I calculate cost of living differences?", answer: "Use cost of living indices from the Bureau of Economic Analysis or online calculators. These compare expenses like housing, food, transportation, healthcare, and utilities. A negative percentage means the new location is less expensive." },
   ],
-  formula: "New Monthly Expenses = Current x (1 + Cost of Living Difference %)
-Monthly Savings = Current - New Expenses
-Total Impact = (Annual Savings x Years) + Home Equity Freed - Moving Costs",
+  formula: "New Monthly Expenses = Current x (1 + Cost of Living Difference %); Monthly Savings = Current - New Expenses; Total Impact = (Annual Savings x Years) + Home Equity Freed - Moving Costs",
 };

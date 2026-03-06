@@ -58,8 +58,5 @@ export const retirementSpendingCalculator: CalculatorDefinition = {
     { question: "Which expenses increase most in retirement?", answer: "Healthcare costs tend to increase the most, often rising 5 to 7 percent annually. Property taxes, insurance premiums, and long-term care costs also tend to grow faster than general inflation." },
     { question: "Should I plan for the same spending throughout retirement?", answer: "No. Research suggests retirees tend to spend more in the early active years on travel and hobbies, less in the middle quiet years, and more again in later years on healthcare and assistance. A dynamic spending plan is more realistic than assuming flat expenses." },
   ],
-  formula: "Monthly Total = Housing + Healthcare + Food + Transport + Leisure + Other
-Annual Total = Monthly Total x 12
-Year N Spending = Annual Total x (1 + Inflation)^N
-Lifetime Total = Sum of all years",
+  formula: "Monthly Total = Housing + Healthcare + Food + Transport + Leisure + Other; Annual Total = Monthly Total x 12; Year N Spending = Annual Total x (1 + Inflation)^N; Lifetime Total = Sum of all years",
 };

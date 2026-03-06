@@ -48,6 +48,5 @@ export const flightCarbonOffsetCalculator: CalculatorDefinition = {
     { question: "Why does business class have higher emissions?", answer: "Premium cabins take up more floor space per passenger, meaning fewer people per flight. Business class produces about 3 times more emissions per passenger than economy." },
     { question: "Do carbon offsets actually help?", answer: "Quality carbon offsets fund projects like reforestation and renewable energy. Look for Gold Standard or Verified Carbon Standard certifications for credible offsets." },
   ],
-  formula: "CO2 (tons) = Distance (km) x Emission Factor x Class Factor x Trip Multiplier
-Offset Cost = CO2 Tons x Price Per Ton",
+  formula: "CO2 (tons) = Distance (km) x Emission Factor x Class Factor x Trip Multiplier; Offset Cost = CO2 Tons x Price Per Ton",
 };

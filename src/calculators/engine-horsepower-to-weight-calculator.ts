@@ -51,7 +51,5 @@ export const engineHorsepowerToWeightCalculator: CalculatorDefinition = {
     { question: "Is horsepower or torque more important?", answer: "Horsepower determines top speed and high-RPM acceleration, while torque determines low-end pulling power and responsiveness. For everyday driving, torque often feels more impactful." },
     { question: "How does weight affect acceleration?", answer: "Every 100 pounds of additional weight reduces acceleration by roughly 1 to 2 percent. Removing unnecessary weight is one of the most cost-effective ways to improve performance." },
   ],
-  formula: "HP Per Ton = Horsepower / (Total Weight / 2000)
-Lbs Per HP = Total Weight / Horsepower
-Total Weight = Curb Weight + Occupant Weight",
+  formula: "HP Per Ton = Horsepower / (Total Weight / 2000); Lbs Per HP = Total Weight / Horsepower; Total Weight = Curb Weight + Occupant Weight",
 };

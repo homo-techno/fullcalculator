@@ -50,8 +50,5 @@ export const radiantFloorHeatingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total BTU = Floor Area x Heat Loss Per Sq Ft
-Water Temp = 85 + (Floor R-Value x 15) + (Heat Loss x 0.5)
-Tube Spacing = 12 in (low), 9 in (medium), 6 in (high heat loss)
-Tube Length = (Area / Spacing) x 12",
+  formula: "Total BTU = Floor Area x Heat Loss Per Sq Ft; Water Temp = 85 + (Floor R-Value x 15) + (Heat Loss x 0.5); Tube Spacing = 12 in (low), 9 in (medium), 6 in (high heat loss); Tube Length = (Area / Spacing) x 12",
 };

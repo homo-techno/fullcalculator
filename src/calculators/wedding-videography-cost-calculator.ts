@@ -48,7 +48,5 @@ export const weddingVideographyCostCalculator: CalculatorDefinition = {
     { question: "Do I need two videographers?", answer: "A second videographer captures additional angles during the ceremony and reception. They are highly recommended for coverage of events with 100+ guests." },
     { question: "How long does editing take?", answer: "A highlight film typically takes 15-25 hours to edit. Full ceremony and reception coverage can take 40-60 hours of post-production work." },
   ],
-  formula: "Package Price = Coverage Cost + Deliverable Cost
-Coverage Cost = Hours x Hourly Rate x Videographers
-Hourly Rate = $150 x Region Multiplier",
+  formula: "Package Price = Coverage Cost + Deliverable Cost; Coverage Cost = Hours x Hourly Rate x Videographers; Hourly Rate = $150 x Region Multiplier",
 };

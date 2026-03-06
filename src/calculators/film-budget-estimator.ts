@@ -52,6 +52,5 @@ export const filmBudgetEstimatorCalculator: CalculatorDefinition = {
     { question: "How much contingency should I budget?", answer: "Industry standard is 10-15% contingency for independent productions. Studio films may allocate 5-10% because of more detailed planning." },
     { question: "What does post-production cost?", answer: "Post-production typically costs 15-30% of the overall budget. This includes editing, color grading, sound design, music licensing, and visual effects." },
   ],
-  formula: "Total Budget = Crew Costs + Equipment + Location + Post-Production + Contingency (10%)
-Crew Costs = Crew Size x Day Rate x Shooting Days",
+  formula: "Total Budget = Crew Costs + Equipment + Location + Post-Production + Contingency (10%); Crew Costs = Crew Size x Day Rate x Shooting Days",
 };

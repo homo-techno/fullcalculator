@@ -53,7 +53,5 @@ export const paperCraftingSheetsCalculator: CalculatorDefinition = {
     { question: "How thick should cardstock be for card making?", answer: "Card bases typically use 65 to 110 lb cardstock. 80 lb is a good all-purpose weight. Lighter weights work for layering and decorative panels." },
     { question: "Should I account for blade waste when cutting?", answer: "Yes, trimmer blades remove a tiny amount of material. For precise work, add 1/16 inch per cut to your calculations." },
   ],
-  formula: "Cuts Per Sheet = max(floor(W/cw) x floor(H/ch), floor(W/ch) x floor(H/cw))
-Sheets Needed = ceil(Quantity / Cuts Per Sheet)
-Waste % = (1 - (Cuts x Cut Area) / Sheet Area) x 100",
+  formula: "Cuts Per Sheet = max(floor(W/cw) x floor(H/ch), floor(W/ch) x floor(H/cw)); Sheets Needed = ceil(Quantity / Cuts Per Sheet); Waste % = (1 - (Cuts x Cut Area) / Sheet Area) x 100",
 };

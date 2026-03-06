@@ -50,7 +50,5 @@ export const banquetHallRentalCostCalculator: CalculatorDefinition = {
     { question: "What is included in a banquet hall rental?", answer: "Basic rentals typically include the space, tables, chairs, and basic cleanup. Upgraded packages may include table linens, place settings, staff, parking, and a bridal suite. Catering, bar, AV, and decor are usually separate." },
     { question: "How do I choose the right size banquet hall?", answer: "Plan for 12 to 15 square feet per seated guest or 6 to 8 square feet for standing receptions. A 200-guest seated dinner needs about 2,500 to 3,000 square feet of dining space plus room for buffet, bar, and dance floor." },
   ],
-  formula: "Venue Cost = Base Rental + Extra Hours Charge
-Total Catering = Guests x Catering Per Person
-Grand Total = Venue Cost + Total Catering + AV/Decor/Extras",
+  formula: "Venue Cost = Base Rental + Extra Hours Charge; Total Catering = Guests x Catering Per Person; Grand Total = Venue Cost + Total Catering + AV/Decor/Extras",
 };

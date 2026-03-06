@@ -49,7 +49,5 @@ export const orchardTreeSpacingCalculator: CalculatorDefinition = {
     { question: "What is the best spacing for apple trees?", answer: "Standard apple trees need 25 to 35 feet between rows and 15 to 25 feet between trees. Semi-dwarf trees use 12 to 18 foot spacing, and high-density dwarf plantings can be as close as 3 to 6 feet apart." },
     { question: "How many trees fit on one acre?", answer: "It depends on spacing. At 20x15 foot spacing, you get about 145 trees per acre. High-density apple orchards at 12x4 foot spacing can fit over 900 trees per acre." },
   ],
-  formula: "Trees Per Acre = 43,560 / (Row Spacing x Tree Spacing)
-Total Trees = Trees Per Acre x Acres
-Total Cost = Trees x (1 + Replant%) x Cost Per Tree",
+  formula: "Trees Per Acre = 43,560 / (Row Spacing x Tree Spacing); Total Trees = Trees Per Acre x Acres; Total Cost = Trees x (1 + Replant%) x Cost Per Tree",
 };

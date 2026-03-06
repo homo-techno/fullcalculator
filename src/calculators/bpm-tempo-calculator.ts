@@ -53,6 +53,5 @@ export const bpmTempoCalculator: CalculatorDefinition = {
     { question: "What BPM is standard pop music?", answer: "Most pop music falls between 100 and 130 BPM, with 120 BPM being very common." },
     { question: "How do I find the BPM of a song?", answer: "You can tap along with the beat using a metronome app or use audio analysis software to detect BPM automatically." },
   ],
-  formula: "ms per beat = 60000 / BPM
-Duration = (Measures x Beats Per Measure) / BPM x 60",
+  formula: "ms per beat = 60000 / BPM; Duration = (Measures x Beats Per Measure) / BPM x 60",
 };

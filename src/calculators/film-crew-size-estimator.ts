@@ -48,7 +48,5 @@ export const filmCrewSizeEstimatorCalculator: CalculatorDefinition = {
     { question: "What positions should I hire first?", answer: "After the director, prioritize a director of photography, sound recordist, and one production assistant. These cover the most critical production needs." },
     { question: "How much should I budget for crew?", answer: "Crew typically represents 40-60% of production budget. Day rates vary widely: $150-300 for PAs, $500-1500 for department heads." },
   ],
-  formula: "Base Crew = Project Type x Budget Matrix
-Location Adjustment = (Locations - 3) x 0.5 if > 3 locations
-Crew Budget = Total Crew x Avg Day Rate x Shoot Days",
+  formula: "Base Crew = Project Type x Budget Matrix; Location Adjustment = (Locations - 3) x 0.5 if > 3 locations; Crew Budget = Total Crew x Avg Day Rate x Shoot Days",
 };

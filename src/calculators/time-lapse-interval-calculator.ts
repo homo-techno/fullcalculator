@@ -45,7 +45,5 @@ export const timeLapseIntervalCalculator: CalculatorDefinition = {
     { question: "How many photos do I need for a time-lapse?", answer: "At 24 fps, you need 720 photos for a 30-second video. At 30 fps, you need 900 photos for the same duration." },
     { question: "What frame rate should I use for time-lapse?", answer: "24 fps gives a cinematic look, 30 fps is standard for web video, and 25 fps is used for PAL broadcast." },
   ],
-  formula: "Interval = (Event Duration in seconds) / (Output Length x FPS)
-Total Frames = Output Length x FPS
-Storage = Total Frames x File Size",
+  formula: "Interval = (Event Duration in seconds) / (Output Length x FPS); Total Frames = Output Length x FPS; Storage = Total Frames x File Size",
 };

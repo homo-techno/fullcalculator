@@ -48,6 +48,5 @@ export const audioDelayCompensationCalculator: CalculatorDefinition = {
     { question: "Does temperature affect the speed of sound?", answer: "Yes, sound travels faster in warmer air. At 72F sound travels about 1128 ft/s versus 1087 ft/s at 32F." },
     { question: "How do I set delay on PA speakers?", answer: "Measure the distance between main and delay speakers, then calculate the delay time using distance divided by speed of sound." },
   ],
-  formula: "Delay (ms) = (Distance m / Speed of Sound) x 1000
-Speed = 331.3 + 0.606 x Temperature C",
+  formula: "Delay (ms) = (Distance m / Speed of Sound) x 1000; Speed = 331.3 + 0.606 x Temperature C",
 };

@@ -53,6 +53,5 @@ export const livestockWaterNeedsCalculator: CalculatorDefinition = {
     { question: "How much water does a cow drink per day?", answer: "A beef cow drinks 7 to 20 gallons per day depending on size, temperature, and lactation. Dairy cows drink 25 to 50 gallons per day due to milk production demands." },
     { question: "Does temperature affect water consumption?", answer: "Yes significantly. Cattle water intake can increase 50% or more when temperatures exceed 90 degrees F. Adequate water supply is critical for preventing heat stress." },
   ],
-  formula: "Daily Water = Base Requirement x Temperature Factor
-Total Water = Daily Per Head x Number of Animals x Days",
+  formula: "Daily Water = Base Requirement x Temperature Factor; Total Water = Daily Per Head x Number of Animals x Days",
 };

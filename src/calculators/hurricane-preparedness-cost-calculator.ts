@@ -50,7 +50,5 @@ export const hurricanePreparednessCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total = Shutters + Supplies + Generator + Fuel + Evacuation
-Shutters = Home Size x Category Multiplier
-Supplies = Household Size x Category Rate",
+  formula: "Total = Shutters + Supplies + Generator + Fuel + Evacuation; Shutters = Home Size x Category Multiplier; Supplies = Household Size x Category Rate",
 };

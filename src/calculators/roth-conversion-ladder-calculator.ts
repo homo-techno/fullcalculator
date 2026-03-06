@@ -52,8 +52,5 @@ export const rothConversionLadderCalculator: CalculatorDefinition = {
     { question: "When does a Roth conversion ladder make sense?", answer: "It is most beneficial during years when your income is lower than usual, such as between early retirement and when Social Security or RMDs begin. Converting during low-income years means paying taxes at a lower rate than you would later." },
     { question: "How long do I have to wait to withdraw Roth conversions?", answer: "Each Roth conversion has its own 5-year holding period before the converted amount can be withdrawn tax and penalty free. After age 59 and a half, earnings can also be withdrawn tax-free once the 5-year rule is met." },
   ],
-  formula: "Total Converted = Annual Conversion x Years (up to balance)
-Tax on Conversions = Total Converted x Current Tax Rate
-Future Tax Avoided = Total Converted x (1 + Growth)^Years x Future Rate
-Savings = Future Tax Avoided - Tax on Conversions",
+  formula: "Total Converted = Annual Conversion x Years (up to balance); Tax on Conversions = Total Converted x Current Tax Rate; Future Tax Avoided = Total Converted x (1 + Growth)^Years x Future Rate; Savings = Future Tax Avoided - Tax on Conversions",
 };

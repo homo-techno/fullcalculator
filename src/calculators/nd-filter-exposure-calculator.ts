@@ -54,7 +54,5 @@ export const ndFilterExposureCalculator: CalculatorDefinition = {
     { question: "Can I stack ND filters?", answer: "Yes, stacking filters adds their stop values together. A 3-stop and 6-stop stacked equals 9 stops. However, stacking can introduce vignetting and reduce image quality." },
     { question: "What is a 10-stop ND filter used for?", answer: "A 10-stop ND filter is used for extreme long exposures in bright daylight — turning a 1/125 second exposure into about 8 seconds, creating smooth water and streaked clouds." },
   ],
-  formula: "New Shutter Speed = Base Shutter Speed x 2^(ND stops)
-ND Factor = 2^(stops)
-Example: ND64 = 6 stops = 64x light reduction",
+  formula: "New Shutter Speed = Base Shutter Speed x 2^(ND stops); ND Factor = 2^(stops); Example: ND64 = 6 stops = 64x light reduction",
 };

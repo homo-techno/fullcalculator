@@ -48,7 +48,5 @@ export const pastureCarryingCapacityCalculator: CalculatorDefinition = {
     { question: "What is an animal unit?", answer: "An animal unit (AU) is defined as one 1,000-pound cow with a calf, consuming approximately 780 pounds of dry matter per month or 26 pounds per day." },
     { question: "Why not graze all the forage?", answer: "Leaving 40 to 60 percent of forage ungrazed maintains plant root reserves, prevents soil compaction, reduces erosion, and ensures pasture regrowth for sustainable long-term production." },
   ],
-  formula: "Available Forage = Acres x Growth Rate x Months x Utilization%
-Animal Units = Available Forage / (AU Demand x Months)
-Acres Per AU = Total Acres / Animal Units",
+  formula: "Available Forage = Acres x Growth Rate x Months x Utilization%; Animal Units = Available Forage / (AU Demand x Months); Acres Per AU = Total Acres / Animal Units",
 };

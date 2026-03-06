@@ -51,7 +51,5 @@ export const poultryEggProductionCalculator: CalculatorDefinition = {
     { question: "How many eggs does a hen lay per year?", answer: "A productive laying hen produces approximately 250 to 300 eggs per year, which translates to a 70 to 82 percent lay rate." },
     { question: "When do hens stop laying eggs?", answer: "Hens produce the most eggs in their first two years. Production drops by about 10 to 15 percent each year after that." },
   ],
-  formula: "Total Eggs = Number of Hens x Lay Rate x Days
-Revenue = (Total Eggs / 12) x Price Per Dozen
-Feed Cost = Hens x 0.25 lb/day x Days / 50 x Bag Price",
+  formula: "Total Eggs = Number of Hens x Lay Rate x Days; Revenue = (Total Eggs / 12) x Price Per Dozen; Feed Cost = Hens x 0.25 lb/day x Days / 50 x Bag Price",
 };

@@ -48,6 +48,5 @@ export const tractorFuelCostCalculator: CalculatorDefinition = {
     { question: "How much fuel does a tractor use per hour?", answer: "A general rule of thumb is that a diesel engine consumes about 0.044 gallons per horsepower-hour at full load. A 100 HP tractor at 50% load uses roughly 2.2 gallons per hour." },
     { question: "What is load factor?", answer: "Load factor is the percentage of maximum engine power being used during an operation. Heavy tillage may be 70 to 85%, while light mowing may be 30 to 40%." },
   ],
-  formula: "Fuel Consumption (gal/hr) = HP x Load Factor x 0.044
-Annual Cost = Gal/Hr x Hours/Day x Days/Year x Fuel Price",
+  formula: "Fuel Consumption (gal/hr) = HP x Load Factor x 0.044; Annual Cost = Gal/Hr x Hours/Day x Days/Year x Fuel Price",
 };

@@ -45,7 +45,5 @@ export const farmProfitMarginCalculator: CalculatorDefinition = {
     { question: "What is a good profit margin for a farm?", answer: "Farm profit margins vary widely by commodity. Crop farms typically see 10 to 25 percent net margins in good years, while livestock operations average 5 to 15 percent. Specialty crops can exceed 30 percent." },
     { question: "How can farmers improve profit margins?", answer: "Farmers can improve margins by reducing input costs, improving yields through better management, adding value through processing, diversifying income streams, and negotiating better commodity prices." },
   ],
-  formula: "Gross Profit = Revenue - Cost of Production
-Net Income = Gross Profit - Operating Expenses - Debt Payments
-Net Margin = Net Income / Revenue x 100",
+  formula: "Gross Profit = Revenue - Cost of Production; Net Income = Gross Profit - Operating Expenses - Debt Payments; Net Margin = Net Income / Revenue x 100",
 };

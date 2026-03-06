@@ -53,8 +53,5 @@ export const tsunamiWaveSpeedCalculator: CalculatorDefinition = {
     { question: "Why do tsunamis grow taller near shore?", answer: "As a tsunami enters shallow water, it slows down but its energy is compressed into a smaller volume. The wave height increases proportionally to the fourth root of the depth ratio, a process called shoaling." },
     { question: "Can you feel a tsunami in deep ocean?", answer: "No. In deep water, a tsunami may be only 0.5 to 1 meter tall with a wavelength of hundreds of kilometers. Ships at sea would barely notice it passing underneath." },
   ],
-  formula: "Speed = sqrt(g x depth)
-Wavelength = Speed x Period
-Arrival Time = Distance / Speed
-Coastal Height = Initial Height x (Ocean Depth / Coastal Depth)^0.25",
+  formula: "Speed = sqrt(g x depth); Wavelength = Speed x Period; Arrival Time = Distance / Speed; Coastal Height = Initial Height x (Ocean Depth / Coastal Depth)^0.25",
 };

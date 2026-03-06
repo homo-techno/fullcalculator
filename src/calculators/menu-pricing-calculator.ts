@@ -46,7 +46,5 @@ export const menuPricingCalculator: CalculatorDefinition = {
     { question: "Should all menu items have the same food cost percentage?", answer: "No. Different categories have different norms. Appetizers and desserts often run 20 to 25 percent food cost, entrees 28 to 35 percent, and beverages 15 to 25 percent. Balance high and low cost items across the menu." },
     { question: "What is menu engineering?", answer: "Menu engineering analyzes each item by profitability and popularity. Items are classified as Stars (high profit, high popularity), Puzzles (high profit, low popularity), Plowhorses (low profit, high popularity), and Dogs (low profit, low popularity)." },
   ],
-  formula: "Base Price = Raw Cost / (Target Food Cost % / 100)
-With Overhead = Base Price x (1 + Overhead %)
-Final Price = With Overhead / (1 - Desired Net Margin %)",
+  formula: "Base Price = Raw Cost / (Target Food Cost % / 100); With Overhead = Base Price x (1 + Overhead %); Final Price = With Overhead / (1 - Desired Net Margin %)",
 };

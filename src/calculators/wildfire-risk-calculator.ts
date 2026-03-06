@@ -57,6 +57,5 @@ export const wildfireRiskCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Risk Score = Vegetation Score + Slope Score + Humidity Score + Wind Score - Defensible Space Reduction
-Fire Spread = (Wind x 0.1 + Slope x 0.05) x Vegetation Density",
+  formula: "Risk Score = Vegetation Score + Slope Score + Humidity Score + Wind Score - Defensible Space Reduction; Fire Spread = (Wind x 0.1 + Slope x 0.05) x Vegetation Density",
 };

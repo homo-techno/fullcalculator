@@ -50,7 +50,5 @@ export const boardGamePlayTimeCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Play Time = Base Time x Player Scaling x Experience Multiplier
-Setup = Complexity-based estimate
-Total Session = Play Time + Setup + Rules Explanation",
+  formula: "Play Time = Base Time x Player Scaling x Experience Multiplier; Setup = Complexity-based estimate; Total Session = Play Time + Setup + Rules Explanation",
 };

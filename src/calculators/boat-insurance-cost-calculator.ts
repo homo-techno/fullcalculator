@@ -49,7 +49,5 @@ export const boatInsuranceCostCalculator: CalculatorDefinition = {
     { question: "What does boat insurance cover?", answer: "Standard policies cover hull damage, theft, liability, medical payments, and sometimes towing and salvage. Some policies also cover personal property, fuel spills, and uninsured boater coverage." },
     { question: "Do I need boat insurance if I only use lakes?", answer: "While not legally required in most states for lake use, boat insurance is strongly recommended. Liability from accidents, storms, and theft can result in significant financial exposure." },
   ],
-  formula: "Base Premium = Boat Value x Base Rate (1.5%)
-Adjusted Premium = Base Premium x Boat Type Factor x Navigation Factor
-Final Premium = Adjusted Premium x (1 - Experience Discount) x (1 - Deductible Discount)",
+  formula: "Base Premium = Boat Value x Base Rate (1.5%); Adjusted Premium = Base Premium x Boat Type Factor x Navigation Factor; Final Premium = Adjusted Premium x (1 - Experience Discount) x (1 - Deductible Discount)",
 };

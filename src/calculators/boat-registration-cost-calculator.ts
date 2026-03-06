@@ -54,7 +54,5 @@ export const boatRegistrationCostCalculator: CalculatorDefinition = {
     { question: "Do I need to register a kayak or canoe?", answer: "Requirements vary by state. Many states exempt non-motorized vessels under a certain length. Some states require registration for all vessels, while others only require a launch permit or sticker." },
     { question: "How often do I renew boat registration?", answer: "Most states offer annual or biennial (every 2 years) registration. Some states offer 3-year options. Registration typically expires on a fixed date regardless of when you register." },
   ],
-  formula: "Base Fee is determined by boat length bracket
-Registration Fee = Base Fee x Boat Type Multiplier x Registration Period
-Total Cost = Registration Fee + Title Fee + Surcharges",
+  formula: "Base Fee is determined by boat length bracket; Registration Fee = Base Fee x Boat Type Multiplier x Registration Period; Total Cost = Registration Fee + Title Fee + Surcharges",
 };

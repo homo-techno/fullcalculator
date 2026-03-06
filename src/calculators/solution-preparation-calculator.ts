@@ -45,6 +45,5 @@ export const solutionPreparationCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Mass = (Concentration x Volume(L) x Molar Mass) / (Purity/100)
-Moles = Concentration x Volume(L)",
+  formula: "Mass = (Concentration x Volume(L) x Molar Mass) / (Purity/100); Moles = Concentration x Volume(L)",
 };

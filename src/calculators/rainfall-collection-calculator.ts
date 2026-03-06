@@ -45,6 +45,5 @@ export const rainfallCollectionCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Annual Gallons = Roof Area x Annual Rainfall x 0.623 x (Efficiency / 100)
-Monthly = Annual / 12",
+  formula: "Annual Gallons = Roof Area x Annual Rainfall x 0.623 x (Efficiency / 100); Monthly = Annual / 12",
 };

@@ -49,6 +49,5 @@ export const familyEmergencyFundCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Target = Monthly Expenses x Months x Income Stability Factor x (1 + Dependents x 5%)
-Gap = Target - Current Savings",
+  formula: "Target = Monthly Expenses x Months x Income Stability Factor x (1 + Dependents x 5%); Gap = Target - Current Savings",
 };

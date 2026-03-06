@@ -50,6 +50,5 @@ export const restaurantLaborCostPercentageCalculator: CalculatorDefinition = {
     { question: "How can I reduce labor costs without cutting staff?", answer: "Cross-train employees to cover multiple roles, optimize scheduling using sales forecasts, reduce overtime through better shift planning, invest in kitchen technology, streamline prep processes, and use part-time staff during peak hours." },
     { question: "What is prime cost in a restaurant?", answer: "Prime cost is the sum of total food and beverage cost plus total labor cost. It is the single most important metric for restaurant profitability. A well-managed restaurant keeps prime cost between 55 and 65 percent of revenue." },
   ],
-  formula: "Total Labor = FOH Wages + BOH Wages + Management + Payroll Taxes
-Labor Cost % = (Total Labor / Revenue) x 100",
+  formula: "Total Labor = FOH Wages + BOH Wages + Management + Payroll Taxes; Labor Cost % = (Total Labor / Revenue) x 100",
 };

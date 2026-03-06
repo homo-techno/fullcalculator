@@ -53,7 +53,5 @@ export const beadPatternCalculator: CalculatorDefinition = {
     { question: "Why add a waste factor?", answer: "The waste factor accounts for beads lost during work, irregular beads that must be discarded, and extras needed for tension adjustments in the weaving technique." },
     { question: "What is the difference between peyote and loom beading?", answer: "Loom beading uses a loom to hold warp threads and creates a flat fabric quickly. Peyote stitch is off-loom and more portable but slower. Both produce similar-looking flat beadwork." },
   ],
-  formula: "Total Beads = Pattern Width x Pattern Height x Waste Factor
-Finished Size (inches) = Beads x Bead Size (mm) / 25.4
-Weight (grams) = Total Beads x Grams Per Bead",
+  formula: "Total Beads = Pattern Width x Pattern Height x Waste Factor; Finished Size (inches) = Beads x Bead Size (mm) / 25.4; Weight (grams) = Total Beads x Grams Per Bead",
 };

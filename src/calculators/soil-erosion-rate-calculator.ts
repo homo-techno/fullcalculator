@@ -54,7 +54,5 @@ export const soilErosionRateCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "A = R x K x LS x C x P (Universal Soil Loss Equation)
-LS = (Length/72.6)^0.5 x (0.065 + 0.045s + 0.0065s²)
-Tolerance (T) = 5 tons/acre/year",
+  formula: "A = R x K x LS x C x P (Universal Soil Loss Equation); LS = (Length/72.6)^0.5 x (0.065 + 0.045s + 0.0065s²); Tolerance (T) = 5 tons/acre/year",
 };

@@ -50,6 +50,5 @@ export const video360StitchingTimeCalculator: CalculatorDefinition = {
     { question: "Can I stitch 360 video in real time?", answer: "Real-time stitching is possible for 4K output with hardware encoders and optimized rigs, but quality is lower than offline stitching." },
     { question: "What software is used for 360 stitching?", answer: "Popular options include Insta360 Studio, Mistika VR, AutoPano Video Pro, and PTGui Pro. Some cameras like Insta360 and GoPro MAX include proprietary software." },
   ],
-  formula: "Stitch Time = Duration x Resolution Multiplier x (Cameras / 6) x 8 / Hardware Speed
-Source Storage = Duration x Resolution x Cameras x 0.5 GB",
+  formula: "Stitch Time = Duration x Resolution Multiplier x (Cameras / 6) x 8 / Hardware Speed; Source Storage = Duration x Resolution x Cameras x 0.5 GB",
 };

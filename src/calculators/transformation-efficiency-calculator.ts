@@ -48,6 +48,5 @@ export const transformationEfficiencyCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Colonies = Counted Colonies x (Total Volume / Volume Plated)
-Efficiency (CFU/ug) = Total Colonies / DNA (ug)",
+  formula: "Total Colonies = Counted Colonies x (Total Volume / Volume Plated); Efficiency (CFU/ug) = Total Colonies / DNA (ug)",
 };

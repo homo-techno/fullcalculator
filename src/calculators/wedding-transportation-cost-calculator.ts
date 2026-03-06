@@ -51,6 +51,5 @@ export const weddingTransportationCostCalculator: CalculatorDefinition = {
     { question: "Do you need guest shuttles for a wedding?", answer: "Guest shuttles are recommended when the ceremony and reception are at different locations, or when parking is limited. They also help ensure guest safety when alcohol is served." },
     { question: "How much should you tip wedding drivers?", answer: "Standard gratuity for wedding drivers is 15-20% of the total fare. Some companies include gratuity in the contract, so always check before adding extra." },
   ],
-  formula: "Total = CoupleVehicle + PartyTransport + (Shuttles x ShuttleCost) + Gratuity
-Gratuity = (CoupleVehicle + PartyTransport + ShuttleCost) x 18%",
+  formula: "Total = CoupleVehicle + PartyTransport + (Shuttles x ShuttleCost) + Gratuity; Gratuity = (CoupleVehicle + PartyTransport + ShuttleCost) x 18%",
 };

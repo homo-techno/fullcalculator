@@ -54,8 +54,5 @@ export const compostVolumeCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Volume = Total Weight / 25 lbs per cu ft
-Bin Side = cube root of Volume
-Compost Time = Base Days x Ratio Adjustment
-Brown:Green Ratio = Brown lbs / Green lbs",
+  formula: "Volume = Total Weight / 25 lbs per cu ft; Bin Side = cube root of Volume; Compost Time = Base Days x Ratio Adjustment; Brown:Green Ratio = Brown lbs / Green lbs",
 };

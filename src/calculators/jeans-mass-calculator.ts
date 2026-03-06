@@ -45,7 +45,5 @@ export const jeansMassCalculator: CalculatorDefinition = {
     { question: "What determines the Jeans mass?", answer: "The Jeans mass depends on temperature, density, and composition of the gas. Colder, denser clouds have a lower Jeans mass and can collapse more easily." },
     { question: "How does this relate to star formation?", answer: "Molecular clouds in galaxies are much more massive than the Jeans mass and fragment into smaller clumps during collapse. Each fragment can form an individual star or a small stellar system." },
   ],
-  formula: "Jeans Length = cs x sqrt(pi / (G x rho))
-Jeans Mass = (pi / 6) x rho x Jeans_Length^3
-cs = sqrt(kB x T / (mu x mH))",
+  formula: "Jeans Length = cs x sqrt(pi / (G x rho)); Jeans Mass = (pi / 6) x rho x Jeans_Length^3; cs = sqrt(kB x T / (mu x mH))",
 };

@@ -52,6 +52,5 @@ export const honeymoonBudgetPlannerCalculator: CalculatorDefinition = {
     { question: "How long should a honeymoon be?", answer: "Most honeymoons last 7 to 10 days. Some couples opt for a mini-moon of 3-4 days after the wedding and take a longer trip later." },
     { question: "When should you book your honeymoon?", answer: "Book flights and hotels 6-9 months in advance for the best rates. Popular destinations during peak season should be booked even earlier." },
   ],
-  formula: "Total = Flights + (Nights x HotelPerNight) + (Nights x MealsPerDay) + (Nights x ActivitiesPerDay) + Shopping
-Average Per Day = Total / Nights",
+  formula: "Total = Flights + (Nights x HotelPerNight) + (Nights x MealsPerDay) + (Nights x ActivitiesPerDay) + Shopping; Average Per Day = Total / Nights",
 };

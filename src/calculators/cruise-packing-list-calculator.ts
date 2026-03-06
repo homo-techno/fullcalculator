@@ -51,6 +51,5 @@ export const cruisePackingListCalculator: CalculatorDefinition = {
     { question: "What are formal nights on a cruise?", answer: "Formal nights typically occur once per 3 to 4 cruise nights. Men wear suits or tuxedos, women wear cocktail dresses or evening gowns. Contemporary lines are more relaxed." },
     { question: "How can I pack lighter for a cruise?", answer: "Choose a color-coordinated wardrobe, use mix-and-match pieces, take advantage of onboard laundry, and remember that casual dining options do not require dressy clothes." },
   ],
-  formula: "Formal Nights = Cruise Nights / Formality Factor
-Total Outfits = Casual + Formal (adjusted for laundry)",
+  formula: "Formal Nights = Cruise Nights / Formality Factor; Total Outfits = Casual + Formal (adjusted for laundry)",
 };

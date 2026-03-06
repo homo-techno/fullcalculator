@@ -52,6 +52,5 @@ export const familyGroceryBudgetCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Base Monthly = (Adults x $325 + Children x $200) x Diet Multiplier x Region
-Adjusted = Base x (0.5 + 0.5 x Home Cooking Ratio)",
+  formula: "Base Monthly = (Adults x $325 + Children x $200) x Diet Multiplier x Region; Adjusted = Base x (0.5 + 0.5 x Home Cooking Ratio)",
 };

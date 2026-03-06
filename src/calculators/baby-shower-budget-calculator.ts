@@ -50,6 +50,5 @@ export const babyShowerBudgetCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total = (Food/Person x Guests) + Venue + Decorations + (Favor x Guests) + Cake
-Cost Per Guest = Total / Guests",
+  formula: "Total = (Food/Person x Guests) + Venue + Decorations + (Favor x Guests) + Cake; Cost Per Guest = Total / Guests",
 };

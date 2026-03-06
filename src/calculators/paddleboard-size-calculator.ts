@@ -50,7 +50,5 @@ export const paddleboardSizeCalculator: CalculatorDefinition = {
     { question: "What width paddleboard do I need?", answer: "Wider boards (32 to 34 inches) are more stable for beginners and yoga. Touring boards are typically 30 to 31 inches. Surfing SUPs are 28 to 30 inches. Racing boards are narrow at 25 to 28 inches." },
     { question: "Does board thickness matter?", answer: "Yes, thicker boards (6 inches) support more weight and perform better with heavier riders. Standard 5-inch boards work well for riders under 200 pounds. Inflatable boards should always be 6 inches for rigidity." },
   ],
-  formula: "Volume (liters) = (Rider Weight + Gear) x Skill Multiplier x Style Factor
-Board dimensions are selected based on paddling style and weight class
-Beginners: add 20% volume | Advanced: subtract 15% volume",
+  formula: "Volume (liters) = (Rider Weight + Gear) x Skill Multiplier x Style Factor; Board dimensions are selected based on paddling style and weight class; Beginners: add 20% volume | Advanced: subtract 15% volume",
 };

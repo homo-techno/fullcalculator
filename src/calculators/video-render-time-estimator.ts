@@ -49,6 +49,5 @@ export const videoRenderTimeEstimatorCalculator: CalculatorDefinition = {
     { question: "Does GPU matter for video rendering?", answer: "Yes, significantly. A dedicated GPU can speed up rendering by 3-10x compared to CPU-only rendering, especially for effects-heavy projects." },
     { question: "How can I speed up rendering?", answer: "Use proxy editing, enable GPU acceleration, render at lower resolution for previews, and close other applications during export." },
   ],
-  formula: "Render Time = Duration x Resolution Multiplier x Complexity Multiplier / Hardware Speed
-Render Ratio = Render Time / Project Duration",
+  formula: "Render Time = Duration x Resolution Multiplier x Complexity Multiplier / Hardware Speed; Render Ratio = Render Time / Project Duration",
 };

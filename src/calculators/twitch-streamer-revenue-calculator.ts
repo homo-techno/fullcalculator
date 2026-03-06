@@ -50,8 +50,5 @@ export const twitchStreamerRevenueCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Subscribers = Avg Viewers x Sub Rate
-Sub Revenue = Subscribers x Payout Per Sub
-Ad Revenue = Viewers x Monthly Hours x $0.003
-Total = Sub Revenue + Ad Revenue + Bits + Donations",
+  formula: "Subscribers = Avg Viewers x Sub Rate; Sub Revenue = Subscribers x Payout Per Sub; Ad Revenue = Viewers x Monthly Hours x $0.003; Total = Sub Revenue + Ad Revenue + Bits + Donations",
 };

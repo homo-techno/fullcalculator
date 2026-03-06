@@ -51,8 +51,5 @@ export const aggregateVolumeCalculator: CalculatorDefinition = {
     { question: "Should I add extra for waste and compaction?", answer: "Yes. Aggregate compacts during installation and some material is lost during spreading. Adding 10-15% extra is standard practice. Compacted gravel may need even more as it settles significantly." },
     { question: "What size aggregate should I use?", answer: "For driveways, use 3/4 inch crushed stone. For drainage, use larger 1.5 to 2 inch stone. For base layers under pavement, use a graded mix of sizes for maximum compaction and stability." },
   ],
-  formula: "Volume = Length x Width x (Depth / 100)
-Total Volume = Volume x (1 + Waste Factor)
-Weight = Total Volume x Material Density
-Cubic Yards = Volume(m3) x 1.30795",
+  formula: "Volume = Length x Width x (Depth / 100); Total Volume = Volume x (1 + Waste Factor); Weight = Total Volume x Material Density; Cubic Yards = Volume(m3) x 1.30795",
 };

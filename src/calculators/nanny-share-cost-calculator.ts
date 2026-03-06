@@ -52,7 +52,5 @@ export const nannyShareCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Adjusted Rate = Hourly Rate x (1 + Share Bonus%)
-Your Cost = (Adjusted Rate x Hours x (1 + Tax%)) / Families
-Savings = Solo Monthly - Share Monthly",
+  formula: "Adjusted Rate = Hourly Rate x (1 + Share Bonus%); Your Cost = (Adjusted Rate x Hours x (1 + Tax%)) / Families; Savings = Solo Monthly - Share Monthly",
 };

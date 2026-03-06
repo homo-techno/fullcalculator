@@ -49,6 +49,5 @@ export const groomsmenCostCalculator: CalculatorDefinition = {
     { question: "Who pays for groomsmen attire?", answer: "Traditionally, groomsmen pay for their own attire. The groom may cover the cost as a gift or split expenses with the wedding party." },
     { question: "Should the groom give gifts to groomsmen?", answer: "Yes, it is customary for the groom to give groomsmen a thank-you gift ranging from $25 to $100 per person." },
   ],
-  formula: "Per Groomsman = AttireCost + Shoes + Accessories + Gift
-Total = NumberOfGroomsmen x PerPersonCost",
+  formula: "Per Groomsman = AttireCost + Shoes + Accessories + Gift; Total = NumberOfGroomsmen x PerPersonCost",
 };

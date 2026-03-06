@@ -54,8 +54,5 @@ export const carLoanRefinanceCalculator: CalculatorDefinition = {
     { question: "Does refinancing hurt my credit score?", answer: "A refinance application triggers a hard inquiry that may temporarily lower your score by 5 to 10 points. However, lower payments can improve your debt-to-income ratio over time." },
     { question: "Can I refinance an upside-down car loan?", answer: "Some lenders will refinance when you owe more than the car is worth, but terms may not be as favorable. Paying down the balance closer to the car value first yields better refinance rates." },
   ],
-  formula: "Monthly Payment = Balance x [r(1+r)^n] / [(1+r)^n - 1]
-Monthly Savings = Current Payment - New Payment
-Net Savings = (Current Interest - New Interest) - Refinance Fees
-Break-Even = Refinance Fees / Monthly Savings",
+  formula: "Monthly Payment = Balance x [r(1+r)^n] / [(1+r)^n - 1]; Monthly Savings = Current Payment - New Payment; Net Savings = (Current Interest - New Interest) - Refinance Fees; Break-Even = Refinance Fees / Monthly Savings",
 };

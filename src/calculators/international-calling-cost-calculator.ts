@@ -50,7 +50,5 @@ export const internationalCallingCostCalculator: CalculatorDefinition = {
     { question: "How much do international roaming charges cost?", answer: "Without a plan, carrier roaming charges can be $1 to $5 per minute. Most carriers offer international day passes for $5 to $12 per day." },
     { question: "Should I get a local SIM card when traveling?", answer: "A local SIM card is often the cheapest option for extended trips, providing local rates and data. Many countries offer tourist SIM cards for $10 to $30." },
   ],
-  formula: "Carrier Cost = Minutes/Day x Trip Days x Carrier Rate
-VoIP Cost = Total Minutes x VoIP Rate
-Plan Cost = Daily Plan Fee x Trip Days",
+  formula: "Carrier Cost = Minutes/Day x Trip Days x Carrier Rate; VoIP Cost = Total Minutes x VoIP Rate; Plan Cost = Daily Plan Fee x Trip Days",
 };

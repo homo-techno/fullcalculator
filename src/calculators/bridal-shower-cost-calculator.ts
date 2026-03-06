@@ -53,6 +53,5 @@ export const bridalShowerCostCalculator: CalculatorDefinition = {
     { question: "Who pays for the bridal shower?", answer: "Traditionally, the maid of honor and bridesmaids host and split the cost. Sometimes the mother of the bride or other family members contribute." },
     { question: "How many guests attend a bridal shower?", answer: "Bridal showers typically have 15 to 40 guests, including close friends, family members, and wedding party members." },
   ],
-  formula: "Total = Venue + (Guests x (Food + Drinks)) + Decorations + (Guests x Favors) + BrideGift
-Per Guest = Total / Guests",
+  formula: "Total = Venue + (Guests x (Food + Drinks)) + Decorations + (Guests x Favors) + BrideGift; Per Guest = Total / Guests",
 };

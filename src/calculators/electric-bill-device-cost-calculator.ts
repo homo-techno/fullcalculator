@@ -53,7 +53,5 @@ export const electricBillDeviceCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Monthly kWh = ((Watts x Hours/Day x Days/Week) + (Standby x Remaining Hours x 7)) x 4.345 / 1000
-Monthly Cost = Monthly kWh x Rate
-Annual Cost = Monthly Cost x 12",
+  formula: "Monthly kWh = ((Watts x Hours/Day x Days/Week) + (Standby x Remaining Hours x 7)) x 4.345 / 1000; Monthly Cost = Monthly kWh x Rate; Annual Cost = Monthly Cost x 12",
 };

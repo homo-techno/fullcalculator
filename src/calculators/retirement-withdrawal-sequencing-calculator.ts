@@ -56,8 +56,5 @@ export const retirementWithdrawalSequencingCalculator: CalculatorDefinition = {
     { question: "Why should I consider Roth withdrawals last?", answer: "Roth withdrawals are tax-free and do not count as income for Social Security taxation or Medicare IRMAA purposes. By letting your Roth grow tax-free as long as possible, you maximize the compounding benefit and preserve a tax-free resource for higher-income years." },
     { question: "When might I deviate from the standard withdrawal order?", answer: "Deviating may make sense when you have a low-income year where traditional withdrawals would be taxed at low rates, when you need to manage your tax bracket for IRMAA or Social Security purposes, or when you want to perform partial Roth conversions." },
   ],
-  formula: "Conventional Order: Taxable first, then Traditional, then Roth
-Tax on Taxable = Withdrawal x Capital Gains Rate x Gain Portion
-Tax on Traditional = Withdrawal x Marginal Tax Rate
-Tax on Roth = $0",
+  formula: "Conventional Order: Taxable first, then Traditional, then Roth; Tax on Taxable = Withdrawal x Capital Gains Rate x Gain Portion; Tax on Traditional = Withdrawal x Marginal Tax Rate; Tax on Roth = $0",
 };

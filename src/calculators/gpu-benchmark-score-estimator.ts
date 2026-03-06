@@ -50,8 +50,5 @@ export const gpuBenchmarkScoreEstimatorCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Base Score = Tier Base Score x Generation Multiplier
-Clock Bonus = (Clock Speed - 1800) x 3
-VRAM Bonus = VRAM x 50
-Estimated Score = Base + Clock Bonus + VRAM Bonus",
+  formula: "Base Score = Tier Base Score x Generation Multiplier; Clock Bonus = (Clock Speed - 1800) x 3; VRAM Bonus = VRAM x 50; Estimated Score = Base + Clock Bonus + VRAM Bonus",
 };

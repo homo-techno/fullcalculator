@@ -50,7 +50,5 @@ export const transfectionEfficiencyCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Transfection Efficiency (%) = (Positive Cells / Total Cells) x 100
-Reagent:DNA Ratio = Reagent Volume (uL) / DNA Amount (ug)
-DNA/cm2 = DNA Amount / Well Area",
+  formula: "Transfection Efficiency (%) = (Positive Cells / Total Cells) x 100; Reagent:DNA Ratio = Reagent Volume (uL) / DNA Amount (ug); DNA/cm2 = DNA Amount / Well Area",
 };

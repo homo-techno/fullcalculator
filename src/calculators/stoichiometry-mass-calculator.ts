@@ -49,8 +49,5 @@ export const stoichiometryMassCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Moles(known) = Mass / Molar Mass
-Moles(unknown) = Moles(known) x (Coeff unknown / Coeff known)
-Theoretical Mass = Moles(unknown) x Molar Mass(unknown)
-Actual Mass = Theoretical x Yield%",
+  formula: "Moles(known) = Mass / Molar Mass; Moles(unknown) = Moles(known) x (Coeff unknown / Coeff known); Theoretical Mass = Moles(unknown) x Molar Mass(unknown); Actual Mass = Theoretical x Yield%",
 };

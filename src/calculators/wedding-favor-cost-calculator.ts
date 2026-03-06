@@ -49,7 +49,5 @@ export const weddingFavorCostCalculator: CalculatorDefinition = {
     { question: "Do you need wedding favors for every guest?", answer: "Provide one favor per guest or per couple. Order 10% extra to account for last-minute additions and table display needs." },
     { question: "What are affordable wedding favor ideas?", answer: "Popular budget-friendly favors include homemade cookies, seed packets, custom matchboxes, candy bags, or small succulents. DIY options can cost under $2 each." },
   ],
-  formula: "Favors Needed = Guests x (1 + Buffer%)
-Per Favor = FavorCost + Packaging + Personalization
-Total = FavorsNeeded x PerFavor",
+  formula: "Favors Needed = Guests x (1 + Buffer%); Per Favor = FavorCost + Packaging + Personalization; Total = FavorsNeeded x PerFavor",
 };

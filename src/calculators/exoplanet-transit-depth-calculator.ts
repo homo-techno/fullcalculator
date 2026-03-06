@@ -43,7 +43,5 @@ export const exoplanetTransitDepthCalculator: CalculatorDefinition = {
     { question: "How much does Earth dim the Sun during transit?", answer: "Earth would cause a transit depth of about 0.0084 percent, dimming the Sun by 84 parts per million. This is detectable by space telescopes like Kepler and TESS but very challenging from the ground." },
     { question: "What determines the transit probability?", answer: "The geometric transit probability is approximately the ratio of the star radius to the orbital distance. For Earth-like planets around Sun-like stars, the probability is only about 0.47 percent." },
   ],
-  formula: "Transit Depth = (Rp / Rs)^2
-Transit Duration = (P / pi) x (Rs / a)
-Transit Probability = Rs / a",
+  formula: "Transit Depth = (Rp / Rs)^2; Transit Duration = (P / pi) x (Rs / a); Transit Probability = Rs / a",
 };

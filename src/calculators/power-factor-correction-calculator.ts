@@ -51,8 +51,5 @@ export const powerFactorCorrectionCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Current kVAR = kW x tan(arccos(Current PF))
-Target kVAR = kW x tan(arccos(Target PF))
-Required Capacitor = Current kVAR - Target kVAR
-kVA Reduction = (kW / Current PF) - (kW / Target PF)",
+  formula: "Current kVAR = kW x tan(arccos(Current PF)); Target kVAR = kW x tan(arccos(Target PF)); Required Capacitor = Current kVAR - Target kVAR; kVA Reduction = (kW / Current PF) - (kW / Target PF)",
 };

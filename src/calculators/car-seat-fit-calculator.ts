@@ -62,7 +62,5 @@ export const carSeatFitCalculator: CalculatorDefinition = {
     { question: "When can my child use just a seat belt?", answer: "Children should use a booster seat until the vehicle seat belt fits properly, typically when they are 4 feet 9 inches tall and between 8 and 12 years old." },
     { question: "Can I use a car seat in the front seat?", answer: "Children under 13 should always ride in the back seat. A rear-facing car seat should never be placed in front of an active airbag." },
   ],
-  formula: "Rear-Facing: Under 2 years OR under 25 lbs OR under 30 inches
-Forward-Facing Harness: 2-7 years AND under 65 lbs AND under 49 inches
-Booster: Until seat belt fits properly (typically 4 ft 9 in, 80-100 lbs)",
+  formula: "Rear-Facing: Under 2 years OR under 25 lbs OR under 30 inches; Forward-Facing Harness: 2-7 years AND under 65 lbs AND under 49 inches; Booster: Until seat belt fits properly (typically 4 ft 9 in, 80-100 lbs)",
 };

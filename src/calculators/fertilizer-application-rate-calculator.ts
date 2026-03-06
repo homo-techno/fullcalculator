@@ -50,7 +50,5 @@ export const fertilizerApplicationRateCalculator: CalculatorDefinition = {
     { question: "How do I determine how much fertilizer to apply?", answer: "Start with a soil test to know current nutrient levels. Subtract available nutrients from crop requirements. Divide the nutrient needed by the fertilizer analysis percentage to get product rate." },
     { question: "What does 46-0-0 mean on fertilizer?", answer: "The three numbers represent the percentages of nitrogen (N), phosphorus (P2O5), and potassium (K2O). So 46-0-0 (urea) contains 46% nitrogen and no phosphorus or potassium." },
   ],
-  formula: "Product Rate (lb/acre) = Target Nutrient / (Fertilizer % / 100)
-Total Product = Rate x Acres
-Cost = Total Product / 2000 x Cost Per Ton",
+  formula: "Product Rate (lb/acre) = Target Nutrient / (Fertilizer % / 100); Total Product = Rate x Acres; Cost = Total Product / 2000 x Cost Per Ton",
 };

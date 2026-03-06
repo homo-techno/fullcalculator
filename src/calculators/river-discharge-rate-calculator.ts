@@ -50,9 +50,5 @@ export const riverDischargeRateCalculator: CalculatorDefinition = {
     { question: "What affects river discharge?", answer: "River discharge depends on channel size (width and depth), slope, and roughness. Rainfall, snowmelt, land use, and upstream dams also affect how much water flows through a river at any given time." },
     { question: "What is hydraulic radius?", answer: "Hydraulic radius is the cross-sectional area of flow divided by the wetted perimeter. For wide, shallow channels, it approximately equals the average depth. It is a key parameter in flow calculations." },
   ],
-  formula: "V = (1/n) x R^(2/3) x S^(1/2) (Manning Equation)
-Q = V x A
-R = A / P (Hydraulic Radius)
-A = Width x Depth
-P = Width + 2 x Depth",
+  formula: "V = (1/n) x R^(2/3) x S^(1/2) (Manning Equation); Q = V x A; R = A / P (Hydraulic Radius); A = Width x Depth; P = Width + 2 x Depth",
 };

@@ -48,8 +48,5 @@ export const lootBoxProbabilityCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Prob(0 drops) = (1 - Drop Rate)^Boxes
-Prob(at least 1) = 1 - Prob(0 drops)
-Expected Boxes = 1 / Drop Rate
-Expected Cost = Expected Boxes x Cost Per Box",
+  formula: "Prob(0 drops) = (1 - Drop Rate)^Boxes; Prob(at least 1) = 1 - Prob(0 drops); Expected Boxes = 1 / Drop Rate; Expected Cost = Expected Boxes x Cost Per Box",
 };

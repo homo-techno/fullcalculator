@@ -52,7 +52,5 @@ export const phoneBatteryHealthCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Health % = 100 - (Effective Cycles x 0.04)
-Effective Cycles = Total Cycles x Habit Wear x Fast Charge Wear
-Total Cycles = Charges/Day x Age (months) x 30.44",
+  formula: "Health % = 100 - (Effective Cycles x 0.04); Effective Cycles = Total Cycles x Habit Wear x Fast Charge Wear; Total Cycles = Charges/Day x Age (months) x 30.44",
 };

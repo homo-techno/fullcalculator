@@ -53,8 +53,5 @@ export const slopeStabilityFactorCalculator: CalculatorDefinition = {
     { question: "How does water affect slope stability?", answer: "Water is the most common trigger for landslides. It increases pore water pressure, reduces the effective normal stress, and thus reduces the shear strength along the failure plane, dramatically lowering the factor of safety." },
     { question: "What is the infinite slope method?", answer: "The infinite slope method analyzes a long, uniform slope by examining a thin slice of soil parallel to the surface. It works well for shallow, planar failures and is the simplest slope stability analysis method." },
   ],
-  formula: "FOS = Shear Strength / Shear Stress
-Shear Strength = c + (Normal Stress - Pore Pressure) x tan(phi)
-Normal Stress = gamma x H x cos^2(beta)
-Shear Stress = gamma x H x sin(beta) x cos(beta)",
+  formula: "FOS = Shear Strength / Shear Stress; Shear Strength = c + (Normal Stress - Pore Pressure) x tan(phi); Normal Stress = gamma x H x cos^2(beta); Shear Stress = gamma x H x sin(beta) x cos(beta)",
 };

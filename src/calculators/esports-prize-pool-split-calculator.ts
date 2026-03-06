@@ -48,8 +48,5 @@ export const esportsPrizePoolSplitCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Team Winnings = Total Prize x Placement Percentage
-After Org = Team Winnings x (1 - Org Cut)
-Per Player = After Org / Team Size
-Take-Home = Per Player x (1 - Tax Rate)",
+  formula: "Team Winnings = Total Prize x Placement Percentage; After Org = Team Winnings x (1 - Org Cut); Per Player = After Org / Team Size; Take-Home = Per Player x (1 - Tax Rate)",
 };

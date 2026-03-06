@@ -52,7 +52,5 @@ export const rgbLedStripCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Watts = Length x LED Density x Watts Per LED
-Recommended PSU = Total Watts x 1.2 (rounded up)
-Monthly Cost = (Total Watts x Hours/Day x 30.44 / 1000) x Rate",
+  formula: "Total Watts = Length x LED Density x Watts Per LED; Recommended PSU = Total Watts x 1.2 (rounded up); Monthly Cost = (Total Watts x Hours/Day x 30.44 / 1000) x Rate",
 };

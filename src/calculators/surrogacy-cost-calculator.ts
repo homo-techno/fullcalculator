@@ -48,6 +48,5 @@ export const surrogacyCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Cost = Surrogate Compensation + Agency + Legal + Medical/IVF + Insurance + Misc
-Misc = Surrogate Compensation x 15%",
+  formula: "Total Cost = Surrogate Compensation + Agency + Legal + Medical/IVF + Insurance + Misc; Misc = Surrogate Compensation x 15%",
 };

@@ -53,7 +53,5 @@ export const maternityLeavePayCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Employer Pay = Weekly Salary x Paid% x Paid Weeks
-State Pay = Weekly Salary x State% x State Weeks
-Income Gap = (Weekly Salary x Total Weeks) - Total Income",
+  formula: "Employer Pay = Weekly Salary x Paid% x Paid Weeks; State Pay = Weekly Salary x State% x State Weeks; Income Gap = (Weekly Salary x Total Weeks) - Total Income",
 };

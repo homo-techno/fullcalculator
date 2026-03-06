@@ -48,6 +48,5 @@ export const engineOilCapacityCalculator: CalculatorDefinition = {
     { question: "Is synthetic oil worth the extra cost?", answer: "Full synthetic oil lasts longer between changes, performs better in extreme temperatures, and provides superior engine protection. Most modern vehicles require or recommend synthetic oil." },
     { question: "How much oil does a typical car need?", answer: "Most four-cylinder engines require 4 to 5 quarts, V6 engines need 5 to 6 quarts, and V8 engines typically require 6 to 8 quarts of oil." },
   ],
-  formula: "Estimated Capacity = Base Capacity (by engine type) x (Displacement / 2.5)
-Total DIY Cost = (Quarts Needed x Price Per Quart) + Filter Cost",
+  formula: "Estimated Capacity = Base Capacity (by engine type) x (Displacement / 2.5); Total DIY Cost = (Quarts Needed x Price Per Quart) + Filter Cost",
 };

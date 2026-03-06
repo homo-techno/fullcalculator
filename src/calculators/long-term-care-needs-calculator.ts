@@ -53,7 +53,5 @@ export const longTermCareNeedsCalculator: CalculatorDefinition = {
     { question: "How much does long-term care cost today?", answer: "National median costs in 2023 are approximately $62,000 per year for a home health aide, $64,200 for assisted living, $100,375 for a semi-private nursing home room, and $116,800 for a private nursing home room." },
     { question: "What are the options to pay for long-term care?", answer: "Options include long-term care insurance, personal savings, Medicaid (for those who qualify), hybrid life insurance with LTC riders, Health Savings Accounts, Veterans benefits, and reverse mortgages. Medicare covers only limited short-term skilled care." },
   ],
-  formula: "Future Annual Cost = Current Cost x (1 + Inflation)^Years Until Need
-Total Cost = Sum of Future Cost x (1 + Inflation)^y for each year of care
-Monthly Cost = Annual Cost / 12",
+  formula: "Future Annual Cost = Current Cost x (1 + Inflation)^Years Until Need; Total Cost = Sum of Future Cost x (1 + Inflation)^y for each year of care; Monthly Cost = Annual Cost / 12",
 };

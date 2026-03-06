@@ -54,7 +54,5 @@ export const college529ProjectorCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Future Value = Current x (1 + r)^n + Monthly x ((1 + r)^n - 1) / r
-Projected College Cost = Annual Cost x 4 x 1.04^Years
-Coverage = Future Value / College Cost x 100",
+  formula: "Future Value = Current x (1 + r)^n + Monthly x ((1 + r)^n - 1) / r; Projected College Cost = Annual Cost x 4 x 1.04^Years; Coverage = Future Value / College Cost x 100",
 };

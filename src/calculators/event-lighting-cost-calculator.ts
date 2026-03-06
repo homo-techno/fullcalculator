@@ -54,6 +54,5 @@ export const eventLightingCostCalculator: CalculatorDefinition = {
     { question: "How many uplights do you need for a wedding?", answer: "Plan one uplight every 6-8 feet along walls. A typical ballroom needs 12-20 uplights for full coverage." },
     { question: "What is a gobo projection?", answer: "A gobo is a stencil placed in front of a light to project a pattern or monogram. Custom gobos with your initials or wedding date add a personal touch to the dance floor." },
   ],
-  formula: "Total = Uplighting + StringLights + Spotlights + Gobo + SetupFee
-Setup Fee = Subtotal x 0.15",
+  formula: "Total = Uplighting + StringLights + Spotlights + Gobo + SetupFee; Setup Fee = Subtotal x 0.15",
 };

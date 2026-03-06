@@ -48,7 +48,5 @@ export const solarPanelPaybackCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Net Cost = System Cost x (1 - Incentive%)
-Payback Years = Net Cost / (Annual kWh x Rate)
-20-Year Savings = (Annual Savings x 20) - Net Cost",
+  formula: "Net Cost = System Cost x (1 - Incentive%); Payback Years = Net Cost / (Annual kWh x Rate); 20-Year Savings = (Annual Savings x 20) - Net Cost",
 };

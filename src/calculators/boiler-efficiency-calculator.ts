@@ -49,8 +49,5 @@ export const boilerEfficiencyCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Gross Efficiency = (Heat Output / Fuel Input) x 100
-Net Efficiency = Gross Efficiency x 0.98 (radiation loss)
-Combustion Efficiency = 100 - (Stack Temp - 300) x 0.05
-Annual Cost = (Input / 1M BTU) x Fuel Cost x Operating Hours",
+  formula: "Gross Efficiency = (Heat Output / Fuel Input) x 100; Net Efficiency = Gross Efficiency x 0.98 (radiation loss); Combustion Efficiency = 100 - (Stack Temp - 300) x 0.05; Annual Cost = (Input / 1M BTU) x Fuel Cost x Operating Hours",
 };

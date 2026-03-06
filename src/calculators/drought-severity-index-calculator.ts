@@ -53,6 +53,5 @@ export const droughtSeverityIndexCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Severity Score = (Precip Deficit% x 0.4) + (Temp Anomaly x 3) + ((100 - Soil Moisture%) x 0.3)
-D0 < 30, D1 30-45, D2 45-60, D3 60-80, D4 > 80",
+  formula: "Severity Score = (Precip Deficit% x 0.4) + (Temp Anomaly x 3) + ((100 - Soil Moisture%) x 0.3); D0 < 30, D1 30-45, D2 45-60, D3 60-80, D4 > 80",
 };

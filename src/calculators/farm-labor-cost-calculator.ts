@@ -50,7 +50,5 @@ export const farmLaborCostCalculator: CalculatorDefinition = {
     { question: "What is the average farm worker wage?", answer: "The average US farm worker wage ranges from $13 to $18 per hour depending on region, experience, and type of agriculture. Skilled equipment operators and supervisors earn $18 to $28 per hour." },
     { question: "Are farm workers entitled to overtime?", answer: "Federal overtime rules for farm workers vary. Many states now require agricultural overtime after 40 or 60 hours per week. Check your state labor laws for specific requirements." },
   ],
-  formula: "Weekly Pay = (Regular Hours x Wage) + (OT Hours x Wage x 1.5)
-Annual Pay = Weekly Pay x Weeks Per Year
-Total Cost = Annual Pay x (1 + Benefits%) x Number of Workers",
+  formula: "Weekly Pay = (Regular Hours x Wage) + (OT Hours x Wage x 1.5); Annual Pay = Weekly Pay x Weeks Per Year; Total Cost = Annual Pay x (1 + Benefits%) x Number of Workers",
 };

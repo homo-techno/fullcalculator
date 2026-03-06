@@ -50,7 +50,5 @@ export const hohmannTransferCalculator: CalculatorDefinition = {
     { question: "When is a Hohmann transfer not optimal?", answer: "For very large orbit changes where the ratio of outer to inner radius exceeds about 11.94, a bi-elliptic transfer can be more efficient. For time-critical missions, higher-energy transfers are used despite greater fuel cost." },
     { question: "How long does a Hohmann transfer to geostationary orbit take?", answer: "A Hohmann transfer from low Earth orbit at 400 km altitude to geostationary orbit at 35,786 km takes about 5.25 hours for the half-orbit coast phase." },
   ],
-  formula: "Delta-V1 = sqrt(mu(2/r1 - 1/a)) - sqrt(mu/r1)
-Delta-V2 = sqrt(mu/r2) - sqrt(mu(2/r2 - 1/a))
-Transfer Time = pi x sqrt(a^3 / mu), where a = (r1 + r2) / 2",
+  formula: "Delta-V1 = sqrt(mu(2/r1 - 1/a)) - sqrt(mu/r1); Delta-V2 = sqrt(mu/r2) - sqrt(mu(2/r2 - 1/a)); Transfer Time = pi x sqrt(a^3 / mu), where a = (r1 + r2) / 2",
 };

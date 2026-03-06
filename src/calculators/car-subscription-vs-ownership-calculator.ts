@@ -52,8 +52,5 @@ export const carSubscriptionVsOwnershipCalculator: CalculatorDefinition = {
     { question: "Is a car subscription worth it?", answer: "Subscriptions offer flexibility and convenience but typically cost more than ownership for long-term use. They are ideal for people who want to change cars frequently or avoid long-term commitments." },
     { question: "What does a car subscription include?", answer: "Most subscriptions include the vehicle, insurance, scheduled maintenance, roadside assistance, and sometimes registration fees. Fuel and tolls are typically not included." },
   ],
-  formula: "Ownership Monthly = Loan + Insurance + Maintenance + Depreciation
-Subscription Total = Monthly Fee x Months
-Ownership Total = Ownership Monthly x Months
-Difference = Subscription Total - Ownership Total",
+  formula: "Ownership Monthly = Loan + Insurance + Maintenance + Depreciation; Subscription Total = Monthly Fee x Months; Ownership Total = Ownership Monthly x Months; Difference = Subscription Total - Ownership Total",
 };

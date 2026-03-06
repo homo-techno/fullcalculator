@@ -48,7 +48,5 @@ export const sailingDistanceCalculator: CalculatorDefinition = {
     { question: "How far can a sailboat travel in a day?", answer: "A typical cruising sailboat covers 100 to 150 nautical miles per day in favorable conditions, sailing for 20 to 24 hours." },
     { question: "How does current affect sailing time?", answer: "Favorable currents of 1 to 2 knots can significantly reduce travel time, while adverse currents can add hours or days to a passage." },
   ],
-  formula: "Effective Speed = (Boat Speed x (1 + Wind Effect%)) + Current
-Sailing Time = Distance / Effective Speed
-Sailing Days = Total Hours / Hours Per Day",
+  formula: "Effective Speed = (Boat Speed x (1 + Wind Effect%)) + Current; Sailing Time = Distance / Effective Speed; Sailing Days = Total Hours / Hours Per Day",
 };

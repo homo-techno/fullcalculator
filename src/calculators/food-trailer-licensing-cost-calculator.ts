@@ -52,7 +52,5 @@ export const foodTrailerLicensingCostCalculator: CalculatorDefinition = {
     { question: "How much do food trailer permits cost?", answer: "Total first-year permit and licensing costs range from $2,000 to $10,000 depending on your city and state. Annual renewal costs are typically 40 to 60 percent of first-year costs since one-time fees are not repeated." },
     { question: "What is a commissary kitchen requirement?", answer: "Many cities require food trailers to operate from a licensed commissary kitchen for food prep, storage, and waste disposal. Commissary fees range from $300 to $1,500 per month depending on the facility and your usage level." },
   ],
-  formula: "One-Time Costs = Business License + Health Permit + Fire Safety + Vendor Permit + Registration
-Annual Recurring = (Commissary x 12) + Insurance
-First Year Total = One-Time Costs + Annual Recurring",
+  formula: "One-Time Costs = Business License + Health Permit + Fire Safety + Vendor Permit + Registration; Annual Recurring = (Commissary x 12) + Insurance; First Year Total = One-Time Costs + Annual Recurring",
 };

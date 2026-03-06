@@ -48,6 +48,5 @@ export const musicStreamingRevenueCalculator: CalculatorDefinition = {
     { question: "Which streaming service pays artists the most?", answer: "Tidal typically pays the most per stream at around $0.013, followed by Apple Music at approximately $0.008." },
     { question: "How many streams do you need to make a living?", answer: "On Spotify, you would need roughly 300,000-400,000 streams per month to earn US minimum wage." },
   ],
-  formula: "Revenue = Streams x Rate Per Stream x (1 - Distributor %)
-Per Member = Revenue / Members",
+  formula: "Revenue = Streams x Rate Per Stream x (1 - Distributor %); Per Member = Revenue / Members",
 };

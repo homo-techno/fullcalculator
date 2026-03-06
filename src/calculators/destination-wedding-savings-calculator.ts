@@ -53,6 +53,5 @@ export const destinationWeddingSavingsCalculator: CalculatorDefinition = {
     { question: "How many guests attend a destination wedding?", answer: "On average, 50-70% of invited guests attend a destination wedding compared to 80-90% for a local wedding. Most destination weddings have 30-50 guests." },
     { question: "Who pays for travel to a destination wedding?", answer: "Guests typically pay for their own travel and accommodation. Some couples help by negotiating group hotel rates or covering welcome dinner costs." },
   ],
-  formula: "Destination Total = VenuePackage + Flights + (DestGuests x PerGuestCost) + TravelCosts
-Savings = LocalCost - DestinationTotal",
+  formula: "Destination Total = VenuePackage + Flights + (DestGuests x PerGuestCost) + TravelCosts; Savings = LocalCost - DestinationTotal",
 };

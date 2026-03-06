@@ -48,7 +48,5 @@ export const deforestationImpactCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Carbon Released = Hectares x Carbon per Hectare
-Species Affected = Hectares x Species Density x 0.01
-Recovery Time = Forest Age x 1.5",
+  formula: "Carbon Released = Hectares x Carbon per Hectare; Species Affected = Hectares x Species Density x 0.01; Recovery Time = Forest Age x 1.5",
 };

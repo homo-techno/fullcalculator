@@ -41,7 +41,5 @@ export const bolometricMagnitudeCalculator: CalculatorDefinition = {
     { question: "What is the bolometric correction?", answer: "The bolometric correction is the difference between visual magnitude and bolometric magnitude. It accounts for light emitted outside the visible spectrum, such as ultraviolet and infrared radiation." },
     { question: "Why is the bolometric correction always negative or zero?", answer: "By convention, the bolometric correction is defined so that bolometric magnitude is always brighter (lower number) than visual magnitude, since total flux across all wavelengths cannot be less than just the visible flux." },
   ],
-  formula: "m_bol = m_v + BC
-M_bol = m_bol - 5 x log10(d / 10)
-L / L_sun = 10^((4.74 - M_bol) / 2.5)",
+  formula: "m_bol = m_v + BC; M_bol = m_bol - 5 x log10(d / 10); L / L_sun = 10^((4.74 - M_bol) / 2.5)",
 };

@@ -53,9 +53,5 @@ export const bearingCapacityCalculator: CalculatorDefinition = {
     { question: "What factor of safety is used for foundations?", answer: "A factor of safety of 3 is standard for most building foundations. Critical structures may use higher values. The allowable bearing capacity is the ultimate capacity divided by the factor of safety." },
     { question: "What affects soil bearing capacity?", answer: "Key factors include soil type, cohesion, internal friction angle, depth of foundation, groundwater level, and foundation width and shape. Clay soils rely on cohesion while sandy soils rely on friction." },
   ],
-  formula: "qu = c x Nc + q x Nq + 0.5 x gamma x B x Ngamma
-qa = qu / Factor of Safety
-Nq = e^(pi x tan(phi)) x tan^2(45 + phi/2)
-Nc = (Nq - 1) / tan(phi)
-Ngamma = 2(Nq + 1) x tan(phi)",
+  formula: "qu = c x Nc + q x Nq + 0.5 x gamma x B x Ngamma; qa = qu / Factor of Safety; Nq = e^(pi x tan(phi)) x tan^2(45 + phi/2); Nc = (Nq - 1) / tan(phi); Ngamma = 2(Nq + 1) x tan(phi)",
 };

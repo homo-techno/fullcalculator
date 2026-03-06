@@ -49,6 +49,5 @@ export const receptionVenueCostCalculator: CalculatorDefinition = {
     { question: "Does season affect venue pricing?", answer: "Yes. Peak wedding season (June through October) commands 20-40% higher prices. Off-season bookings can save thousands of dollars." },
     { question: "What is included in a venue rental fee?", answer: "Venue fees usually include the space, tables, chairs, basic setup, and a certain number of hours. Catering, decor, and additional hours are often extra." },
   ],
-  formula: "Total = (BaseFee + GuestCount x PerGuestFee + ExtraHoursFee) x SeasonMultiplier
-Per Guest = Total / GuestCount",
+  formula: "Total = (BaseFee + GuestCount x PerGuestFee + ExtraHoursFee) x SeasonMultiplier; Per Guest = Total / GuestCount",
 };

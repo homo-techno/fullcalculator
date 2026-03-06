@@ -56,7 +56,5 @@ export const earlyRetirementFireNumberCalculator: CalculatorDefinition = {
     { question: "What is Coast FIRE?", answer: "Coast FIRE means you have saved enough that your portfolio will grow to your FIRE number by traditional retirement age without any additional contributions. You still need to earn enough to cover current expenses but no longer need to save." },
     { question: "Is the 4 percent rule reliable for early retirees?", answer: "The 4 percent rule was originally designed for a 30-year retirement. Early retirees with 40 to 50 year horizons may want to use a lower withdrawal rate of 3 to 3.5 percent, or plan for flexible spending that adjusts based on portfolio performance." },
   ],
-  formula: "FIRE Number = Annual Expenses / Withdrawal Rate
-Years to FIRE: Compound growth of (Current + Annual Savings) until reaching FIRE Number
-Coast FIRE Years = ln(FIRE Number / Current Savings) / ln(1 + Return Rate)",
+  formula: "FIRE Number = Annual Expenses / Withdrawal Rate; Years to FIRE: Compound growth of (Current + Annual Savings) until reaching FIRE Number; Coast FIRE Years = ln(FIRE Number / Current Savings) / ln(1 + Return Rate)",
 };

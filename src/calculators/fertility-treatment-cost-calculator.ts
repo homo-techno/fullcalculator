@@ -49,6 +49,5 @@ export const fertilityTreatmentCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Cost Per Cycle = Base Procedure Cost + Medication Cost
-Net Cost = (Cost Per Cycle x Cycles) x (1 - Insurance Coverage%)",
+  formula: "Cost Per Cycle = Base Procedure Cost + Medication Cost; Net Cost = (Cost Per Cycle x Cycles) x (1 - Insurance Coverage%)",
 };

@@ -55,7 +55,5 @@ export const timingBeltReplacementCalculator: CalculatorDefinition = {
     { question: "What happens if a timing belt breaks?", answer: "On an interference engine, a broken timing belt causes pistons to strike valves, resulting in thousands of dollars in engine damage. On non-interference engines, the engine simply stops running." },
     { question: "Should I replace the water pump with the timing belt?", answer: "Yes. The water pump is accessed during timing belt replacement, so replacing it at the same time saves significant labor cost compared to doing it separately later." },
   ],
-  formula: "Timing Belt Interval: ~90,000 miles
-Timing Chain Interval: ~200,000 miles
-Total Cost = Labor (by engine complexity) + Parts + Water Pump (optional)",
+  formula: "Timing Belt Interval: ~90,000 miles; Timing Chain Interval: ~200,000 miles; Total Cost = Labor (by engine complexity) + Parts + Water Pump (optional)",
 };

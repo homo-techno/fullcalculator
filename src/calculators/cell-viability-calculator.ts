@@ -46,7 +46,5 @@ export const cellViabilityCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Viability (%) = (Live Cells / Total Cells) x 100
-Cells/mL = (Avg Cells/Square) x 10,000 x Dilution Factor
-Viable Cells/mL = Cells/mL x (Viability/100)",
+  formula: "Viability (%) = (Live Cells / Total Cells) x 100; Cells/mL = (Avg Cells/Square) x 10,000 x Dilution Factor; Viable Cells/mL = Cells/mL x (Viability/100)",
 };

@@ -50,7 +50,5 @@ export const paintProtectionFilmCostCalculator: CalculatorDefinition = {
     { question: "How long does PPF last?", answer: "Budget films last 3 to 5 years, mid-range films 5 to 7 years, and premium films like XPEL Ultimate or 3M Pro Series can last 7 to 10 years or more with proper care." },
     { question: "Is PPF worth the investment?", answer: "For new or high-value vehicles, PPF preserves paint condition and can significantly improve resale value. The cost is often recovered through avoided paint repair and detailing expenses." },
   ],
-  formula: "Total Cost = Base Cost (by coverage) x Size Multiplier x Quality Multiplier
-Cost Per Year = Total Cost / Film Lifespan
-Coverage Area = Base Area x Size Multiplier",
+  formula: "Total Cost = Base Cost (by coverage) x Size Multiplier x Quality Multiplier; Cost Per Year = Total Cost / Film Lifespan; Coverage Area = Base Area x Size Multiplier",
 };

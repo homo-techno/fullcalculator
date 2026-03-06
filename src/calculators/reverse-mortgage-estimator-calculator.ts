@@ -50,7 +50,5 @@ export const reverseMortgageEstimatorCalculator: CalculatorDefinition = {
     { question: "How much can I borrow with a reverse mortgage?", answer: "The amount depends on your age, home value, current interest rates, and the FHA lending limit. Generally, older borrowers with more valuable homes and lower interest rates can access a larger percentage of their equity." },
     { question: "What are the risks of a reverse mortgage?", answer: "Risks include accruing interest that reduces home equity over time, potential fees and closing costs, and the requirement to maintain the home and pay property taxes and insurance. Heirs may inherit less equity or need to repay the loan." },
   ],
-  formula: "Max Claim Amount = min(Home Value, FHA Limit)
-Principal Limit = Max Claim Amount x Age/Rate Factor
-Net Available = Principal Limit - Existing Mortgage - Closing Costs",
+  formula: "Max Claim Amount = min(Home Value, FHA Limit); Principal Limit = Max Claim Amount x Age/Rate Factor; Net Available = Principal Limit - Existing Mortgage - Closing Costs",
 };

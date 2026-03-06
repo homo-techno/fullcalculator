@@ -53,6 +53,5 @@ export const childproofingCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total = Gate Cost + Outlet Covers + Locks + Corner Guards + Furniture Anchors + Misc
-Per Room = Total / Number of Rooms",
+  formula: "Total = Gate Cost + Outlet Covers + Locks + Corner Guards + Furniture Anchors + Misc; Per Room = Total / Number of Rooms",
 };

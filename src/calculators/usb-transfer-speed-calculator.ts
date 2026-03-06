@@ -49,7 +49,5 @@ export const usbTransferSpeedCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Transfer Time = (File Size in MB / Real Speed in MB/s) + File Overhead
-Real Speed = Max Speed x Efficiency %
-File Overhead = Number of Files x 0.002 seconds",
+  formula: "Transfer Time = (File Size in MB / Real Speed in MB/s) + File Overhead; Real Speed = Max Speed x Efficiency %; File Overhead = Number of Files x 0.002 seconds",
 };

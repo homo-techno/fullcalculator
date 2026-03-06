@@ -51,8 +51,5 @@ export const propellerPitchCalculator: CalculatorDefinition = {
     { question: "What is propeller slip?", answer: "Prop slip is the difference between theoretical speed based on pitch and RPM versus actual speed. Normal slip is 10 to 20 percent. High slip may indicate a worn or incorrectly sized propeller." },
     { question: "How do I know if my prop pitch is correct?", answer: "Your engine should reach the manufacturer recommended wide-open-throttle RPM range with your normal load. If WOT RPM is below the range, reduce pitch. If above, increase pitch." },
   ],
-  formula: "RPM Change Per Inch of Pitch = ~200 RPM
-New Pitch = Current Pitch - (RPM Difference / 200)
-Theoretical Speed = (RPM x Pitch) / 1056
-Prop Slip = (Theoretical Speed - Actual Speed) / Theoretical Speed x 100",
+  formula: "RPM Change Per Inch of Pitch = ~200 RPM; New Pitch = Current Pitch - (RPM Difference / 200); Theoretical Speed = (RPM x Pitch) / 1056; Prop Slip = (Theoretical Speed - Actual Speed) / Theoretical Speed x 100",
 };

@@ -47,8 +47,5 @@ export const fluorescenceQuenchingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "F0/F = 1 + Ksv[Q]
-Ksv = (F0/F - 1) / [Q]
-Kq = Ksv / tau0
-where tau0 ~ 10^-8 s (typical fluorescence lifetime)",
+  formula: "F0/F = 1 + Ksv[Q]; Ksv = (F0/F - 1) / [Q]; Kq = Ksv / tau0; where tau0 ~ 10^-8 s (typical fluorescence lifetime)",
 };

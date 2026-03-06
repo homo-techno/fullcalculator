@@ -56,6 +56,5 @@ export const retirementHealthcareCostCalculator: CalculatorDefinition = {
     { question: "Does Medicare cover all healthcare costs?", answer: "No. Medicare typically covers about 60 percent of healthcare expenses. You are still responsible for premiums, deductibles, copays, coinsurance, and services not covered like most dental, vision, hearing, and long-term care." },
     { question: "Why use a 5 percent healthcare inflation rate?", answer: "Healthcare costs have historically risen faster than general inflation, averaging 5 to 7 percent annually over the past two decades. Using a higher rate provides a more realistic long-term projection." },
   ],
-  formula: "Year Cost = (Monthly Premiums x 12 + Annual Out-of-Pocket) x (1 + Inflation)^Year
-Total = Sum of all Year Costs over retirement period",
+  formula: "Year Cost = (Monthly Premiums x 12 + Annual Out-of-Pocket) x (1 + Inflation)^Year; Total = Sum of all Year Costs over retirement period",
 };

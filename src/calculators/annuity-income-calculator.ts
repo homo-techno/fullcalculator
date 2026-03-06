@@ -48,7 +48,5 @@ export const annuityIncomeCalculator: CalculatorDefinition = {
     { question: "Are annuity payments taxable?", answer: "Part of each annuity payment from a non-qualified annuity is a tax-free return of principal, while the earnings portion is taxed as ordinary income. Qualified annuity payments from IRAs or 401k plans are fully taxable as ordinary income." },
     { question: "What is the difference between fixed and variable annuities?", answer: "Fixed annuities provide guaranteed periodic payments at a set interest rate. Variable annuities invest in subaccounts similar to mutual funds, and payments fluctuate based on investment performance." },
   ],
-  formula: "Monthly Payment = (Lump Sum x Monthly Rate) / (1 - (1 + Monthly Rate)^(-Total Payments))
-Monthly Rate = Annual Rate / 12
-Total Payments = Payout Years x 12",
+  formula: "Monthly Payment = (Lump Sum x Monthly Rate) / (1 - (1 + Monthly Rate)^(-Total Payments)); Monthly Rate = Annual Rate / 12; Total Payments = Payout Years x 12",
 };

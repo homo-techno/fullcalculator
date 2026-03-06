@@ -57,7 +57,5 @@ export const retirementPortfolioWithdrawalCalculator: CalculatorDefinition = {
     { question: "Is the 4 percent rule still valid?", answer: "Some financial planners now suggest a more conservative 3 to 3.5 percent rate due to lower expected future returns and longer retirements. Others argue that flexible spending strategies can support higher initial rates." },
     { question: "What happens if the market drops early in retirement?", answer: "Poor returns early in retirement, known as sequence-of-returns risk, can significantly impact portfolio longevity. A major market decline in the first few years of retirement can deplete a portfolio much faster than the same decline later." },
   ],
-  formula: "First Year Withdrawal = Portfolio Balance x Withdrawal Rate
-Each Year: Portfolio = Previous Balance x (1 + Return) - Inflation-Adjusted Withdrawal
-Portfolio Lasts Until Balance Reaches Zero",
+  formula: "First Year Withdrawal = Portfolio Balance x Withdrawal Rate; Each Year: Portfolio = Previous Balance x (1 + Return) - Inflation-Adjusted Withdrawal; Portfolio Lasts Until Balance Reaches Zero",
 };

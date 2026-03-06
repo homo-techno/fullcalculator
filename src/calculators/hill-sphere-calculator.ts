@@ -43,6 +43,5 @@ export const hillSphereCalculator: CalculatorDefinition = {
     { question: "How large is the Hill sphere of Earth?", answer: "The Hill sphere of Earth extends about 1.5 million km from Earth, roughly four times the Earth-Moon distance. The Moon orbits well within this boundary." },
     { question: "Can objects orbit at the edge of the Hill sphere?", answer: "In practice, stable orbits require being well inside the Hill sphere. Orbits beyond roughly one-third to one-half of the Hill sphere radius tend to be unstable due to perturbations from the primary body." },
   ],
-  formula: "Hill Radius = a x (1 - e) x (m / 3M)^(1/3)
-where a = semi-major axis, e = eccentricity, m = body mass, M = primary mass",
+  formula: "Hill Radius = a x (1 - e) x (m / 3M)^(1/3); where a = semi-major axis, e = eccentricity, m = body mass, M = primary mass",
 };

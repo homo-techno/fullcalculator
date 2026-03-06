@@ -51,7 +51,5 @@ export const photoBackupStorageCalculator: CalculatorDefinition = {
     { question: "How much storage does a professional photographer need?", answer: "A busy wedding or event photographer may generate 2-5 TB per year. Commercial and studio photographers often need less, around 500 GB to 2 TB." },
     { question: "Should I keep all RAW files?", answer: "Many professionals keep all RAW files from delivered shoots permanently. Storage is cheaper than reshooting. Budget for long-term archival storage." },
   ],
-  formula: "Monthly Data = Shoots x Photos x Keep Rate x File Size
-Annual Storage = Monthly Data x 12
-Total = Annual Storage x Number of Backup Copies",
+  formula: "Monthly Data = Shoots x Photos x Keep Rate x File Size; Annual Storage = Monthly Data x 12; Total = Annual Storage x Number of Backup Copies",
 };

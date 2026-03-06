@@ -49,6 +49,5 @@ export const estatePlanningCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total = (Base Cost + Guardianship) x Region Multiplier x Complexity Adjustment
-Guardianship = $200 + $50 per child",
+  formula: "Total = (Base Cost + Guardianship) x Region Multiplier x Complexity Adjustment; Guardianship = $200 + $50 per child",
 };

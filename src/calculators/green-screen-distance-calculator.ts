@@ -47,7 +47,5 @@ export const greenScreenDistanceCalculator: CalculatorDefinition = {
     { question: "What color green screen is best?", answer: "Chroma key green (Pantone 354C) is the most common. Blue screens are preferred for scenes with green elements or for digital skin tone preservation." },
     { question: "How do I light a green screen?", answer: "Light the screen evenly and separately from your subject. Place lights 4-6 feet from the screen at 45 degree angles to minimize hot spots." },
   ],
-  formula: "Subject Distance = max(6 ft, Screen Width x 0.5)
-Camera Distance = Focal Length / 10 x Subjects x 1.5
-Total Depth = Subject Distance + Camera Distance",
+  formula: "Subject Distance = max(6 ft, Screen Width x 0.5); Camera Distance = Focal Length / 10 x Subjects x 1.5; Total Depth = Subject Distance + Camera Distance",
 };

@@ -52,8 +52,5 @@ export const screenResolutionComparisonCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Pixels = Width x Height
-PPI = Diagonal Pixels / Screen Size (inches)
-Diagonal Pixels = sqrt(Width^2 + Height^2)
-Pixel Ratio = Resolution 2 Pixels / Resolution 1 Pixels",
+  formula: "Total Pixels = Width x Height; PPI = Diagonal Pixels / Screen Size (inches); Diagonal Pixels = sqrt(Width^2 + Height^2); Pixel Ratio = Resolution 2 Pixels / Resolution 1 Pixels",
 };

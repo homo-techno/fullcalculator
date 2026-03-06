@@ -50,7 +50,5 @@ export const marineGeneratorSizingCalculator: CalculatorDefinition = {
     { question: "Can a generator run air conditioning on a boat?", answer: "Yes, but air conditioning is typically the largest load on a boat. A single 12,000 BTU marine AC unit draws about 1,200 to 1,500 watts. Most boats with AC need a generator of 5 kW or larger." },
     { question: "How much fuel does a marine generator use?", answer: "Marine generators typically consume 0.06 to 0.1 gallons per kilowatt hour. A 6 kW generator running at 50 percent load uses roughly 0.25 to 0.3 gallons per hour." },
   ],
-  formula: "Total Load = AC + Water Heater + Appliances + Electronics + Battery Charger
-With Safety Margin = Total Load x (1 + Safety Margin %)
-Generator Size (kW) = Total Load with Margin / 1000",
+  formula: "Total Load = AC + Water Heater + Appliances + Electronics + Battery Charger; With Safety Margin = Total Load x (1 + Safety Margin %); Generator Size (kW) = Total Load with Margin / 1000",
 };

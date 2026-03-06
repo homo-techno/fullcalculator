@@ -48,7 +48,5 @@ export const tableTurnoverRateCalculator: CalculatorDefinition = {
     { question: "How can I increase table turnover without rushing guests?", answer: "Streamline your kitchen workflow, train servers to pace courses efficiently, use reservation systems to stagger seating, offer digital payment, and design your menu to minimize kitchen bottlenecks." },
     { question: "What is revenue per seat-hour?", answer: "Revenue per seat-hour measures how much revenue each seat generates per hour of operation. It combines average check size and turnover rate into a single efficiency metric used to benchmark restaurant performance." },
   ],
-  formula: "Turnover Rate = Parties Served / Total Tables
-Total Covers = Parties x Average Party Size
-Revenue Per Service = Total Covers x Average Check Size",
+  formula: "Turnover Rate = Parties Served / Total Tables; Total Covers = Parties x Average Party Size; Revenue Per Service = Total Covers x Average Check Size",
 };

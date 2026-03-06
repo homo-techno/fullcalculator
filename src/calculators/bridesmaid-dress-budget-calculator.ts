@@ -50,6 +50,5 @@ export const bridesmaidDressBudgetCalculator: CalculatorDefinition = {
     { question: "Who pays for bridesmaid dresses?", answer: "Traditionally, bridesmaids pay for their own dresses and accessories. Some brides choose to cover these costs as a gift to their bridal party." },
     { question: "Do bridesmaid dresses need alterations?", answer: "Most bridesmaid dresses need some alterations for proper fit. Common adjustments include hemming, taking in the waist, or adjusting straps, costing $50 to $150." },
   ],
-  formula: "Per Person = DressPrice + Alterations + Shoes + Accessories
-Total = NumberOfBridesmaids x PerPersonCost",
+  formula: "Per Person = DressPrice + Alterations + Shoes + Accessories; Total = NumberOfBridesmaids x PerPersonCost",
 };

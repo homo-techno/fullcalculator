@@ -55,8 +55,5 @@ export const motorStarterSizingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "FLA (3-phase) = (HP x 746) / (Voltage x 1.732 x Efficiency x PF)
-Overload Setting = FLA x Service Factor x 1.15
-Breaker Size = FLA x Start Type Multiplier
-DOL = 2.5x, Soft Start = 1.75x, VFD = 1.5x",
+  formula: "FLA (3-phase) = (HP x 746) / (Voltage x 1.732 x Efficiency x PF); Overload Setting = FLA x Service Factor x 1.15; Breaker Size = FLA x Start Type Multiplier; DOL = 2.5x, Soft Start = 1.75x, VFD = 1.5x",
 };

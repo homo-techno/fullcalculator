@@ -51,6 +51,5 @@ export const babyFoodStageCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Stage = Based on age (4-6: Stage 1, 6-8: Stage 2, 8-10: Stage 3, 12+: Table Food)
-Monthly Cost = Jars/Day x 30.44 x Store-Bought Ratio x Cost/Jar",
+  formula: "Stage = Based on age (4-6: Stage 1, 6-8: Stage 2, 8-10: Stage 3, 12+: Table Food); Monthly Cost = Jars/Day x 30.44 x Store-Bought Ratio x Cost/Jar",
 };

@@ -56,7 +56,5 @@ export const cardMakingSuppliesCalculator: CalculatorDefinition = {
     { question: "What cardstock weight is best for card making?", answer: "Use 80 to 110 lb cardstock for card bases. Lighter weights (65 lb) work for decorative layers. Heavier weights can be difficult to fold cleanly." },
     { question: "What size envelopes do I need?", answer: "A2 cards use A2 envelopes (4.375 x 5.75). A7 cards use A7 envelopes (5.25 x 7.25). Always buy envelopes slightly larger than the card." },
   ],
-  formula: "Sheets = ceil(Cards / Cards Per Sheet) x Layers
-Cost = (Sheets x $0.50) + (Cards x Embellishment Cost) + Envelope Cost
-Cost Per Card = Total Cost / Number of Cards",
+  formula: "Sheets = ceil(Cards / Cards Per Sheet) x Layers; Cost = (Sheets x $0.50) + (Cards x Embellishment Cost) + Envelope Cost; Cost Per Card = Total Cost / Number of Cards",
 };

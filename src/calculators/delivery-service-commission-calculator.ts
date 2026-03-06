@@ -50,7 +50,5 @@ export const deliveryServiceCommissionCalculator: CalculatorDefinition = {
     { question: "Is third-party delivery profitable for restaurants?", answer: "Margins are thin after commission, food cost, and packaging. Many restaurants raise delivery menu prices 10 to 20 percent to offset commissions. Delivery is most profitable when it brings incremental volume without requiring additional fixed costs." },
     { question: "Should I build my own delivery service?", answer: "In-house delivery typically costs 10 to 15 percent of revenue versus 25 to 30 percent for third-party apps. However, it requires hiring drivers, insurance, and managing logistics. A hybrid approach using both is common." },
   ],
-  formula: "Commission Per Order = Order Value x Commission %
-Net Per Order = Order Value - Commission - Food Cost - Packaging
-Monthly Net Revenue = Net Per Order x Monthly Orders",
+  formula: "Commission Per Order = Order Value x Commission %; Net Per Order = Order Value - Commission - Food Cost - Packaging; Monthly Net Revenue = Net Per Order x Monthly Orders",
 };

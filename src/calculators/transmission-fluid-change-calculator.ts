@@ -53,7 +53,5 @@ export const transmissionFluidChangeCalculator: CalculatorDefinition = {
     { question: "What are signs of bad transmission fluid?", answer: "Dark or burnt-smelling fluid, delayed gear engagement, rough shifting, and transmission slipping are all signs that the fluid needs to be changed." },
     { question: "Is a transmission flush or drain-and-fill better?", answer: "A drain-and-fill is generally safer for high-mileage vehicles. A full flush replaces more fluid but can dislodge debris in older transmissions. Consult your vehicle manufacturer recommendation." },
   ],
-  formula: "Service Interval = Base Interval x Condition Multiplier
-Next Service = Last Service Mileage + Service Interval
-Months Until Due = Miles Until Due / Monthly Miles",
+  formula: "Service Interval = Base Interval x Condition Multiplier; Next Service = Last Service Mileage + Service Interval; Months Until Due = Miles Until Due / Monthly Miles",
 };

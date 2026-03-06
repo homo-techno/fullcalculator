@@ -53,7 +53,5 @@ export const livestockPregnancyDueDateCalculator: CalculatorDefinition = {
     { question: "How long is a cow pregnant?", answer: "The average gestation period for cattle is 283 days or about 9.3 months. Beef breeds tend to be slightly shorter (279-283 days) and dairy breeds slightly longer (279-287 days)." },
     { question: "What is a good conception rate for cattle?", answer: "A good first-service conception rate for cattle AI breeding is 55 to 70 percent. Natural service bulls typically achieve 60 to 75 percent. Overall pregnancy rates for a breeding season should exceed 90 percent." },
   ],
-  formula: "Due Date = Breeding Date + Gestation Days
-Due Window = Due Date +/- 10 days
-Expected Pregnant = Number Bred x Conception Rate",
+  formula: "Due Date = Breeding Date + Gestation Days; Due Window = Due Date +/- 10 days; Expected Pregnant = Number Bred x Conception Rate",
 };

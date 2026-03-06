@@ -54,7 +54,5 @@ export const bakeryIngredientCostCalculator: CalculatorDefinition = {
     { question: "How do I price bakery items?", answer: "A common rule is to multiply your ingredient cost by 3 to 4 for retail items. This covers ingredients at roughly 25 to 35 percent, labor at 25 to 35 percent, overhead at 15 to 25 percent, and leaves profit." },
     { question: "What are the most expensive bakery ingredients?", answer: "Butter, vanilla extract, chocolate, and nuts are typically the most expensive bakery ingredients. Specialty items like saffron, high-quality cocoa, and imported European butter can significantly increase recipe costs." },
   ],
-  formula: "Batch Cost = Flour + Sugar + Butter/Dairy + Eggs + Other Ingredients
-Cost Per Unit = Batch Cost / Units Per Batch
-Profit Margin = ((Selling Price - Cost Per Unit) / Selling Price) x 100",
+  formula: "Batch Cost = Flour + Sugar + Butter/Dairy + Eggs + Other Ingredients; Cost Per Unit = Batch Cost / Units Per Batch; Profit Margin = ((Selling Price - Cost Per Unit) / Selling Price) x 100",
 };

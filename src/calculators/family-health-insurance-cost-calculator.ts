@@ -53,6 +53,5 @@ export const familyHealthInsuranceCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Annual Cost = (Monthly Premium x 12) + min(Copays + Deductible, OOP Max)
-Worst Case = Annual Premium + Out-of-Pocket Maximum",
+  formula: "Annual Cost = (Monthly Premium x 12) + min(Copays + Deductible, OOP Max); Worst Case = Annual Premium + Out-of-Pocket Maximum",
 };

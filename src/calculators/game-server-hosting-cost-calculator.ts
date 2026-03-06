@@ -48,7 +48,5 @@ export const gameServerHostingCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Monthly Cost = Player Slots x Base Cost Per Slot x Tier Multiplier + Addons
-Annual Cost = Monthly Cost x 12
-Prepay Discount = Annual Cost x 0.85",
+  formula: "Monthly Cost = Player Slots x Base Cost Per Slot x Tier Multiplier + Addons; Annual Cost = Monthly Cost x 12; Prepay Discount = Annual Cost x 0.85",
 };

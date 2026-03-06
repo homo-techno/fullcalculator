@@ -52,7 +52,5 @@ export const zeroToSixtyTimeCalculator: CalculatorDefinition = {
     { question: "Does AWD improve 0-60 times?", answer: "All-wheel drive improves traction off the line, which typically reduces 0-60 times by 0.3 to 0.8 seconds compared to RWD on the same vehicle, especially in high-power applications." },
     { question: "Why are DCT transmissions faster?", answer: "Dual-clutch transmissions pre-select the next gear for near-instantaneous shifts with minimal power interruption, reducing shift times to under 100 milliseconds." },
   ],
-  formula: "Base Time = (Weight/HP)^0.75 x 0.45
-Adjusted Time = Base Time x Drivetrain Factor x Transmission Factor
-AWD factor: 0.92, FWD: 1.05, RWD: 1.0",
+  formula: "Base Time = (Weight/HP)^0.75 x 0.45; Adjusted Time = Base Time x Drivetrain Factor x Transmission Factor; AWD factor: 0.92, FWD: 1.05, RWD: 1.0",
 };

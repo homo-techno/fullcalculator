@@ -42,6 +42,5 @@ export const binaryStarMassCalculator: CalculatorDefinition = {
     { question: "What fraction of stars are in binary systems?", answer: "Roughly half of all Sun-like stars exist in binary or multiple star systems. The fraction is higher for more massive stars and lower for red dwarfs." },
     { question: "What is the mass ratio?", answer: "The mass ratio q is the mass of the secondary (less massive) star divided by the mass of the primary. It ranges from 0 to 1, with 1 meaning both stars have equal mass." },
   ],
-  formula: "Total Mass (solar) = a^3 / P^2 (Kepler third law in solar units)
-M1 = Total / (1 + q), M2 = Total x q / (1 + q)",
+  formula: "Total Mass (solar) = a^3 / P^2 (Kepler third law in solar units); M1 = Total / (1 + q), M2 = Total x q / (1 + q)",
 };

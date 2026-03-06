@@ -57,8 +57,5 @@ export const emergencyGeneratorSizingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Running kW = Lighting + HVAC + Critical Loads + Motor kW
-Motor Start kW = Motor HP x 0.746 x 3
-Peak kW = Running Loads + Motor Start kW
-Required kVA = Peak kW / Power Factor",
+  formula: "Total Running kW = Lighting + HVAC + Critical Loads + Motor kW; Motor Start kW = Motor HP x 0.746 x 3; Peak kW = Running Loads + Motor Start kW; Required kVA = Peak kW / Power Factor",
 };

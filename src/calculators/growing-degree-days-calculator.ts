@@ -51,7 +51,5 @@ export const growingDegreeDaysCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Daily GDD = max((High + Low) / 2 - Base Temp, 0)
-Total GDD = Daily GDD x Number of Days
-Days to Maturity = Required GDD / Daily GDD",
+  formula: "Daily GDD = max((High + Low) / 2 - Base Temp, 0); Total GDD = Daily GDD x Number of Days; Days to Maturity = Required GDD / Daily GDD",
 };

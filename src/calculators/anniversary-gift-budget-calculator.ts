@@ -47,6 +47,5 @@ export const anniversaryGiftBudgetCalculator: CalculatorDefinition = {
     { question: "What are the traditional anniversary gift themes?", answer: "Traditional themes include paper (1st), cotton (2nd), leather (3rd), wood (5th), tin (10th), silver (25th), and gold (50th). Modern alternatives also exist for each year." },
     { question: "Is an experience better than a physical gift?", answer: "Experiences like trips, cooking classes, or spa days create lasting memories and are increasingly popular as anniversary gifts, especially for couples who prefer minimal material possessions." },
   ],
-  formula: "Total = Gift + Dinner + Flowers + Experience + Extras
-Gift Percentage = (Gift / Total) x 100",
+  formula: "Total = Gift + Dinner + Flowers + Experience + Extras; Gift Percentage = (Gift / Total) x 100",
 };

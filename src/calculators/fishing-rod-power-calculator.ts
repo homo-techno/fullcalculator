@@ -56,7 +56,5 @@ export const fishingRodPowerCalculator: CalculatorDefinition = {
     { question: "What is the difference between rod power and action?", answer: "Power refers to the overall stiffness of the rod and determines how much force is needed to bend it. Action describes where along the rod it bends - fast action bends near the tip while slow action bends throughout the rod." },
     { question: "Does water type affect rod selection?", answer: "Yes. Saltwater fishing generally requires heavier rods due to larger fish, stronger currents, and corrosive conditions. Saltwater rods also need corrosion-resistant guides and reel seats." },
   ],
-  formula: "Rod Power is matched to target fish weight and fishing conditions
-Line Weight Range = Fish Weight x 0.8 to Fish Weight x 2.5
-Rod power increases with fish size, water type, and structure density",
+  formula: "Rod Power is matched to target fish weight and fishing conditions; Line Weight Range = Fish Weight x 0.8 to Fish Weight x 2.5; Rod power increases with fish size, water type, and structure density",
 };

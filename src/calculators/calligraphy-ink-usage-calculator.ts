@@ -50,7 +50,5 @@ export const calligraphyInkUsageCalculator: CalculatorDefinition = {
     { question: "What ink is best for calligraphy beginners?", answer: "Iron gall ink is traditional and flows well from a dip pen. Sumi ink is great for brush calligraphy. Fountain pen inks are convenient but may feather on some papers." },
     { question: "Does nib size affect ink consumption?", answer: "Yes, significantly. A broad nib can use 4 to 6 times more ink than a fine nib because it deposits a wider line of ink on the paper." },
   ],
-  formula: "Ink Per Inch = Nib Factor x Ink Type Factor
-Total Ink (ml) = Pages x Lines Per Page x Line Length x Ink Per Inch
-Bottles = ceil(Total Ink / 30 ml)",
+  formula: "Ink Per Inch = Nib Factor x Ink Type Factor; Total Ink (ml) = Pages x Lines Per Page x Line Length x Ink Per Inch; Bottles = ceil(Total Ink / 30 ml)",
 };

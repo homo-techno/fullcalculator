@@ -48,8 +48,5 @@ export const groundwaterFlowRateCalculator: CalculatorDefinition = {
     { question: "What is hydraulic conductivity?", answer: "Hydraulic conductivity measures how easily water flows through soil or rock. Sand and gravel have high values (1-1000 m/day), while clay has very low values (less than 0.001 m/day)." },
     { question: "How fast does groundwater move?", answer: "Groundwater typically moves very slowly, from centimeters per day to a few meters per day. In highly permeable gravel aquifers, it can move faster, but it is generally much slower than surface water." },
   ],
-  formula: "Darcy Velocity (v) = K x i
-Seepage Velocity = v / n (effective porosity)
-Discharge (Q) = K x i x A
-Travel Time = Distance / Seepage Velocity",
+  formula: "Darcy Velocity (v) = K x i; Seepage Velocity = v / n (effective porosity); Discharge (Q) = K x i x A; Travel Time = Distance / Seepage Velocity",
 };

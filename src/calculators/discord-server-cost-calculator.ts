@@ -48,7 +48,5 @@ export const discordServerCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Boost Cost = Number of Boosts Required x $4.99
-Bot Total = Premium Bots x Average Bot Cost
-Monthly Cost = Boost Cost + Bot Total + Moderation Tools",
+  formula: "Boost Cost = Number of Boosts Required x $4.99; Bot Total = Premium Bots x Average Bot Cost; Monthly Cost = Boost Cost + Bot Total + Moderation Tools",
 };

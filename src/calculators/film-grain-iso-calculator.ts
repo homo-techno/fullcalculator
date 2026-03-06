@@ -51,7 +51,5 @@ export const filmGrainIsoCalculator: CalculatorDefinition = {
     { question: "How does film format affect grain?", answer: "Larger film formats show less visible grain when printed at the same size because less enlargement is needed. Medium format shows about half the grain of 35mm." },
     { question: "What film stock has the finest grain?", answer: "Among common stocks, Kodak Portra 160 and Fuji Velvia 50 have extremely fine grain. For black and white, Ilford Delta 100 and Kodak T-Max 100 are very fine-grained." },
   ],
-  formula: "Effective ISO = Base ISO x 2^(push stops)
-Visible Grain = Base Grain + (Push x 2) x Format Reduction
-Digital Equiv = Effective ISO x Format Grain Reduction",
+  formula: "Effective ISO = Base ISO x 2^(push stops); Visible Grain = Base Grain + (Push x 2) x Format Reduction; Digital Equiv = Effective ISO x Format Grain Reduction",
 };

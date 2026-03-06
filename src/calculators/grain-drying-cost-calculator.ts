@@ -54,7 +54,5 @@ export const grainDryingCostCalculator: CalculatorDefinition = {
     { question: "How much does it cost to dry corn per bushel?", answer: "Drying corn typically costs $0.03 to $0.06 per bushel per point of moisture removed. Drying from 22% to 15% (7 points) costs roughly $0.21 to $0.42 per bushel depending on fuel prices." },
     { question: "What is grain shrink?", answer: "Shrink is the weight loss that occurs during drying. For every 1 point of moisture removed, approximately 1.183% of weight is lost. This reduces the number of marketable bushels." },
   ],
-  formula: "BTU Needed = Bushels x Points x BTU Per Point Per Bushel
-Fuel Gallons = Total BTU / 91,500 (propane)
-Shrink = Points Removed x 1.183%",
+  formula: "BTU Needed = Bushels x Points x BTU Per Point Per Bushel; Fuel Gallons = Total BTU / 91,500 (propane); Shrink = Points Removed x 1.183%",
 };

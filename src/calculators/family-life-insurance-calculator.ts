@@ -53,6 +53,5 @@ export const familyLifeInsuranceCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Needs = (Annual Income x Years) + Debts + (Education x Children) + Final Expenses
-Additional Needed = Total Needs - Existing Coverage",
+  formula: "Total Needs = (Annual Income x Years) + Debts + (Education x Children) + Final Expenses; Additional Needed = Total Needs - Existing Coverage",
 };

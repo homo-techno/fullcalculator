@@ -50,7 +50,5 @@ export const keplersEquationSolverCalculator: CalculatorDefinition = {
     { question: "What is the true anomaly?", answer: "The true anomaly is the actual angular position of the orbiting body measured from the closest approach point (periapsis). It describes where the body is in its orbit at a given time." },
     { question: "Why does eccentricity matter?", answer: "For circular orbits (e = 0) the true anomaly equals the mean anomaly. For highly elliptical orbits, the body spends more time near apoapsis and moves quickly through periapsis, making the anomalies very different." },
   ],
-  formula: "M = E - e sin(E) (Kepler equation, solve iteratively for E)
-True Anomaly: nu = 2 x atan2(sqrt(1+e) x sin(E/2), sqrt(1-e) x cos(E/2))
-Radius = a x (1 - e x cos(E))",
+  formula: "M = E - e sin(E) (Kepler equation, solve iteratively for E); True Anomaly: nu = 2 x atan2(sqrt(1+e) x sin(E/2), sqrt(1-e) x cos(E/2)); Radius = a x (1 - e x cos(E))",
 };

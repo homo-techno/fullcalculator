@@ -48,7 +48,5 @@ export const barPourCostCalculator: CalculatorDefinition = {
     { question: "How do I reduce bar pour cost?", answer: "Use measured pourers or jiggers, implement strict inventory tracking, train bartenders on recipes, reduce over-pouring, minimize spillage and waste, and renegotiate supplier pricing." },
     { question: "How many servings are in a standard liquor bottle?", answer: "A standard 750ml bottle contains about 17 servings at 1.5 ounces each. A liter bottle yields approximately 22 servings at the same pour size." },
   ],
-  formula: "Cost Per Drink = (Bottle Cost / Servings Per Bottle) + Mixer Cost
-Pour Cost % = (Cost Per Drink / Selling Price) x 100
-Profit Per Drink = Selling Price - Cost Per Drink",
+  formula: "Cost Per Drink = (Bottle Cost / Servings Per Bottle) + Mixer Cost; Pour Cost % = (Cost Per Drink / Selling Price) x 100; Profit Per Drink = Selling Price - Cost Per Drink",
 };

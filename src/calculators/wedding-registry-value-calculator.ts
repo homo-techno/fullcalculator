@@ -53,7 +53,5 @@ export const weddingRegistryValueCalculator: CalculatorDefinition = {
     { question: "How many items should be on a wedding registry?", answer: "Register for at least as many items as you have guests. A 150-guest wedding should have 150-200 items across various price points." },
     { question: "What price range should registry items be?", answer: "Include 30% budget items (under $50), 45% mid-range ($50-$150), and 25% premium items ($150+). This accommodates all guest budgets." },
   ],
-  formula: "Gift Givers = Solo Guests + (Couple Guests / 2)
-Expected Gifts = Gift Givers x Average Gift Value
-Registry Value = Expected Gifts x Multiplier",
+  formula: "Gift Givers = Solo Guests + (Couple Guests / 2); Expected Gifts = Gift Givers x Average Gift Value; Registry Value = Expected Gifts x Multiplier",
 };

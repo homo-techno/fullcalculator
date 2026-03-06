@@ -48,7 +48,5 @@ export const feedConversionRatioCalculator: CalculatorDefinition = {
     { question: "What is a good feed conversion ratio for cattle?", answer: "Feedlot cattle typically achieve an FCR of 5.5:1 to 7:1, meaning 5.5 to 7 pounds of feed per pound of gain. Poultry has the best FCR at 1.6:1 to 2:1, and swine averages 2.5:1 to 3.5:1." },
     { question: "How can I improve feed conversion?", answer: "Improve FCR through better genetics, optimized rations, proper feed processing, managing animal health, maintaining comfortable housing temperatures, and minimizing feed waste." },
   ],
-  formula: "FCR = Total Feed Consumed / Total Weight Gain
-Cost of Gain = FCR x Feed Cost Per Pound
-Daily Gain = Total Gain / Head / Days",
+  formula: "FCR = Total Feed Consumed / Total Weight Gain; Cost of Gain = FCR x Feed Cost Per Pound; Daily Gain = Total Gain / Head / Days",
 };

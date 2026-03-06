@@ -48,7 +48,5 @@ export const streamingServiceCostComparisonCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Monthly Total = Sum of all service costs
-Annual Total = Monthly Total x 12
-Average Per Service = Monthly Total / Number of Active Services",
+  formula: "Monthly Total = Sum of all service costs; Annual Total = Monthly Total x 12; Average Per Service = Monthly Total / Number of Active Services",
 };

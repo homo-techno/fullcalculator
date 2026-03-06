@@ -50,8 +50,5 @@ export const soilCompactionTestCalculator: CalculatorDefinition = {
     { question: "What is the Proctor test?", answer: "The Proctor compaction test determines the optimal moisture content at which a soil reaches its maximum dry density. The standard test uses a specific compaction energy to establish the benchmark for field quality control." },
     { question: "Why is moisture content important for compaction?", answer: "Too little moisture means soil particles cannot slide together efficiently. Too much moisture fills voids with water that cannot be compressed. The optimum moisture content allows maximum particle packing." },
   ],
-  formula: "Wet Density = Wet Weight / Mold Volume
-Dry Density = Wet Density / (1 + Moisture Content / 100)
-Compaction % = (Dry Density / Max Dry Density) x 100
-Void Ratio = (Gs / Dry Density) - 1",
+  formula: "Wet Density = Wet Weight / Mold Volume; Dry Density = Wet Density / (1 + Moisture Content / 100); Compaction % = (Dry Density / Max Dry Density) x 100; Void Ratio = (Gs / Dry Density) - 1",
 };

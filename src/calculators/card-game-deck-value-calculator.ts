@@ -54,8 +54,5 @@ export const cardGameDeckValueCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Common Value = Common Cards x Avg Common Price
-Rare Value = Rare Cards x Avg Rare Price
-Mythic Value = Mythic Cards x Avg Mythic Price
-Total Deck Value = Common + Rare + Mythic Value",
+  formula: "Common Value = Common Cards x Avg Common Price; Rare Value = Rare Cards x Avg Rare Price; Mythic Value = Mythic Cards x Avg Mythic Price; Total Deck Value = Common + Rare + Mythic Value",
 };

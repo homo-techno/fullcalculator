@@ -55,7 +55,5 @@ export const evapotranspirationRateCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "ETo = (0.408 x Solar Radiation + 0.063 x (Temp+273) x Wind x VPD) / (1 + 0.34 x Wind)
-ETc = ETo x Crop Coefficient
-VPD = Saturation VP - Actual VP",
+  formula: "ETo = (0.408 x Solar Radiation + 0.063 x (Temp+273) x Wind x VPD) / (1 + 0.34 x Wind); ETc = ETo x Crop Coefficient; VPD = Saturation VP - Actual VP",
 };

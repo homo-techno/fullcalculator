@@ -48,7 +48,5 @@ export const qpcrFoldChangeCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Delta Ct = Ct(target) - Ct(reference)
-Delta-Delta Ct = Delta Ct(treatment) - Delta Ct(control)
-Fold Change = 2^(-Delta-Delta Ct)",
+  formula: "Delta Ct = Ct(target) - Ct(reference); Delta-Delta Ct = Delta Ct(treatment) - Delta Ct(control); Fold Change = 2^(-Delta-Delta Ct)",
 };

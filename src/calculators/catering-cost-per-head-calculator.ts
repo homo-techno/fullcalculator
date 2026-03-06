@@ -53,7 +53,5 @@ export const cateringCostPerHeadCalculator: CalculatorDefinition = {
     { question: "What is included in a catering per-head price?", answer: "Per-head pricing typically includes food preparation, service staff, basic table settings, and sometimes beverages. Equipment rentals, linens, specialty decor, and premium bar packages are usually extra." },
     { question: "How do I choose between buffet and plated service?", answer: "Buffets are more budget-friendly and work well for casual events. Plated dinners provide an elevated experience for formal occasions. Food stations offer a middle ground with interactive variety." },
   ],
-  formula: "Food Per Head = Style Base Price x Menu Tier Multiplier
-Total Per Head = Food Per Head + Bar Per Head
-Grand Total = (Total Per Head x Guests) + Rentals",
+  formula: "Food Per Head = Style Base Price x Menu Tier Multiplier; Total Per Head = Food Per Head + Bar Per Head; Grand Total = (Total Per Head x Guests) + Rentals",
 };

@@ -50,7 +50,5 @@ export const geothermalGradientCalculator: CalculatorDefinition = {
     { question: "How deep do you need to drill for geothermal energy?", answer: "For electricity generation, wells typically need to reach 150 C or higher, which is usually 2-5 km deep. For direct heating, shallower wells of 1-2 km may suffice. Geothermal heat pumps work at just 3-100 meters." },
     { question: "What is heat flow density?", answer: "Heat flow density measures the rate of heat transfer from the Earth interior to the surface per unit area, in milliwatts per square meter. The global average is about 65 mW/m2, higher near plate boundaries and hotspots." },
   ],
-  formula: "Temperature at Depth = Surface Temp + (Gradient x Depth / 1000)
-Heat Flow = Gradient x Thermal Conductivity
-Depth to 100C = ((100 - Surface Temp) / Gradient) x 1000",
+  formula: "Temperature at Depth = Surface Temp + (Gradient x Depth / 1000); Heat Flow = Gradient x Thermal Conductivity; Depth to 100C = ((100 - Surface Temp) / Gradient) x 1000",
 };

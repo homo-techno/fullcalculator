@@ -45,7 +45,5 @@ export const chessEloRatingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Expected Score = 1 / (1 + 10^((Opponent Rating - Your Rating) / 400))
-Rating Change = K x (Actual Result - Expected Score)
-New Rating = Current Rating + Rating Change",
+  formula: "Expected Score = 1 / (1 + 10^((Opponent Rating - Your Rating) / 400)); Rating Change = K x (Actual Result - Expected Score); New Rating = Current Rating + Rating Change",
 };

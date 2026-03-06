@@ -53,7 +53,5 @@ export const greenhouseEnergyCostCalculator: CalculatorDefinition = {
     { question: "How can I reduce greenhouse heating costs?", answer: "Use double-layer poly or polycarbonate covering, add thermal curtains, seal air leaks, use thermal mass like water barrels, and consider zone heating. Double poly can reduce costs by 30 to 40 percent versus single layer." },
     { question: "What temperature should a greenhouse be?", answer: "Most vegetables and flowers grow best at 65 to 75 degrees F during the day and 55 to 65 degrees F at night. Cool-season crops can be grown at 50 to 60 degrees F." },
   ],
-  formula: "Heat Loss (BTU/hr) = Surface Area x U-Factor x Temperature Difference
-Monthly Fuel = BTU/hr x 24 x 30 / BTU per Gallon
-Annual Cost = Monthly Cost x Heating Months",
+  formula: "Heat Loss (BTU/hr) = Surface Area x U-Factor x Temperature Difference; Monthly Fuel = BTU/hr x 24 x 30 / BTU per Gallon; Annual Cost = Monthly Cost x Heating Months",
 };

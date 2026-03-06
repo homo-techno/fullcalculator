@@ -45,7 +45,5 @@ export const pensionBenefitEstimatorCalculator: CalculatorDefinition = {
     { question: "What is final average salary?", answer: "Final average salary is typically the average of your highest consecutive 3 to 5 years of earnings. Some plans use a different averaging period. This figure is a key component in calculating your defined benefit pension." },
     { question: "How does early retirement affect my pension?", answer: "Retiring before your plan normal retirement age typically reduces your pension by 3 to 7 percent per year. The reduction compensates for the longer expected payout period." },
   ],
-  formula: "Annual Benefit = Final Average Salary x Multiplier % x Years of Service
-Reduced Benefit = Annual Benefit x (1 - Early Retirement Reduction %)
-Monthly Benefit = Reduced Benefit / 12",
+  formula: "Annual Benefit = Final Average Salary x Multiplier % x Years of Service; Reduced Benefit = Annual Benefit x (1 - Early Retirement Reduction %); Monthly Benefit = Reduced Benefit / 12",
 };

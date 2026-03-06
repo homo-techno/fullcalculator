@@ -52,8 +52,5 @@ export const coalHeatingValueCalculator: CalculatorDefinition = {
     { question: "How do moisture and ash affect coal quality?", answer: "Moisture and ash are non-combustible components that reduce the effective heating value. A coal with 10% moisture and 10% ash can only burn 80% of its mass as fuel, significantly lowering its energy output per ton." },
     { question: "What coal rank has the highest heating value?", answer: "Anthracite has the highest heating value at about 14,000 BTU/lb, followed by bituminous (12,000-13,000), sub-bituminous (8,000-10,000), and lignite (5,500-7,500 BTU/lb)." },
   ],
-  formula: "Effective BTU/lb = Base BTU x (1 - Moisture - Ash)
-Total Energy (BTU) = Effective BTU x Tonnes x 2204.62 lbs/tonne
-Energy (GJ) = Total BTU x 0.001055 / 1000
-CO2 = Tonnage x Combustible Fraction x Carbon Content x 3.667",
+  formula: "Effective BTU/lb = Base BTU x (1 - Moisture - Ash); Total Energy (BTU) = Effective BTU x Tonnes x 2204.62 lbs/tonne; Energy (GJ) = Total BTU x 0.001055 / 1000; CO2 = Tonnage x Combustible Fraction x Carbon Content x 3.667",
 };

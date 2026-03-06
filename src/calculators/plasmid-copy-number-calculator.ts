@@ -49,7 +49,5 @@ export const plasmidCopyNumberCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Copy Number = E^(Ct_chrom - Ct_plasmid) x Chromosomal Copies
-where E = 1 + (Efficiency/100)
-Delta Ct = Ct(chromosomal) - Ct(plasmid)",
+  formula: "Copy Number = E^(Ct_chrom - Ct_plasmid) x Chromosomal Copies; where E = 1 + (Efficiency/100); Delta Ct = Ct(chromosomal) - Ct(plasmid)",
 };

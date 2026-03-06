@@ -48,7 +48,5 @@ export const beehiveHoneyYieldCalculator: CalculatorDefinition = {
     { question: "How much honey does one hive produce?", answer: "An average hive produces 30 to 80 pounds of surplus honey per year depending on location, forage availability, weather, and colony strength. Exceptional hives can produce over 100 pounds." },
     { question: "What is the average colony loss rate?", answer: "US beekeepers experience an average annual colony loss of 30 to 45 percent. Good management practices can reduce losses to 15 to 20 percent." },
   ],
-  formula: "Effective Hives = Total Hives x (1 - Loss Rate)
-Total Honey = Effective Hives x Yield Per Hive
-Profit = (Honey x Price) - (Hives x Cost Per Hive)",
+  formula: "Effective Hives = Total Hives x (1 - Loss Rate); Total Honey = Effective Hives x Yield Per Hive; Profit = (Honey x Price) - (Hives x Cost Per Hive)",
 };

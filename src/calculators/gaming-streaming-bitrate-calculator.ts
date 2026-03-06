@@ -51,8 +51,5 @@ export const gamingStreamingBitrateCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Ideal Bitrate = Base Bitrate x FPS Multiplier x Motion Multiplier
-Max Usable = Upload Speed x 1000 x 0.75
-Recommended = min(Ideal, Max Usable)
-Platform Capped = min(Recommended, Platform Max)",
+  formula: "Ideal Bitrate = Base Bitrate x FPS Multiplier x Motion Multiplier; Max Usable = Upload Speed x 1000 x 0.75; Recommended = min(Ideal, Max Usable); Platform Capped = min(Recommended, Platform Max)",
 };

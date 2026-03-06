@@ -59,7 +59,5 @@ export const engagementRingAffordabilityCalculator: CalculatorDefinition = {
     { question: "Is financing an engagement ring a good idea?", answer: "0% financing can be smart if you pay it off on time. Avoid high-interest financing as a $5,000 ring at 20% APR over 3 years costs over $6,700 total." },
     { question: "What is the average engagement ring cost?", answer: "The average engagement ring costs $5,000 to $7,000 in the US. However, beautiful rings are available at every price point from $500 and up." },
   ],
-  formula: "Cash Budget = AlreadySaved + (MonthlySavings x MonthsToSave)
-Financed = CashBudget + MonthlySavings x ((1 - (1+r)^-n) / r)
-Salary Rules: 1-month, 2-month, 3-month comparisons",
+  formula: "Cash Budget = AlreadySaved + (MonthlySavings x MonthsToSave); Financed = CashBudget + MonthlySavings x ((1 - (1+r)^-n) / r); Salary Rules: 1-month, 2-month, 3-month comparisons",
 };

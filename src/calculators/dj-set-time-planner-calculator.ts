@@ -48,6 +48,5 @@ export const djSetTimePlannerCalculator: CalculatorDefinition = {
     { question: "How long should DJ transitions be?", answer: "Transitions vary by genre: house music uses 16-32 beat mixes while hip-hop may use quick 4-8 beat cuts." },
     { question: "Should I prepare extra tracks?", answer: "Always prepare 1.5 to 2 times the tracks you plan to play to allow flexibility and read the crowd." },
   ],
-  formula: "Tracks = Set Length / (Avg Track Length - Transition Length)
-Prep Tracks = Tracks x 1.5",
+  formula: "Tracks = Set Length / (Avg Track Length - Transition Length); Prep Tracks = Tracks x 1.5",
 };

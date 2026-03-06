@@ -48,8 +48,5 @@ export const enzymeUnitConversionCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "1 IU = 1 umol/min = 16.67 nkat
-1 ukat = 1 umol/s = 60 IU
-Specific Activity = Total Activity / Total Protein
-Volumetric Activity = Total Activity / Volume",
+  formula: "1 IU = 1 umol/min = 16.67 nkat; 1 ukat = 1 umol/s = 60 IU; Specific Activity = Total Activity / Total Protein; Volumetric Activity = Total Activity / Volume",
 };

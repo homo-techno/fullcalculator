@@ -44,7 +44,5 @@ export const cattleWeightGainCalculator: CalculatorDefinition = {
     { question: "What is a good average daily gain for beef cattle?", answer: "Feedlot cattle typically gain 2.5 to 4 pounds per day depending on breed, diet, and management. Pasture-raised cattle average 1.5 to 2.5 pounds per day." },
     { question: "How does feed quality affect weight gain?", answer: "Higher energy feeds like grain produce faster gains. Cattle on a high-concentrate diet can gain 3 to 4 lb per day, while forage-only diets produce slower gains of 1 to 2 lb per day." },
   ],
-  formula: "Average Daily Gain (ADG) = Total Weight Gain / Days on Feed
-Days on Feed = (Target Weight - Start Weight) / ADG
-Total Herd Gain = Gain Per Head x Number of Head",
+  formula: "Average Daily Gain (ADG) = Total Weight Gain / Days on Feed; Days on Feed = (Target Weight - Start Weight) / ADG; Total Herd Gain = Gain Per Head x Number of Head",
 };

@@ -52,7 +52,5 @@ export const eReaderBatteryCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Draw = Base + Page Refresh + Backlight + Wi-Fi (in mA)
-Reading Hours = Battery (mAh) / Total Draw (mA)
-Days = Reading Hours / Daily Reading Hours",
+  formula: "Total Draw = Base + Page Refresh + Backlight + Wi-Fi (in mA); Reading Hours = Battery (mAh) / Total Draw (mA); Days = Reading Hours / Daily Reading Hours",
 };

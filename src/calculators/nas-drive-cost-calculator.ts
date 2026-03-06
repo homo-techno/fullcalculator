@@ -56,7 +56,5 @@ export const nasDriveCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Usable Storage (RAID 5) = (Number of Drives - 1) x Drive Size
-Usable Storage (RAID 1/10) = Total Raw / 2
-Cost Per TB = Total Cost / Usable Storage",
+  formula: "Usable Storage (RAID 5) = (Number of Drives - 1) x Drive Size; Usable Storage (RAID 1/10) = Total Raw / 2; Cost Per TB = Total Cost / Usable Storage",
 };

@@ -51,6 +51,5 @@ export const birthdayPartyPerChildCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total = Venue + (Food/Child x Children) + Cake + (Bag/Child x Children) + Decorations
-Cost Per Child = Total / Number of Children",
+  formula: "Total = Venue + (Food/Child x Children) + Cake + (Bag/Child x Children) + Decorations; Cost Per Child = Total / Number of Children",
 };

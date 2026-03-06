@@ -51,7 +51,5 @@ export const seatingChartOptimizerCalculator: CalculatorDefinition = {
     { question: "What is the best table layout for a wedding?", answer: "Round tables of 8-10 promote conversation. Long banquet tables create an intimate feel. The best layout depends on your venue shape and guest dynamics." },
     { question: "Should kids have a separate table?", answer: "Separate kids tables work well for children aged 5-12. Younger children usually sit with parents, while teens can sit at regular guest tables." },
   ],
-  formula: "Remaining = TotalGuests - HeadTable - KidsAtSeparateTable
-Tables Needed = ceil(Remaining / SeatsPerTable)
-Empty Seats = TotalSeats - TotalGuests",
+  formula: "Remaining = TotalGuests - HeadTable - KidsAtSeparateTable; Tables Needed = ceil(Remaining / SeatsPerTable); Empty Seats = TotalSeats - TotalGuests",
 };

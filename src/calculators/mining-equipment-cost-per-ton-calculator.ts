@@ -55,8 +55,5 @@ export const miningEquipmentCostPerTonCalculator: CalculatorDefinition = {
     { question: "How many tons can a large excavator move per hour?", answer: "A 200-ton class hydraulic excavator can load 400 to 800 tons per hour depending on material type, swing angle, and truck positioning. Harder rock reduces productivity significantly." },
     { question: "How do you reduce mining cost per ton?", answer: "Key strategies include maximizing equipment utilization, optimizing haul routes, matching truck and loader sizes, reducing idle time, and implementing preventive maintenance programs." },
   ],
-  formula: "Fuel Cost/hr = Gallons/hr x Fuel Price
-Total Hourly Cost = Fuel + Maintenance + Operator Wage + Depreciation
-Cost Per Ton = Total Hourly Cost / Tons Per Hour
-Shift Cost = Hourly Cost x Hours Per Shift",
+  formula: "Fuel Cost/hr = Gallons/hr x Fuel Price; Total Hourly Cost = Fuel + Maintenance + Operator Wage + Depreciation; Cost Per Ton = Total Hourly Cost / Tons Per Hour; Shift Cost = Hourly Cost x Hours Per Shift",
 };

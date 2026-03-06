@@ -45,7 +45,5 @@ export const gamingMonitorInputLagCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Frame Duration = 1000 / Refresh Rate
-V-Sync Penalty = Frame Duration (if enabled, else 0)
-Total Input Lag = Response Time + Frame Duration + System Latency + V-Sync Penalty",
+  formula: "Frame Duration = 1000 / Refresh Rate; V-Sync Penalty = Frame Duration (if enabled, else 0); Total Input Lag = Response Time + Frame Duration + System Latency + V-Sync Penalty",
 };

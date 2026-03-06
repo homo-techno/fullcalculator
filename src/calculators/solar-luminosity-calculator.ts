@@ -42,6 +42,5 @@ export const solarLuminosityCalculator: CalculatorDefinition = {
     { question: "How does solar intensity change with distance?", answer: "Solar intensity follows the inverse square law. At 2 AU, intensity is only one-quarter of what it is at 1 AU. At Jupiter (5.2 AU), it is only about 3.7 percent of Earth levels." },
     { question: "Can solar panels work in the outer solar system?", answer: "Solar panels become impractical beyond Jupiter due to low light levels. The Juno spacecraft at Jupiter uses very large panels, while missions to Saturn and beyond typically rely on nuclear power sources." },
   ],
-  formula: "Solar Intensity = 1361 / d^2 (W/m2)
-Power = Intensity x Panel Area x Efficiency",
+  formula: "Solar Intensity = 1361 / d^2 (W/m2); Power = Intensity x Panel Area x Efficiency",
 };

@@ -53,7 +53,5 @@ export const mosaicTileCalculator: CalculatorDefinition = {
     { question: "What size mosaic tile is best for beginners?", answer: "Three quarter inch tiles are the most versatile for beginners. They are large enough to handle easily but small enough for good detail." },
     { question: "How much grout do I need for mosaics?", answer: "Grout amount depends on gap width and tile thickness. A general rule is about 0.5 ounces per square inch of grout area for standard craft mosaics." },
   ],
-  formula: "Tiles = floor(Width / (Tile + Gap)) x floor(Height / (Tile + Gap)) x Coverage%
-Tiles to Buy = Tiles + 15% waste
-Grout = Grout Area x 0.5 oz per sq inch",
+  formula: "Tiles = floor(Width / (Tile + Gap)) x floor(Height / (Tile + Gap)) x Coverage%; Tiles to Buy = Tiles + 15% waste; Grout = Grout Area x 0.5 oz per sq inch",
 };

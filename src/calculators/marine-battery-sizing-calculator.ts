@@ -48,7 +48,5 @@ export const marineBatterySizingCalculator: CalculatorDefinition = {
     { question: "What type of marine battery is best?", answer: "Lithium iron phosphate batteries offer the longest lifespan, lightest weight, and deepest discharge, but cost more upfront. AGM batteries are a good mid-range choice. Flooded lead acid batteries are the most affordable but require maintenance." },
     { question: "How long do marine batteries last?", answer: "Flooded lead acid batteries last 2 to 4 years, AGM batteries 4 to 7 years, and lithium batteries 8 to 15 years depending on charge cycles and maintenance." },
   ],
-  formula: "Daily Amp-Hours = Total Load (amps) x Usage Hours
-With Reserve = Daily Ah x (1 + Reserve %)
-Battery Bank Size = With Reserve / Max Depth of Discharge",
+  formula: "Daily Amp-Hours = Total Load (amps) x Usage Hours; With Reserve = Daily Ah x (1 + Reserve %); Battery Bank Size = With Reserve / Max Depth of Discharge",
 };

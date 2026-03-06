@@ -55,7 +55,5 @@ export const printerInkCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Blended Cost = BW Cost x (1 - Color%) + Color Cost x Color%
-BW Cost/Page = Black Ink/Yield + Paper Cost
-Color Cost/Page = Black Ink/Yield + Color Ink/Yield + Paper Cost",
+  formula: "Blended Cost = BW Cost x (1 - Color%) + Color Cost x Color%; BW Cost/Page = Black Ink/Yield + Paper Cost; Color Cost/Page = Black Ink/Yield + Color Ink/Yield + Paper Cost",
 };

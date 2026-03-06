@@ -53,7 +53,5 @@ export const pensionColaImpactCalculator: CalculatorDefinition = {
     { question: "Do all pensions have COLA adjustments?", answer: "No. Many private pensions do not include COLA provisions. Government pensions, Social Security, and military pensions typically include some form of COLA. If your pension lacks COLA, you need to plan for inflation eroding your benefit over time." },
     { question: "How much does inflation erode a fixed pension?", answer: "At 3 percent annual inflation, a fixed pension loses about 26 percent of its purchasing power in 10 years and nearly 53 percent in 25 years. A $2,500 monthly pension would feel like only about $1,180 in todays dollars after 25 years." },
   ],
-  formula: "Pension After N Years = Monthly Pension x (1 + COLA)^N
-Real Value = Nominal Value / (1 + Inflation)^N
-Total COLA Benefit = Sum of COLA-adjusted payments - Sum of fixed payments",
+  formula: "Pension After N Years = Monthly Pension x (1 + COLA)^N; Real Value = Nominal Value / (1 + Inflation)^N; Total COLA Benefit = Sum of COLA-adjusted payments - Sum of fixed payments",
 };

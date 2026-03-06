@@ -55,6 +55,5 @@ export const babyClothesSizePredictorCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Future Weight = Current Weight + (Monthly Gain x Months Ahead)
-Size based on predicted weight and length thresholds",
+  formula: "Future Weight = Current Weight + (Monthly Gain x Months Ahead); Size based on predicted weight and length thresholds",
 };

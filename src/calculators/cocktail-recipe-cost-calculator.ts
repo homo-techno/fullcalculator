@@ -53,7 +53,5 @@ export const cocktailRecipeCostCalculator: CalculatorDefinition = {
     { question: "How should I price cocktails on my menu?", answer: "Price cocktails at 4 to 5 times ingredient cost for a 20 to 25 percent pour cost. A cocktail that costs $3.00 to make should sell for $12 to $15. Consider also the perceived value, presentation, and competition." },
     { question: "What cocktails have the best profit margins?", answer: "Simple highballs and spirit-forward drinks using well spirits have the best margins. Moscow Mules, Gin and Tonics, and Margaritas are perennial profit leaders. Drinks with expensive liqueurs or fresh juices have lower margins." },
   ],
-  formula: "Total Cost = (Spirit 1 Cost x Oz) + (Spirit 2 Cost x Oz) + Mixers + Garnish
-Ideal Menu Price = Total Cost / (Target Pour Cost % / 100)
-Profit = Ideal Menu Price - Total Cost",
+  formula: "Total Cost = (Spirit 1 Cost x Oz) + (Spirit 2 Cost x Oz) + Mixers + Garnish; Ideal Menu Price = Total Cost / (Target Pour Cost % / 100); Profit = Ideal Menu Price - Total Cost",
 };

@@ -53,9 +53,5 @@ export const landSurveyAreaCalculator: CalculatorDefinition = {
     { question: "What tools do land surveyors use?", answer: "Modern land surveyors use total stations, GPS/GNSS receivers, and laser scanners. Traditional tools include theodolites, measuring chains, and level instruments. Software processes raw measurements into coordinates and areas." },
     { question: "How accurate are land surveys?", answer: "Professional land surveys are typically accurate to within a few centimeters. Boundary surveys must meet legal accuracy standards that vary by jurisdiction, usually 1:5000 to 1:20000 precision ratios." },
   ],
-  formula: "Rectangle: Area = Length x Width
-Triangle: Area = 0.5 x Base x Height
-Trapezoid: Area = 0.5 x (Base1 + Base2) x Height
-Acres = Area(m2) / 4046.86
-Hectares = Area(m2) / 10000",
+  formula: "Rectangle: Area = Length x Width; Triangle: Area = 0.5 x Base x Height; Trapezoid: Area = 0.5 x (Base1 + Base2) x Height; Acres = Area(m2) / 4046.86; Hectares = Area(m2) / 10000",
 };

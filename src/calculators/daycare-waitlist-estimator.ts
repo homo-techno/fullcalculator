@@ -47,7 +47,5 @@ export const daycareWaitlistEstimatorCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Age Group Spots = Capacity x Age Group Share
-Monthly Openings = (Age Group Spots x Turnover%) / 12
-Wait Time = Waitlist Position / Monthly Openings",
+  formula: "Age Group Spots = Capacity x Age Group Share; Monthly Openings = (Age Group Spots x Turnover%) / 12; Wait Time = Waitlist Position / Monthly Openings",
 };

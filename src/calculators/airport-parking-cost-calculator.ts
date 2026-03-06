@@ -50,6 +50,5 @@ export const airportParkingCostCalculator: CalculatorDefinition = {
     { question: "When is rideshare cheaper than parking?", answer: "Rideshare is typically cheaper than parking for trips of 3 days or fewer, especially at airports with expensive parking." },
     { question: "How can I save on airport parking?", answer: "Book online in advance for discounts, use off-site lots with shuttle service, compare rates on apps, or use airport loyalty programs that include free parking perks." },
   ],
-  formula: "Option Cost = Daily Rate x Trip Days
-Rideshare Cost = Per Trip Rate x 2",
+  formula: "Option Cost = Daily Rate x Trip Days; Rideshare Cost = Per Trip Rate x 2",
 };

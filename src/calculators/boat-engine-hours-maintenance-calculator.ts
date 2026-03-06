@@ -49,8 +49,5 @@ export const boatEngineHoursMaintenanceCalculator: CalculatorDefinition = {
     { question: "When should I replace my water pump impeller?", answer: "Replace the water pump impeller every 300 hours or every two to three years. If you notice reduced water flow from the tell-tale, replace it immediately regardless of hours." },
     { question: "What is considered high hours on a boat engine?", answer: "For gasoline inboard engines, 1,500 hours is considered high. Diesel engines can run 5,000 or more hours. Outboard engines typically last 1,500 to 3,000 hours with proper maintenance." },
   ],
-  formula: "Oil Change Interval = 100 hours
-Impeller Replacement Interval = 300 hours
-Lower Unit Service Interval = 500 hours
-Hours Remaining = Interval - (Current Hours - Hours at Last Service)",
+  formula: "Oil Change Interval = 100 hours; Impeller Replacement Interval = 300 hours; Lower Unit Service Interval = 500 hours; Hours Remaining = Interval - (Current Hours - Hours at Last Service)",
 };

@@ -49,6 +49,5 @@ export const elisaStandardCurveCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Concentration (diluted) = (Sample OD - Intercept) / Slope
-Original Concentration = Diluted Conc. x Dilution Factor",
+  formula: "Concentration (diluted) = (Sample OD - Intercept) / Slope; Original Concentration = Diluted Conc. x Dilution Factor",
 };

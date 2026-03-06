@@ -44,7 +44,5 @@ export const colorTemperatureConverterCalculator: CalculatorDefinition = {
     { question: "What is the difference between CTO and CTB gels?", answer: "CTO (Color Temperature Orange) warms light, shifting it toward tungsten. CTB (Color Temperature Blue) cools light, shifting it toward daylight." },
     { question: "What white balance should I set for mixed lighting?", answer: "Set your camera to match the dominant light source, then use gels on secondary lights to match. Or shoot RAW and adjust in post-production." },
   ],
-  formula: "Mired = 1,000,000 / Kelvin
-Mired Shift = Target Mired - Source Mired
-Positive shift = warming, Negative shift = cooling",
+  formula: "Mired = 1,000,000 / Kelvin; Mired Shift = Target Mired - Source Mired; Positive shift = warming, Negative shift = cooling",
 };

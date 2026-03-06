@@ -53,8 +53,5 @@ export const seniorHousingCostComparisonCalculator: CalculatorDefinition = {
     { question: "What does independent living typically include?", answer: "Independent living communities typically include housing, meals, housekeeping, transportation, social activities, and building maintenance. Medical care and personal assistance are usually not included but may be available for additional fees." },
     { question: "Is aging in place always cheaper?", answer: "Not necessarily. While aging in place avoids facility fees, costs for home modifications, in-home care, transportation, meal services, and home maintenance can add up significantly, especially as care needs increase over time." },
   ],
-  formula: "Aging in Place = Monthly Home Expenses x 12 x Years
-Independent Living = Monthly Fee x 12 x Years
-CCRC = Entry Fee + Monthly Fee x 12 x Years
-Net Cost = Total - Home Sale Proceeds",
+  formula: "Aging in Place = Monthly Home Expenses x 12 x Years; Independent Living = Monthly Fee x 12 x Years; CCRC = Entry Fee + Monthly Fee x 12 x Years; Net Cost = Total - Home Sale Proceeds",
 };

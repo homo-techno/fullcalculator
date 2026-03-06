@@ -47,8 +47,5 @@ export const gamingMonitorSizeCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Ideal Size = Viewing Distance x 0.95 (clamped 24-42 inches)
-Resolution = Based on screen size
-Refresh Rate = Based on primary use case
-Panel Type = Based on primary use case",
+  formula: "Ideal Size = Viewing Distance x 0.95 (clamped 24-42 inches); Resolution = Based on screen size; Refresh Rate = Based on primary use case; Panel Type = Based on primary use case",
 };

@@ -51,7 +51,5 @@ export const boatDepreciationCalculator: CalculatorDefinition = {
     { question: "What boats hold their value best?", answer: "Center console fishing boats, quality sailboats, and well-known brands like Boston Whaler tend to hold value best. Pontoon boats and personal watercraft generally depreciate faster." },
     { question: "Do engine hours affect boat value?", answer: "Yes, high engine hours reduce value similar to high mileage on a car. Boats with under 500 hours are generally considered low-use. Over 1,000 hours on a gasoline engine may significantly reduce resale value." },
   ],
-  formula: "Base Value = Purchase Price x (1 - Annual Depreciation Rate) ^ Age
-Current Value = Base Value x Condition Factor x Engine Hours Adjustment
-Total Depreciation = Purchase Price - Current Value",
+  formula: "Base Value = Purchase Price x (1 - Annual Depreciation Rate) ^ Age; Current Value = Base Value x Condition Factor x Engine Hours Adjustment; Total Depreciation = Purchase Price - Current Value",
 };

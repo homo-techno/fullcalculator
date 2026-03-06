@@ -65,8 +65,5 @@ export const medicareIrmaaSurchargeCalculator: CalculatorDefinition = {
     { question: "How can I avoid or reduce IRMAA?", answer: "Strategies include managing income in the two years before Medicare enrollment, timing Roth conversions carefully, using qualified charitable distributions from IRAs, and filing a life-changing event appeal (Form SSA-44) if your income has decreased due to retirement, divorce, or death of a spouse." },
     { question: "Does IRMAA apply every year?", answer: "Yes, IRMAA is recalculated annually based on your most recent tax return available to Social Security (typically from two years prior). If your income drops, the surcharge may decrease or be eliminated the following year." },
   ],
-  formula: "IRMAA is determined by MAGI from 2 years prior
-Part B Surcharge ranges from $0 to $419.30/month based on income brackets
-Part D Surcharge ranges from $0 to $81.00/month
-Total Monthly = Base Premium + IRMAA Surcharge",
+  formula: "IRMAA is determined by MAGI from 2 years prior; Part B Surcharge ranges from $0 to $419.30/month based on income brackets; Part D Surcharge ranges from $0 to $81.00/month; Total Monthly = Base Premium + IRMAA Surcharge",
 };

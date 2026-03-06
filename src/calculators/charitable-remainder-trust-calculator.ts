@@ -55,8 +55,5 @@ export const charitableRemainderTrustCalculator: CalculatorDefinition = {
     { question: "What are the tax benefits of a CRT?", answer: "You receive a partial income tax deduction for the present value of the future charitable gift. You avoid capital gains tax on appreciated assets donated to the trust. The trust itself is tax-exempt, allowing assets to grow without annual taxation." },
     { question: "What is the minimum payout rate for a CRT?", answer: "The IRS requires a minimum annual payout rate of 5 percent and a maximum of 50 percent. Additionally, the present value of the remainder interest must be at least 10 percent of the initial contribution value." },
   ],
-  formula: "Annual Payout = Asset Value x Payout Rate
-Trust Growth: Balance = Previous x (1 + Return) - Payout each year
-Remainder = Trust balance after term expires
-Tax Deduction = Present value of future charitable remainder",
+  formula: "Annual Payout = Asset Value x Payout Rate; Trust Growth: Balance = Previous x (1 + Return) - Payout each year; Remainder = Trust balance after term expires; Tax Deduction = Present value of future charitable remainder",
 };

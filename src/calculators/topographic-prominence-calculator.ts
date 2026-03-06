@@ -49,7 +49,5 @@ export const topographicProminenceCalculator: CalculatorDefinition = {
     { question: "What is an ultra-prominent peak?", answer: "An ultra-prominent peak has at least 1,500 meters (about 4,921 feet) of topographic prominence. There are roughly 1,524 ultra-prominent peaks worldwide. Mount Everest has the greatest prominence at 8,849 meters." },
     { question: "What is the difference between prominence and elevation?", answer: "Elevation is the height above sea level. Prominence measures how much a peak stands out from its surroundings. A 3,000m peak next to a 2,900m ridge has only 100m prominence despite its high elevation." },
   ],
-  formula: "Prominence = Summit Elevation - Key Col Elevation
-Prominence Ratio = (Prominence / Summit Elevation) x 100%
-Line-of-Sight = sqrt(Distance^2 + Elevation Difference^2)",
+  formula: "Prominence = Summit Elevation - Key Col Elevation; Prominence Ratio = (Prominence / Summit Elevation) x 100%; Line-of-Sight = sqrt(Distance^2 + Elevation Difference^2)",
 };

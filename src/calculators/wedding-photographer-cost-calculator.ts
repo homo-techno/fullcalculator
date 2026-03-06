@@ -47,6 +47,5 @@ export const weddingPhotographerCostCalculator: CalculatorDefinition = {
     { question: "Do you need a second photographer at a wedding?", answer: "A second shooter captures additional angles, candid moments, and the other partner getting ready simultaneously. It is recommended for weddings with 100+ guests." },
     { question: "How many photos do wedding photographers deliver?", answer: "Most photographers deliver 50 to 100 edited photos per hour of coverage, so an 8-hour wedding typically yields 400 to 800 final images." },
   ],
-  formula: "Total = (Hours x Rate) + SecondShooterCost + EngagementSession + AlbumCost
-Second Shooter = Hours x Rate x 0.5 (if selected)",
+  formula: "Total = (Hours x Rate) + SecondShooterCost + EngagementSession + AlbumCost; Second Shooter = Hours x Rate x 0.5 (if selected)",
 };

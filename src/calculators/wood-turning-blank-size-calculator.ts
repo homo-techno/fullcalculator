@@ -47,7 +47,5 @@ export const woodTurningBlankSizeCalculator: CalculatorDefinition = {
     { question: "What is a tenon in wood turning?", answer: "A tenon is a cylindrical nub left on the bottom of a bowl blank that fits into a chuck to hold the piece securely on the lathe during turning." },
     { question: "What wood is best for turning?", answer: "Cherry, maple, walnut, and ash are excellent turning woods. Green (wet) wood is easier to turn but must be dried slowly to prevent cracking." },
   ],
-  formula: "Blank Diameter = Finished Diameter + (Waste Margin x 2)
-Blank Thickness = Finished Height + Chuck Allowance + Waste Margin
-Board Feet = (Pi x r^2 x Thickness) / 144",
+  formula: "Blank Diameter = Finished Diameter + (Waste Margin x 2); Blank Thickness = Finished Height + Chuck Allowance + Waste Margin; Board Feet = (Pi x r^2 x Thickness) / 144",
 };

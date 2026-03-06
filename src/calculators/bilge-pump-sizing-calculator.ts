@@ -52,8 +52,5 @@ export const bilgePumpSizingCalculator: CalculatorDefinition = {
     { question: "Should I have two bilge pumps?", answer: "Yes, the Coast Guard recommends a primary automatic bilge pump and a secondary manual backup. Larger boats should have an additional high-water alarm and a secondary automatic pump." },
     { question: "How much capacity do bilge pumps lose at height?", answer: "Bilge pumps lose 5 to 10 percent of their rated capacity for every foot of vertical lift. A pump rated at 2,000 GPH at zero head may only deliver 1,400 GPH at a 4-foot discharge height." },
   ],
-  formula: "Bilge Volume = Length x Beam x 0.5 x Hull Factor
-Minimum GPH = Bilge Volume x 5 x (1 + Through-Hulls x 0.1)
-Head Loss = Minimum GPH x (Discharge Height x 5%)
-Required GPH = Minimum GPH + Head Loss",
+  formula: "Bilge Volume = Length x Beam x 0.5 x Hull Factor; Minimum GPH = Bilge Volume x 5 x (1 + Through-Hulls x 0.1); Head Loss = Minimum GPH x (Discharge Height x 5%); Required GPH = Minimum GPH + Head Loss",
 };

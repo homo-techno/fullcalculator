@@ -48,7 +48,5 @@ export const od600CellDensityCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Cell Density = OD600 x Dilution Factor x Conversion Factor
-Dilution for Target = Actual OD / Target OD
-E. coli: ~8 x 10^8 cells/mL per OD unit",
+  formula: "Cell Density = OD600 x Dilution Factor x Conversion Factor; Dilution for Target = Actual OD / Target OD; E. coli: ~8 x 10^8 cells/mL per OD unit",
 };

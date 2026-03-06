@@ -48,7 +48,5 @@ export const monitorSizeDistanceCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Optimal Distance = Screen Size x Resolution Factor x Usage Factor
-Minimum Distance = Size x Resolution Multiplier x Usage Multiplier
-Maximum Distance = Minimum Distance x 1.5",
+  formula: "Optimal Distance = Screen Size x Resolution Factor x Usage Factor; Minimum Distance = Size x Resolution Multiplier x Usage Multiplier; Maximum Distance = Minimum Distance x 1.5",
 };

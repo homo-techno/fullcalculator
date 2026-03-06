@@ -55,6 +55,5 @@ export const tipPoolDistributionCalculator: CalculatorDefinition = {
     { question: "Is tip pooling legal?", answer: "Tip pooling is legal in most U.S. states as long as employers do not keep any portion. Federal law prohibits managers and supervisors from participating. Some states have additional restrictions on which positions can be included." },
     { question: "What is a fair tip pool split?", answer: "A common split is 55 to 70 percent to servers, 15 to 25 percent to bartenders, and 10 to 20 percent to bussers and food runners. The exact percentages should reflect each role contribution to guest service." },
   ],
-  formula: "Server Pool = Total Tips x (Server Share % / Total Share %)
-Tips Per Hour = Role Pool Total / Role Total Hours",
+  formula: "Server Pool = Total Tips x (Server Share % / Total Share %); Tips Per Hour = Role Pool Total / Role Total Hours",
 };

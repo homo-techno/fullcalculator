@@ -47,7 +47,5 @@ export const djVsBandCostCalculator: CalculatorDefinition = {
     { question: "How many hours of music do you need at a wedding?", answer: "Most weddings need 4 to 5 hours of music: about 1 hour for cocktails and dinner, and 3 to 4 hours for dancing." },
     { question: "Can you have both a DJ and a band?", answer: "Yes, some couples hire a band for the reception and a DJ for cocktail hour or late-night dancing, though this increases the total cost." },
   ],
-  formula: "DJ Total = (Hours x DJ Rate) + Sound System
-Band Total = (Hours x Band Member Rate x Members) + Sound System
-Savings = Band Total - DJ Total",
+  formula: "DJ Total = (Hours x DJ Rate) + Sound System; Band Total = (Hours x Band Member Rate x Members) + Sound System; Savings = Band Total - DJ Total",
 };

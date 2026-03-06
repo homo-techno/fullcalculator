@@ -48,6 +48,5 @@ export const gamingDeskSetupCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Cost = Desk + (Monitors x Budget Per Monitor) + Peripherals + Accessories
-Accessories = $50 base + $30 per monitor",
+  formula: "Total Cost = Desk + (Monitors x Budget Per Monitor) + Peripherals + Accessories; Accessories = $50 base + $30 per monitor",
 };

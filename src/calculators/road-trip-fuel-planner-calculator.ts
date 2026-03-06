@@ -50,7 +50,5 @@ export const roadTripFuelPlannerCalculator: CalculatorDefinition = {
     { question: "How often should I stop for gas on a road trip?", answer: "Plan stops when your tank reaches about a quarter full. In remote areas, fill up whenever possible as stations may be far apart." },
     { question: "Does highway driving use more or less fuel?", answer: "Most vehicles are most efficient at 45 to 65 mph. Highway driving at moderate speeds is typically more fuel efficient than city driving, but speeds above 65 mph reduce efficiency." },
   ],
-  formula: "Total Gallons = Distance / MPG
-Total Fuel Cost = Total Gallons x Gas Price
-Stops = ceil(Distance / Usable Range) - 1",
+  formula: "Total Gallons = Distance / MPG; Total Fuel Cost = Total Gallons x Gas Price; Stops = ceil(Distance / Usable Range) - 1",
 };

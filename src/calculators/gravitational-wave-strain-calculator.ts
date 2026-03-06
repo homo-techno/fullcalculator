@@ -46,6 +46,5 @@ export const gravitationalWaveStrainCalculator: CalculatorDefinition = {
     { question: "What is chirp mass?", answer: "Chirp mass is a specific combination of the two component masses that determines the gravitational wave amplitude and frequency evolution of a binary system. It is the most accurately measured parameter in a detection." },
     { question: "What generates detectable gravitational waves?", answer: "The strongest sources are merging compact binaries: pairs of black holes, neutron stars, or mixed systems. The first detection by LIGO in 2015 was from two black holes of about 30 solar masses each merging at about 400 Mpc distance." },
   ],
-  formula: "h = (4/D) x (G x M_chirp / c^2)^(5/3) x (pi x f / c)^(2/3)
-Chirp Mass = (m1 x m2)^(3/5) / (m1 + m2)^(1/5)",
+  formula: "h = (4/D) x (G x M_chirp / c^2)^(5/3) x (pi x f / c)^(2/3); Chirp Mass = (m1 x m2)^(3/5) / (m1 + m2)^(1/5)",
 };

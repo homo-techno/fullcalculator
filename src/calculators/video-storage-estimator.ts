@@ -47,6 +47,5 @@ export const videoStorageEstimatorCalculator: CalculatorDefinition = {
     { question: "What size memory card do I need for video?", answer: "For a full day of 4K shooting (6-8 hours), plan for at least 256-512 GB in H.264, or several terabytes for RAW formats." },
     { question: "What card speed do I need for 4K?", answer: "4K recording typically requires write speeds of at least 60-100 MB/s. RAW recording may need 300 MB/s or faster." },
   ],
-  formula: "Storage (GB) = Base Rate x Codec Multiplier x (FPS / 30) x Hours
-Base Rates: 1080p = 15 GB/hr, 4K = 45 GB/hr, 6K = 90 GB/hr, 8K = 180 GB/hr (H.264)",
+  formula: "Storage (GB) = Base Rate x Codec Multiplier x (FPS / 30) x Hours; Base Rates: 1080p = 15 GB/hr, 4K = 45 GB/hr, 6K = 90 GB/hr, 8K = 180 GB/hr (H.264)",
 };

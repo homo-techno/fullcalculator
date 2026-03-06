@@ -51,6 +51,5 @@ export const airQualityHealthImpactCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Effective Dose = AQI x (Hours / 24) x Activity Multiplier x Sensitivity Multiplier
-Risk thresholds: Low (<35), Moderate (35-75), High (75-150), Very High (>150)",
+  formula: "Effective Dose = AQI x (Hours / 24) x Activity Multiplier x Sensitivity Multiplier; Risk thresholds: Low (<35), Moderate (35-75), High (75-150), Very High (>150)",
 };

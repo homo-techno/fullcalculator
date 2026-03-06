@@ -55,7 +55,5 @@ export const jetSkiCostPerHourCalculator: CalculatorDefinition = {
     { question: "How many hours does a jet ski engine last?", answer: "Most modern jet ski engines last 300 to 500 hours with proper maintenance. Some 4-stroke models can exceed 500 hours. Regular oil changes, impeller inspections, and winterization extend engine life." },
     { question: "Is it cheaper to rent or buy a jet ski?", answer: "If you ride fewer than 30 to 40 hours per year, renting at $75 to $150 per hour is usually cheaper than owning. If you ride more frequently, ownership becomes more economical over time." },
   ],
-  formula: "Annual Depreciation = (Purchase Price - Resale Value) / Years
-Annual Total = Depreciation + Insurance + Storage + Maintenance + Fuel
-Cost Per Hour = Annual Total / Hours Per Year",
+  formula: "Annual Depreciation = (Purchase Price - Resale Value) / Years; Annual Total = Depreciation + Insurance + Storage + Maintenance + Fuel; Cost Per Hour = Annual Total / Hours Per Year",
 };

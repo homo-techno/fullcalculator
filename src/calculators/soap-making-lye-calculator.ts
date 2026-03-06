@@ -46,7 +46,5 @@ export const soapMakingLyeCalculator: CalculatorDefinition = {
     { question: "Why do I need superfat?", answer: "Superfatting leaves a percentage of oils unsaponified in the finished soap. This makes the soap more moisturizing and provides a safety margin to ensure no excess lye remains." },
     { question: "Is lye dangerous?", answer: "Yes, sodium hydroxide is a caustic chemical. Always wear gloves and eye protection. Add lye to water, never water to lye, to avoid a dangerous exothermic reaction." },
   ],
-  formula: "Lye = Oil Weight x SAP Value x (1 - Superfat% / 100)
-Water = Lye x Water:Lye Ratio
-Total Batch Weight = Oil + Lye + Water",
+  formula: "Lye = Oil Weight x SAP Value x (1 - Superfat% / 100); Water = Lye x Water:Lye Ratio; Total Batch Weight = Oil + Lye + Water",
 };

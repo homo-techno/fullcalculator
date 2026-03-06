@@ -49,6 +49,5 @@ export const nurserySetupCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Cost = Crib + Dresser + Chair + Bedding + Decor + Extras
-Furniture = Crib + Dresser + Chair",
+  formula: "Total Cost = Crib + Dresser + Chair + Bedding + Decor + Extras; Furniture = Crib + Dresser + Chair",
 };

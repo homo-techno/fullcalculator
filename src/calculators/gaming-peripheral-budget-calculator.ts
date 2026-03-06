@@ -49,6 +49,5 @@ export const gamingPeripheralBudgetCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total = Keyboard + Mouse + Headset + Mousepad + Extras
-Mousepad = $30 (premium) or $15 (standard)",
+  formula: "Total = Keyboard + Mouse + Headset + Mousepad + Extras; Mousepad = $30 (premium) or $15 (standard)",
 };

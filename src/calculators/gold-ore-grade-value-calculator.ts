@@ -52,9 +52,5 @@ export const goldOreGradeValueCalculator: CalculatorDefinition = {
     { question: "What is the recovery rate?", answer: "Recovery rate is the percentage of gold successfully extracted from ore during processing. Modern cyanide leaching achieves 85-95% recovery. Gravity methods recover 50-70% depending on ore characteristics." },
     { question: "What does break-even grade mean?", answer: "Break-even grade is the minimum ore grade needed for the gold recovered to cover processing costs. Below this grade, mining the ore results in a financial loss." },
   ],
-  formula: "Total Gold = Grade x Tonnage
-Recovered Gold = Total Gold x Recovery Rate
-Troy Ounces = Recovered Grams / 31.1035
-Net Value = (Troy Oz x Price) - (Tonnage x Processing Cost)
-Break-Even Grade = (Processing Cost x 31.1035) / (Price x Recovery)",
+  formula: "Total Gold = Grade x Tonnage; Recovered Gold = Total Gold x Recovery Rate; Troy Ounces = Recovered Grams / 31.1035; Net Value = (Troy Oz x Price) - (Tonnage x Processing Cost); Break-Even Grade = (Processing Cost x 31.1035) / (Price x Recovery)",
 };

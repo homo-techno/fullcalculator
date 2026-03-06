@@ -53,6 +53,5 @@ export const timezoneOverlapCalculator: CalculatorDefinition = {
     { question: "What is the biggest time difference possible?", answer: "The maximum time difference is 26 hours, between UTC-12 (Baker Island) and UTC+14 (Line Islands, Kiribati)." },
     { question: "How do I handle meetings across many time zones?", answer: "Rotate meeting times to share the inconvenience, use async communication when possible, and record meetings for those who cannot attend live." },
   ],
-  formula: "Time Difference = Their Offset - Your Offset
-Overlap = max(0, min(Your End, Their End in Your Time) - max(Your Start, Their Start in Your Time))",
+  formula: "Time Difference = Their Offset - Your Offset; Overlap = max(0, min(Your End, Their End in Your Time) - max(Your Start, Their Start in Your Time))",
 };

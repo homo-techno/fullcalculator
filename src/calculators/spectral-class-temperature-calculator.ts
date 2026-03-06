@@ -44,6 +44,5 @@ export const spectralClassTemperatureCalculator: CalculatorDefinition = {
     { question: "What spectral class is the Sun?", answer: "The Sun is a G2V star with a surface temperature of about 5,778 K. The G means it is a yellow main-sequence star and the V indicates it is on the main sequence." },
     { question: "How does spectral class relate to luminosity?", answer: "Hotter spectral classes are generally more luminous. An O-type star can be millions of times more luminous than the Sun, while an M-type red dwarf may be less than one-thousandth as luminous." },
   ],
-  formula: "Temperature = interpolation within spectral class range
-Peak Wavelength = 2,897,771 / Temperature (Wien law)",
+  formula: "Temperature = interpolation within spectral class range; Peak Wavelength = 2,897,771 / Temperature (Wien law)",
 };

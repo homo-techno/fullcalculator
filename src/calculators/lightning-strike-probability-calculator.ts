@@ -50,7 +50,5 @@ export const lightningStrikeProbabilityCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Effective Area = Structure Area + 9π x Height²
-Annual Probability = 1 - e^(-Flash Density x Effective Area in km²)
-Personal Risk = Flash Density x Body Area x (Exposure Hours / 8760)",
+  formula: "Effective Area = Structure Area + 9π x Height²; Annual Probability = 1 - e^(-Flash Density x Effective Area in km²); Personal Risk = Flash Density x Body Area x (Exposure Hours / 8760)",
 };

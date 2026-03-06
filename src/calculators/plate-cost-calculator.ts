@@ -50,7 +50,5 @@ export const plateCostCalculator: CalculatorDefinition = {
     { question: "What percentage of plate cost is typically protein?", answer: "Protein is usually the most expensive component, accounting for 50 to 70 percent of total plate cost. Managing protein portions is the most effective way to control overall food cost." },
     { question: "How often should I recalculate plate costs?", answer: "Recalculate plate costs monthly or whenever ingredient prices change significantly. Seasonal price fluctuations, supplier changes, and recipe modifications all warrant a fresh plate cost analysis." },
   ],
-  formula: "Total Plate Cost = Protein + Starch + Vegetable + Sauce + Garnish
-Food Cost % = (Total Plate Cost / Menu Price) x 100
-Gross Profit = Menu Price - Total Plate Cost",
+  formula: "Total Plate Cost = Protein + Starch + Vegetable + Sauce + Garnish; Food Cost % = (Total Plate Cost / Menu Price) x 100; Gross Profit = Menu Price - Total Plate Cost",
 };

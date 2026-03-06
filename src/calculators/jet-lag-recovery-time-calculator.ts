@@ -48,6 +48,5 @@ export const jetLagRecoveryTimeCalculator: CalculatorDefinition = {
     { question: "How long does jet lag last per time zone?", answer: "A common rule of thumb is 1 day per time zone crossed going east, and about two-thirds of a day per zone going west." },
     { question: "What helps jet lag recovery?", answer: "Sunlight exposure at the right times, melatonin supplements, staying hydrated, avoiding alcohol, and gradually shifting sleep times before departure all help." },
   ],
-  formula: "Recovery Days (East) = Zones x 1.5 x Age Factor x Sleep Factor
-Recovery Days (West) = Zones x 1.0 x Age Factor x Sleep Factor",
+  formula: "Recovery Days (East) = Zones x 1.5 x Age Factor x Sleep Factor; Recovery Days (West) = Zones x 1.0 x Age Factor x Sleep Factor",
 };

@@ -48,8 +48,5 @@ export const harmonicDistortionCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "THD = sqrt(H3^2 + H5^2 + H7^2 + H11^2) x 100
-Total RMS = I1 x sqrt(1 + H3^2 + H5^2 + H7^2 + H11^2)
-Neutral Current = I1 x H3 x 3 (triplen harmonics)
-K-Factor = 1 + sum(Hn^2 x n^2)",
+  formula: "THD = sqrt(H3^2 + H5^2 + H7^2 + H11^2) x 100; Total RMS = I1 x sqrt(1 + H3^2 + H5^2 + H7^2 + H11^2); Neutral Current = I1 x H3 x 3 (triplen harmonics); K-Factor = 1 + sum(Hn^2 x n^2)",
 };

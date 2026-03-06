@@ -50,8 +50,5 @@ export const retroGameCollectionValueCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Base Value = Console Base Price x Condition Multiplier
-Common Value = Common Games x Base Value
-Rare Value = Rare Games x Base Value x 5
-Total = Common Value + Rare Value",
+  formula: "Base Value = Console Base Price x Condition Multiplier; Common Value = Common Games x Base Value; Rare Value = Rare Games x Base Value x 5; Total = Common Value + Rare Value",
 };

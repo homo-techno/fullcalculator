@@ -52,7 +52,5 @@ export const pcPowerSupplyCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Draw = CPU TDP + GPU TDP + RAM + Storage + Fans + Motherboard + Misc
-Recommended PSU = Total Draw x 1.25 (rounded up to nearest 50W)
-Wall Draw = Total Draw / PSU Efficiency",
+  formula: "Total Draw = CPU TDP + GPU TDP + RAM + Storage + Fans + Motherboard + Misc; Recommended PSU = Total Draw x 1.25 (rounded up to nearest 50W); Wall Draw = Total Draw / PSU Efficiency",
 };

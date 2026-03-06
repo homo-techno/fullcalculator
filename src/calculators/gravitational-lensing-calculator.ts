@@ -53,6 +53,5 @@ export const gravitationalLensingCalculator: CalculatorDefinition = {
     { question: "What is an Einstein ring?", answer: "An Einstein ring appears when the source, lens, and observer are perfectly aligned. The light from the source is bent equally in all directions around the lens, forming a complete ring." },
     { question: "What can gravitational lensing reveal?", answer: "Gravitational lensing is used to measure the mass of galaxy clusters, detect dark matter, discover distant galaxies, and even find exoplanets through microlensing events." },
   ],
-  formula: "Einstein Ring Radius = sqrt(4GM x Dls / (c^2 x Dl x Ds))
-Deflection Angle = 4GM / (c^2 x b)",
+  formula: "Einstein Ring Radius = sqrt(4GM x Dls / (c^2 x Dl x Ds)); Deflection Angle = 4GM / (c^2 x b)",
 };

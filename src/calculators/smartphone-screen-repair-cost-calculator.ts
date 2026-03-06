@@ -50,7 +50,5 @@ export const smartphoneScreenRepairCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Repair Cost = Base Cost (by brand and tier) x Method Multiplier
-Insurance Cost = Repair Cost x Deductible Rate (30%)
-Repair % of Value = Insurance Cost / Estimated Phone Value x 100",
+  formula: "Repair Cost = Base Cost (by brand and tier) x Method Multiplier; Insurance Cost = Repair Cost x Deductible Rate (30%); Repair % of Value = Insurance Cost / Estimated Phone Value x 100",
 };

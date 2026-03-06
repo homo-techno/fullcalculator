@@ -55,8 +55,5 @@ export const waterHeaterSizingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Daily Usage = Occupants x Gallons Per Person
-First Hour Rating = Daily Usage x 0.7
-Peak GPM = Bathrooms x 2.0 + 1.0
-Tank Size = Based on FHR (40-80 gallons)",
+  formula: "Daily Usage = Occupants x Gallons Per Person; First Hour Rating = Daily Usage x 0.7; Peak GPM = Bathrooms x 2.0 + 1.0; Tank Size = Based on FHR (40-80 gallons)",
 };

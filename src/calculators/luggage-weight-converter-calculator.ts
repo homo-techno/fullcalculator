@@ -47,6 +47,5 @@ export const luggageWeightConverterCalculator: CalculatorDefinition = {
     { question: "How much is the overweight baggage fee?", answer: "Typically $100 for bags 51 to 70 pounds and $200 for bags 71 to 100 pounds, though fees vary by airline." },
     { question: "How do I weigh my luggage at home?", answer: "Use a handheld luggage scale or stand on a bathroom scale holding your bag, then subtract your body weight." },
   ],
-  formula: "Kilograms = Pounds / 2.20462
-Pounds = Kilograms x 2.20462",
+  formula: "Kilograms = Pounds / 2.20462; Pounds = Kilograms x 2.20462",
 };

@@ -53,7 +53,5 @@ export const tentRentalCostCalculator: CalculatorDefinition = {
     { question: "How much space do you need per guest in a tent?", answer: "Plan for 12-15 square feet per guest for seated dinner with a dance floor. Cocktail-style events need about 8-10 square feet per guest." },
     { question: "Do you need a permit for a tent at a wedding?", answer: "Many municipalities require permits for tents over a certain size (often 200+ square feet). Check with your local building department well in advance." },
   ],
-  formula: "Tent Area = Guests x 15 sqft
-Tent Cost = Area x BaseCostPerSqft x StyleMultiplier
-Total = TentCost + Flooring + Sidewalls + Lighting + Delivery",
+  formula: "Tent Area = Guests x 15 sqft; Tent Cost = Area x BaseCostPerSqft x StyleMultiplier; Total = TentCost + Flooring + Sidewalls + Lighting + Delivery",
 };

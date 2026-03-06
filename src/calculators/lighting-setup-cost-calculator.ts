@@ -47,6 +47,5 @@ export const lightingSetupCostCalculator: CalculatorDefinition = {
     { question: "Are LED lights better than strobes?", answer: "LEDs offer continuous light (great for video and beginners) and lower heat. Strobes provide more power per dollar and freeze motion. Many studios use both." },
     { question: "What light modifiers should I start with?", answer: "Start with a large softbox or umbrella for your key light and a reflector for fill. Add a strip box for rim light as your second modifier." },
   ],
-  formula: "Total = (Light Cost x Count) + (Modifier Cost x Count) + Stands + Accessories
-Costs vary by equipment tier and setup type",
+  formula: "Total = (Light Cost x Count) + (Modifier Cost x Count) + Stands + Accessories; Costs vary by equipment tier and setup type",
 };

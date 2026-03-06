@@ -53,6 +53,5 @@ export const chordProgressionCalculator: CalculatorDefinition = {
     { question: "What is a ii-V-I progression?", answer: "It is the most important chord progression in jazz, creating strong harmonic motion toward the tonic." },
     { question: "Do I need to know music theory to write songs?", answer: "While not required, understanding chord progressions can help you write more compelling and harmonically interesting music." },
   ],
-  formula: "Chords derived from scale degrees of the selected key
-Loop Duration = (Beats Per Chord x Chords) / BPM x 60",
+  formula: "Chords derived from scale degrees of the selected key; Loop Duration = (Beats Per Chord x Chords) / BPM x 60",
 };

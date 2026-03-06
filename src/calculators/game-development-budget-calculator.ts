@@ -48,8 +48,5 @@ export const gameDevelopmentBudgetCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Labor Cost = Team Size x Development Months x Monthly Salary
-Asset Cost = Labor Cost x Scope Multiplier
-Marketing = (Labor + Assets) x Marketing Percentage
-Total = Labor + Assets + Tools + Marketing",
+  formula: "Labor Cost = Team Size x Development Months x Monthly Salary; Asset Cost = Labor Cost x Scope Multiplier; Marketing = (Labor + Assets) x Marketing Percentage; Total = Labor + Assets + Tools + Marketing",
 };

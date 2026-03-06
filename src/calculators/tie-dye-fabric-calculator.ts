@@ -51,7 +51,5 @@ export const tieDyeFabricCalculator: CalculatorDefinition = {
     { question: "What is soda ash for in tie-dye?", answer: "Soda ash (sodium carbonate) is a fixative that raises the pH to allow fiber-reactive dyes like Procion MX to bond permanently with cotton fibers." },
     { question: "Can I tie-dye polyester?", answer: "Standard fiber-reactive dyes only work on natural fibers like cotton. Polyester requires disperse dyes and high heat. Cotton or cotton blends with at least 60 percent cotton work best." },
   ],
-  formula: "Total Dye (tsp) = Total Fabric Weight x Dye Rate x Intensity Multiplier
-Dye Per Color = Total Dye / Number of Colors
-Soda Ash = Fabric Weight x 0.2 tsp per oz",
+  formula: "Total Dye (tsp) = Total Fabric Weight x Dye Rate x Intensity Multiplier; Dye Per Color = Total Dye / Number of Colors; Soda Ash = Fabric Weight x 0.2 tsp per oz",
 };

@@ -48,8 +48,5 @@ export const fantasySportsLineupValueCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Remaining Budget = Salary Cap - Salary Used
-Spots Left = Roster Spots - Players Selected
-Avg Per Spot = Remaining Budget / Spots Left
-Ideal Avg = Salary Cap / Total Roster Spots",
+  formula: "Remaining Budget = Salary Cap - Salary Used; Spots Left = Roster Spots - Players Selected; Avg Per Spot = Remaining Budget / Spots Left; Ideal Avg = Salary Cap / Total Roster Spots",
 };

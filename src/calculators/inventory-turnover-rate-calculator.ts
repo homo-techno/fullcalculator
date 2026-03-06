@@ -46,7 +46,5 @@ export const inventoryTurnoverRateCalculator: CalculatorDefinition = {
     { question: "How does inventory turnover affect profitability?", answer: "Higher turnover means less money tied up in stock, lower waste from spoilage, and fresher ingredients. Low turnover indicates overstocking, potential waste, and cash flow problems." },
     { question: "How do I improve inventory turnover?", answer: "Implement FIFO (first in, first out) rotation, order more frequently in smaller quantities, track waste and spoilage, use inventory management software, conduct regular counts, and adjust pars based on actual usage data." },
   ],
-  formula: "Average Inventory = (Beginning Inventory + Ending Inventory) / 2
-Turnover Rate = Cost of Goods Sold / Average Inventory
-Days on Hand = 30 / Turnover Rate",
+  formula: "Average Inventory = (Beginning Inventory + Ending Inventory) / 2; Turnover Rate = Cost of Goods Sold / Average Inventory; Days on Hand = 30 / Turnover Rate",
 };

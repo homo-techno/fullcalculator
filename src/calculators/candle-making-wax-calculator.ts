@@ -48,7 +48,5 @@ export const candleMakingWaxCalculator: CalculatorDefinition = {
     { question: "What is a good fragrance load for candles?", answer: "Most waxes handle 6 to 10 percent fragrance load. Soy wax typically maxes out around 10 to 12 percent. Going too high can cause sweating or poor burn quality." },
     { question: "What is the difference between soy and paraffin wax?", answer: "Soy wax is natural and burns cleaner but has a lower scent throw. Paraffin is petroleum-based with stronger scent throw but produces more soot." },
   ],
-  formula: "Wax Per Candle (oz) = Container Volume x Wax Density Factor
-Total Wax = Wax Per Candle x Number of Candles
-Fragrance Oil = Total Wax x (Fragrance Load % / 100)",
+  formula: "Wax Per Candle (oz) = Container Volume x Wax Density Factor; Total Wax = Wax Per Candle x Number of Candles; Fragrance Oil = Total Wax x (Fragrance Load % / 100)",
 };

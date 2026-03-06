@@ -52,7 +52,5 @@ export const weddingInvitationQuantityCalculator: CalculatorDefinition = {
     { question: "When should wedding invitations be sent?", answer: "Mail invitations 6-8 weeks before the wedding. Destination weddings should send 8-12 weeks in advance. Save-the-dates go out 6-8 months early." },
     { question: "What should be included in a wedding invitation suite?", answer: "A full suite includes the invitation, RSVP card with envelope, details/reception card, and outer and inner envelopes. Some add maps, accommodation cards, or meal choice cards." },
   ],
-  formula: "Total Invitations = Households + ceil(Households x Buffer%) + VendorCopies + Keepsakes
-Printing Cost = TotalInvitations x CostPerInvite
-Postage = TotalInvitations x $0.68",
+  formula: "Total Invitations = Households + ceil(Households x Buffer%) + VendorCopies + Keepsakes; Printing Cost = TotalInvitations x CostPerInvite; Postage = TotalInvitations x $0.68",
 };

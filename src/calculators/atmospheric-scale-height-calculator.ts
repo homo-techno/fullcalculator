@@ -46,7 +46,5 @@ export const atmosphericScaleHeightCalculator: CalculatorDefinition = {
     { question: "How does pressure change with altitude on Earth?", answer: "At sea level pressure of 1 atm, pressure drops to about 0.37 atm at one scale height (8.5 km), 0.14 atm at two scale heights, and so on exponentially." },
     { question: "Do other planets have different scale heights?", answer: "Yes. Mars has a scale height of about 11 km despite lower gravity because of its thin CO2 atmosphere. Venus has a scale height of about 15 km. Jupiter has about 27 km." },
   ],
-  formula: "Scale Height H = RT / (Mg)
-Pressure = P0 x exp(-h / H)
-where R = 8.314 J/(mol K), M = molar mass, g = gravity",
+  formula: "Scale Height H = RT / (Mg); Pressure = P0 x exp(-h / H); where R = 8.314 J/(mol K), M = molar mass, g = gravity",
 };

@@ -45,7 +45,5 @@ export const mineralHardnessComparisonCalculator: CalculatorDefinition = {
     { question: "Why is the Mohs scale not linear?", answer: "The absolute hardness difference between each Mohs level varies enormously. The jump from corundum (9) to diamond (10) is much larger than from talc (1) to corundum (9) in absolute terms." },
     { question: "What common items can test hardness?", answer: "A fingernail is about 2.5, a copper penny about 3.5, a steel knife blade about 5.5, and a glass plate about 5.5 on the Mohs scale." },
   ],
-  formula: "Mohs Difference = |Hardness1 - Hardness2|
-Absolute Hardness Ratio = AbsoluteHardness1 / AbsoluteHardness2
-Scratch Test: Higher Mohs number scratches lower",
+  formula: "Mohs Difference = |Hardness1 - Hardness2|; Absolute Hardness Ratio = AbsoluteHardness1 / AbsoluteHardness2; Scratch Test: Higher Mohs number scratches lower",
 };

@@ -55,7 +55,5 @@ export const gamingPcBuildBudgetCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "GPU Budget = Core Budget x GPU Allocation % (35-42%)
-CPU Budget = Core Budget x 22%
-Core Budget = Total Budget - Monitor - Peripherals",
+  formula: "GPU Budget = Core Budget x GPU Allocation % (35-42%); CPU Budget = Core Budget x 22%; Core Budget = Total Budget - Monitor - Peripherals",
 };

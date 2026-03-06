@@ -45,6 +45,5 @@ export const ligationRatioCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Insert mass (ng) = Ratio x Vector mass (ng) x Insert size (bp) / Vector size (bp)
-pmol = mass (ng) x 1000 / (size (bp) x 660)",
+  formula: "Insert mass (ng) = Ratio x Vector mass (ng) x Insert size (bp) / Vector size (bp); pmol = mass (ng) x 1000 / (size (bp) x 660)",
 };

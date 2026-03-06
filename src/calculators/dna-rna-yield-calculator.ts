@@ -53,7 +53,5 @@ export const dnaRnaYieldCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Concentration = A260 x Conversion Factor x Dilution
-Total Yield = Concentration x Volume / 1000
-Conversion: dsDNA = 50, RNA = 40, ssDNA = 33 (ug/mL per OD260)",
+  formula: "Concentration = A260 x Conversion Factor x Dilution; Total Yield = Concentration x Volume / 1000; Conversion: dsDNA = 50, RNA = 40, ssDNA = 33 (ug/mL per OD260)",
 };

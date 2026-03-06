@@ -48,6 +48,5 @@ export const reagentCostPerExperimentCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Cost Per mL = Reagent Price / Bottle Volume
-Cost Per Experiment = Cost/mL x Volume/Expt x Replicates x Number of Reagents",
+  formula: "Cost Per mL = Reagent Price / Bottle Volume; Cost Per Experiment = Cost/mL x Volume/Expt x Replicates x Number of Reagents",
 };

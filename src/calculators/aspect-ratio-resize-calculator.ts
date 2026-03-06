@@ -57,7 +57,5 @@ export const aspectRatioResizeCalculator: CalculatorDefinition = {
     { question: "What happens when I change aspect ratio?", answer: "Changing aspect ratio requires either cropping (cutting parts of the image), letterboxing (adding black bars), or stretching (distorting the image). Cropping is usually preferred." },
     { question: "What is the most common video aspect ratio?", answer: "16:9 is the standard for most video content including TV, YouTube, and streaming. Cinema uses wider ratios like 2.39:1 or 21:9." },
   ],
-  formula: "Output Height = Width / Aspect Ratio
-Crop Width = min(Source Width, Source Height x Aspect Ratio)
-Crop Height = min(Source Height, Source Width / Aspect Ratio)",
+  formula: "Output Height = Width / Aspect Ratio; Crop Width = min(Source Width, Source Height x Aspect Ratio); Crop Height = min(Source Height, Source Width / Aspect Ratio)",
 };

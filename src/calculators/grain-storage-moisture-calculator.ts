@@ -52,7 +52,5 @@ export const grainStorageMoistureCalculator: CalculatorDefinition = {
     { question: "What moisture level is safe for corn storage?", answer: "Corn should be dried to 15.5% moisture for short-term storage (less than 6 months) and 13 to 14% for long-term storage over a year. Lower moisture reduces spoilage risk." },
     { question: "What happens if grain is stored too wet?", answer: "Wet grain promotes mold growth, mycotoxin production, and heating. This leads to quality loss, reduced test weight, and can cause spontaneous combustion in severe cases." },
   ],
-  formula: "Safe Storage Days = 150 / (Excess Moisture x Temperature Factor)
-Water to Remove = Bushels x Weight/Bu x Excess Moisture%
-Temperature Factor = (Temp - 30) / 10",
+  formula: "Safe Storage Days = 150 / (Excess Moisture x Temperature Factor); Water to Remove = Bushels x Weight/Bu x Excess Moisture%; Temperature Factor = (Temp - 30) / 10",
 };

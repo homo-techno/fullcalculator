@@ -50,6 +50,5 @@ export const familyPhonePlanCostCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Monthly = (Lines x Rate - Multi-Line Discount) + Device Payments + (Insurance x Lines) + Fees
-Multi-Line Discount = 10% if 3+ lines",
+  formula: "Monthly = (Lines x Rate - Multi-Line Discount) + Device Payments + (Insurance x Lines) + Fees; Multi-Line Discount = 10% if 3+ lines",
 };

@@ -52,7 +52,5 @@ export const boatWinterizationCostCalculator: CalculatorDefinition = {
     { question: "What does boat winterization include?", answer: "Winterization includes draining and flushing the cooling system, fogging the engine, changing oil and filters, adding fuel stabilizer, draining water systems, disconnecting batteries, and covering or shrink-wrapping the boat." },
     { question: "Can I winterize my boat myself?", answer: "Yes, DIY winterization is possible with basic mechanical skills. You will need antifreeze, fogging oil, fuel stabilizer, and oil change supplies. Outboard engines are the easiest to winterize yourself." },
   ],
-  formula: "Engine Service Cost = Base Cost per Engine x Number of Engines
-Material Cost = Engine Service + Fuel Stabilizer + Antifreeze + Oil Change
-Total Cost = Material Cost x Service Multiplier + Shrink Wrap Cost",
+  formula: "Engine Service Cost = Base Cost per Engine x Number of Engines; Material Cost = Engine Service + Fuel Stabilizer + Antifreeze + Oil Change; Total Cost = Material Cost x Service Multiplier + Shrink Wrap Cost",
 };

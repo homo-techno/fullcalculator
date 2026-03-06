@@ -52,7 +52,5 @@ export const n401kEmployerMatchMaximizerCalculator: CalculatorDefinition = {
     { question: "What does it mean to leave match money on the table?", answer: "If you contribute less than the amount needed to get the full employer match, you are forfeiting free money. For example, if your employer matches up to 6 percent of salary but you only contribute 3 percent, you are missing half the potential match." },
     { question: "What is the 2024 401k contribution limit?", answer: "For 2024, the employee contribution limit is $23,000 for those under 50 and $30,500 for those 50 and older (with the $7,500 catch-up). The combined employer plus employee limit is $69,000 or $76,500 with catch-up contributions." },
   ],
-  formula: "Employer Match = min(Your Contribution, Salary x Match Cap %) x Match Rate %
-Match Left on Table = Maximum Match - Actual Match
-Optimal Contribution = Match Cap % of Salary",
+  formula: "Employer Match = min(Your Contribution, Salary x Match Cap %) x Match Rate %; Match Left on Table = Maximum Match - Actual Match; Optimal Contribution = Match Cap % of Salary",
 };

@@ -59,6 +59,5 @@ export const travelTipByCountryCalculator: CalculatorDefinition = {
     { question: "Is tipping expected in Europe?", answer: "In most of Western Europe, a 5 to 10 percent tip is appreciated but not mandatory. Many restaurants include a service charge. Check your bill before adding extra." },
     { question: "How much should I tip a tour guide?", answer: "In the US, tip tour guides $5 to $10 per person for a half-day tour and $10 to $20 for a full day. In other countries, $2 to $5 per person is common." },
   ],
-  formula: "Tip Amount = Bill Amount x (Tip Percentage / 100)
-Total = Bill Amount + Tip Amount",
+  formula: "Tip Amount = Bill Amount x (Tip Percentage / 100); Total = Bill Amount + Tip Amount",
 };

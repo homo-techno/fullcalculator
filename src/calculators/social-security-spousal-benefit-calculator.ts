@@ -52,8 +52,5 @@ export const socialSecuritySpousalBenefitCalculator: CalculatorDefinition = {
     { question: "Can I receive both my own benefit and a spousal benefit?", answer: "You cannot receive both in full. When you apply, Social Security automatically pays your own benefit first. If the spousal amount is higher, you receive a top-up to bring you to the spousal level. The combined amount equals the higher of the two." },
     { question: "Does the spousal benefit increase if I delay past FRA?", answer: "No. Unlike your own benefit, the spousal benefit does not increase with delayed retirement credits past full retirement age. The maximum spousal benefit is 50 percent of the worker benefit at FRA." },
   ],
-  formula: "Worker Adjusted = FRA Benefit x (1 +/- age adjustment)
-Max Spousal = 50% of Worker FRA Benefit
-Spousal Top-Up = max(0, Max Spousal - Spouse Own FRA Benefit)
-Combined = Worker Benefit + max(Spouse Own, Spouse Own + Top-Up)",
+  formula: "Worker Adjusted = FRA Benefit x (1 +/- age adjustment); Max Spousal = 50% of Worker FRA Benefit; Spousal Top-Up = max(0, Max Spousal - Spouse Own FRA Benefit); Combined = Worker Benefit + max(Spouse Own, Spouse Own + Top-Up)",
 };

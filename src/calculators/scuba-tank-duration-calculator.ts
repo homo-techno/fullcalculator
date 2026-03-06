@@ -48,8 +48,5 @@ export const scubaTankDurationCalculator: CalculatorDefinition = {
     { question: "How deep can you go on a standard scuba tank?", answer: "Recreational scuba limits are typically 60 feet for beginners and 130 feet for advanced open water certified divers. Air supply decreases faster at greater depths because pressure increases air consumption." },
     { question: "Why does air last less time at greater depths?", answer: "At depth, water pressure compresses air so you breathe denser air with each breath. At 33 feet (2 ATA), you consume air twice as fast as at the surface. At 99 feet (4 ATA), four times as fast." },
   ],
-  formula: "ATA (Atmospheres Absolute) = (Depth / 33) + 1
-Air Consumption at Depth = SAC Rate x ATA
-Usable Air = Tank Volume x (Usable PSI / Starting PSI)
-Dive Time = Usable Air / Consumption at Depth",
+  formula: "ATA (Atmospheres Absolute) = (Depth / 33) + 1; Air Consumption at Depth = SAC Rate x ATA; Usable Air = Tank Volume x (Usable PSI / Starting PSI); Dive Time = Usable Air / Consumption at Depth",
 };

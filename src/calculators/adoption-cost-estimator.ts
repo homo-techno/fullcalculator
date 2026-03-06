@@ -48,6 +48,5 @@ export const adoptionCostEstimatorCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total Cost = Agency Fee + Legal Fees + Home Study + Travel
-Net Cost = Total Cost - Federal Tax Credit (up to $16,810)",
+  formula: "Total Cost = Agency Fee + Legal Fees + Home Study + Travel; Net Cost = Total Cost - Federal Tax Credit (up to $16,810)",
 };

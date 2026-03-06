@@ -55,7 +55,5 @@ export const volcanicEruptionIndexCalculator: CalculatorDefinition = {
     { question: "What was the largest volcanic eruption in history?", answer: "The largest known eruption was the Toba supervolcano about 75,000 years ago (VEI 8, ~2,800 km3). In recorded history, the 1815 eruption of Mount Tambora (VEI 7) was the largest, causing the Year Without a Summer." },
     { question: "How often do large eruptions occur?", answer: "VEI 2-3 eruptions happen weekly to monthly worldwide. VEI 5 eruptions occur roughly once per decade. VEI 7 eruptions happen every few centuries, and VEI 8 supervolcano events occur every 50,000 to 100,000 years." },
   ],
-  formula: "VEI = log10(Ejecta Volume in m3) - 6 (approximately)
-Energy = Volume x Density x g x Plume Height
-Discharge Rate = Volume / Duration",
+  formula: "VEI = log10(Ejecta Volume in m3) - 6 (approximately); Energy = Volume x Density x g x Plume Height; Discharge Rate = Volume / Duration",
 };

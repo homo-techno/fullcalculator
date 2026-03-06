@@ -48,7 +48,5 @@ export const rainwaterTankSizeCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Monthly Collection = Roof Area x Rainfall x 0.623 x 0.8
-Reserve = Daily Usage x Dry Days
-Recommended Tank = Reserve rounded up to nearest 50 gallons",
+  formula: "Monthly Collection = Roof Area x Rainfall x 0.623 x 0.8; Reserve = Daily Usage x Dry Days; Recommended Tank = Reserve rounded up to nearest 50 gallons",
 };

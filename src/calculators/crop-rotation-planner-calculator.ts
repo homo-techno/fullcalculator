@@ -51,7 +51,5 @@ export const cropRotationPlannerCalculator: CalculatorDefinition = {
     { question: "Why is crop rotation important?", answer: "Crop rotation breaks pest and disease cycles, improves soil structure, balances nutrient use, reduces herbicide resistance, and can improve yields by 10 to 15 percent over continuous cropping." },
     { question: "What is the best crop rotation for corn?", answer: "A corn-soybean rotation is the most common in the US Midwest. Adding a small grain like wheat and a cover crop or hay year provides even greater soil health benefits." },
   ],
-  formula: "Rotation Length = Number of unique crops in sequence
-Acres Per Crop = Total Acres / Rotation Length
-Each field shifts one crop forward each year",
+  formula: "Rotation Length = Number of unique crops in sequence; Acres Per Crop = Total Acres / Rotation Length; Each field shifts one crop forward each year",
 };

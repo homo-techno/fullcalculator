@@ -51,7 +51,5 @@ export const diveDecompressionCalculator: CalculatorDefinition = {
     { question: "Do I always need a safety stop?", answer: "A safety stop at 15 feet for 3 minutes is strongly recommended on all dives deeper than 20 feet. While not mandatory for dives within no-deco limits, it provides an extra margin of safety." },
     { question: "How long should I wait between dives?", answer: "A minimum surface interval of 60 minutes is recommended. For deeper or longer dives, wait at least 2 to 4 hours. Before flying, wait at least 12 hours after a single dive or 18 hours after repetitive dives." },
   ],
-  formula: "No-Deco Limit is based on standard recreational dive tables for depth
-NDL Usage = (Bottom Time / NDL) x 100
-Total Dive Time = Bottom Time + Safety Stop + Ascent Time",
+  formula: "No-Deco Limit is based on standard recreational dive tables for depth; NDL Usage = (Bottom Time / NDL) x 100; Total Dive Time = Bottom Time + Safety Stop + Ascent Time",
 };

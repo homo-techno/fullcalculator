@@ -47,7 +47,5 @@ export const boatCanvasCoverCostCalculator: CalculatorDefinition = {
     { question: "What is the best material for a boat cover?", answer: "Sunbrella marine canvas is the industry standard, offering excellent UV protection, water resistance, and breathability. It typically lasts 7 to 10 years. Stamoid is a premium PVC-coated polyester used for high-end applications." },
     { question: "How long does a boat cover last?", answer: "Economy polyester covers last 3 to 5 years. Sunbrella marine canvas lasts 7 to 10 years. Premium PVC-coated materials can last 10 or more years with proper care and UV protectant treatment." },
   ],
-  formula: "Cover Cost = Boat Length x Base Cost Per Foot x Material Multiplier
-Total Cost = Cover Cost + Installation Cost
-Annual Cost = Total Cost / Expected Lifespan",
+  formula: "Cover Cost = Boat Length x Base Cost Per Foot x Material Multiplier; Total Cost = Cover Cost + Installation Cost; Annual Cost = Total Cost / Expected Lifespan",
 };

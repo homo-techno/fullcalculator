@@ -49,7 +49,5 @@ export const skiResortValueComparisonCalculator: CalculatorDefinition = {
     { question: "What makes a ski resort good value?", answer: "High vertical drop, many runs, short lift lines, and lower ticket prices all contribute to better value. More runs per hour means lower cost per run." },
     { question: "Are multi-day passes worth it?", answer: "Multi-day passes typically save 10 to 25 percent per day compared to single-day tickets, and season passes are the best value for frequent skiers." },
   ],
-  formula: "Cost Per Run = Ticket Price / Total Runs Taken
-Cost Per Hour = Ticket Price / Ski Hours
-Total Vertical = Runs x Vertical Drop",
+  formula: "Cost Per Run = Ticket Price / Total Runs Taken; Cost Per Hour = Ticket Price / Ski Hours; Total Vertical = Runs x Vertical Drop",
 };

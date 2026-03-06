@@ -41,7 +41,5 @@ export const timeDilationCalculator: CalculatorDefinition = {
     { question: "Has time dilation been proven?", answer: "Yes. Time dilation has been confirmed by many experiments, including muon decay observations, atomic clocks on aircraft, and GPS satellites which must account for both velocity and gravitational time dilation." },
     { question: "What is the twin paradox?", answer: "The twin paradox describes how one twin traveling at high speed would age less than the twin who stayed on Earth. It is not actually a paradox since the traveling twin experiences acceleration, breaking the symmetry." },
   ],
-  formula: "Lorentz Factor: gamma = 1 / sqrt(1 - v^2/c^2)
-Earth Time = Proper Time x gamma
-Length Contraction = 1 / gamma",
+  formula: "Lorentz Factor: gamma = 1 / sqrt(1 - v^2/c^2); Earth Time = Proper Time x gamma; Length Contraction = 1 / gamma",
 };

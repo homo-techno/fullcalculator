@@ -47,8 +47,5 @@ export const wireGaugeAmpacityCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Base Ampacity = NEC Table 310.16 lookup by gauge and insulation
-Temp Derating = 1 - (Ambient - 86) x 0.01 (if above 86F)
-Conduit Derating = 1.0 (1-3), 0.8 (4-6), 0.7 (7-9)
-Adjusted Ampacity = Base x Temp Derating x Conduit Derating",
+  formula: "Base Ampacity = NEC Table 310.16 lookup by gauge and insulation; Temp Derating = 1 - (Ambient - 86) x 0.01 (if above 86F); Conduit Derating = 1.0 (1-3), 0.8 (4-6), 0.7 (7-9); Adjusted Ampacity = Base x Temp Derating x Conduit Derating",
 };

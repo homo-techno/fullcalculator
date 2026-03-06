@@ -49,7 +49,5 @@ export const labEquipmentDepreciationCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Annual Depreciation = (Purchase Price - Salvage Value) / Useful Life
-Book Value = Purchase Price - (Annual Depreciation x Age)
-Cost Per Use = Annual Depreciation / Uses Per Year",
+  formula: "Annual Depreciation = (Purchase Price - Salvage Value) / Useful Life; Book Value = Purchase Price - (Annual Depreciation x Age); Cost Per Use = Annual Depreciation / Uses Per Year",
 };

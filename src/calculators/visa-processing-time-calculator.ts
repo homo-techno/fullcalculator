@@ -51,6 +51,5 @@ export const visaProcessingTimeCalculator: CalculatorDefinition = {
     { question: "How much does a visa application cost?", answer: "Tourist visas range from $20 to $200 depending on the destination. US B1/B2 visas cost $185, Schengen visas cost about 80 euros." },
     { question: "Can I expedite my visa application?", answer: "Many countries offer expedited processing for an additional fee, typically cutting processing time in half. Some premium services guarantee processing within days." },
   ],
-  formula: "Processing Time = Base Weeks x Speed Multiplier x Complexity Factor
-Total Cost = Base Fee + Expedite Fee",
+  formula: "Processing Time = Base Weeks x Speed Multiplier x Complexity Factor; Total Cost = Base Fee + Expedite Fee",
 };

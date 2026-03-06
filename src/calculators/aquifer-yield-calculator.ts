@@ -55,9 +55,5 @@ export const aquiferYieldCalculator: CalculatorDefinition = {
     { question: "What is storativity?", answer: "Storativity (storage coefficient) is the volume of water released per unit area per unit decline in head. Confined aquifers have very low storativity (0.0001-0.001), while unconfined aquifers have higher values (0.01-0.3)." },
     { question: "How do you determine sustainable yield?", answer: "Sustainable yield is determined through pumping tests, aquifer analysis, and long-term water balance studies. It must account for recharge rates, neighboring well interference, and environmental water needs." },
   ],
-  formula: "Q = (4 x pi x T x Drawdown) / W(u) (Theis Equation)
-u = r^2 x S / (4 x T x t)
-W(u) = -0.5772 - ln(u) (approximation)
-Specific Capacity = Q / Drawdown
-Hydraulic Conductivity = T / Aquifer Thickness",
+  formula: "Q = (4 x pi x T x Drawdown) / W(u) (Theis Equation); u = r^2 x S / (4 x T x t); W(u) = -0.5772 - ln(u) (approximation); Specific Capacity = Q / Drawdown; Hydraulic Conductivity = T / Aquifer Thickness",
 };

@@ -50,7 +50,5 @@ export const farmBreakEvenPriceCalculator: CalculatorDefinition = {
     { question: "What costs go into break-even calculations?", answer: "Variable costs include seed, fertilizer, chemicals, fuel, crop insurance, and drying. Fixed costs include land rent or mortgage payments, depreciation, insurance, and taxes. Both must be covered to break even." },
     { question: "How does yield affect break-even price?", answer: "Higher yields lower the break-even price because fixed costs are spread over more bushels. A 10% yield increase can reduce break-even price by roughly 9%, making yield management critical." },
   ],
-  formula: "Break-Even Price = (Variable Cost + Fixed Cost) / Expected Yield
-Target Price = (Total Cost + Target Profit) / Yield
-Total Cost = Cost Per Acre x Acres",
+  formula: "Break-Even Price = (Variable Cost + Fixed Cost) / Expected Yield; Target Price = (Total Cost + Target Profit) / Yield; Total Cost = Cost Per Acre x Acres",
 };

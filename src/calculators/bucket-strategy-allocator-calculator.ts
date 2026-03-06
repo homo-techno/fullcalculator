@@ -53,7 +53,5 @@ export const bucketStrategyAllocatorCalculator: CalculatorDefinition = {
     { question: "How does the bucket strategy reduce risk?", answer: "By keeping several years of spending in safe, liquid investments, you avoid selling stocks during market downturns. The growth bucket has years to recover from volatility before you need to tap it." },
     { question: "How often should I refill the buckets?", answer: "Typically you refill the short-term bucket annually by selling from the medium-term bucket when bonds perform well, or from the growth bucket during strong market years. Some advisors refill on a set schedule while others use market conditions as a guide." },
   ],
-  formula: "Short-Term Bucket = Annual Spending x Short-Term Years
-Medium-Term Bucket = Annual Spending x Medium-Term Years
-Long-Term Bucket = Total Portfolio - Short Bucket - Medium Bucket",
+  formula: "Short-Term Bucket = Annual Spending x Short-Term Years; Medium-Term Bucket = Annual Spending x Medium-Term Years; Long-Term Bucket = Total Portfolio - Short Bucket - Medium Bucket",
 };

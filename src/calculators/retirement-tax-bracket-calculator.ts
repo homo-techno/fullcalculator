@@ -64,7 +64,5 @@ export const retirementTaxBracketCalculator: CalculatorDefinition = {
     { question: "What is the standard deduction for retirees?", answer: "Retirees 65 and older receive an additional standard deduction of $1,950 for single filers or $1,550 per spouse for married filers, on top of the regular standard deduction." },
     { question: "Can I reduce my tax bracket in retirement?", answer: "Strategies include Roth conversions in lower-income years, timing IRA withdrawals, managing capital gains, taking advantage of the higher standard deduction for those over 65, and choosing tax-efficient withdrawal sequencing." },
   ],
-  formula: "Provisional Income = 50% of SS + Pension + Withdrawals + Other
-Taxable Income = Total Income - Standard Deduction
-Tax = Sum of (Income in each bracket x bracket rate)",
+  formula: "Provisional Income = 50% of SS + Pension + Withdrawals + Other; Taxable Income = Total Income - Standard Deduction; Tax = Sum of (Income in each bracket x bracket rate)",
 };

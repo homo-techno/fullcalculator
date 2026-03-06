@@ -50,7 +50,5 @@ export const gelBandSizeEstimatorCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "log10(Size) = Slope x Distance + Intercept
-Slope = (log(Size2) - log(Size1)) / (Dist2 - Dist1)
-Estimated Size = 10^(log10(Size))",
+  formula: "log10(Size) = Slope x Distance + Intercept; Slope = (log(Size2) - log(Size1)) / (Dist2 - Dist1); Estimated Size = 10^(log10(Size))",
 };

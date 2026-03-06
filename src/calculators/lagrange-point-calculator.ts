@@ -43,7 +43,5 @@ export const lagrangePointCalculator: CalculatorDefinition = {
     { question: "Which Lagrange point is the James Webb Space Telescope at?", answer: "The James Webb Space Telescope orbits the Sun-Earth L2 point, about 1.5 million km from Earth on the side away from the Sun." },
     { question: "Are Lagrange points truly stable?", answer: "Only L4 and L5 are naturally stable. L1, L2, and L3 are unstable and require station-keeping maneuvers to maintain a spacecraft in their vicinity." },
   ],
-  formula: "Hill Radius = d x (m / 3M)^(1/3)
-L1 = d - Hill Radius
-L2 = d + Hill Radius",
+  formula: "Hill Radius = d x (m / 3M)^(1/3); L1 = d - Hill Radius; L2 = d + Hill Radius",
 };

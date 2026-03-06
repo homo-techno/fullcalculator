@@ -47,7 +47,5 @@ export const boatBottomPaintCalculator: CalculatorDefinition = {
     { question: "How many coats of bottom paint do I need?", answer: "Two coats are standard for most applications. Apply three coats on the waterline area and any leading edges that experience more wear. New boats or bare hulls may need a primer coat first." },
     { question: "What type of bottom paint should I use?", answer: "Ablative paint wears away slowly and is ideal for boats used regularly. Hard modified epoxy paint is better for high-speed boats. Consult your marina for local environmental regulations on copper content." },
   ],
-  formula: "Hull Surface Area = Waterline Length x (Beam + Draft) x 0.85
-Total Coverage Area = Hull Area x Number of Coats
-Gallons Needed = Total Coverage Area / 350 sq ft per gallon",
+  formula: "Hull Surface Area = Waterline Length x (Beam + Draft) x 0.85; Total Coverage Area = Hull Area x Number of Coats; Gallons Needed = Total Coverage Area / 350 sq ft per gallon",
 };

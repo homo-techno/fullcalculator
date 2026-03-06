@@ -47,7 +47,5 @@ export const electrolysisTimeCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "t = (m x z x F) / (M x I)
-where m = mass (g), z = valence, F = 96485 C/mol
-M = molar mass (g/mol), I = current (A)",
+  formula: "t = (m x z x F) / (M x I); where m = mass (g), z = valence, F = 96485 C/mol; M = molar mass (g/mol), I = current (A)",
 };

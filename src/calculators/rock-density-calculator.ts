@@ -50,7 +50,5 @@ export const rockDensityCalculator: CalculatorDefinition = {
     { question: "How does porosity affect rock density?", answer: "Higher porosity means more void space and lower bulk density. A rock with 20% porosity has 20% of its volume as empty space, which significantly reduces its overall density." },
     { question: "What is the densest common rock?", answer: "Among common rocks, basalt and gabbro are the densest at about 2,900 to 3,100 kg/m3. For comparison, granite averages about 2,650 kg/m3 and sandstone about 2,350 kg/m3." },
   ],
-  formula: "Bulk Density = Grain Density x (1 - Porosity) + Water Density x Porosity x Moisture
-Dry Density = Grain Density x (1 - Porosity)
-Specific Gravity = Grain Density / 1000",
+  formula: "Bulk Density = Grain Density x (1 - Porosity) + Water Density x Porosity x Moisture; Dry Density = Grain Density x (1 - Porosity); Specific Gravity = Grain Density / 1000",
 };

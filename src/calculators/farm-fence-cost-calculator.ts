@@ -58,7 +58,5 @@ export const farmFenceCostCalculator: CalculatorDefinition = {
     { question: "What is the cheapest farm fence?", answer: "Electric fencing is typically the cheapest option at $0.50 to $1.50 per foot installed. Barbed wire runs $1.50 to $3.00, woven wire $3.00 to $6.00, and board fence $8.00 to $15.00 per foot." },
     { question: "How far apart should fence posts be?", answer: "Standard post spacing is 8 to 12 feet for most wire fences. Electric fence can use 20 to 30 foot spacing. Board fence posts are typically 8 feet apart. Corner and gate posts should be braced." },
   ],
-  formula: "Material Cost = Length x Cost Per Foot + Posts x Post Cost
-Labor Cost = (Length / Feet Per Hour) x Labor Rate
-Total = Materials + Gates + Labor",
+  formula: "Material Cost = Length x Cost Per Foot + Posts x Post Cost; Labor Cost = (Length / Feet Per Hour) x Labor Rate; Total = Materials + Gates + Labor",
 };

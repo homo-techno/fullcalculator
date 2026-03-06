@@ -47,7 +47,5 @@ export const marineRadioRangeCalculator: CalculatorDefinition = {
     { question: "Does antenna height affect radio range?", answer: "Yes, antenna height is the most important factor in VHF range because VHF signals travel in straight lines. Doubling the antenna height increases range by about 40 percent. This is why tall mast-mounted antennas perform much better." },
     { question: "What VHF channel should I use for emergencies?", answer: "Channel 16 (156.800 MHz) is the international distress, safety, and calling frequency. All mariners should monitor Channel 16 at all times while underway. Use it only for distress calls and initial contact." },
   ],
-  formula: "Horizon Distance = 1.42 x Square Root of Antenna Height (feet)
-Line of Sight Range = Your Horizon + Other Station Horizon
-Range is also limited by transmit power and atmospheric conditions",
+  formula: "Horizon Distance = 1.42 x Square Root of Antenna Height (feet); Line of Sight Range = Your Horizon + Other Station Horizon; Range is also limited by transmit power and atmospheric conditions",
 };

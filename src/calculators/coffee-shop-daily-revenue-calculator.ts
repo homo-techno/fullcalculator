@@ -50,7 +50,5 @@ export const coffeeShopDailyRevenueCalculator: CalculatorDefinition = {
     { question: "What is the average profit margin for a coffee shop?", answer: "Coffee shops typically achieve a net profit margin of 5 to 15 percent. Drinks have high margins of 65 to 80 percent, while food items run 50 to 65 percent. Rent and labor are the largest expenses." },
     { question: "How can I increase coffee shop revenue?", answer: "Boost average ticket with upselling, add food and pastry options, introduce loyalty programs, expand into catering and wholesale, offer seasonal specials, and extend operating hours to capture more dayparts." },
   ],
-  formula: "Daily Revenue = (Drinks Sold x Avg Drink Price) + (Food Items x Avg Food Price)
-Monthly Revenue = Daily Revenue x Days Open
-Average Ticket = Daily Revenue / Total Items Sold",
+  formula: "Daily Revenue = (Drinks Sold x Avg Drink Price) + (Food Items x Avg Food Price); Monthly Revenue = Daily Revenue x Days Open; Average Ticket = Daily Revenue / Total Items Sold",
 };

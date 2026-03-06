@@ -54,7 +54,5 @@ export const miniaturePaintingCostCalculator: CalculatorDefinition = {
     { question: "What paints are best for beginners?", answer: "Citadel, Vallejo, and Army Painter are popular choices. Vallejo offers the best value while Citadel has the widest hobby support." },
     { question: "Do I need to prime miniatures?", answer: "Yes, priming provides a surface for paint to adhere to. Spray primer is fastest; brush-on primer works for small batches." },
   ],
-  formula: "Paint Set Cost = Number of Colors x Price Per Bottle
-Primer Cost = ceil(Minis / 20) x Spray Can Price
-Total Startup = Paint + Brushes + Primer",
+  formula: "Paint Set Cost = Number of Colors x Price Per Bottle; Primer Cost = ceil(Minis / 20) x Spray Can Price; Total Startup = Paint + Brushes + Primer",
 };

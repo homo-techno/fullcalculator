@@ -44,8 +44,5 @@ export const bacterialGrowthRateCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "k = ln(Nt / N0) / t
-g = ln(2) / k
-Generations = log2(Nt / N0)
-where Nt = final count, N0 = initial count, t = time",
+  formula: "k = ln(Nt / N0) / t; g = ln(2) / k; Generations = log2(Nt / N0); where Nt = final count, N0 = initial count, t = time",
 };

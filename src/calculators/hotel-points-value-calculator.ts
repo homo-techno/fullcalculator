@@ -47,6 +47,5 @@ export const hotelPointsValueCalculator: CalculatorDefinition = {
     { question: "When should I use hotel points?", answer: "Points are most valuable during peak seasons, at luxury properties, or when cash rates are high relative to the points required." },
     { question: "Do hotel points expire?", answer: "Most hotel programs keep points active as long as you have account activity every 12 to 24 months, which includes earning or redeeming points." },
   ],
-  formula: "Cents Per Point = (Cash Rate Per Night / Points Per Night) x 100
-Total Points Needed = Points Per Night x Nights",
+  formula: "Cents Per Point = (Cash Rate Per Night / Points Per Night) x 100; Total Points Needed = Points Per Night x Nights",
 };

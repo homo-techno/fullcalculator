@@ -55,7 +55,5 @@ export const heatIndexActivityCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Heat Index = -42.379 + 2.049T + 10.143R - 0.225TR - ... (Rothfusz regression)
-Effective HI = HI x Activity Multiplier
-Hydration varies by risk level: 8-48 oz/hour",
+  formula: "Heat Index = -42.379 + 2.049T + 10.143R - 0.225TR - ... (Rothfusz regression); Effective HI = HI x Activity Multiplier; Hydration varies by risk level: 8-48 oz/hour",
 };

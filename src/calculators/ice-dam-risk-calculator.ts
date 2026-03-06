@@ -55,6 +55,5 @@ export const iceDamRiskCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Risk = (Insulation Risk x 0.35) + (Temp Risk x 0.25) + (Snow Risk x 0.25) - Slope Reduction - Ventilation Reduction
-Insulation Risk = max(0, 100 - R-Value x 2.5)",
+  formula: "Risk = (Insulation Risk x 0.35) + (Temp Risk x 0.25) + (Snow Risk x 0.25) - Slope Reduction - Ventilation Reduction; Insulation Risk = max(0, 100 - R-Value x 2.5)",
 };

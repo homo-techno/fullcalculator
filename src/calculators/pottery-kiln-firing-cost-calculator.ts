@@ -47,7 +47,5 @@ export const potteryKilnFiringCostCalculator: CalculatorDefinition = {
     { question: "Why is the duty cycle 65 percent?", answer: "Electric kilns cycle their elements on and off to maintain temperature. On average they draw about 65 percent of their rated power over a full firing cycle." },
     { question: "Is gas or electric cheaper for pottery firing?", answer: "Gas kilns can be cheaper at high temperatures (cone 10) but have higher upfront costs. Electric kilns are simpler and more common for home potters." },
   ],
-  formula: "kWh Per Firing = Kiln kW x Firing Hours x 0.65 (duty cycle)
-Cost Per Firing = kWh x Electricity Rate
-Monthly Cost = Cost Per Firing x Firings Per Month",
+  formula: "kWh Per Firing = Kiln kW x Firing Hours x 0.65 (duty cycle); Cost Per Firing = kWh x Electricity Rate; Monthly Cost = Cost Per Firing x Firings Per Month",
 };

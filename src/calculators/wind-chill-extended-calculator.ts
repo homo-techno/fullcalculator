@@ -58,7 +58,5 @@ export const windChillExtendedCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Wind Chill = 35.74 + 0.6215T - 35.75V^0.16 + 0.4275TV^0.16
-Safe Exposure = Base Time x Coverage Multiplier
-Frostbite risk increases rapidly below -20°F wind chill",
+  formula: "Wind Chill = 35.74 + 0.6215T - 35.75V^0.16 + 0.4275TV^0.16; Safe Exposure = Base Time x Coverage Multiplier; Frostbite risk increases rapidly below -20°F wind chill",
 };

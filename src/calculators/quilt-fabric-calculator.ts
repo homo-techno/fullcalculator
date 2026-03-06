@@ -53,7 +53,5 @@ export const quiltFabricCalculator: CalculatorDefinition = {
     { question: "How much extra fabric should I buy for quilting?", answer: "Buy 10 to 20 percent extra to account for cutting mistakes, shrinkage, and fabric defects. Pre-wash cotton fabrics as they can shrink up to 5 percent." },
     { question: "What is a standard quilt seam allowance?", answer: "The standard quilting seam allowance is one quarter inch. This is smaller than garment sewing which typically uses five eighths of an inch." },
   ],
-  formula: "Top Fabric = (Rows Needed x Cut Block Size) / 36 yards
-Backing = (Quilt Length + 8) / 36 x Widths Needed
-Binding = Perimeter / (Fabric Width x 6 strips per yard)",
+  formula: "Top Fabric = (Rows Needed x Cut Block Size) / 36 yards; Backing = (Quilt Length + 8) / 36 x Widths Needed; Binding = Perimeter / (Fabric Width x 6 strips per yard)",
 };

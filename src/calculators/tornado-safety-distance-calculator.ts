@@ -50,6 +50,5 @@ export const tornadoSafetyDistanceCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Safe Distance = (Speed x Time / 60) + (Debris Radius / 1760) + 0.5 miles
-Debris Radius = Width x (1 + EF Rating x 0.5)",
+  formula: "Safe Distance = (Speed x Time / 60) + (Debris Radius / 1760) + 0.5 miles; Debris Radius = Width x (1 + EF Rating x 0.5)",
 };

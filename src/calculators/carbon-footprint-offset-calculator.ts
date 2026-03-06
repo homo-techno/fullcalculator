@@ -48,8 +48,5 @@ export const carbonFootprintOffsetCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Driving CO2 = Miles x 0.000404 tons/mile
-Flight CO2 = Hours x 0.255 tons/hour
-Home CO2 = kWh x 12 x 0.000417 tons/kWh
-Trees = Total CO2 / 0.022",
+  formula: "Driving CO2 = Miles x 0.000404 tons/mile; Flight CO2 = Hours x 0.255 tons/hour; Home CO2 = kWh x 12 x 0.000417 tons/kWh; Trees = Total CO2 / 0.022",
 };

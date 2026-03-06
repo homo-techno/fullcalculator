@@ -50,6 +50,5 @@ export const subwooferBoxVolumeCalculator: CalculatorDefinition = {
     { question: "Does box volume affect bass quality?", answer: "Yes, too small a box makes bass sound thin and boomy, while too large a box reduces output and control." },
     { question: "What size box do I need for a 12-inch sub?", answer: "A 12-inch subwoofer typically needs 1.0-1.5 cubic feet sealed or 2.0-3.0 cubic feet ported." },
   ],
-  formula: "Sealed Volume = Vas x 0.7 per driver
-Ported Volume = Vas x 1.5 per driver",
+  formula: "Sealed Volume = Vas x 0.7 per driver; Ported Volume = Vas x 1.5 per driver",
 };

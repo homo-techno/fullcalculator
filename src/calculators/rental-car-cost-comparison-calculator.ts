@@ -54,6 +54,5 @@ export const rentalCarCostComparisonCalculator: CalculatorDefinition = {
     { question: "How can I save money on rental cars?", answer: "Book in advance, compare rates across agencies, decline insurance if already covered, return with a full tank, and avoid airport location surcharges." },
     { question: "What hidden fees should I watch for?", answer: "Airport surcharges, additional driver fees, underage driver fees, GPS rental charges, toll transponder fees, and prepaid fuel options can significantly increase costs." },
   ],
-  formula: "Total Cost = (Daily Rate x Days) + (Insurance x Days) + Fuel + Taxes
-Fuel = (Miles / MPG) x Gas Price",
+  formula: "Total Cost = (Daily Rate x Days) + (Insurance x Days) + Fuel + Taxes; Fuel = (Miles / MPG) x Gas Price",
 };

@@ -51,7 +51,5 @@ export const coolantFlushScheduleCalculator: CalculatorDefinition = {
     { question: "What happens if I skip a coolant flush?", answer: "Old coolant loses its anti-corrosion additives and can cause rust buildup, clogged passages, overheating, and potentially catastrophic engine damage from a blown head gasket." },
     { question: "Can I mix different coolant types?", answer: "Mixing different coolant types can cause chemical reactions that form gel or sludge. Always use the type specified in your owner manual and flush completely when switching." },
   ],
-  formula: "Next Flush Mileage = Last Flush Mileage + Interval (by coolant type)
-Miles Until Due = Interval - (Current Mileage - Last Flush Mileage)
-Annualized Cost = Flush Cost / (Interval / Annual Miles)",
+  formula: "Next Flush Mileage = Last Flush Mileage + Interval (by coolant type); Miles Until Due = Interval - (Current Mileage - Last Flush Mileage); Annualized Cost = Flush Cost / (Interval / Annual Miles)",
 };

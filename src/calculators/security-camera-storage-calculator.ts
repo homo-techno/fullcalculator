@@ -51,7 +51,5 @@ export const securityCameraStorageCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Daily Storage = GB/hour x (FPS/15) x Compression Factor x Hours x Cameras
-Total Storage = Daily Storage x Retention Days
-GB/hour based on resolution: 1080p = 0.75 GB, 4K = 3 GB",
+  formula: "Daily Storage = GB/hour x (FPS/15) x Compression Factor x Hours x Cameras; Total Storage = Daily Storage x Retention Days; GB/hour based on resolution: 1080p = 0.75 GB, 4K = 3 GB",
 };

@@ -54,8 +54,5 @@ export const ductSizingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Cross-Section Area = (CFM / Max Velocity) x 144
-Round Diameter = sqrt(Area / Pi) x 2
-Rectangular Equivalent = Based on equal friction method
-Actual Velocity = (CFM x 144) / Actual Area",
+  formula: "Cross-Section Area = (CFM / Max Velocity) x 144; Round Diameter = sqrt(Area / Pi) x 2; Rectangular Equivalent = Based on equal friction method; Actual Velocity = (CFM x 144) / Actual Area",
 };

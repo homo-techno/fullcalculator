@@ -52,7 +52,5 @@ export const birthdayMilestoneCostCalculator: CalculatorDefinition = {
     { question: "What makes a good milestone birthday party?", answer: "Great milestone parties include personalized decor, quality catering, entertainment, a custom cake, and thoughtful touches like photo displays or memory books." },
     { question: "How many guests should you invite to a birthday party?", answer: "Adult birthday parties typically have 20-50 guests. Milestone birthdays may have more, up to 100, depending on venue and budget." },
   ],
-  formula: "Catering = Guests x (FoodPerPerson + DrinkPerPerson)
-Total = Venue + Catering + Decorations + Entertainment + Cake
-Per Guest = Total / Guests",
+  formula: "Catering = Guests x (FoodPerPerson + DrinkPerPerson); Total = Venue + Catering + Decorations + Entertainment + Cake; Per Guest = Total / Guests",
 };

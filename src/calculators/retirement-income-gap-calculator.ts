@@ -49,7 +49,5 @@ export const retirementIncomeGapCalculator: CalculatorDefinition = {
     { question: "How much should I plan for retirement expenses?", answer: "A common guideline is to plan for 70 to 80 percent of your pre-retirement income, but actual needs vary. Healthcare, travel, and hobbies may increase costs, while reduced commuting and work expenses may lower them." },
     { question: "How can I close my retirement income gap?", answer: "Options include saving more aggressively, delaying retirement, working part-time, reducing planned expenses, investing for growth, purchasing an annuity, or downsizing your home to free up equity." },
   ],
-  formula: "Monthly Gap = Monthly Expenses - (Social Security + Pension + Other Income)
-Annual Gap = Monthly Gap x 12
-Total Gap = Annual Gap x Years in Retirement",
+  formula: "Monthly Gap = Monthly Expenses - (Social Security + Pension + Other Income); Annual Gap = Monthly Gap x 12; Total Gap = Annual Gap x Years in Retirement",
 };

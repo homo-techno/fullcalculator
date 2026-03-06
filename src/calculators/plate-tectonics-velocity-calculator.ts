@@ -56,7 +56,5 @@ export const plateTectonicsVelocityCalculator: CalculatorDefinition = {
     { question: "What happens at plate boundaries?", answer: "At convergent boundaries, plates collide causing mountains, trenches, and subduction. At divergent boundaries, plates separate creating rift valleys and mid-ocean ridges. Transform boundaries cause lateral sliding and earthquakes." },
     { question: "How is plate velocity measured?", answer: "Modern plate velocities are measured using GPS stations, satellite laser ranging, and very long baseline interferometry. Historical velocities are determined from magnetic anomalies on the ocean floor and hotspot tracks." },
   ],
-  formula: "Relative Velocity = sqrt((V1x - V2x)^2 + (V1y - V2y)^2)
-Vx = V x sin(Direction), Vy = V x cos(Direction)
-Displacement (km) = Relative Velocity (mm/yr) x Time (Myr)",
+  formula: "Relative Velocity = sqrt((V1x - V2x)^2 + (V1y - V2y)^2); Vx = V x sin(Direction), Vy = V x cos(Direction); Displacement (km) = Relative Velocity (mm/yr) x Time (Myr)",
 };

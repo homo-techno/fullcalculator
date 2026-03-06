@@ -58,8 +58,5 @@ export const miniSplitSizingCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Base BTU = Square Footage x 25
-Adjusted BTU = Base x Ceiling Factor x Sun Factor x Insulation Factor x Climate Factor
-Unit Size = Next standard size above Adjusted BTU
-Standard sizes: 6K, 9K, 12K, 15K, 18K, 24K, 30K, 36K BTU",
+  formula: "Base BTU = Square Footage x 25; Adjusted BTU = Base x Ceiling Factor x Sun Factor x Insulation Factor x Climate Factor; Unit Size = Next standard size above Adjusted BTU; Standard sizes: 6K, 9K, 12K, 15K, 18K, 24K, 30K, 36K BTU",
 };

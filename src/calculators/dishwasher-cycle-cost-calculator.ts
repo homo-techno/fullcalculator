@@ -56,7 +56,5 @@ export const dishwasherCycleCostCalculator: CalculatorDefinition = {
     { question: "Which type of commercial dishwasher is most efficient?", answer: "Modern door-type dishwashers with heat recovery and energy-star ratings are the most efficient for mid-volume operations. Conveyor machines are more efficient per rack for high-volume operations exceeding 150 racks per hour." },
     { question: "How can I reduce dishwasher operating costs?", answer: "Scrape plates properly before loading, run full racks only, maintain proper water temperature, use correct detergent dosing, clean machine daily, and install a heat recovery system to preheat incoming water with exhaust heat." },
   ],
-  formula: "Cost Per Cycle = Water Cost + Electricity Cost + Detergent Cost
-Water Cost = (Gallons/Cycle / 1000) x Water Rate
-Monthly Cost = Cost Per Cycle x Cycles/Day x Operating Days",
+  formula: "Cost Per Cycle = Water Cost + Electricity Cost + Detergent Cost; Water Cost = (Gallons/Cycle / 1000) x Water Rate; Monthly Cost = Cost Per Cycle x Cycles/Day x Operating Days",
 };

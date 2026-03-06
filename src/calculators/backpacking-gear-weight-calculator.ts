@@ -54,6 +54,5 @@ export const backpackingGearWeightCalculator: CalculatorDefinition = {
     { question: "How much food should I carry per day?", answer: "Plan for 1.5 to 2.5 pounds of food per day, providing about 2,500 to 4,500 calories depending on activity level and conditions." },
     { question: "How much water should I carry?", answer: "Carry 1 to 2 liters between reliable water sources. In arid conditions, you may need 4 or more liters at a time." },
   ],
-  formula: "Base Weight = Shelter + Sleep System + Pack + Other Gear
-Total Weight = Base Weight + (Food/Day x Days) + Water Weight",
+  formula: "Base Weight = Shelter + Sleep System + Pack + Other Gear; Total Weight = Base Weight + (Food/Day x Days) + Water Weight",
 };

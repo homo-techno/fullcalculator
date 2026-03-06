@@ -52,7 +52,5 @@ export const carBatteryReplacementCostCalculator: CalculatorDefinition = {
     { question: "What are signs of a dying battery?", answer: "Slow cranking, dim headlights, electrical issues, a swollen battery case, a sulfur smell, and needing frequent jump-starts are all signs your battery is failing." },
     { question: "Should I choose AGM over standard?", answer: "AGM batteries are better for vehicles with start-stop technology, high electrical demands, or extreme climates. They cost more but last longer and handle deep discharges better." },
   ],
-  formula: "Total Cost = Battery Cost + Installation Cost
-Expected Life = Base Life (by type) x Climate Multiplier
-Remaining Life = Expected Life - Current Age",
+  formula: "Total Cost = Battery Cost + Installation Cost; Expected Life = Base Life (by type) x Climate Multiplier; Remaining Life = Expected Life - Current Age",
 };

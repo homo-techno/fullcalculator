@@ -50,7 +50,5 @@ export const rehearsalDinnerCostCalculator: CalculatorDefinition = {
     { question: "Who is invited to the rehearsal dinner?", answer: "Traditionally, the wedding party, immediate family, officiant, and their partners attend. Some couples extend invitations to out-of-town guests." },
     { question: "Who pays for the rehearsal dinner?", answer: "Traditionally, the groom's family hosts and pays for the rehearsal dinner. Modern couples may split costs or have either family cover it." },
   ],
-  formula: "Subtotal = (Guests x FoodPerPerson) + (Guests x DrinksPerPerson) + Decorations
-Gratuity = (Food + Drinks) x GratuityRate
-Total = Subtotal + Gratuity",
+  formula: "Subtotal = (Guests x FoodPerPerson) + (Guests x DrinksPerPerson) + Decorations; Gratuity = (Food + Drinks) x GratuityRate; Total = Subtotal + Gratuity",
 };

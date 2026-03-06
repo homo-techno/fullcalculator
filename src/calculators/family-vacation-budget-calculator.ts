@@ -55,6 +55,5 @@ export const familyVacationBudgetCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Total = Travel + (Hotel x Nights) + (Food x Family x Days) + (Activities x Days) + 10% Misc
-Cost Per Person = Total / Family Size",
+  formula: "Total = Travel + (Hotel x Nights) + (Food x Family x Days) + (Activities x Days) + 10% Misc; Cost Per Person = Total / Family Size",
 };

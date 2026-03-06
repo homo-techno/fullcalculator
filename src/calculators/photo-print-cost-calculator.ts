@@ -49,7 +49,5 @@ export const photoPrintCostCalculator: CalculatorDefinition = {
     { question: "How much should I charge for prints?", answer: "Price prints at 2.5 to 4 times your cost of goods. A print costing $5 to produce should sell for $12.50 to $20 minimum." },
     { question: "Should I offer different print sizes?", answer: "Yes. Larger prints have higher perceived value and profit margins. Many photographers make most print revenue from 11x14 and larger sizes." },
   ],
-  formula: "Cost Per Print = Lab Cost + (Shipping / Prints Per Order)
-Profit Per Print = Selling Price - Cost Per Print
-Margin = Profit / Selling Price x 100",
+  formula: "Cost Per Print = Lab Cost + (Shipping / Prints Per Order); Profit Per Print = Selling Price - Cost Per Print; Margin = Profit / Selling Price x 100",
 };

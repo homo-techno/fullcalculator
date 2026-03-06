@@ -59,8 +59,5 @@ export const sequenceOfReturnsRiskCalculator: CalculatorDefinition = {
     { question: "How can I mitigate sequence of returns risk?", answer: "Strategies include maintaining a cash reserve covering 1 to 2 years of expenses, using a bucket strategy, reducing withdrawals during market downturns, having flexible spending, and keeping a moderate allocation rather than being overly aggressive." },
     { question: "Why is the order of returns so important?", answer: "When you are withdrawing from a portfolio, negative returns early reduce the base that must grow to sustain future withdrawals. The same average return produces vastly different outcomes depending on when the losses occur." },
   ],
-  formula: "Good First Scenario: Apply good returns for first half, bad returns for second half
-Bad First Scenario: Apply bad returns for first half, good returns for second half
-Each Year: Balance = Previous x (1 + Return) - Withdrawal
-Sequence Impact = Good First Ending - Bad First Ending",
+  formula: "Good First Scenario: Apply good returns for first half, bad returns for second half; Bad First Scenario: Apply bad returns for first half, good returns for second half; Each Year: Balance = Previous x (1 + Return) - Withdrawal; Sequence Impact = Good First Ending - Bad First Ending",
 };

@@ -51,6 +51,5 @@ export const travelDailyBudgetCalculator: CalculatorDefinition = {
     { question: "What percentage of a travel budget goes to accommodation?", answer: "Accommodation typically accounts for 30 to 50 percent of a daily travel budget, followed by food at 25 to 35 percent." },
     { question: "How can I reduce daily travel costs?", answer: "Stay in hostels or guesthouses, eat local street food, use public transportation, travel in the off-season, and book attractions in advance for discounts." },
   ],
-  formula: "Daily Cost Per Person = Base Cost x Style Multiplier
-Total Trip Cost = Daily Cost x Travelers x Trip Days",
+  formula: "Daily Cost Per Person = Base Cost x Style Multiplier; Total Trip Cost = Daily Cost x Travelers x Trip Days",
 };

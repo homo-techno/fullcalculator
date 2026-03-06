@@ -53,7 +53,5 @@ export const farmInsuranceCostCalculator: CalculatorDefinition = {
     { question: "How much does crop insurance cost per acre?", answer: "Crop insurance premiums typically range from $5 to $40 per acre after federal subsidies, depending on crop type, coverage level, and county risk rating. Higher coverage levels cost more." },
     { question: "Does the government subsidize crop insurance?", answer: "Yes. The federal government subsidizes 38 to 67 percent of crop insurance premiums depending on the coverage level. A 75% coverage level receives approximately 55% premium subsidy." },
   ],
-  formula: "Crop Premium = Acres x Revenue/Acre x Coverage% x Rate
-Farmer Share = Crop Premium x (1 - Subsidy%)
-Total = Crop + Property + Equipment + Liability",
+  formula: "Crop Premium = Acres x Revenue/Acre x Coverage% x Rate; Farmer Share = Crop Premium x (1 - Subsidy%); Total = Crop + Property + Equipment + Liability",
 };

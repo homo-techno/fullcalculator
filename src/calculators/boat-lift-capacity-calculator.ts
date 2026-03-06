@@ -52,7 +52,5 @@ export const boatLiftCapacityCalculator: CalculatorDefinition = {
     { question: "How much does a boat lift cost?", answer: "Boat lifts range from $2,000 for small PWC lifts to over $30,000 for large cradle lifts. A standard 5,000-pound capacity lift costs approximately $5,000 to $8,000 installed." },
     { question: "What types of boat lifts are available?", answer: "Common types include vertical lifts (most popular), cantilever lifts (shallow water), floating lifts, hydraulic lifts, and elevator lifts. The best choice depends on water depth, bottom type, and boat weight." },
   ],
-  formula: "Total Weight = Boat + Engine + (Fuel Gallons x 6.3 lbs) + Gear
-Minimum Capacity = Total Weight x (1 + Safety Factor %)
-Select the standard lift size that meets or exceeds the minimum capacity",
+  formula: "Total Weight = Boat + Engine + (Fuel Gallons x 6.3 lbs) + Gear; Minimum Capacity = Total Weight x (1 + Safety Factor %); Select the standard lift size that meets or exceeds the minimum capacity",
 };

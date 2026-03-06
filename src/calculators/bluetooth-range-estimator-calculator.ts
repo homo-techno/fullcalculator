@@ -48,7 +48,5 @@ export const bluetoothRangeEstimatorCalculator: CalculatorDefinition = {
     { question: "undefined", answer: "undefined" },
     { question: "undefined", answer: "undefined" },
   ],
-  formula: "Effective Range = Max Range x Version Multiplier x Environment Factor x 0.7^Obstacles
-Max Range: Class 1 = 100m, Class 2 = 10m, Class 3 = 1m
-BT 5.0+ multiplies range by 4x",
+  formula: "Effective Range = Max Range x Version Multiplier x Environment Factor x 0.7^Obstacles; Max Range: Class 1 = 100m, Class 2 = 10m, Class 3 = 1m; BT 5.0+ multiplies range by 4x",
 };

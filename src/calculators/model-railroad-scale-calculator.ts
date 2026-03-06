@@ -48,6 +48,5 @@ export const modelRailroadScaleCalculator: CalculatorDefinition = {
     { question: "How do I convert real dimensions to scale?", answer: "Divide the real dimension by the scale ratio. For HO scale, divide by 87. A 50-foot building becomes about 6.9 inches in HO." },
     { question: "How much space do I need for a model railroad?", answer: "A basic HO layout needs at least a 4 by 8 foot table. N scale can fit in smaller spaces. O and G scale require significantly more room." },
   ],
-  formula: "Model Dimension (inches) = Real Dimension (feet) x 12 / Scale Ratio
-Model Dimension (mm) = Model Dimension (inches) x 25.4",
+  formula: "Model Dimension (inches) = Real Dimension (feet) x 12 / Scale Ratio; Model Dimension (mm) = Model Dimension (inches) x 25.4",
 };
