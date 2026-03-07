@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { GoogleAnalytics } from "@/components/google-analytics";
@@ -35,6 +36,7 @@ export default function RootLayout({
         <Header />
         <main className="max-w-5xl mx-auto px-4 py-6">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
