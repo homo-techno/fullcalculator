@@ -7615,7 +7615,6 @@ export const calculators: CalculatorDefinition[] = [
   cinderBlockWallCalculator,
   classScheduleCalculator,
   closetOrganizerCostCalculator,
-  coastFireCalculator,
   cobraCostCalculator,
   collegeAcceptanceCalculator,
   collegeGpaCalculator,
