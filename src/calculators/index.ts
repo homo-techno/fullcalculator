@@ -1900,7 +1900,6 @@ import { babyNameMeaningCalculator } from "./baby-name-meaning";
 import { babyProofingCalculator } from "./baby-proofing";
 import { babyShoeSizeCalculator } from "./baby-shoe-size";
 import { babyToothCalculator } from "./baby-tooth";
-import { baristaFireCalculator } from "./barista-fire";
 import { baseboardHeatCalculator } from "./baseboard-heat";
 import { bathroomRemodelCostCalculator } from "./bathroom-remodel-cost";
 import { bernoulliEquationCalculator } from "./bernoulli-equation";
@@ -1924,7 +1923,6 @@ import { chainFenceCalculator } from "./chain-fence";
 import { cinderBlockWallCalculator } from "./cinder-block-wall";
 import { classScheduleCalculator } from "./class-schedule";
 import { closetOrganizerCostCalculator } from "./closet-organizer-cost";
-import { coastFireCalculator } from "./coast-fire";
 import { cobraCostCalculator } from "./cobra-cost";
 import { collegeAcceptanceCalculator } from "./college-acceptance";
 import { collegeGpaCalculator } from "./college-gpa";
@@ -1956,7 +1954,6 @@ import { faradayLawCalculator } from "./faraday-law";
 import { fenceCostCalculator } from "./fence-cost";
 import { fetalWeightCalculator } from "./fetal-weight";
 import { financialAidEstimateCalculator } from "./financial-aid-estimate";
-import { fireNumberCalculator } from "./fire-number";
 import { flagstonePatioCalculator } from "./flagstone-patio";
 import { flashcardRetentionCalculator } from "./flashcard-retention";
 import { frenchDrainCalcCalculator } from "./french-drain-calc";
@@ -5659,7 +5656,7 @@ import { chubbyFireCalculator } from "./chubby-fire-calculator";
 import { fireWithPensionCalculator } from "./fire-with-pension-calculator";
 import { sequenceOfReturnsRisk } from "./sequence-of-returns-risk";
 import { safeWithdrawalRateOptimizer } from "./safe-withdrawal-rate-optimizer";
-import { fireT axOptimization } from "./fire-tax-optimization";
+import { fireTaxOptimization } from "./fire-tax-optimization";
 import { geographicArbitrageFire } from "./geographic-arbitrage-fire";
 import { fireWithKidsCalculator } from "./fire-with-kids-calculator";
 import { rothConversionLadder } from "./roth-conversion-ladder";
@@ -5691,7 +5688,7 @@ export const calculators: CalculatorDefinition[] = [
   fireWithPensionCalculator,
   sequenceOfReturnsRisk,
   safeWithdrawalRateOptimizer,
-  fireT axOptimization,
+  fireTaxOptimization,
   geographicArbitrageFire,
   fireWithKidsCalculator,
   rothConversionLadder,
@@ -7595,7 +7592,6 @@ export const calculators: CalculatorDefinition[] = [
   babyProofingCalculator,
   babyShoeSizeCalculator,
   babyToothCalculator,
-  baristaFireCalculator,
   baseboardHeatCalculator,
   bathroomRemodelCostCalculator,
   bernoulliEquationCalculator,
@@ -7651,7 +7647,6 @@ export const calculators: CalculatorDefinition[] = [
   fenceCostCalculator,
   fetalWeightCalculator,
   financialAidEstimateCalculator,
-  fireNumberCalculator,
   flagstonePatioCalculator,
   flashcardRetentionCalculator,
   frenchDrainCalcCalculator,

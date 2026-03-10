@@ -42,7 +42,7 @@ export const fireHealthcareCostEstimator: CalculatorDefinition = {
           type: "select",
           options: [
             { label: "Low (<$50k)", value: "low" },
-            { label: "Moderate ($50-100k)", value: moderate" },
+            { label: "Moderate ($50-100k)", value: "moderate" },
             { label: "High ($100k+)", value: "high" },
           ],
           defaultValue: "moderate",

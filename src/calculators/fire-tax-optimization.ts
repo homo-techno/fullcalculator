@@ -1,7 +1,7 @@
 import type { CalculatorDefinition } from "./types";
 import { formatNumber } from "@/lib/utils";
 
-export const fireT axOptimization: CalculatorDefinition = {
+export const fireTaxOptimization: CalculatorDefinition = {
   slug: "fire-tax-optimization",
   title: "FIRE Tax Optimization Calculator",
   description:
