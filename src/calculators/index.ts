@@ -5632,6 +5632,49 @@ import { geothermalGradientCalculator } from "./geothermal-gradient-calculator";
 import { plateTectonicsVelocityCalculator } from "./plate-tectonics-velocity-calculator";
 import { coalHeatingValueCalculator } from "./coal-heating-value-calculator";
 import { aggregateVolumeCalculator } from "./aggregate-volume-calculator";
+import { youtubeRpmCalculator } from "./youtube-rpm-calculator";
+import { youtubeChannelRevenueEstimator } from "./youtube-channel-revenue-estimator";
+import { youtubeShortsCalculator } from "./youtube-shorts-calculator";
+import { tiktokCreatorFundCalculator } from "./tiktok-creator-fund-calculator";
+import { twitchAffiliateCalculator } from "./twitch-affiliate-calculator";
+import { instagramReelsBonusCalculator } from "./instagram-reels-bonus-calculator";
+import { podcastCpmCalculator } from "./podcast-cpm-calculator";
+import { podcastSponsorshipRateCalculator } from "./podcast-sponsorship-rate-calculator";
+import { newsletterSponsorshipCalculator } from "./newsletter-sponsorship-calculator";
+import { substackRevenueCalculator } from "./substack-revenue-calculator";
+import { onlineCoursePricingCalculator } from "./online-course-pricing-calculator";
+import { membershipSiteRevenueCalculator } from "./membership-site-revenue-calculator";
+import { contentCreatorHourlyRateCalculator } from "./content-creator-hourly-rate-calculator";
+import { influencerBrandDealCalculator } from "./influencer-brand-deal-calculator";
+import { etsyFeeCalculator } from "./etsy-fee-calculator";
+import { redbubbleRoyaltyCalculator } from "./redbubble-royalty-calculator";
+import { merchByAmazonRoyaltyCalculator } from "./merch-by-amazon-royalty-calculator";
+import { printfulProfitCalculator } from "./printful-profit-calculator";
+import { kdpEbookRoyaltyCalculator } from "./kdp-ebook-royalty-calculator";
+import { kdpPaperbackProfitCalculator } from "./kdp-paperback-profit-calculator";
+import { printOnDemandPricingCalculator } from "./print-on-demand-pricing-calculator";
+import { shopifyStoreProfitabilityCalculator } from "./shopify-store-profitability-calculator";
+import { amazonFbaFeeCalculator } from "./amazon-fba-fee-calculator";
+import { amazonSellerMarginCalculator } from "./amazon-seller-margin-calculator";
+import { upworkFeeCalculator } from "./upwork-fee-calculator";
+import { fiverrSellerCalculator } from "./fiverr-seller-calculator";
+import { freelancerVsEmployeeCalculator } from "./freelancer-vs-employee-calculator";
+import { affiliateMarketingIncomeCalculator } from "./affiliate-marketing-income-calculator";
+import { uberDriverNetEarningsCalculator } from "./uber-driver-net-earnings-calculator";
+import { lyftDriverNetIncomeCalculator } from "./lyft-driver-net-income-calculator";
+import { rideshareEarningsComparisonCalculator } from "./rideshare-earnings-comparison-calculator";
+import { doordashDasherPayCalculator } from "./doordash-dasher-pay-calculator";
+import { instacartShopperPayCalculator } from "./instacart-shopper-pay-calculator";
+import { amazonFlexPayCalculator } from "./amazon-flex-pay-calculator";
+import { gigWorkerHourlyRateCalculator } from "./gig-worker-hourly-rate-calculator";
+import { rideshareVehicleExpenseCalculator } from "./rideshare-vehicle-expense-calculator";
+import { gigWorkerQuarterlyTaxCalculator } from "./gig-worker-quarterly-tax-calculator";
+import { gigVsW2Calculator } from "./gig-vs-w2-calculator";
+import { taskrabbitPricingCalculator } from "./taskrabbit-pricing-calculator";
+import { roverPetSitterCalculator } from "./rover-pet-sitter-calculator";
+import { foodDeliveryEarningsCalculator } from "./food-delivery-earnings-calculator";
+import { mileageTaxDeductionCalculator } from "./mileage-tax-deduction-calculator";
+import { sideHustleComparisonCalculator } from "./side-hustle-comparison-calculator";
 import { llmApiCostCalculator } from "./llm-api-cost-calculator";
 import { aiTokenCounter } from "./ai-token-counter";
 import { llmCostComparison } from "./llm-cost-comparison";
@@ -11135,6 +11178,49 @@ boatEngineHoursMaintenanceCalculator,
   plateTectonicsVelocityCalculator,
   coalHeatingValueCalculator,
   aggregateVolumeCalculator,
+  youtubeRpmCalculator,
+  youtubeChannelRevenueEstimator,
+  youtubeShortsCalculator,
+  tiktokCreatorFundCalculator,
+  twitchAffiliateCalculator,
+  instagramReelsBonusCalculator,
+  podcastCpmCalculator,
+  podcastSponsorshipRateCalculator,
+  newsletterSponsorshipCalculator,
+  substackRevenueCalculator,
+  onlineCoursePricingCalculator,
+  membershipSiteRevenueCalculator,
+  contentCreatorHourlyRateCalculator,
+  influencerBrandDealCalculator,
+  etsyFeeCalculator,
+  redbubbleRoyaltyCalculator,
+  merchByAmazonRoyaltyCalculator,
+  printfulProfitCalculator,
+  kdpEbookRoyaltyCalculator,
+  kdpPaperbackProfitCalculator,
+  printOnDemandPricingCalculator,
+  shopifyStoreProfitabilityCalculator,
+  amazonFbaFeeCalculator,
+  amazonSellerMarginCalculator,
+  upworkFeeCalculator,
+  fiverrSellerCalculator,
+  freelancerVsEmployeeCalculator,
+  affiliateMarketingIncomeCalculator,
+  uberDriverNetEarningsCalculator,
+  lyftDriverNetIncomeCalculator,
+  rideshareEarningsComparisonCalculator,
+  doordashDasherPayCalculator,
+  instacartShopperPayCalculator,
+  amazonFlexPayCalculator,
+  gigWorkerHourlyRateCalculator,
+  rideshareVehicleExpenseCalculator,
+  gigWorkerQuarterlyTaxCalculator,
+  gigVsW2Calculator,
+  taskrabbitPricingCalculator,
+  roverPetSitterCalculator,
+  foodDeliveryEarningsCalculator,
+  mileageTaxDeductionCalculator,
+  sideHustleComparisonCalculator,
 ];
 
 export function getCalculatorBySlug(slug: string): CalculatorDefinition | undefined {
