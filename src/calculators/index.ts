@@ -5635,8 +5635,68 @@ import { geothermalGradientCalculator } from "./geothermal-gradient-calculator";
 import { plateTectonicsVelocityCalculator } from "./plate-tectonics-velocity-calculator";
 import { coalHeatingValueCalculator } from "./coal-heating-value-calculator";
 import { aggregateVolumeCalculator } from "./aggregate-volume-calculator";
+import { llmApiCostCalculator } from "./llm-api-cost-calculator";
+import { aiTokenCounter } from "./ai-token-counter";
+import { llmCostComparison } from "./llm-cost-comparison";
+import { aiImageGenerationCost } from "./ai-image-generation-cost";
+import { gpuRentalCostCalculator } from "./gpu-rental-cost-calculator";
+import { aiTrainingCostEstimator } from "./ai-training-cost-estimator";
+import { aiStartupComputeBudget } from "./ai-startup-compute-budget";
+import { aiVsHumanLaborCost } from "./ai-vs-human-labor-cost";
+import { ragSystemMonthlyCost } from "./rag-system-monthly-cost";
+import { aiChatbotTcoCalculator } from "./ai-chatbot-tco-calculator";
+import { promptEfficiencyCalculator } from "./prompt-efficiency-calculator";
+import { llmContextWindowCost } from "./llm-context-window-cost";
+import { aiSaasPricingModel } from "./ai-saas-pricing-model";
+import { vectorDatabaseStorageCost } from "./vector-database-storage-cost";
+import { aiContentProductionRoi } from "./ai-content-production-roi";
+import { fireNumberCalculator } from "./fire-number-calculator";
+import { fatfireCalculator } from "./fatfire-calculator";
+import { leanfireCalculator } from "./leanfire-calculator";
+import { coastfireCalculator } from "./coastfire-calculator";
+import { baristaFireCalculator } from "./barista-fire-calculator";
+import { chubbyFireCalculator } from "./chubby-fire-calculator";
+import { fireWithPensionCalculator } from "./fire-with-pension-calculator";
+import { sequenceOfReturnsRisk } from "./sequence-of-returns-risk";
+import { safeWithdrawalRateOptimizer } from "./safe-withdrawal-rate-optimizer";
+import { fireT axOptimization } from "./fire-tax-optimization";
+import { geographicArbitrageFire } from "./geographic-arbitrage-fire";
+import { fireWithKidsCalculator } from "./fire-with-kids-calculator";
+import { rothConversionLadder } from "./roth-conversion-ladder";
+import { fireHealthcareCostEstimator } from "./fire-healthcare-cost-estimator";
+import { yearsToFireCalculator } from "./years-to-fire-calculator";
 
 export const calculators: CalculatorDefinition[] = [
+  llmApiCostCalculator,
+  aiTokenCounter,
+  llmCostComparison,
+  aiImageGenerationCost,
+  gpuRentalCostCalculator,
+  aiTrainingCostEstimator,
+  aiStartupComputeBudget,
+  aiVsHumanLaborCost,
+  ragSystemMonthlyCost,
+  aiChatbotTcoCalculator,
+  promptEfficiencyCalculator,
+  llmContextWindowCost,
+  aiSaasPricingModel,
+  vectorDatabaseStorageCost,
+  aiContentProductionRoi,
+  fireNumberCalculator,
+  fatfireCalculator,
+  leanfireCalculator,
+  coastfireCalculator,
+  baristaFireCalculator,
+  chubbyFireCalculator,
+  fireWithPensionCalculator,
+  sequenceOfReturnsRisk,
+  safeWithdrawalRateOptimizer,
+  fireT axOptimization,
+  geographicArbitrageFire,
+  fireWithKidsCalculator,
+  rothConversionLadder,
+  fireHealthcareCostEstimator,
+  yearsToFireCalculator,
   percentageCalculator,
   bmiCalculator,
   ageCalculator,
